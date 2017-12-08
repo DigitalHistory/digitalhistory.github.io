@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HIS393: Digital History</title>
+    <link>https://digitalhistory.github.io/dh-website/</link>
+    <description>Recent content on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jan 2017 21:55:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://digitalhistory.github.io/dh-website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assignment 03: Spatial History</title>
+      <link>https://digitalhistory.github.io/dh-website/content/assignment/assignment-03-spatial-history/</link>
+      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/content/assignment/assignment-03-spatial-history/</guid>
+      <description>Table of Contents  Assignment Getting your assignment, and handing it in Learning Objectives Expectations    Due Date: March 03
+In class, we made a kind of toy Google Map out of hand-coded HTML, CSS, and Javascript. You will remember it from the course website, from JSBin, and from Github.
+Your next assignment builds directly from that in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 04: Oral History</title>
+      <link>https://digitalhistory.github.io/dh-website/content/assignment/assignment-04-oral-history/</link>
+      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/content/assignment/assignment-04-oral-history/</guid>
+      <description>Due Date: March 24
+Rather than repeat myself in my usual error-prone way, I will simply direct you to the assignment repository on Github. We will discuss this at great er length in class in the final weeks of the semester.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 05: Project Proposal</title>
+      <link>https://digitalhistory.github.io/dh-website/content/assignment/assignment-05-project-proposal/</link>
+      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/content/assignment/assignment-05-project-proposal/</guid>
+      <description>Table of Contents  Call for Proposals: Digital History Initiative Grants Structure Expectations    Due Date: April 05
+For your final assignment, respond to the following call for proposals with an application approximately 2000 words in length, plus a provisional budget i n the form of a spreadsheet. See below for details.
+Call for Proposals: Digital History Initiative Grants The Hacking History Foundation is pleased to announce a new Digital History Initiative, intended to advance the field of digital historical studies in Canada.</description>
+    </item>
+    
+    <item>
+      <title>Assignments 01 and 02: HTML &amp; CSS self-study &#43; Javascript Intro</title>
+      <link>https://digitalhistory.github.io/dh-website/content/assignment/assignments-01-and-02-html--css-self-study-&#43;-javascript-intro/</link>
+      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/content/assignment/assignments-01-and-02-html--css-self-study-&#43;-javascript-intro/</guid>
+      <description>Table of Contents  Assignment    Part I Due Date: Jan. 27
+Part II Due Date: Feb. 09
+You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this initial assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
+    </item>
+    
+    <item>
+      <title>Digital History: His393, Winter 2018</title>
+      <link>https://digitalhistory.github.io/dh-website/content/syllabus/his393syllabus/</link>
+      <pubDate>Tue, 03 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/content/syllabus/his393syllabus/</guid>
+      <description>Table of Contents  Logistics Introduction Objectives Method Policies Tools Course Requirements &amp;amp; Grading Texts Course Outline  Text, Code, and the Web Data Driven History Maps, Visualization, and History Oral History, Crowdsourcing, and the Promise of the Public Sphere     Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Office Hrs: SS 3077 T 1-2:30   Meeting Times F 3-5   Web: http://digital.</description>
+    </item>
+    
+  </channel>
+</rss>
