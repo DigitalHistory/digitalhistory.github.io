@@ -3,28 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/assignment/assignment-03-spatial-history/</loc>
-    <lastmod>2017-12-08T12:11:12-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/00-git/</loc>
+    <lastmod>2017-12-08T15:25:52-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/assignment/assignment-04-oral-history/</loc>
-    <lastmod>2017-12-08T12:11:15-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</loc>
+    <lastmod>2017-12-08T15:27:19-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/assignment/assignment-05-project-proposal/</loc>
-    <lastmod>2017-12-08T12:11:18-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/02-javascript/</loc>
+    <lastmod>2017-12-08T15:25:55-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/assignment/assignments-01-and-02-html--css-self-study-&#43;-javascript-intro/</loc>
-    <lastmod>2017-12-08T12:11:02-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/03-spatial-history/</loc>
+    <lastmod>2017-12-08T15:25:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/syllabus/his393syllabus/</loc>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/04-oral-history/</loc>
+    <lastmod>2017-12-08T15:26:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/assignment-05-project-proposal/</loc>
+    <lastmod>2017-12-08T15:26:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/participation/</loc>
+    <lastmod>2017-12-08T15:25:52-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</loc>
     <lastmod>2017-01-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/tools/setup/</loc>
+    <lastmod>2017-12-08T15:16:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/assignment/</loc>
+    <lastmod>2017-12-08T15:25:52-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -33,19 +59,25 @@
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/content/</loc>
-    <lastmod>2017-12-08T12:11:12-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/</loc>
+    <lastmod>2017-12-08T15:25:52-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://digitalhistory.github.io/dh-website/</loc>
-    <lastmod>2017-12-08T12:11:12-05:00</lastmod>
+    <loc>https://digitalhistory.github.io/dh-website/syllabus/</loc>
+    <lastmod>2017-01-03T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://digitalhistory.github.io/dh-website/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://digitalhistory.github.io/dh-website/tools/</loc>
+    <lastmod>2017-12-08T15:16:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
