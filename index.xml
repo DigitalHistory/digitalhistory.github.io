@@ -26,7 +26,7 @@
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
-      <description>One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.
+      <description>General Description One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.
 This may take longer than you think, and it&amp;rsquo;s due soon. Please get started soon by following the instructions on the Assignment 0 website.</description>
     </item>
     
@@ -36,8 +36,8 @@ This may take longer than you think, and it&amp;rsquo;s due soon. Please get sta
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
-      <description>Table of Contents  Assignment    Due Date: Jan. 26
-You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
+      <description>Due Date: Jan. 26
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work. We&amp;rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.</description>
     </item>
     
     <item>
@@ -55,9 +55,9 @@ You do not have to become a coder to do well in this course. However, you will h
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/03-spatial-history/</guid>
-      <description>Table of Contents  Assignment Getting your assignment, and handing it in Learning Objectives Expectations    Due Date: March 02
+      <description>Due Date: March 02
 In class, we made a kind of toy Google Map out of hand-coded HTML, CSS, and Javascript. You will remember it from the course website, from JSBin, and from Github.
-Your next assignment builds directly from that in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment.</description>
+Your next assignment builds directly from that in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework.</description>
     </item>
     
     <item>
@@ -76,9 +76,9 @@ Rather than repeat myself in my usual error-prone way, I will simply direct you 
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/assignment-05-project-proposal/</guid>
-      <description>Table of Contents  Call for Proposals: Digital History Initiative Grants Structure Expectations    Due Date: April 02
+      <description>Due Date: April 02
 For your final assignment, respond to the following call for proposals with an application approximately 2000 words in length, plus a provisional budget i n the form of a spreadsheet. See below for details.
-Call for Proposals: Digital History Initiative Grants The Hacking History Foundation is pleased to announce a new Digital History Initiative, intended to advance the field of digital historical studies in Canada.</description>
+Call for Proposals: Digital History Initiative Grants The Hacking History Foundation is pleased to announce a new Digital History Initiative, intended to advance the field of digital historical studies in Canada. We are grateful to an anonymous donor from Qatar who has agreed to underwrite three levels of grant:</description>
     </item>
     
     <item>
@@ -87,8 +87,9 @@ Call for Proposals: Digital History Initiative Grants The Hacking History Founda
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/participation/</guid>
-      <description>Table of Contents  The System The Criteria  In the Classroom Online  Finally    As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
-The System It&amp;rsquo;s simple. Suppose you successfully complete the HTML Top-Up, Distant Reading, Spatial History, and Aural History assignments. Congratulations! You have qualified for a B.</description>
+      <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
+The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript, Spatial History, and Oral History assignments. Congratulations! You have qualified for a B. But what kind of a B?
+   If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
     </item>
     
     <item>
@@ -97,7 +98,7 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the HTML Top
       <pubDate>Tue, 03 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</guid>
-      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Office Hrs: SS 3077 T 1-2:30   Meeting Times Thurs 2-4   Web: http://digital.hackinghistory.ca/   Slack: https://digitalhistoryuoft.slack.com/    In general, communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS389&amp;rdquo; in the subject line.</description>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Office Hrs: T 1-2:30, SS 3077   Meeting Times Thurs 2-4, SS 1088   Web: http://digital.hackinghistory.ca/   Slack: https://digitalhistoryuoft.slack.com/    In general, communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
     </item>
     
     <item>
