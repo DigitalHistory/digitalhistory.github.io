@@ -111,5 +111,23 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
       <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
+      <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History? Why care about the Digital Age?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</guid>
+      <description>What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Review  4 blocks Assignment 0 is online If you haven&amp;rsquo;t started Assignment 1, hold on for now Explaining Git     Today  Concept of the &amp;ldquo;Public Sphere&amp;rdquo; Internet and Habermas&amp;rsquo;s conception Discussion more Git Brief HTML explication HTML Exercise   Phrase &amp;ldquo;Technical Affordance&amp;rdquo;     Significance and Signification  What matters about the web?</description>
+    </item>
+    
   </channel>
 </rss>
