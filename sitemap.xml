@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</loc>
+    <lastmod>2018-01-12T13:07:07-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://digitalhistory.github.io/dh-website/tools/setup/</loc>
     <lastmod>2017-12-08T15:16:08-05:00</lastmod>
   </url>
@@ -91,7 +96,7 @@
   
   <url>
     <loc>https://digitalhistory.github.io/dh-website/tools/</loc>
-    <lastmod>2017-12-08T15:16:08-05:00</lastmod>
+    <lastmod>2018-01-12T13:07:07-05:00</lastmod>
   </url>
   
 </urlset>

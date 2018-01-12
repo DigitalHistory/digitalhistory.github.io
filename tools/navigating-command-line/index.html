@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.32.1" />
 
-<title>Lecture Slides :: HIS393: Digital History</title>
+<title>Navigating at the Command Line :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/dh-website/images/favicon.png" type="image/x-icon" />
 <link href="/dh-website/css/nucleus.css" rel="stylesheet">
 <link href="/dh-website/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
     
   </head>
-  <body data-url="/dh-website/slides/">
+  <body data-url="/dh-website/tools/navigating-command-line/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -121,12 +121,13 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dh-website/tools/" class="dd-item">
+    <li data-nav-id="/dh-website/tools/" class="dd-item parent">
       <a href="/dh-website/tools/">
-        <span><i class='fa fa-github'></i> Tools and Tricks</span><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+        <span><i class='fa fa-github'></i> Tools and Tricks</span>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </a>
         <ul>
-      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item">
+      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item active">
         <a href="/dh-website/tools/navigating-command-line/">
           <span> Navigating at the Command Line</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
@@ -138,10 +139,9 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dh-website/slides/" class="dd-item parent active">
+    <li data-nav-id="/dh-website/slides/" class="dd-item">
       <a href="/dh-website/slides/">
-        <span><i class='fa fa-github'></i> Lecture Slides</span>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+        <span><i class='fa fa-github'></i> Lecture Slides</span><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </a>
         <ul>
       <li data-nav-id="/dh-website/slides/01-intro-digital-history/" class="dd-item">
@@ -190,7 +190,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/titaniumbones/digital-history/slides/_index.md" target="blank">
+      <a class="github-link" href="https://github.com/titaniumbones/digital-history/tools/navigating-command-line.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Edit page
       </a>
@@ -207,7 +207,12 @@
 
 
 
- <a href='/dh-website/'></a> > Lecture Slides
+
+
+
+ <a href='/dh-website/'></a> > <a href='/dh-website/tools/'>Tools and Tricks</a> > Navigating at the Command Line
+
+ 
 
  
 
@@ -218,7 +223,21 @@
     
     <div class="progress">
         <div class="wrapper">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#navigation">Navigation</a>
+<ul>
+<li><a href="#pwd">pwd</a></li>
+<li><a href="#ls">ls</a></li>
+<li><a href="#cat-and-less">cat and less</a></li>
+<li><a href="#mkdir-and-touch">mkdir and touch</a></li>
+</ul></li>
+<li><a href="#learn-more">Learn More</a></li>
+</ul></li>
+</ul>
+</nav>
         </div>
     </div>
     
@@ -228,7 +247,7 @@
 
 <div id="body-inner">
   
-    <h1>Lecture Slides</h1>
+    <h1>Navigating at the Command Line</h1>
   
 
 
@@ -236,21 +255,77 @@
     
     
     
+    
 
+<p><strong>The <em>Programming Historian</em> link below is excellent.  Having some trouble with screenshots ATM, will fix soon as I can reload my desktop &ndash; but for next few hours pls refer to the <em>PH</em> link for images!</strong></p>
 
-<p>Here are the lecture slides:</p>
+<p>One common issue for people new to the command line is that it can be tough to understand the notion of <em>location in the filesystem</em>. Most ordinary users interact with their filesystems through the so-called <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">GUI layer</a> &ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &ldquo;folders&rdquo;) with meaningful names like <code>Desktop</code>, <code>MyDocuments</code>, etc. However, once you start working at the command line this convenient feature can become something of a curse.  It&rsquo;s important to recognize that these special locations are just part of a complex, hierarchical filesystem &ndash; a branching tree of directories and files, on which your operating system relies in many ways. You will need to learn to navigate that filesystem, not from the GUI, but from the command line.</p>
 
+<p>When you first start using the command line, it often feels (a) confusing and (b) somehow primitive or over-simple. The command line is, in fact, a sophisticated and incredibly efficient way to interact with the filesystem &ndash; but you need to learn your way around it first. In this class we won&rsquo;t discuss the wonderful world of shell scripting (see below for guides to scripting); instead, I just want you to learn a few <strong>very</strong> basic commands to help you move around.</p>
+
+<h2 id="navigation">Navigation</h2>
+
+<p>The file system is a &ldquo;branching tree&rdquo; of files and folders.  At the top (or bottom, depending on how you imagine things) of the tree is the &ldquo;root&rdquo;. In bash, we represent this as <code>/</code>.  Every folder has a <strong>path</strong> that starts with <code>/</code> and proceeds down the file hierarchy. So, for instance, my global git configuration is located at <code>/home/matt/.gitconfig</code>.  <code>/</code> is the root. <code>/home/</code> is where all user files can be found. <code>/home/matt/</code> contains all <strong>my</strong> user files. <code>/home/matt/.gitconfig</code> identifies the specific file I&rsquo;m looking for.</p>
+
+<p>Your file exlorer will represent this tree for you visually; you can also picture it schematically, as is done e.g. in the following image:
+
+<figure >
+    
+        <img src="https://tr1.cbsistatic.com/hub/i/2015/06/03/208a6a3f-0987-11e5-940f-14feb5cc3d2a/10_things_linux_filesystems.jpg" />
+    
+    
+</figure>
+</p>
+
+<p>We can also explore from the command line. Here are a few basic commands to learn for this purpose.</p>
+
+<h3 id="pwd">pwd</h3>
+
+<p><code>pwd</code> is short for &ldquo;print working directory&rdquo;, and will show you where you are in the file system.
+&lt;../../images/pwd.phg&gt;</p>
+
+<h3 id="ls">ls</h3>
+
+<p><code>ls</code> will <strong>list</strong> the contents of a directory. With no further arguments it will list the directory you&rsquo;re currently in, but you can ask it to list some other directory too. Here are some examples.  Note the &ldquo;switches&rdquo; <code>-l</code> and <code>-la</code>.  Switches give firther instructions to the command. In this case <code>-l</code> means &ldquo;long&rdquo; while ~-a&rdquo; isshort for &ldquo;all&rdquo;. You can see in the screenshot below what the effect is.
+
+<figure >
+    
+        <img src="../../images/ls-screenshot.png" />
+    
+    
+</figure>
+</p>
+
+<h3 id="cat-and-less">cat and less</h3>
+
+<p>Sometimes you want to look at the contents of a file.  <code>cat</code> and <code>less</code> are two ways to do so.  <code>cat</code> will print the contents of the file directly to your terminal window.  <code>less</code> will create a simple interface that you can use to scroll through a longer file using a kayboard interface.
+
+<figure >
+    
+        <img src="../../images/cat-ss.png" />
+    
+    
+</figure>
+</p>
+
+<h3 id="mkdir-and-touch">mkdir and touch</h3>
+
+<p><code>mkdir</code> wil lcreate a new directory, while <code>touch</code> will create a new (empty) file.</p>
+
+<pre><code class="language-sh">mkdir some-directory-name
+touch some-directory-name/somefile.txt
+</code></pre>
+
+<p>These commands will create the file somefile.txt in the folder some-directory-name, inside the current working directory.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<p>OK, that&rsquo;s all for now, hopefully this helps you navigate around your projects. I may add to this guide as we go through the semester, but here are some further guides.</p>
 
 <ul>
-  
-  <li>
-    <a href="https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/">01-intro-digital-history</a>
-  </li>
-  
-  <li>
-    <a href="https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/">02-what-the-web-signifies</a>
-  </li>
-  
+<li><a href="https://sklise.com/2012/09/22/introduction-to-git/#no-buttons">this introduction</a> is quite clear and simple</li>
+<li><a href="https://programminghistorian.org/lessons/intro-to-bash">the programming historian</a> has a great guide too</li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html">the TLDP guide</a> introduced generations of programmers to bash scripting, and is still a useful reference point</li>
 </ul>
 
 

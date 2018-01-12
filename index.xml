@@ -103,6 +103,16 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
     </item>
     
     <item>
+      <title>Navigating at the Command Line</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</link>
+      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</guid>
+      <description>The Programming Historian link below is excellent. Having some trouble with screenshots ATM, will fix soon as I can reload my desktop &amp;ndash; but for next few hours pls refer to the PH link for images!
+One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows.</description>
+    </item>
+    
+    <item>
       <title>Setup</title>
       <link>https://digitalhistory.github.io/dh-website/tools/setup/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
