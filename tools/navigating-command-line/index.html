@@ -236,8 +236,10 @@
 <ul>
 <li><a href="#pwd">pwd</a></li>
 <li><a href="#ls">ls</a></li>
+<li><a href="#cd">cd</a></li>
 <li><a href="#cat-and-less">cat and less</a></li>
 <li><a href="#mkdir-and-touch">mkdir and touch</a></li>
+<li><a href="#arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</a></li>
 </ul></li>
 <li><a href="#learn-more">Learn More</a></li>
 </ul></li>
@@ -272,7 +274,7 @@
 
 <p>The file system is a &ldquo;branching tree&rdquo; of files and folders.  At the top (or bottom, depending on how you imagine things) of the tree is the &ldquo;root&rdquo;. In bash, we represent this as <code>/</code>.  Every folder has a <strong>path</strong> that starts with <code>/</code> and proceeds down the file hierarchy. So, for instance, my global git configuration is located at <code>/home/matt/.gitconfig</code>.  <code>/</code> is the root. <code>/home/</code> is where all user files can be found. <code>/home/matt/</code> contains all <strong>my</strong> user files. <code>/home/matt/.gitconfig</code> identifies the specific file I&rsquo;m looking for.</p>
 
-<p>Your file exlorer will represent this tree for you visually; you can also picture it schematically, as is done e.g. in the following image:
+<p>Your file explorer will represent this tree for you visually; you can also picture it schematically, as is done e.g. in the following image:
 
 <figure >
     
@@ -282,16 +284,23 @@
 </figure>
 </p>
 
-<p>We can also explore from the command line. Here are a few basic commands to learn for this purpose.</p>
+<p>We can also explore from the command line. Here are a few basic commands to learn for this purpose. [ <strong>Note:</strong> in the screenshots below, my command prompt is heavily customized and includes some extra information. Most notably, it tells me when I am in a git repository and gives me the name of the current git branch. You can experiment with changing your bash prompt in the <code>~/.bashrc</code> file that controls many features of the</p>
 
 <h3 id="pwd">pwd</h3>
 
 <p><code>pwd</code> is short for &ldquo;print working directory&rdquo;, and will show you where you are in the file system.
-&lt;../../images/pwd.phg&gt;</p>
+
+<figure >
+    
+        <img src="../../images/pwd.png" />
+    
+    
+</figure>
+</p>
 
 <h3 id="ls">ls</h3>
 
-<p><code>ls</code> will <strong>list</strong> the contents of a directory. With no further arguments it will list the directory you&rsquo;re currently in, but you can ask it to list some other directory too. Here are some examples.  Note the &ldquo;switches&rdquo; <code>-l</code> and <code>-la</code>.  Switches give firther instructions to the command. In this case <code>-l</code> means &ldquo;long&rdquo; while ~-a&rdquo; isshort for &ldquo;all&rdquo;. You can see in the screenshot below what the effect is.
+<p><code>ls</code> will <strong>list</strong> the contents of a directory. With no further arguments it will list the directory you&rsquo;re currently in, but you can ask it to list some other directory too. Here are some examples.  Note the &ldquo;switches&rdquo; <code>-l</code> and <code>-la</code>.  Switches give further instructions to the command. In this case <code>-l</code> means &ldquo;long&rdquo; while <code>-a</code> is short for &ldquo;all&rdquo;. You can see in the screenshot below what the effect is.
 
 <figure >
     
@@ -301,9 +310,28 @@
 </figure>
 </p>
 
+<h3 id="cd">cd</h3>
+
+<p>Short for &ldquo;change directory&rdquo;, <code>cd</code> allows you to move through the filesystem.</p>
+
+<ul>
+<li><code>cd someDirectoryName</code> will move you into the subdirectory &ldquo;someDirectoryName&rdquo; of your current directory.</li>
+<li><code>cd</code> with no arguments, or &ldquo;cd ~ &ldquo;, will drop you back into your home directory (this is helpful if you get lost somehow). At the command line, the tilde (<code>~</code>) is short for &ldquo;home directory&rdquo;, so you can use it anywhere instead of typing out your whole whome directory name.</li>
+<li><code>cd ..</code> or <code>cd ../</code> will move you &ldquo;up&rdquo; one level in the filesystem &ndash; so if you are currently in <code>/home/matt/digitalHistory</code>, executing <code>cd ..</code> will move you to <code>/home/matt/</code>.</li>
+</ul>
+
+
+<figure >
+    
+        <img src="../../images/cd-ss.png" />
+    
+    
+</figure>
+
+
 <h3 id="cat-and-less">cat and less</h3>
 
-<p>Sometimes you want to look at the contents of a file.  <code>cat</code> and <code>less</code> are two ways to do so.  <code>cat</code> will print the contents of the file directly to your terminal window.  <code>less</code> will create a simple interface that you can use to scroll through a longer file using a kayboard interface.
+<p>Sometimes you want to look at the contents of a file.  <code>cat</code> and <code>less</code> are two ways to do so.  <code>cat</code> will print the contents of the file directly to your terminal window.  <code>less</code> will create a simple interface that you can use to scroll through a longer file using a keyboard interface.
 
 <figure >
     
@@ -315,13 +343,22 @@
 
 <h3 id="mkdir-and-touch">mkdir and touch</h3>
 
-<p><code>mkdir</code> wil lcreate a new directory, while <code>touch</code> will create a new (empty) file.</p>
+<p><code>mkdir</code> will create a new directory, while <code>touch</code> will create a new (empty) file.</p>
 
 <pre><code class="language-sh">mkdir some-directory-name
 touch some-directory-name/somefile.txt
 </code></pre>
 
 <p>These commands will create the file somefile.txt in the folder some-directory-name, inside the current working directory.</p>
+
+<h3 id="arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</h3>
+
+<p>often we make mistakes typing or are unsure of spelling, etc. Two kinds of shortcuts make for huge time savings:</p>
+
+<ul>
+<li><strong>arrow keys</strong> can be used to navigate through your previous commands &ndash; typing <code>↑</code> will reproduce your previous command, allowing you to correct any errors you might have made the last time you typed out some complex command and made a small error.  Each time you type an <code>↑</code>, you will move one command up in the command history. To get back down, type <code>↓</code>.</li>
+<li>you can type <code>TAB</code> part way through a command to get a list of possible completions.  If there&rsquo;s only one possible command that starts with what you&rsquo;ve typed so far, bash will complete it for you. Similarly, typing part of a file or directory name after a command has been entered will usually get you a list of possible completions.  Try it a few times and you&rsquo;ll see how much time it saves.</li>
+</ul>
 
 <h2 id="learn-more">Learn More</h2>
 
