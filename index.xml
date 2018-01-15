@@ -103,6 +103,16 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
     </item>
     
     <item>
+      <title>Installing Node Dependencies</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</link>
+      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</guid>
+      <description>Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
+In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
+    </item>
+    
+    <item>
       <title>Navigating at the Command Line</title>
       <link>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
