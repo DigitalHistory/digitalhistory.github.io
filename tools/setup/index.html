@@ -296,7 +296,7 @@
 
 <tbody>
 <tr>
-<td>Real Webbrowser</td>
+<td>Real Web Browser</td>
 <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> and/or <a href="https://www.google.com/chrome/">Chrome</a></td>
 <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> and/or <a href="https://www.google.com/chrome/">Chrome</a></td>
 <td><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> and/or <a href="https://www.google.com/chrome/">Chrome</a></td>
@@ -363,7 +363,7 @@
 
 <p>Of particular value in both Chrome and Firefox is the &ldquo;Javascript Consoles,&rdquo; accessible from the developer tools: <code>Tools \rarr Web Developer \rarr Console</code> or <code>Menu \rarr More Tools \rarr Developer \rarr Console</code></p>
 
-<p>The Firefox console is a little awkward to use for multi-line programming, so they have also provided a &ldquo;Scratchpad&rdquo; tool (<code>Shift-F4</code>), which I find helpful, though I now use Atom&rsquo;s Javascript console instead (see &ldquo;Text Editor&rdquo;, below.</p>
+<p>The Firefox console is a little awkward to use for multi-line programming, so they have also provided a &ldquo;Scratchpad&rdquo; tool (<code>Shift-F4</code>), which I find helpful, though I now use Atom&rsquo;s Javascript console instead (see &ldquo;Text Editor&rdquo;, below).</p>
 
 <p>The other tool I use all the time is &ldquo;inspect element&rdquo;, available by right-clicking on any part of a web page.  Both of these tools will prove <strong>essential</strong> for figuring out why your code isn&rsquo;t working right!</p>
 
@@ -383,7 +383,7 @@
 
 <h2 id="git-github-and-gitkraken">Git, Github, and GitKraken</h2>
 
-<p>Software development is made <strong>vastly</strong> by &ldquo;<a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a>&rdquo; systems: specialized software that keeps track of the history and current state of files and directories. In the past there were many such systems, but now almost the whole user uses <a href="https://git-scm.com/">git</a>, and we&rsquo;re all grateful for it.</p>
+<p>Software development is made <strong>vastly</strong> easier by &ldquo;<a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a>&rdquo; systems: specialized software that keeps track of the history and current state of files and directories. In the past there were many such systems, but now almost the whole user uses <a href="https://git-scm.com/">git</a>, and we&rsquo;re all grateful for it.</p>
 
 <h3 id="install-git">Install Git</h3>
 
@@ -405,7 +405,8 @@
 <p>You need to tell git a little bit about yourself. Start with your <a href="https://help.github.com/articles/setting-your-email-in-git/">email address</a> and <a href="https://help.github.com/articles/setting-your-username-in-git/">your user name</a>. Open your bash shell (Terminal in Mac, git-bash in Windows) and type:</p>
 
 <pre><code class="language-sh">git config --global user.name &quot;Your Name&quot;
-git config --global user.email &quot;youraddress@ mail.utoronto.a&quot;
+git config --global user.email &quot;youraddress@ mail.utoronto.ca&quot;
+git config --global github.user YourGithubId
 </code></pre>
 
 <p>Great &ndash; now git knows who you are. If you&rsquo;re feeling ambitious, you can also <a href="https://help.github.com/articles/connecting-to-github-with-ssh/">set up SSH keys so you don&rsquo;t have to type in your password every time you commit to Git</a>.</p>
@@ -420,9 +421,9 @@ git config --global user.email &quot;youraddress@ mail.utoronto.a&quot;
 
 <h2 id="node-and-npm">Node and NPM</h2>
 
-<p>Most of our programming work will involve Javascript, which runs most of the web. The <a href="https://nodejs.org/en/">Node.js</a> environment and its &ldquo;package manager,&rdquo; <a href="https://www.npmjs.com/">NPM</a>, are an incredible resource for Javascript development. In fact, Slack, Atom, and gitKraken are all written as Node applications themselves! Installing the &ldquo;bare&rdquo; versions of node and NPM let us access some of that power while we work.</p>
+<p>Most of our programming work will involve Javascript, which runs most of the web. The <a href="https://nodejs.org/en/">Node.js</a> environment and its &ldquo;package manager,&rdquo; <a href="https://www.npmjs.com/">NPM</a>, are an incredible resource for Javascript development. In fact, Slack, Atom, and gitKraken are all written as Node applications themselves! Installing the &ldquo;bare&rdquo; versions of node and NPM lets us access some of that power while we work.</p>
 
-<p>You can survive this class  without installing Node, but without it, you won&rsquo;t be able to run the test suites that accompany all of the assignments. You&rsquo;ll therefore be at a serious disadvantage in the class.</p>
+<p>You can survive this class without installing Node, but without it, you won&rsquo;t be able to run the test suites that accompany all of the assignments. You&rsquo;ll therefore be at a serious disadvantage in the class.</p>
 
 <ul>
 <li>In Mac and Linux, the instructions linked to in the table above are probably good enough.</li>
