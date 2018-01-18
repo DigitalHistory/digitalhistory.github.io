@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.32.1" />
 
-<title>Navigating at the Command Line :: HIS393: Digital History</title>
+<title>Git Tips for Assignments :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/dh-website/images/favicon.png" type="image/x-icon" />
 <link href="/dh-website/css/nucleus.css" rel="stylesheet">
 <link href="/dh-website/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
     
   </head>
-  <body data-url="/dh-website/tools/navigating-command-line/">
+  <body data-url="/dh-website/tools/assignment-git-tips/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -127,7 +127,7 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </a>
         <ul>
-      <li data-nav-id="/dh-website/tools/assignment-git-tips/" class="dd-item">
+      <li data-nav-id="/dh-website/tools/assignment-git-tips/" class="dd-item active">
         <a href="/dh-website/tools/assignment-git-tips/">
           <span> Git Tips for Assignments</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
@@ -137,7 +137,7 @@
           <span> Installing Node Dependencies</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
     </li>
-      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item active">
+      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item">
         <a href="/dh-website/tools/navigating-command-line/">
           <span> Navigating at the Command Line</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
@@ -200,7 +200,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/titaniumbones/digital-history/tools/navigating-command-line.md" target="blank">
+      <a class="github-link" href="https://github.com/titaniumbones/digital-history/tools/assignment-git-tips.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Edit page
       </a>
@@ -220,7 +220,7 @@
 
 
 
- <a href='/dh-website/'></a> > <a href='/dh-website/tools/'>Tools and Tricks</a> > Navigating at the Command Line
+ <a href='/dh-website/'></a> > <a href='/dh-website/tools/'>Tools and Tricks</a> > Git Tips for Assignments
 
  
 
@@ -237,16 +237,15 @@
 <ul>
 <li>
 <ul>
-<li><a href="#navigation">Navigation</a>
+<li><a href="#learn-how-to-navigate">Learn how to navigate!</a></li>
+<li><a href="#don-t-commit-dot-ds-store">Don&rsquo;t commit .DS_Store</a></li>
+<li><a href="#beware-package-lock-dot-json">Beware package-lock.json</a></li>
+<li><a href="#special-for-assignment-1">SPECIAL FOR ASSIGNMENT 1!</a></li>
+<li><a href="#deprecated-detailed-instructions-don-t-follow-these-unless-something-has-gone-terribly-wrong">Deprecated detailed instructions &ndash; DON&rsquo;T FOLLOW THESE UNLESS SOMETHING HAS GONE TERRIBLY WRONG</a>
 <ul>
-<li><a href="#pwd">pwd</a></li>
-<li><a href="#ls">ls</a></li>
-<li><a href="#cd">cd</a></li>
-<li><a href="#cat-and-less">cat and less</a></li>
-<li><a href="#mkdir-and-touch">mkdir and touch</a></li>
-<li><a href="#arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</a></li>
+<li><a href="#package-dot-json-and-test-test-node-dot-js-have-been-updated-dot-be-careful"><code>package.json</code> and <code>test/test-node.js</code> have been updated. Be careful!</a></li>
+<li><a href="#pulling-changes-from-assignment-1-advanced">Pulling changes from Assignment 1 [ADVANCED!]</a></li>
 </ul></li>
-<li><a href="#learn-more">Learn More</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -259,7 +258,7 @@
 
 <div id="body-inner">
   
-    <h1>Navigating at the Command Line</h1>
+    <h1>Git Tips for Assignments</h1>
   
 
 
@@ -269,111 +268,111 @@
     
     
 
-<p><strong>The <em>Programming Historian</em> link below is excellent.  Having some trouble with screenshots ATM, will fix soon as I can reload my desktop &ndash; but for next few hours pls refer to the <em>PH</em> link for images!</strong></p>
+<p>Well the first assignment is done.  Whew! There were some common git issues that came up, and I hope we can cut back on them by documenting them here.</p>
 
-<p>One common issue for people new to the command line is that it can be tough to understand the notion of <em>location in the filesystem</em>. Most ordinary users interact with their filesystems through the so-called <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">GUI layer</a> &ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &ldquo;folders&rdquo;) with meaningful names like <code>Desktop</code>, <code>MyDocuments</code>, etc. However, once you start working at the command line this convenient feature can become something of a curse.  It&rsquo;s important to recognize that these special locations are just part of a complex, hierarchical filesystem &ndash; a branching tree of directories and files, on which your operating system relies in many ways. You will need to learn to navigate that filesystem, not from the GUI, but from the command line.</p>
+<h2 id="learn-how-to-navigate">Learn how to navigate!</h2>
 
-<p>When you first start using the command line, it often feels (a) confusing and (b) somehow primitive or over-simple. The command line is, in fact, a sophisticated and incredibly efficient way to interact with the filesystem &ndash; but you need to learn your way around it first. In this class we won&rsquo;t discuss the wonderful world of shell scripting (see below for guides to scripting); instead, I just want you to learn a few <strong>very</strong> basic commands to help you move around.</p>
+<p>The command line is very new to everyone, and I did a lousy job of explaining how to traverse the filesystem from the terminal.  <a href="../../navigate-command-line/">I have now posted some instructions that should help with this</a>. <strong>Pro tip:</strong> in both Windows and Mac, you can open a terminal/git-bash window by right clicking on a location and clicking the &ldquo;terminal here&rdquo; or &ldquo;bash  window here&rdquo; buttons (screenshots anyone?). This should help reduce the amount of time spent hopelessly floundering in the early stages of command-line training.</p>
 
-<h2 id="navigation">Navigation</h2>
+<h2 id="don-t-commit-dot-ds-store">Don&rsquo;t commit .DS_Store</h2>
 
-<p>The file system is a &ldquo;branching tree&rdquo; of files and folders.  At the top (or bottom, depending on how you imagine things) of the tree is the &ldquo;root&rdquo;. In bash, we represent this as <code>/</code>.  Every folder has a <strong>path</strong> that starts with <code>/</code> and proceeds down the file hierarchy. So, for instance, my global git configuration is located at <code>/home/matt/.gitconfig</code>.  <code>/</code> is the root. <code>/home/</code> is where all user files can be found. <code>/home/matt/</code> contains all <strong>my</strong> user files. <code>/home/matt/.gitconfig</code> identifies the specific file I&rsquo;m looking for.</p>
-
-<p>Your file explorer will represent this tree for you visually; you can also picture it schematically, as is done e.g. in the following image:
-
-<figure >
-    
-        <img src="https://tr1.cbsistatic.com/hub/i/2015/06/03/208a6a3f-0987-11e5-940f-14feb5cc3d2a/10_things_linux_filesystems.jpg" />
-    
-    
-</figure>
-</p>
-
-<p>We can also explore from the command line. Here are a few basic commands to learn for this purpose. [ <strong>Note:</strong> in the screenshots below, my command prompt is heavily customized and includes some extra information. Most notably, it tells me when I am in a git repository and gives me the name of the current git branch. You can experiment with changing your bash prompt in the <code>~/.bashrc</code> file that controls many features of the</p>
-
-<h3 id="pwd">pwd</h3>
-
-<p><code>pwd</code> is short for &ldquo;print working directory&rdquo;, and will show you where you are in the file system.
-
-<figure >
-    
-        <img src="../../images/pwd.png" />
-    
-    
-</figure>
-</p>
-
-<h3 id="ls">ls</h3>
-
-<p><code>ls</code> will <strong>list</strong> the contents of a directory. With no further arguments it will list the directory you&rsquo;re currently in, but you can ask it to list some other directory too. Here are some examples.  Note the &ldquo;switches&rdquo; <code>-l</code> and <code>-la</code>.  Switches give further instructions to the command. In this case <code>-l</code> means &ldquo;long&rdquo; while <code>-a</code> is short for &ldquo;all&rdquo;. You can see in the screenshot below what the effect is.
-
-<figure >
-    
-        <img src="../../images/ls-screenshot.png" />
-    
-    
-</figure>
-</p>
-
-<h3 id="cd">cd</h3>
-
-<p>Short for &ldquo;change directory&rdquo;, <code>cd</code> allows you to move through the filesystem.</p>
+<p><strong>Mac users:</strong> MacOS creates these annoying files in every directory. They are useless for non-mac users and clutter up the repository.  I have taken steps that <strong>should</strong> stop you from accidentally adding these files to your repository, but if you have already started work on <a href="https://classroom.github.com/a/y1HlCM6k">Assignment 1</a> you may have cloned the repository too early to get the benefits of that work. Here&rsquo;s how you remove `.DS_Store` files from a repository:</p>
 
 <ul>
-<li><code>cd someDirectoryName</code> will move you into the subdirectory &ldquo;someDirectoryName&rdquo; of your current directory.</li>
-<li><code>cd</code> with no arguments, or &ldquo;cd ~ &ldquo;, will drop you back into your home directory (this is helpful if you get lost somehow). At the command line, the tilde (<code>~</code>) is short for &ldquo;home directory&rdquo;, so you can use it anywhere instead of typing out your whole whome directory name.</li>
-<li><code>cd ..</code> or <code>cd ../</code> will move you &ldquo;up&rdquo; one level in the filesystem &ndash; so if you are currently in <code>/home/matt/digitalHistory</code>, executing <code>cd ..</code> will move you to <code>/home/matt/</code>.</li>
+<li>first, navigate to the repository root directory in a terminal window</li>
+<li>then, type the following commands (dark magic!):</li>
 </ul>
 
-
-<figure >
-    
-        <img src="../../images/cd-ss.png" />
-    
-    
-</figure>
-
-
-<h3 id="cat-and-less">cat and less</h3>
-
-<p>Sometimes you want to look at the contents of a file.  <code>cat</code> and <code>less</code> are two ways to do so.  <code>cat</code> will print the contents of the file directly to your terminal window.  <code>less</code> will create a simple interface that you can use to scroll through a longer file using a keyboard interface.
-
-<figure >
-    
-        <img src="../../images/cat-ss.png" />
-    
-    
-</figure>
-</p>
-
-<h3 id="mkdir-and-touch">mkdir and touch</h3>
-
-<p><code>mkdir</code> will create a new directory, while <code>touch</code> will create a new (empty) file.</p>
-
-<pre><code class="language-sh">mkdir some-directory-name
-touch some-directory-name/somefile.txt
+<pre><code class="language-sh">find . -name .DS_Store -print0 | xargs -0 git rm -f --cached --ignore-unmatch
+echo &quot;.DS_Store&quot; &gt;&gt; .gitignore
+git commit -a -m &quot;Git thee behind me, .DS_Store&quot;
 </code></pre>
 
-<p>These commands will create the file somefile.txt in the folder some-directory-name, inside the current working directory.</p>
+<p>For an explanation of these commands, you can <a href="https://hints.binaryage.com/how-to-remove-ds-store-files-from-a-git-repo/">look at random posts o n the Internet</a>, <a href="https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository">ask Stackoverflow</a>, or read the official manuals (at least on MacOS) by typing <code>man find</code>, <code>man xargs</code>, <code>man echo</code>, and <code>man gitignore</code>. A lot of those explanations will be kind of complicated, though, especially the (insanely complicated) <code>find</code> manual.</p>
 
-<h3 id="arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</h3>
+<p><strong>Note:</strong> this command doesn&rsquo;t actually delete the files - -they will still be there, but git will <strong>act</strong> as though the files have been deleted, and will not &ldquo;see&rdquo; and files named <code>.DS_Store</code> when it looks for untracked files.</p>
 
-<p>often we make mistakes typing or are unsure of spelling, etc. Two kinds of shortcuts make for huge time savings:</p>
+<h2 id="beware-package-lock-dot-json">Beware package-lock.json</h2>
+
+<p><strong>Deprecation notice:</strong> you shouldn&rsquo;t have to follow these instructions. check to make sure that package-lock.json is not present in your <strong>web fork</strong>. If it is, then something has gone wrong and you should follow these steps.</p>
+
+<p>Unfortunately I rather misunderstood how package-lock.json works (because of outdated documentation). As a result I have removed it from the repository. You should remove it, too.  As above, you can do so by navigating to the repository root and typing:</p>
+
+<pre><code class="language-sh">git rm --cached package-lock.json
+echo &quot;package-lock.json&quot; &gt;&gt; .gitignore
+git commit -a -m &quot;Goodbye, package-lock.json!&quot;
+</code></pre>
+
+<p>Again, the file <code>package-lock.json</code> will still be on your computer, but git will act as though it had been deleted, and won&rsquo;t ask you to change it anymore.</p>
+
+<h2 id="special-for-assignment-1">SPECIAL FOR ASSIGNMENT 1!</h2>
+
+<p>I&rsquo;ve made some late-breaking changes to Assignment 1 to help with these issues. I&rsquo;ve managed to push those changes to all of your repositories, so <strong>please pull in my changes by executing `git pull`</strong>. Everything below is <strong>DEPRECATED</strong>, but I&rsquo;m keeping the info up here just in case something goes wrong.</p>
+
+<h2 id="deprecated-detailed-instructions-don-t-follow-these-unless-something-has-gone-terribly-wrong">Deprecated detailed instructions &ndash; DON&rsquo;T FOLLOW THESE UNLESS SOMETHING HAS GONE TERRIBLY WRONG</h2>
+
+<p>You have 2 choices:</p>
 
 <ul>
-<li><strong>arrow keys</strong> can be used to navigate through your previous commands &ndash; typing <code>↑</code> will reproduce your previous command, allowing you to correct any errors you might have made the last time you typed out some complex command and made a small error.  Each time you type an <code>↑</code>, you will move one command up in the command history. To get back down, type <code>↓</code>.</li>
-<li>you can type <code>TAB</code> part way through a command to get a list of possible completions.  If there&rsquo;s only one possible command that starts with what you&rsquo;ve typed so far, bash will complete it for you. Similarly, typing part of a file or directory name after a command has been entered will usually get you a list of possible completions.  Try it a few times and you&rsquo;ll see how much time it saves.</li>
+<li>take the steps described above, then manually update <code>package.json</code> and <code>test/test-node.js</code> as described below</li>
+<li>take the steps described above, then carefully read the new instructions &ndash; <strong>which tell you to name your reflection <code>Reflection/reflection.md</code> rather than <code>Reflection/yourgithubid.md</code> &ndash; and ignore the fact that your tests are failing</strong></li>
+<li>take a chance and do some fancy gitwork as described in the final section, below.</li>
 </ul>
 
-<h2 id="learn-more">Learn More</h2>
+<h3 id="package-dot-json-and-test-test-node-dot-js-have-been-updated-dot-be-careful"><code>package.json</code> and <code>test/test-node.js</code> have been updated. Be careful!</h3>
 
-<p>OK, that&rsquo;s all for now, hopefully this helps you navigate around your projects. I may add to this guide as we go through the semester, but here are some further guides.</p>
+<p>I&rsquo;ve updated the tests a little bit to make it easier to run automated tests. My recommendation is as follows:</p>
 
 <ul>
-<li><a href="https://sklise.com/2012/09/22/introduction-to-git/#no-buttons">this introduction</a> is quite clear and simple</li>
-<li><a href="https://programminghistorian.org/lessons/intro-to-bash">the programming historian</a> has a great guide too</li>
-<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html">the TLDP guide</a> introduced generations of programmers to bash scripting, and is still a useful reference point</li>
+<li>update <code>package.json</code> so that it&rsquo;s exactly the same as mine.  You really don&rsquo;t want there to be even 1 character of difference, or git might be mad at you.  <a href="https://raw.githubusercontent.com/DigitalHistory/assignment-01-html-css/master/package.json">Here&rsquo;s my current version</a>, and <a href="https://github.com/DigitalHistory/assignment-01-html-css/blob/master/package.json">here it is in the Github web interface</a>.</li>
 </ul>
+
+<h3 id="pulling-changes-from-assignment-1-advanced">Pulling changes from Assignment 1 [ADVANCED!]</h3>
+
+<p>Alternatively&hellip; you can take care of almost all of the above issues by pulling my changes directly from the assignment repository. But, beware! There&rsquo;s a chance there will be &ldquo;merge conflicts&rdquo; and your whole repo will get screwed up.  Still, here&rsquo;s how i would do it:</p>
+
+<ul>
+<li>first, make sure all of your changes have been committed with <code>git commit -a -m &quot;emergency commit&quot;</code></li>
+<li>Then make a note of the current git commit &ldquo;hash&rdquo; by executing <code>git log</code>. The output will look kind of like this:</li>
+</ul>
+
+<pre><code class="language-nil">commit cf369d7a9d7282270a95ab1ff0f8718b84015bfb (HEAD -&gt; development, origin/development)
+Merge: bd1c351 734d07c
+Author: Matt Price &lt;matt.price@utoronto.ca&gt;
+Date:   Thu Jan 18 08:37:22 2018 -0500
+
+    Merge tag 'fix-json' into development
+
+    fix it!
+
+commit 734d07cd1b25ff428d13b802b07741aed470c5cd (tag: fix-json, origin/master, origin/HEAD, master)
+Merge: 62423b7 e9c8f65
+Author: Matt Price &lt;matt.price@utoronto.ca&gt;
+Date:   Wed Jan 17 22:07:30 2018 -0500
+
+    Merge branch 'hotfix/fix-json'
+
+commit e9c8f6507ec13a4c53cff1c35293fc2c70d68f8e
+Author: Matt Price &lt;matt.price@utoronto.ca&gt;
+Date:   Wed Jan 17 22:05:27 2018 -0500
+
+    remove syntax-breaking comma
+
+    travis build should succeed now
+
+</code></pre>
+
+<p>The strange string of numbers and letters is called the &ldquo;commit hash&rdquo;.  Copy the one at at the top to a safe location. In this example the hash to save would be <code>cf369d7a9d7282270a95ab1ff0f8718b84015bfb</code>.</p>
+
+<ul>
+<li>now the dangerous step &ndash; pull from my repo and merge into yours!
+<code>git pull https://github.com/DigitalHistory/assignment-01-html-css.git master</code></li>
+<li>if there are conflicts, you can either <a href="https://help.github.com/articles/addressing-merge-conflicts">try to fix them</a>, or (my recommendation) completely undo the merge by resetting your repo to the last working state.  For this you need that hash you copied a couple of steps ago.  This command will completely reset your master branch to the place it was before you tried to merge in my work:
+<code>git reset --hard cf369d7a9d7282270a95ab1ff0f8718b84015bfb</code>
+(<strong>remember to use YOUR hash, not mine!</strong>)</li>
+</ul>
+
+<p>Looking forward to hearing how all of this goes!</p>
 
 
     

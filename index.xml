@@ -103,6 +103,16 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
     </item>
     
     <item>
+      <title>Git Tips for Assignments</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/assignment-git-tips/</link>
+      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/tools/assignment-git-tips/</guid>
+      <description>Well the first assignment is done. Whew! There were some common git issues that came up, and I hope we can cut back on them by documenting them here.
+Learn how to navigate! The command line is very new to everyone, and I did a lousy job of explaining how to traverse the filesystem from the terminal. I have now posted some instructions that should help with this. Pro tip: in both Windows and Mac, you can open a terminal/git-bash window by right clicking on a location and clicking the &amp;ldquo;terminal here&amp;rdquo; or &amp;ldquo;bash window here&amp;rdquo; buttons (screenshots anyone?</description>
+    </item>
+    
+    <item>
       <title>Installing Node Dependencies</title>
       <link>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>

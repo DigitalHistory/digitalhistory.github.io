@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://digitalhistory.github.io/dh-website/tools/assignment-git-tips/</loc>
+    <lastmod>2018-01-18T12:25:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</loc>
     <lastmod>2018-01-14T19:59:18-05:00</lastmod>
   </url>
@@ -101,7 +106,7 @@
   
   <url>
     <loc>https://digitalhistory.github.io/dh-website/tools/</loc>
-    <lastmod>2018-01-14T19:59:18-05:00</lastmod>
+    <lastmod>2018-01-18T12:25:26-05:00</lastmod>
   </url>
   
 </urlset>
