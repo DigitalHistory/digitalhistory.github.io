@@ -184,5 +184,14 @@ On the empty sky.
        Recap  &amp;ldquo;Abundance&amp;rdquo; offers many challenges  preservation interpretation access  Does history itself need to be reformed?</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</guid>
+      <description>Distant Reading II .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Openness in Historical Perspective &amp;ldquo;Abstract Models&amp;rdquo; in Moretti  distance from text patterns across genres, time, space  intro to JS     Graphs   condense data conceptualize mathematically convince readers a fundamentally rhetorical tool   Moretti&amp;rsquo;s Graphs    Quantitative research provides a type of data which is ideally independent of interpretations.</description>
+    </item>
+    
   </channel>
 </rss>
