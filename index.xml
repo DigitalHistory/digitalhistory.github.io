@@ -202,5 +202,14 @@ On the empty sky.
       <description>Distant Reading III .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     JS Questions  where do I run Javascript? how do I define a function? what are return values? DOM manipulation   Running JS  Atom &amp;#x2013; js-console (under packages menu) Firefox: Scratchpad + console Chrome: console alone any of my lectures!</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/07-why-spatial-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/07-why-spatial-history/</guid>
+      <description>07: Why Spatial history? .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Hermeneutics and understanding What does it mean to understand large numbers of texts, and what is the nature of expertise? searching vs browsing data as evidence, data as inspiration     Summary  Space &amp;amp; Place The Work Maps Do: lying; presenting; creating more JS Google Maps Exercise (maybe)     Spatial Turn  Space and &amp;ldquo;place&amp;rdquo; Space as historically constituted What is &amp;ldquo;the History of a place?</description>
+    </item>
+    
   </channel>
 </rss>
