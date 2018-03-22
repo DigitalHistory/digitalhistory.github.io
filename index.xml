@@ -230,5 +230,14 @@ On the empty sky.
       <description>10: What&amp;rsquo;s Special about Oral History (&amp;ldquo;Engaged&amp;rdquo; History) .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Spatial History  new tools form GIS new questions from cultural geography maps &amp;amp; visualizations are rhetorical and need interpretation      Today  Excursus on &amp;ldquo;Objectivity&amp;rdquo; What&amp;rsquo;s Special about Oral History?</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</guid>
+      <description>11: Oral History &amp;amp; Remix Culture .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;/vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Copy Spreadsheet  go to my sheet: https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/edit#gid=0 File &amp;#x2013;&amp;gt; Make a copy Under File &amp;#x2013;&amp;gt; Publish to the web, make sure yr sheet is published the &amp;ldquo;key&amp;rdquo; is btwn /d/ and /edit     Spreadsheet URL var public_spreadsheet_key = &amp;#39;https://docs.</description>
+    </item>
+    
   </channel>
 </rss>
