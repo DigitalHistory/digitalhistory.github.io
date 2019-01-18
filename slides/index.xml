@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Slides on HIS393: Digital History</title>
+    <link>https://digitalhistory.github.io/dh-website/slides/</link>
+    <description>Recent content in Lecture Slides on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://digitalhistory.github.io/dh-website/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</guid>
+      <description>Git and Github .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Git!    &amp;ldquo;Track Changes&amp;rdquo; on steroids &amp;ldquo;version Control&amp;rdquo; software optimized for collaboration   collaboration    concepts: remote    Concepts: Branch    git history is a tree, not a straight line nothing is every lost!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
+      <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    Introduction to Digital HistoryMatt PriceCreated: 2019-01-08 Tue 12:46
+  About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</guid>
+      <description>What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Review  4 blocks Assignment 0 is online Assignment 1 is coming, preview is here. Intro to Git     Today  Concept of the &amp;ldquo;Public Sphere&amp;rdquo; Internet and Habermas&amp;rsquo;s conception Discussion   more Git Brief HTML explication HTML Exercise    Phrase &amp;ldquo;Technical Affordance&amp;rdquo;     Significance and Signification  What matters about the web?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</guid>
+      <description>Abundance and Openness .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     War is Peace. Freedom is Slavery. Ignorance is Strength.    Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text   Plan for the day  Brief lecture Discussion: how do you respond to information abundance?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</guid>
+      <description>Distant Reading I .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Bright the Hawk&amp;rsquo;s Flight  Only in silence the word,
+Only in dark the light,
+Only in dying life:
+Bright the hawk&amp;rsquo;s flight
+On the empty sky.
+       Recap  &amp;ldquo;Abundance&amp;rdquo; offers many challenges  preservation interpretation access  Does history itself need to be reformed?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</guid>
+      <description>Distant Reading II .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Openness in Historical Perspective &amp;ldquo;Abstract Models&amp;rdquo; in Moretti  distance from text patterns across genres, time, space  intro to JS     Graphs   condense data conceptualize mathematically convince readers a fundamentally rhetorical tool   Moretti&amp;rsquo;s Graphs    Quantitative research provides a type of data which is ideally independent of interpretations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/06-distant-reading-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/06-distant-reading-3/</guid>
+      <description>Distant Reading III .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     JS Questions  where do I run Javascript? how do I define a function? what are return values? DOM manipulation   Running JS  Atom &amp;#x2013; js-console (under packages menu) Firefox: Scratchpad + console Chrome: console alone any of my lectures!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/07-why-spatial-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/07-why-spatial-history/</guid>
+      <description>07: Why Spatial history? .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Hermeneutics and understanding What does it mean to understand large numbers of texts, and what is the nature of expertise? searching vs browsing data as evidence, data as inspiration     Summary  Space &amp;amp; Place The Work Maps Do: lying; presenting; creating more JS Google Maps Exercise (maybe)     Spatial Turn  Space and &amp;ldquo;place&amp;rdquo; Space as historically constituted What is &amp;ldquo;the History of a place?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/10-oral-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/10-oral-history/</guid>
+      <description>10: What&amp;rsquo;s Special about Oral History (&amp;ldquo;Engaged&amp;rdquo; History) .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Spatial History  new tools form GIS new questions from cultural geography maps &amp;amp; visualizations are rhetorical and need interpretation      Today  Excursus on &amp;ldquo;Objectivity&amp;rdquo; What&amp;rsquo;s Special about Oral History?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</guid>
+      <description>11: Oral History &amp;amp; Remix Culture .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;/vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Copy Spreadsheet  go to my sheet: https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/edit#gid=0 File &amp;#x2013;&amp;gt; Make a copy Under File &amp;#x2013;&amp;gt; Publish to the web, make sure yr sheet is published the &amp;ldquo;key&amp;rdquo; is btwn /d/ and /edit     Spreadsheet URL var public_spreadsheet_key = &amp;#39;https://docs.</description>
+    </item>
+    
+  </channel>
+</rss>

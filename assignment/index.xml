@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on HIS393: Digital History</title>
+    <link>https://digitalhistory.github.io/dh-website/assignment/</link>
+    <description>Recent content in Assignments on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jan 2019 09:52:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assignment 01: Zero to Blog Post</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</link>
+      <pubDate>Thu, 17 Jan 2019 09:52:12 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
+      <description>Due Date: Jan. 31 (2 days later than original deadline)
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 00: Your Class Profile</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/00-git/</link>
+      <pubDate>Thu, 10 Jan 2019 13:37:38 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
+      <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
+One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
+    </item>
+    
+    <item>
+      <title>Participation</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/participation/</link>
+      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/participation/</guid>
+      <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
+The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript, Spatial History, and Oral History assignments. Congratulations! You have qualified for a B. But what kind of a B?
+   If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
+    </item>
+    
+  </channel>
+</rss>

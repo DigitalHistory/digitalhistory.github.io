@@ -6,10 +6,39 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Dec 2017 18:36:24 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jan 2019 09:52:12 -0500</lastBuildDate>
     
 	<atom:link href="https://digitalhistory.github.io/dh-website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 01: Zero to Blog Post</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</link>
+      <pubDate>Thu, 17 Jan 2019 09:52:12 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
+      <description>Due Date: Jan. 31 (2 days later than original deadline)
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 00: Your Class Profile</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/00-git/</link>
+      <pubDate>Thu, 10 Jan 2019 13:37:38 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
+      <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
+One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</guid>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1070   Web: http://digital.hackinghistory.ca/   Slack: https://digitalhistoryuoft.slack.com/   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
     
     <item>
       <title>header</title>
@@ -18,70 +47,6 @@
       
       <guid>https://digitalhistory.github.io/dh-website/_header/</guid>
       <description>HIS 393 Digital History</description>
-    </item>
-    
-    <item>
-      <title>Assignment 00: Git and Github</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/00-git/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
-      <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link!
-One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.
-This may take longer than you think, and it&amp;rsquo;s due soon. Please get started soon by following the instructions on the Assignment 0 website.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 01: HTML &amp; CSS self-study</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
-      <description>Due Date: Jan. 26
-General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work. We&amp;rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 02: Javascript Basics</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/02-javascript/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/02-javascript/</guid>
-      <description>Due Date: Feb. 02 Due Date: Feb 09 (Revised in Class Jan 18)
-This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
-Due at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 03: Spatial History</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/03-spatial-history/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/03-spatial-history/</guid>
-      <description>Due Date: March 02
-In class, we made a kind of toy Google Map out of hand-coded HTML, CSS, and Javascript. You will remember it from the course website, from JSBin, and from Github.
-Your next assignment builds directly from that in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 04: Oral History</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/04-oral-history/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/04-oral-history/</guid>
-      <description>Due Date: March 29
-Rather than repeat myself in my usual error-prone way, I will remind you that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you. (But you should already have done this for the last assignment!) Please also read the assignment description on Github. We will discuss this at greater length in class in the final weeks of the semester.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 05: Project Proposal</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/assignment-05-project-proposal/</link>
-      <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
-      
-      <guid>https://digitalhistory.github.io/dh-website/assignment/assignment-05-project-proposal/</guid>
-      <description>Due Date: April 02
-Remember that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you]]. (But you should already have done this for the last two assignments!) Please also read the assignment description on Github. We will discuss this at greater length in class in the final weeks of the semester.
-For your final assignment, respond to the following call for proposals with an application approximately 2000 words in length, plus a provisional budget in the form of a spreadsheet (includea PDF, or provide a link to a viewable google sheet) or Markdown table.</description>
     </item>
     
     <item>
@@ -96,12 +61,12 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
     </item>
     
     <item>
-      <title>Syllabus</title>
-      <link>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</link>
-      <pubDate>Tue, 03 Jan 2017 00:00:00 -0500</pubDate>
+      <title>Cloned the wrong repo? Here&#39;s a fix.</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/wrong-repo-fix/</link>
+      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</guid>
-      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Office Hrs: T 1-2:30, SS 3077   Meeting Times Thurs 2-4, SS 1088   Web: http://digital.hackinghistory.ca/   Slack: https://digitalhistoryuoft.slack.com/    In general, communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+      <guid>https://digitalhistory.github.io/dh-website/tools/wrong-repo-fix/</guid>
+      <description>Due perhaps to some outdated language somewhere in my course materials (sorry!) some of you appear to have accidentally forked the template repo rather than following the magic link to set things up the &amp;ldquo;official&amp;rdquo; way. Uh oh! Don&amp;rsquo;t worry, this is easy to fix. But please do it soon so I can grade all the assignments togetherHere/s are instructions for Assignment 0. If you&amp;rsquo;ve stumbled into this problem later in the semester, you&amp;rsquo;ll need to adjust them as appropriate:</description>
     </item>
     
     <item>
@@ -120,7 +85,8 @@ Learn how to navigate! The command line is very new to everyone, and I did a lou
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</guid>
-      <description>Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
+      <description>Or, &amp;ldquo;the nightmarish hellscape that is node.js installation&amp;rdquo;.
+Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
 In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
     </item>
     
@@ -130,8 +96,8 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</guid>
-      <description>The Programming Historian link below is excellent. Having some trouble with screenshots ATM, will fix soon as I can reload my desktop &amp;ndash; but for next few hours pls refer to the PH link for images!
-One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows.</description>
+      <description>The Programming Historian link below is excellent, and provides some great screenshots.
+One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &amp;ldquo;folders&amp;rdquo;) with meaningful names like Desktop, MyDocuments, etc.</description>
     </item>
     
     <item>
@@ -144,13 +110,22 @@ One common issue for people new to the command line is that it can be tough to u
     </item>
     
     <item>
-      <title>Understanding Popcorn</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/understanding-popcorn/</link>
+      <title>Using VSCode</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/using-vscode/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/understanding-popcorn/</guid>
-      <description>You may find it useful, as you prepare for the next assignment, to read the following post!
-What is Popcorn Popcorn is a Javascript &amp;ldquo;libary&amp;rdquo; &amp;ndash; a small collection of programs &amp;ndash; that lets web designers key events in a web page to a time-code in a media file. So essentially ,popcorn lets you &amp;ldquo;cue up&amp;rdquo; content ad display it only during fixed periods, while a media element is playing.</description>
+      <guid>https://digitalhistory.github.io/dh-website/tools/using-vscode/</guid>
+      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
+As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</guid>
+      <description>Git and Github .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Git!    &amp;ldquo;Track Changes&amp;rdquo; on steroids &amp;ldquo;version Control&amp;rdquo; software optimized for collaboration   collaboration    concepts: remote    Concepts: Branch    git history is a tree, not a straight line nothing is every lost!</description>
     </item>
     
     <item>
@@ -159,7 +134,8 @@ What is Popcorn Popcorn is a Javascript &amp;ldquo;libary&amp;rdquo; &amp;ndash;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
-      <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History? Why care about the Digital Age?</description>
+      <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    Introduction to Digital HistoryMatt PriceCreated: 2019-01-08 Tue 12:46
+  About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History?</description>
     </item>
     
     <item>
@@ -168,7 +144,7 @@ What is Popcorn Popcorn is a Javascript &amp;ldquo;libary&amp;rdquo; &amp;ndash;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</guid>
-      <description>What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Review  4 blocks Assignment 0 is online If you haven&amp;rsquo;t started Assignment 1, hold on for now Explaining Git     Today  Concept of the &amp;ldquo;Public Sphere&amp;rdquo; Internet and Habermas&amp;rsquo;s conception Discussion more Git Brief HTML explication HTML Exercise   Phrase &amp;ldquo;Technical Affordance&amp;rdquo;     Significance and Signification  What matters about the web?</description>
+      <description>What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Review  4 blocks Assignment 0 is online Assignment 1 is coming, preview is here. Intro to Git     Today  Concept of the &amp;ldquo;Public Sphere&amp;rdquo; Internet and Habermas&amp;rsquo;s conception Discussion   more Git Brief HTML explication HTML Exercise    Phrase &amp;ldquo;Technical Affordance&amp;rdquo;     Significance and Signification  What matters about the web?</description>
     </item>
     
     <item>
