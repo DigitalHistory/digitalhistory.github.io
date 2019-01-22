@@ -149,6 +149,15 @@ As with any powerful tool, it can take a little while to get comfortable with VS
     
     <item>
       <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/03-1-abundance-and-opennness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/03-1-abundance-and-opennness/</guid>
+      <description>Abundance and Openness .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     War is Peace. Freedom is Slavery. Ignorance is Strength.    Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text   Plan for the day  Lecture Discussion: how do you respond to information abundance?</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
