@@ -49,6 +49,15 @@
     
     <item>
       <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/03-2-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/03-2-css/</guid>
+      <description>And Now: CSS! .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Reminder  HTML for structure/content; CSS for presentation Resources: Codeacademy CSS offerings; Learn Layout; Mozilla Developer Network; many other cool sites   Exercise for today: https://github.com/DigitalHistory/css-styling/    What you Need to Learn Today  syntax: selectors, rules, punctuation; jargon: colors, sizes where to look stuff up (!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
