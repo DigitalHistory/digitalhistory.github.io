@@ -67,6 +67,15 @@
     
     <item>
       <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/04-01-css-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/04-01-css-layout/</guid>
+      <description>CSS Part 2: Layout .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  selector syntax: selector &amp;gt; string {property: value;} colors: #RRGGBB or rgba(RRR, BBB, GGG, 0.alpha) sizes: px or em (or rem)     Today  intro to layout follow along with the repo: https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
