@@ -42,6 +42,15 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
     </item>
     
     <item>
+      <title>Javascript: Resources and Tools</title>
+      <link>https://digitalhistory.github.io/dh-website/tools/js-resources-tools/</link>
+      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/tools/js-resources-tools/</guid>
+      <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. For this assignment, you will want to read much of First steps and Building Blocks. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).</description>
+    </item>
+    
+    <item>
       <title>Navigating at the Command Line</title>
       <link>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
