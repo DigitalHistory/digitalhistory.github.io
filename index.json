@@ -4,7 +4,7 @@
 	"title": "Course Docs",
 	"tags": [],
 	"description": "",
-	"content": "  /dh-website/syllabus/his393syllabus/h  "
+	"content": "  Syllabus  "
 },
 {
 	"uri": "https://digitalhistory.github.io/dh-website/assignment/01-html-css/",
@@ -200,7 +200,7 @@
 	"title": "Assignments",
 	"tags": [],
 	"description": "",
-	"content": "  /dh-website/assignment/01-html-css/h /dh-website/assignment/00-git/h /dh-website/assignment/participation/h  "
+	"content": "  Assignment 01: Zero to Blog Post Assignment 00: Your Class Profile Participation  "
 },
 {
 	"uri": "https://digitalhistory.github.io/dh-website/categories/",
@@ -228,5 +228,5 @@
 	"title": "Tools and Tricks",
 	"tags": [],
 	"description": "",
-	"content": "  /dh-website/tools/wrong-repo-fix/h /dh-website/tools/assignment-git-tips/h /dh-website/tools/node-dependencies/h /dh-website/tools/js-resources-tools/h /dh-website/tools/navigating-command-line/h /dh-website/tools/setup/h /dh-website/tools/using-vscode/h  "
+	"content": "  Cloned the wrong repo? Here\u0026#39;s a fix. Git Tips for Assignments Installing Node Dependencies Javascript: Resources and Tools Navigating at the Command Line Setup Using VSCode  "
 }]
