@@ -105,6 +105,10 @@
   </url>
   
   <url>
+    <loc>https://digitalhistory.github.io/dh-website/slides/05-01-js/</loc>
+  </url>
+  
+  <url>
     <loc>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</loc>
   </url>
   
@@ -138,10 +142,6 @@
   <url>
     <loc>https://digitalhistory.github.io/dh-website/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</loc>
   </url>
   
   <url>
