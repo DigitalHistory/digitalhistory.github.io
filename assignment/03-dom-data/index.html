@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-02-13T16:40:44 EST">
-<title>Navigating at the Command Line :: HIS393: Digital History</title>
+<title>Assignment 03: DOM and Data :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/dh-website/images/favicon.png" type="image/x-icon" />
 <link href="/dh-website/css/nucleus.css" rel="stylesheet">
 <link href="/dh-website/css/font-awesome.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
     
   </head>
-  <body data-url="/dh-website/tools/navigating-command-line/">
+  <body data-url="/dh-website/assignment/03-dom-data/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -82,13 +82,14 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dh-website/assignment/" class="dd-item haschildren
+    <li data-nav-id="/dh-website/assignment/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/dh-website/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/dh-website/assignment/"><i class='fa fa-github'></i> Assignments</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/dh-website/assignment/03-dom-data/" class="dd-item">
+      <li data-nav-id="/dh-website/assignment/03-dom-data/" class="dd-item active">
         <div>
           <a href="/dh-website/assignment/03-dom-data/">
             Assignment 03: DOM and Data
@@ -118,11 +119,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/dh-website/tools/" class="dd-item parent haschildren
+    <li data-nav-id="/dh-website/tools/" class="dd-item haschildren
         ">
       <div>
-      <a href="/dh-website/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/dh-website/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/dh-website/tools/wrong-repo-fix/" class="dd-item">
@@ -153,7 +153,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item active">
+      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item">
         <div>
           <a href="/dh-website/tools/navigating-command-line/">
             Navigating at the Command Line
@@ -315,7 +315,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/navigating-command-line.md" target="blank">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/assignment/03-dom-data.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Improve this page
       </a>
@@ -335,7 +335,7 @@
 
 
 
- <a href='/dh-website/'></a> > <a href='/dh-website/tools/'>Tools and Tricks</a> > Navigating at the Command Line
+ <a href='/dh-website/'></a> > <a href='/dh-website/assignment/'>Assignments</a> > Assignment 03: DOM and Data
 
  
 
@@ -348,23 +348,7 @@
     
     <div class="progress">
         <div class="wrapper">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#navigation">Navigation</a>
-<ul>
-<li><a href="#pwd">pwd</a></li>
-<li><a href="#ls">ls</a></li>
-<li><a href="#cd">cd</a></li>
-<li><a href="#cat-and-less">cat and less</a></li>
-<li><a href="#mkdir-and-touch">mkdir and touch</a></li>
-<li><a href="#arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</a></li>
-</ul></li>
-<li><a href="#learn-more">Learn More</a></li>
-</ul></li>
-</ul>
-</nav>
+    
         </div>
     </div>
     
@@ -372,9 +356,15 @@
   </div>
 
 
+  <div id="tags">
+    
+      <a class="label label-default" href="https://digitalhistory.github.io/dh-website/tags/assignment">assignment</a>
+    
+  </div>
+
 <div id="body-inner">
   
-    <h1>Navigating at the Command Line</h1>
+    <h1>Assignment 03: DOM and Data</h1>
   
 
 
@@ -382,82 +372,11 @@
     
     
     
-    
+    <p><strong>Due Date: March 01</strong></p>
 
-<p><strong>The <em>Programming Historian</em> link below is excellent, and provides some great screenshots.</strong></p>
+<p>In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript.  This can be a difficult transition, so be prepared for some teeth-gnashing.</p>
 
-<p>One common issue for people new to the command line is that it can be tough to understand the notion of <em>location in the filesystem</em>. Most ordinary users interact with their filesystems through the so-called <a href="https://en.wikipedia.org/wiki/Graphical%5Fuser%5Finterface">GUI layer</a> &ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &ldquo;folders&rdquo;) with meaningful names like <code>Desktop</code>, <code>MyDocuments</code>, etc. However, once you start working at the command line this convenient feature can become something of a curse.  It&rsquo;s important to recognize that these special locations are just part of a complex, hierarchical filesystem &ndash; a branching tree of directories and files, on which your operating system relies in many ways. You will need to learn to navigate that filesystem, not from the GUI, but from the command line.</p>
-
-<p>When you first start using the command line, it often feels (a) confusing and (b) somehow primitive or over-simple. The command line is, in fact, a sophisticated and incredibly efficient way to interact with the filesystem &ndash; but you need to learn your way around it first. In this class we won&rsquo;t discuss the wonderful world of shell scripting (see below for guides to scripting); instead, I just want you to learn a few <strong>very</strong> basic commands to help you move around.</p>
-
-<h2 id="navigation">Navigation</h2>
-
-<p>The file system is a &ldquo;branching tree&rdquo; of files and folders.  At the top (or bottom, depending on how you imagine things) of the tree is the &ldquo;root&rdquo;. In bash, we represent this as <code>/</code>.  Every folder has a <strong>path</strong> that starts with <code>/</code> and proceeds down the file hierarchy. So, for instance, my global git configuration is located at <code>/home/matt/.gitconfig</code>.  <code>/</code> is the root. <code>/home/</code> is where all user files can be found. <code>/home/matt/</code> contains all <strong>my</strong> user files. <code>/home/matt/.gitconfig</code> identifies the specific file I&rsquo;m looking for.</p>
-
-<p>Your file explorer will represent this tree for you visually; you can also picture it schematically, as is done e.g. in the following image:
-<img src="https://tr1.cbsistatic.com/hub/i/2015/06/03/208a6a3f-0987-11e5-940f-14feb5cc3d2a/10%5Fthings%5Flinux%5Ffilesystems.jpg" alt="" /></p>
-
-<p>We can also explore from the command line. Here are a few basic commands to learn for this purpose. [ <strong>Note:</strong> in the screenshots below, my command prompt is heavily customized and includes some extra information. Most notably, it tells me when I am in a git repository and gives me the name of the current git branch. You can experiment with changing your bash prompt in the <code>~/.bashrc</code> file that controls many features of the</p>
-
-<h3 id="pwd">pwd</h3>
-
-<p><code>pwd</code> is short for &ldquo;print working directory&rdquo;, and will show you where you are in the file system.
-<img src="../../images/pwd.png" alt="" /></p>
-
-<h3 id="ls">ls</h3>
-
-<p><code>ls</code> will <strong>list</strong> the contents of a directory. With no further arguments it will list the directory you&rsquo;re currently in, but you can ask it to list some other directory too. Here are some examples.  Note the &ldquo;switches&rdquo; <code>-l</code> and <code>-la</code>.  Switches give further instructions to the command. In this case <code>-l</code> means &ldquo;long&rdquo; while <code>-a</code> is short for &ldquo;all&rdquo;. You can see in the screenshot below what the effect is.
-<img src="../../images/ls-screenshot.png" alt="" /></p>
-
-<h3 id="cd">cd</h3>
-
-<p>Short for &ldquo;change directory&rdquo;, <code>cd</code> allows you to move through the filesystem.</p>
-
-<ul>
-<li><code>cd someDirectoryName</code> will move you into the subdirectory &ldquo;someDirectoryName&rdquo; of your current directory.</li>
-<li><code>cd</code> with no arguments, or &ldquo;cd ~ &ldquo;, will drop you back into your home directory (this is helpful if you get lost somehow). At the command line, the tilde (<code>~</code>) is short for &ldquo;home directory&rdquo;, so you can use it anywhere instead of typing out your whole whome directory name.</li>
-<li><code>cd ..</code> or <code>cd ../</code> will move you &ldquo;up&rdquo; one level in the filesystem &ndash; so if you are currently in <code>/home/matt/digitalHistory</code>, executing <code>cd ..</code> will move you to <code>/home/matt/</code>.</li>
-</ul>
-
-<figure>
-    <img src="../../images/cd-ss.png"/> 
-</figure>
-
-
-<h3 id="cat-and-less">cat and less</h3>
-
-<p>Sometimes you want to look at the contents of a file.  <code>cat</code> and <code>less</code> are two ways to do so.  <code>cat</code> will print the contents of the file directly to your terminal window.  <code>less</code> will create a simple interface that you can use to scroll through a longer file using a keyboard interface.
-<img src="../../images/cat-ss.png" alt="" /></p>
-
-<h3 id="mkdir-and-touch">mkdir and touch</h3>
-
-<p><code>mkdir</code> will create a new directory, while <code>touch</code> will create a new (empty) file.</p>
-
-<pre><code class="language-sh">mkdir some-directory-name
-touch some-directory-name/somefile.txt
-</code></pre>
-
-<p>These commands will create the file somefile.txt in the folder some-directory-name, inside the current working directory.</p>
-
-<h3 id="arrow-keys-and-tab-expansion">Arrow Keys and Tab Expansion</h3>
-
-<p>often we make mistakes typing or are unsure of spelling, etc. Two kinds of shortcuts make for huge time savings:</p>
-
-<ul>
-<li><strong>arrow keys</strong> can be used to navigate through your previous commands &ndash; typing <code>↑</code> will reproduce your previous command, allowing you to correct any errors you might have made the last time you typed out some complex command and made a small error.  Each time you type an <code>↑</code>, you will move one command up in the command history. To get back down, type <code>↓</code>.</li>
-<li>you can type <code>TAB</code> part way through a command to get a list of possible completions.  If there&rsquo;s only one possible command that starts with what you&rsquo;ve typed so far, bash will complete it for you. Similarly, typing part of a file or directory name after a command has been entered will usually get you a list of possible completions.  Try it a few times and you&rsquo;ll see how much time it saves.</li>
-<li>often I want to repeat an earlier command that I entered a few minutes previously. Rather than</li>
-</ul>
-
-<h2 id="learn-more">Learn More</h2>
-
-<p>OK, that&rsquo;s all for now, hopefully this helps you navigate around your projects. I may add to this guide as we go through the semester, but here are some further guides.</p>
-
-<ul>
-<li><a href="https://sklise.com/2012/09/22/introduction-to-git/#no-buttons">this introduction</a> is quite clear and simple</li>
-<li><a href="https://programminghistorian.org/lessons/intro-to-bash">the programming historian</a> has a great guide too</li>
-<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html">the TLDP guide</a> introduced generations of programmers to bash scripting, and is still a useful reference point</li>
-</ul>
+<p>Due at end of the day on the due date, you can <a href="https://classroom.github.com/a/%5FocP1kS-">find the asssignment on Github</a>, and please be sure to check out your own copy (as per the instructions) by <strong>following the link as soon as it goes live</strong>, and cloning the resultant repository to your laptop.</p>
 
 
     
