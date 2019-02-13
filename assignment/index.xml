@@ -6,10 +6,21 @@
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Feb 2019 16:37:24 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Feb 2019 16:41:24 -0500</lastBuildDate>
     
 	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 02: Javascript Basics</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</link>
+      <pubDate>Wed, 13 Feb 2019 16:41:24 -0500</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</guid>
+      <description>Due Date: Feb 12
+This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
+Due at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following the link as soon as it goes live, and cloning the resultant repository to your laptop.</description>
+    </item>
     
     <item>
       <title>Assignment 03: DOM and Data</title>
