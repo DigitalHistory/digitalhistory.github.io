@@ -252,6 +252,15 @@ As with any powerful tool, it can take a little while to get comfortable with VS
     
     <item>
       <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/06-1-homework-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/06-1-homework-help/</guid>
+      <description>Homework Help Day .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Status Report  looked at and evaluated all Assignment 2&amp;rsquo;s assignment 3 is the crux of the course! can give limited help for next 24 hours or so     HTML Structures  for the rest of the course, coding is mostly creating HTML structures becaue HTML is tedious, lots of opportunity to introduce errors!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://digitalhistory.github.io/dh-website/slides/06-distant-reading-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
