@@ -7,18 +7,18 @@
 	"content": "  Syllabus  "
 },
 {
-	"uri": "https://digitalhistory.github.io/dh-website/assignment/02-js-basics/",
-	"title": "Assignment 02: Javascript Basics",
-	"tags": ["assignment"],
-	"description": "",
-	"content": " Due Date: Feb 12\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following the link as soon as it goes live, and cloning the resultant repository to your laptop.\nRubric Passes General Tests [ ] Passes Reflection Tests Comments:\n  "
-},
-{
 	"uri": "https://digitalhistory.github.io/dh-website/assignment/03-dom-data/",
 	"title": "Assignment 03: DOM and Data",
 	"tags": ["assignment"],
 	"description": "",
-	"content": "Due Date: March 01\nIn this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.\nDue at end of the day on the due date, you can find the asssignment on Github, and please be sure to check out your own copy (as per the instructions) by following the link as soon as it goes live, and cloning the resultant repository to your laptop.\n"
+	"content": " Due Date: March 01\nIn this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.\nDue at end of the day on the due date, you can find the asssignment on Github, and please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.\nRubric Passes General Tests [ ] Passes Reflection Tests Comments:\n  "
+},
+{
+	"uri": "https://digitalhistory.github.io/dh-website/assignment/02-js-basics/",
+	"title": "Assignment 02: Javascript Basics",
+	"tags": ["assignment"],
+	"description": "",
+	"content": " Due Date: Feb 12\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.\nRubric Passes General Tests [ ] Passes Reflection Tests Comments:\n  "
 },
 {
 	"uri": "https://digitalhistory.github.io/dh-website/assignment/01-html-css/",
@@ -235,7 +235,7 @@
 	"title": "Assignments",
 	"tags": [],
 	"description": "",
-	"content": "  Assignment 02: Javascript Basics Assignment 03: DOM and Data Assignment 01: Zero to Blog Post Assignment 00: Your Class Profile Participation  "
+	"content": "  Assignment 03: DOM and Data Assignment 02: Javascript Basics Assignment 01: Zero to Blog Post Assignment 00: Your Class Profile Participation  "
 },
 {
 	"uri": "https://digitalhistory.github.io/dh-website/categories/",
