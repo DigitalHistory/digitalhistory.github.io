@@ -274,7 +274,7 @@ As with any powerful tool, it can take a little while to get comfortable with VS
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/slides/07-01-why-spatial-history/</guid>
-      <description>07: Why Spatial history? .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Hermeneutics and understanding What does it mean to understand large numbers of texts, and what is the nature of expertise? searching vs browsing data as evidence, data as inspiration     Summary  Space &amp;amp; Place The Work Maps Do: lying; presenting; creating more JS Google Maps Exercise (maybe)     Spatial Turn  Space and &amp;ldquo;place&amp;rdquo; Space as historically constituted What is &amp;ldquo;the History of a place?</description>
+      <description>07: Why Spatial history? .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Assignment Notes  Assignment 3: good work!  note: div:nth-child() means &amp;ldquo;any div that is the nth-child())&amp;rdquo;, not &amp;ldquo;the nth child of any div&amp;rdquo;  Assignment 4: not up yet!</description>
     </item>
     
     <item>
