@@ -6,31 +6,43 @@
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2019 11:18:35 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 11:43:04 -0400</lastBuildDate>
     
 	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Assignment 04: Spatial History</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</link>
-      <pubDate>Fri, 15 Mar 2019 11:18:35 -0400</pubDate>
+      <title>Assignment 06: Project Proposal</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</link>
+      <pubDate>Fri, 15 Mar 2019 11:43:04 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</guid>
-      <description> Due Date: March 18
-Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online, and I have extended the due date to Monday, March 18.
-Rubric Passes General Tests Grade : Comments:  </description>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</guid>
+      <description>Due Date: April 02
+Remember that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you. (But you should already have done this for the last two assignments!)
+As before, please make sure you&amp;rsquo;ve pulled from the upstream repository before starting work on this assignment. See your own repo or the upstream Github Repo for details.</description>
     </item>
     
     <item>
       <title>Assignment 05: Oral History</title>
       <link>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</link>
-      <pubDate>Fri, 15 Mar 2019 11:14:49 -0400</pubDate>
+      <pubDate>Fri, 15 Mar 2019 11:42:57 -0400</pubDate>
       
       <guid>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</guid>
       <description>Due Date: March 30
 There is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.
 However, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):</description>
+    </item>
+    
+    <item>
+      <title>Assignment 04: Spatial History</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</link>
+      <pubDate>Fri, 15 Mar 2019 11:42:50 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</guid>
+      <description>Due Date: March 18
+Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online, and I have extended the due date to Monday, March 18.
+Rubric Passes General Tests  -
+-</description>
     </item>
     
     <item>
