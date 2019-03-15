@@ -6,10 +6,21 @@
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Mar 2019 15:15:24 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 10:46:07 -0400</lastBuildDate>
     
 	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 04: Spatial History</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</link>
+      <pubDate>Fri, 15 Mar 2019 10:46:07 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</guid>
+      <description> Due Date: March 18
+Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online, and I have extended th e due date to Monday, March 18.
+Rubric Passes General Tests Grade : Comments:  </description>
+    </item>
     
     <item>
       <title>Assignment 03: DOM and Data</title>
