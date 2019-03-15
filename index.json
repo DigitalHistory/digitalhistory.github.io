@@ -7,6 +7,13 @@
 	"content": "  Syllabus  "
 },
 {
+	"uri": "https://digitalhistory.github.io/dh-website/assignment/05-oral-history/",
+	"title": "Assignment 05: Oral History",
+	"tags": [],
+	"description": "",
+	"content": "Due Date: March 30\nThere is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.\nHowever, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):\ngit remote add upstream https://github.com/DigitalHistory/advanced-topics.git git pull upstream master  This may pop you into a new editor window to edit the commit message. If so, just save it as as is and close; commit should proceed from there. If you have issues, please post them to Slack.\nSome more advanced Git command tutorials coming your way soon.\n"
+},
+{
 	"uri": "https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/",
 	"title": "Assignment 04: Spatial History",
 	"tags": ["assignment"],
@@ -242,7 +249,7 @@
 	"title": "Assignments",
 	"tags": [],
 	"description": "",
-	"content": "  Assignment 04: Spatial History Assignment 03: DOM and Data Assignment 02: Javascript Basics Assignment 01: Zero to Blog Post Assignment 00: Your Class Profile Participation  "
+	"content": "  Assignment 05: Oral History Assignment 04: Spatial History Assignment 03: DOM and Data Assignment 02: Javascript Basics Assignment 01: Zero to Blog Post Assignment 00: Your Class Profile Participation  "
 },
 {
 	"uri": "https://digitalhistory.github.io/dh-website/categories/",

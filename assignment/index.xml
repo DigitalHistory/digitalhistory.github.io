@@ -6,10 +6,21 @@
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2019 10:46:07 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 11:14:49 -0400</lastBuildDate>
     
 	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 05: Oral History</title>
+      <link>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</link>
+      <pubDate>Fri, 15 Mar 2019 11:14:49 -0400</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</guid>
+      <description>Due Date: March 30
+There is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.
+However, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):</description>
+    </item>
     
     <item>
       <title>Assignment 04: Spatial History</title>
