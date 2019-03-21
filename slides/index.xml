@@ -139,6 +139,15 @@
     
     <item>
       <title></title>
+      <link>https://digitalhistory.github.io/dh-website/slides/10-02-popcorn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/10-02-popcorn/</guid>
+      <description>Popcorn/Oral History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Taking Stock  The End is Nigh!! Assignment 4: Planning return ~ Friday/Saturday Assignment 5: Required for everyone (!!)     Oral History Assignment  intellectual goal: think hard about nature of oral history, and how to use digital media effectively technical goal: think more about working with non-textual media, about HTML structures, and about APIs (monsters in the deep)     Before Going Further: Update Repos git push # super important, do this first!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://digitalhistory.github.io/dh-website/slides/10-oral-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
