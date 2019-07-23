@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on HIS393: Digital History</title>
-    <link>https://digitalhistory.github.io/assignment/</link>
+    <link>https://digitalhistory.github.io/dh-website/assignment/</link>
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 11:43:04 -0400</lastBuildDate>
     
-	<atom:link href="https://digitalhistory.github.io/assignment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://digitalhistory.github.io/dh-website/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Assignment 06: Project Proposal</title>
-      <link>https://digitalhistory.github.io/assignment/06-project-proposal/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</link>
       <pubDate>Fri, 15 Mar 2019 11:43:04 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/06-project-proposal/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</guid>
       <description>Due Date: April 02
 Remember that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you. (But you should already have done this for the last two assignments!)
 As before, please make sure you&amp;rsquo;ve pulled from the upstream repository before starting work on this assignment. See your own repo or the upstream Github Repo for details.</description>
@@ -24,10 +24,10 @@ As before, please make sure you&amp;rsquo;ve pulled from the upstream repository
     
     <item>
       <title>Assignment 05: Oral History</title>
-      <link>https://digitalhistory.github.io/assignment/05-oral-history/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</link>
       <pubDate>Fri, 15 Mar 2019 11:42:57 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/05-oral-history/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</guid>
       <description>Due Date: March 30
 There is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.
 However, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):</description>
@@ -35,10 +35,10 @@ However, you will need to update some of the files in your repository to newer v
     
     <item>
       <title>Assignment 04: Spatial History</title>
-      <link>https://digitalhistory.github.io/assignment/04-spatial-history/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</link>
       <pubDate>Fri, 15 Mar 2019 11:42:50 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/04-spatial-history/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</guid>
       <description>Due Date: March 18
 Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online, and I have extended the due date to Monday, March 18.
 Rubric Passes General Tests  -
@@ -47,10 +47,10 @@ Rubric Passes General Tests  -
     
     <item>
       <title>Assignment 03: DOM and Data</title>
-      <link>https://digitalhistory.github.io/assignment/03-dom-data/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/03-dom-data/</link>
       <pubDate>Tue, 05 Mar 2019 15:15:24 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/03-dom-data/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/03-dom-data/</guid>
       <description>Due Date: March 01
 In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.
 Due at end of the day on the due date, you can find the asssignment on Github, and please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.</description>
@@ -58,10 +58,10 @@ Due at end of the day on the due date, you can find the asssignment on Github, a
     
     <item>
       <title>Assignment 02: Javascript Basics</title>
-      <link>https://digitalhistory.github.io/assignment/02-js-basics/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</link>
       <pubDate>Tue, 05 Mar 2019 15:15:10 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/02-js-basics/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</guid>
       <description>Due Date: Feb 12
 This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
 Due at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.
@@ -70,30 +70,30 @@ Rubric Passes General Tests [ ] Passes Reflection Tests Comments:</description>
     
     <item>
       <title>Assignment 01: Zero to Blog Post</title>
-      <link>https://digitalhistory.github.io/assignment/01-html-css/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</link>
       <pubDate>Thu, 17 Jan 2019 09:52:12 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/01-html-css/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
       <description>Due Date: Jan. 31 (2 days later than original deadline)
 General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
     </item>
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
-      <link>https://digitalhistory.github.io/assignment/00-git/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/00-git/</link>
       <pubDate>Thu, 10 Jan 2019 13:37:38 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/00-git/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
       <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
 One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
     </item>
     
     <item>
       <title>Participation</title>
-      <link>https://digitalhistory.github.io/assignment/participation/</link>
+      <link>https://digitalhistory.github.io/dh-website/assignment/participation/</link>
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/assignment/participation/</guid>
+      <guid>https://digitalhistory.github.io/dh-website/assignment/participation/</guid>
       <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
 The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript, Spatial History, and Oral History assignments. Congratulations! You have qualified for a B. But what kind of a B?
    If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
