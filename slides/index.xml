@@ -173,5 +173,14 @@
       <description>12: Citizen History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     What we&amp;rsquo;ve learned   Text is Code  all our work is &amp;ldquo;digital&amp;rdquo; now   The 3 layers of the web  structure presentation dynamism   The &amp;ldquo;Public&amp;rdquo; and &amp;ldquo;the Public Sphere&amp;rdquo;  media constrain the possible the &amp;ldquo;public&amp;rdquo; is probably not unitary don&amp;rsquo;t have to be a genius to make a contribution   Invocations and Incantations  Using APIs to take advantage of other people&amp;rsquo;s work writing only what you have to   Open and Closed Systems  what &amp;ldquo;open source&amp;rdquo; means for us   Maps and Legends  organizing stories around space digital maps are spcial   Storytelling  the distinctive features of oral history problems of truth and objectivity collaboration and authorship     What you might do  History doesn&amp;rsquo;t have to stop at graduation  Changing Landscape of Profession and Expertise  how will &amp;ldquo;professionalism&amp;rdquo; stretch and change shape in the future?</description>
     </item>
     
+    <item>
+      <title>Introduction to Digital History</title>
+      <link>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
+      <description>Out of date  these lecture slides are from spring 2019 more coming soon adding trivial change  About Me   Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship  Why Care about History? Why care about the Digital Age? The World Out of Which We Come  The past is the world out of which we have come, the multitude of events and experiences that have shaped our conscious selves and the social worlds we inhabit.</description>
+    </item>
+    
   </channel>
 </rss>

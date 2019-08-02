@@ -1,366 +1,740 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<title>Introduction to Digital History</title>
-<meta name="author" content="(Matt Price)"/>
+<html>
+  <head>
+    <title>HIS393: Digital History</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2019-08-02T11:55:10 EDT">
+<title>Introduction to Digital History :: HIS393: Digital History</title>
+<link rel="shortcut icon" href="/dh-website/images/favicon.png" type="image/x-icon" />
+<link href="/dh-website/css/nucleus.css" rel="stylesheet">
+<link href="/dh-website/css/font-awesome.min.css" rel="stylesheet">
+<link href="/dh-website/css/hybrid.css" rel="stylesheet">
+<link href="/dh-website/css/featherlight.min.css" rel="stylesheet">
+<link href="/dh-website/css/auto-complete.css" rel="stylesheet">
+<link href="/dh-website/theme-original/style.css" rel="stylesheet">
+
+  <link href="/dh-website/theme-original/variant-green.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/dh-website/css/bootstrap.min.css">
+<script src="/dh-website/js/jquery-2.x.min.js"></script>
 <style type="text/css">
-.underline { text-decoration: underline; }
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
 </style>
-<link rel="stylesheet" href="../../vendor/reveal//css/reveal.css"/>
+<meta name="description" content="">
 
-<link rel="stylesheet" href="../../vendor/reveal//css/theme/matt.css" id="theme"/>
 
-<link rel="stylesheet" href=""/>
-<link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
+    
+  </head>
+  <body data-url="/dh-website/slides/01-intro-digital-history/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="showVisitedLinks">
 
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '../../vendor/reveal//css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-<section id="sec-title-slide"><h1 class="title">Introduction to Digital History</h1><h2 class="author">Matt Price</h2><p class="date">Created: 2019-01-08 Tue 12:46</p>
-</section>
-<section>
-<section id="slide-sec-about-me-618c">
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+    <p>HIS 393 Digital History</p>
+
+  
+
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="Search...">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="/dh-website/js/lunr.min.js"></script>
+		<script type="text/javascript" src="/dh-website/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/digitalhistory.github.io\/dh-website";
+        
+		</script>
+		<script type="text/javascript" src="/dh-website/js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+            <li data-nav-id="/dh-website/" class="dd-item">
+            <a href="/dh-website/"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+    <li data-nav-id="/dh-website/syllabus/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dh-website/syllabus/"><i class='fa fa-github'></i> Course Docs</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dh-website/syllabus/his393syllabus/" class="dd-item">
+        <div>
+          <a href="/dh-website/syllabus/his393syllabus/">
+            Syllabus
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dh-website/assignment/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dh-website/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dh-website/assignment/06-project-proposal/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/06-project-proposal/">
+            Assignment 06: Project Proposal
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/05-oral-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/05-oral-history/">
+            Assignment 05: Oral History
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/04-spatial-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/04-spatial-history/">
+            Assignment 04: Spatial History
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/03-dom-data/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/03-dom-data/">
+            Assignment 03: DOM and Data
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/02-js-basics/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/02-js-basics/">
+            Assignment 02: Javascript Basics
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/01-html-css/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/01-html-css/">
+            Assignment 01: Zero to Blog Post
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/00-git/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/00-git/">
+            Assignment 00: Your Class Profile
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/assignment/participation/" class="dd-item">
+        <div>
+          <a href="/dh-website/assignment/participation/">
+            Participation
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dh-website/tools/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/dh-website/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dh-website/tools/wrong-repo-fix/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/wrong-repo-fix/">
+            Cloned the wrong repo? Here&#39;s a fix.
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/assignment-git-tips/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/assignment-git-tips/">
+            Git Tips for Assignments
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/node-dependencies/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/node-dependencies/">
+            Installing Node Dependencies
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/js-resources-tools/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/js-resources-tools/">
+            Javascript: Resources and Tools
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/navigating-command-line/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/navigating-command-line/">
+            Navigating at the Command Line
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/setup/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/setup/">
+            Setup
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/tools/using-vscode/" class="dd-item">
+        <div>
+          <a href="/dh-website/tools/using-vscode/">
+            Using VSCode
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/dh-website/slides/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/dh-website/slides/"><i class='fa fa-github'></i> Lecture Slides</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/dh-website/slides/01-1-git-and-github/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/01-1-git-and-github/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/01-intro-digital-history/" class="dd-item active">
+        <div>
+          <a href="/dh-website/slides/01-intro-digital-history/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/02-what-the-web-signifies/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/02-what-the-web-signifies/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/03-1-abundance-and-opennness/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/03-1-abundance-and-opennness/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/03-2-css/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/03-2-css/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/03-abundance-and-opennness/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/03-abundance-and-opennness/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/04-01-css-layout/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/04-01-css-layout/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/04-distant-reading-1/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/04-distant-reading-1/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/05-01-js/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/05-01-js/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/05-distant-reading-2/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/05-distant-reading-2/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/05-js-dom/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/05-js-dom/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/06-1-homework-help/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/06-1-homework-help/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/06-distant-reading-3/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/06-distant-reading-3/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/07-01-why-spatial-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/07-01-why-spatial-history/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/10-02-popcorn/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/10-02-popcorn/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/10-oral-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/10-oral-history/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/11-oral-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/11-oral-history/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/12-citizen-history/" class="dd-item">
+        <div>
+          <a href="/dh-website/slides/12-citizen-history/">
+            
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/dh-website/slides/01-intro-digital-history/" class="dd-item active">
+        <div>
+          <a href="/dh-website/slides/01-intro-digital-history/">
+            Introduction to Digital History
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+        <section id="shortcuts">
+                <li class="" role=""><h3>More</h3><a href="https://github.com/titaniumbones/digital-history" target="_blank" rel="noopener"><i class='fa fa-github'></i> Github repo</a></li>
+                <li class="" role=""><a href="https://wdw.utoronto.ca/digital-humanities" target="_blank" rel="noopener"><i class='fa fa-camera'></i> Digital Humanities @ U of T</a></li>
+                <li class="" role=""><a href="http://history.utoronto.ca/" target="_blank" rel="noopener"><i class='fa fa-camera'></i> History Department</a></li>
+                <li class="" role=""><a href="https://gohugo.io/" target="_blank" rel="noopener"><i class='fa fa-bookmark'></i> Hugo Documentation</a></li>
+        </section>
+            <a id="clear-history" class="" href="#" data-clear-history-toggle=""><i class="fa  fa-history"></i> Clear History</a>
+
+    <hr />
+    <li></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    
+      
+      
+      
+    <div id="top-github-link">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/slides/01-intro-digital-history.md" target="blank">
+        <i class="fa fa-code-fork"></i>
+        Improve this page
+      </a>
+    </div><div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+ <a href='/dh-website/'></a> > <a href='/dh-website/slides/'>Lecture Slides</a> > Introduction to Digital History
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#out-of-date">Out of date</a></li>
+<li><a href="#about-me-618c">About Me</a></li>
+<li><a href="#why-care-about-history?-why-care-about-the-digital-age?-8917">Why Care about History? Why care about the Digital Age?</a>
+<ul>
+<li><a href="#the-world-out-of-which-we-come-eff1">The World Out of Which We Come</a></li>
+<li><a href="#not-just-fact-but-story-de42">Not just Fact but Story</a></li>
+<li><a href="#a-digital-age-5662">A Digital Age</a></li>
+<li><a href="#our-project-5f46">Our Project</a></li>
+</ul></li>
+<li><a href="#method-f5b6">Method</a></li>
+<li><a href="#syllabus-3974">Syllabus</a>
+<ul>
+<li><a href="#objectives-4b0a">Objectives</a></li>
+<li><a href="#assignments-d1fd">Assignments</a></li>
+<li><a href="#participation-ccd7">Participation</a></li>
+<li><a href="#first-assignment!-26f7">Assignments 0 and 1!</a></li>
+</ul></li>
+<li><a href="#intros-1-7ff4">Intros 1</a></li>
+<li><a href="#intros-2-479b">Intros 2</a></li>
+<li><a href="#announcement-d6f5">Announcement!</a></li>
+<li><a href="#git-4068">Git!</a></li>
+<li><a href="#github!-7877">Github!</a></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Introduction to Digital History</h1>
+  
+
+
+
+    
+    
+    
+    
+
+<h2 id="out-of-date">Out of date</h2>
+
+<ul>
+<li>these lecture slides are from spring 2019</li>
+<li>more coming soon</li>
+<li>adding trivial change</li>
+</ul>
+
 <h2 id="about-me-618c">About Me</h2>
 
-<figure>
-<img src="/ox-hugo/matt_headshot.jpg" alt="matt_headshot.jpg" class="half">
-
+<figure class="half">
+    <img src="/ox-hugo/matt_headshot.jpg"/> 
 </figure>
+
+
 <ul>
 <li>Historian of Science &amp; Technology</li>
 <li>Interdisciplinary Background</li>
 <li>Interest in &ldquo;Engaged&rdquo; scholarship</li>
-
 </ul>
 
-</section>
-</section>
-<section>
-<section id="slide-sec-why-care-about-history?-why-care-about-the-digital-age?-8917">
 <h2 id="why-care-about-history?-why-care-about-the-digital-age?-8917">Why Care about History? Why care about the Digital Age?</h2>
-</section>
-<section id="slide-sec-the-world-out-of-which-we-come-eff1">
+
 <h3 id="the-world-out-of-which-we-come-eff1">The World Out of Which We Come</h3>
-<blockquote nil>
-<p>
-The past is the world out of which we have come, the multitude of events and experiences that have shaped our conscious selves and the social worlds we inhabit. To understand how and why we live as we do, we cannot avoid appealing to the past to explain how andwhy we got to be this way. (Cronon 2000, p. 4)
-</p>
+
+<blockquote>
+<p>The past is the world out of which we have come, the multitude of events and experiences that have shaped our conscious selves and the social worlds we inhabit. To understand how and why we live as we do, we cannot avoid appealing to the past to explain how andwhy we got to be this way. (Cronon 2000, p. 4)</p>
 </blockquote>
-</section>
-<section id="slide-sec-not-just-fact-but-story-de42">
+
 <h3 id="not-just-fact-but-story-de42">Not just Fact but Story</h3>
-<blockquote nil>
-<p>
-It is remembering and storytelling we care about, not the raw past, because only by being perennially resurrected in the mind of each ne generation does the past become meaningful.  Only this does it become a living memory which in turn gives meaning to our present lives by reminding us ho we are&#x2013;as individuals, as a state and nation, as a people. (<i>Ibid.</i>, p. 13)
-</p>
+
+<blockquote>
+<p>It is remembering and storytelling we care about, not the raw past, because only by being perennially resurrected in the mind of each ne generation does the past become meaningful.  Only this does it become a living memory which in turn gives meaning to our present lives by reminding us ho we are&ndash;as individuals, as a state and nation, as a people. (<em>Ibid.</em>, p. 13)</p>
 </blockquote>
-</section>
-<section id="slide-sec-a-digital-age-5662">
+
 <h3 id="a-digital-age-5662">A Digital Age</h3>
-<p>
-Opportunity:
-</p>
+
+<p>Opportunity:</p>
+
 <ul>
 <li>masses of data</li>
 <li>tremendous participation</li>
-
 </ul>
-<p>
-Challenge
-</p>
+
+<p>Challenge</p>
+
 <ul>
 <li>filtering data</li>
 <li>trusting writers</li>
 <li>lack of collective experience</li>
-
 </ul>
-</section>
-<section id="slide-sec-our-project-5f46">
+
 <h3 id="our-project-5f46">Our Project</h3>
-<p>
-Understand how to write history for a digital age!
-</p>
+
+<p>Understand how to write history for a digital age!</p>
+
 <ul>
 <li>what can we preserve?</li>
 <li>what opportunities are there for change?</li>
 <li>what has been done already?</li>
-
 </ul>
-</section>
-</section>
-<section>
-<section id="slide-sec-method-f5b6">
+
 <h2 id="method-f5b6">Method</h2>
-<ul>
-<li class="fragment appear">Intro to toolbox</li>
-<li class="fragment appear">but tools keep changing</li>
-<li class="fragment appear">therefore: <b>simple</b> coding, <b>basic</b>, <b>standard</b> tools, as a foundation for later learning</li>
 
+<ul>
+<li>Intro to toolbox</li>
+<li>but tools keep changing</li>
+<li>therefore: <strong>simple</strong> coding, <strong>basic</strong> tools, as a foundation for later learning</li>
 </ul>
-</section>
-</section>
-<section>
-<section id="slide-sec-syllabus-3974">
+
 <h2 id="syllabus-3974">Syllabus</h2>
+
 <ul>
-<li>still largely uncharted territory (no canon, quite)</li>
+<li>still uncharted territory (no canon, quite)</li>
 <li>4 blocks
+
 <ul>
-<li>Text &amp; Code | Basic programming <i>literacy</i></li>
+<li>Text &amp; Code | Basic programming <em>literacy</em></li>
 <li>Data Driven History | &ldquo;Distant Reading&rdquo;</li>
 <li>Maps &amp; Visualization | Basic Web-based GIS</li>
 <li>Oral History &amp; Crowdsourcing | Multi-media History</li>
-
 </ul></li>
-
 </ul>
-</section>
-<section id="slide-sec-objectives-4b0a">
+
 <h3 id="objectives-4b0a">Objectives</h3>
-<p>
-At the end of this course, you should:
-</p>
+
+<p>At the end of this course, you should:</p>
+
 <ul>
 <li>be able to describe to others what the phrase &ldquo;digital humanities&rdquo; means to you.</li>
-<li>be able to frame a coherent and nuanced argument <i>of your own</i> about the value of DH methods to the field of history</li>
+<li>be able to frame a coherent and nuanced argument <em>of your own</em> about the value of DH methods to the field of history</li>
 <li>be able to clearly state and defend a position regarding &ldquo;engaged scholarship&rdquo;, and articulate the relationship of your argument to the contemporary media landscape</li>
 <li>have a basic understanding of markup languages and their use in DH</li>
 <li>be able to make compelling use of media materials such as audio, video, and animation in historical arguments</li>
 <li>understand how to create simple historical maps, and have an opinion about the value of GIS in historical argument</li>
-
 </ul>
 
-</section>
-<section id="slide-sec-assignments-d1fd">
 <h3 id="assignments-d1fd">Assignments</h3>
+
 <table>
-
-
-<colgroup>
-<col  class="org-left">
-
-<col  class="org-left">
-
-<col  class="org-left">
-
-<col  class="org-left">
-
-<col  class="org-left">
-
-<col  class="org-left">
-
-<col  class="org-left">
-</colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Assignment</th>
-<th scope="col" class="org-left">Due Date</th>
-<th scope="col" class="org-left">Skills/Aims</th>
-<th scope="col" class="org-left">A</th>
-<th scope="col" class="org-left">B</th>
-<th scope="col" class="org-left">C</th>
-<th scope="col" class="org-left">D</th>
+<th>Assignment</th>
+<th>Due Date</th>
+<th>Brief Description</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td class="org-left">Class Profile</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-01-17 Thu</span></span></td>
-<td class="org-left">version control and collaboration</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
+<td>Git &amp; Github</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-01-15 Mon</span></span></td>
+<td>version control and collaboration</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
 </tr>
 
 <tr>
-<td class="org-left">Zero to Blog Post</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-01-29 Tue</span></span></td>
-<td class="org-left">web markup and presentation</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
+<td>HTML &amp; CSS</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-01-26 Fri</span></span></td>
+<td>web markup and presentation</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
 </tr>
 
 <tr>
-<td class="org-left">A Table of Ministers</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-02-12 Tue</span></span></td>
-<td class="org-left">Abstraction, loops, DOM</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
+<td>Javascript for DH</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-02-02 Fri</span></span></td>
+<td>intro to programming</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
 </tr>
 
 <tr>
-<td class="org-left">Using Data Sources</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-03-01 Fri</span></span></td>
-<td class="org-left">Object structure, substitution, text as data</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#xa0;</td>
+<td>Data-Driven History</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-02-16 Fri</span></span></td>
+<td>CANCELLED</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
 </tr>
 
 <tr>
-<td class="org-left">Spatial History</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-03-15 Fri</span></span></td>
-<td class="org-left">API&rsquo;s, GIS</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td>Spatial History</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-03-02 Fri</span></span></td>
+<td>Simple GIS Web project</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td></td>
+<td></td>
 </tr>
 
 <tr>
-<td class="org-left">Oral History</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2018-03-30 Fri</span></span></td>
-<td class="org-left">API&rsquo;s, Multimedia Narratives</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#10004;</td>
+<td>Oral History</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-03-16 Fri</span></span></td>
+<td>Multimedia Web Project</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
+<td>&#10004;</td>
 </tr>
 
 <tr>
-<td class="org-left">Project Proposal</td>
-<td class="org-left"><span class="timestamp-wrapper"><span class="timestamp">2019-04-05 Fri</span></span></td>
-<td class="org-left">Imagine a Digital History Project</td>
-<td class="org-left">&#10004;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td>Project Proposal</td>
+<td><span class="timestamp-wrapper"><span class="timestamp">2018-03-23 Fri</span></span></td>
+<td>Imagine a Digital History Project</td>
+<td>&#10004;</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
-</section>
-<section id="slide-sec-">
-<h3 id="org5e91dd7">Participation</h3>
+<h3 id="participation-ccd7">Participation</h3>
+
 <ul>
 <li>come every time!</li>
 <li>pay attention and ask questions!</li>
-<li>no email/snapchat/reddit/facebook etc etc etc etc</li>
+<li>no email/youtube/reddit/facebook etc etc etc etc</li>
 <li>participate in Slack!</li>
-
 </ul>
 
-</section>
-<section id="slide-sec-first-assignment!-26f7">
-<h3 id="first-assignment!-26f7">Assignment 0 and 1!</h3>
-<p>
-The first two assignments will be coming <b>very soon</b>! Keep an eye out. 
-</p>
-</section>
-</section>
-<section>
-<section id="slide-sec-intros-1-7ff4">
+<h3 id="first-assignment!-26f7">Assignments 0 and 1!</h3>
+
+<p>You can find our first two assignments on the web <a href="https://github.com/DigitalHistory/assignment-00-git-and-github">here</a> and <a href="https://github.com/DigitalHistory/assignment-01-html-css">here</a>.  Assignment 0 is due in a week and a half!</p>
+
 <h2 id="intros-1-7ff4">Intros 1</h2>
-<ul>
-<li class="fragment appear">Find someone you don&rsquo;t know</li>
-<li class="fragment appear">in 3 minutes, find out: Name; Year; Interest in the class; something else of interest</li>
-<li class="fragment appear">Present yr classmate</li>
 
+<ul>
+<li>Find someone you don&rsquo;t know</li>
+<li>in 3 minutes, find out: Name; Year; Interest in the class; something else of interest</li>
+<li>Present yr classmate</li>
 </ul>
 
-</section>
-</section>
-<section>
-<section id="slide-sec-intros-2-479b">
 <h2 id="intros-2-479b">Intros 2</h2>
-<ul>
-<li class="fragment appear">find a <b>different</b> stranger</li>
-<li class="fragment appear">spend no more than 8 minutes <b>imagining</b> a DH project</li>
-<li class="fragment appear">present to another pair</li>
 
+<ul>
+<li>find a <strong>different</strong> stranger</li>
+<li>spend no more than 8 minutes <strong>imagining</strong> a DH project</li>
+<li>present to another pair</li>
 </ul>
 
-</section>
-</section>
-<section>
-<section id="slide-sec-">
-<h2 id="org9f3f168">Git!</h2>
+<h2 id="announcement-d6f5">Announcement!</h2>
+
+<p><strong>U of T Coders Software Carpentry Workshop!</strong></p>
+
+<p><a href="https://uoftcoders.github.io/studyGroup/#events">January 18-19, Gerstein Library!</a></p>
+
+<h2 id="git-4068">Git!</h2>
+
 <ul>
 <li>&ldquo;Track Changes&rdquo; on steroids</li>
 <li>&ldquo;version Control&rdquo; software optimized for collaboration</li>
-
 </ul>
-</section>
-</section>
-<section>
-<section id="slide-sec-github!-7877">
+
 <h2 id="github!-7877">Github!</h2>
-<p>
-Take out your Laptop!
-</p>
+
+<p>Take out your Laptop!</p>
+
 <ul>
 <li>Find yet another partner (work alone or help someone else if you&rsquo;re very confident)</li>
 <li><a href="https://github.com/titaniumbones/history-please">Navigate to the History-Please repository</a></li>
 <li>Follow the instructions on the course website:
+
 <ul>
 <li>make an account</li>
 <li>fork the repo</li>
 <li>add some Candian history</li>
 <li>submit your changes as pull request</li>
-
 </ul></li>
 <li>When you&rsquo;re done, we&rsquo;ll check out the wonders of open source first hand</li>
-
 </ul>
-</section>
-</section>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
 </div>
+
+<div id="navigation">
 </div>
-<script src="../../vendor/reveal//lib/js/head.min.js"></script>
-<script src="../../vendor/reveal//js/reveal.js"></script>
 
-<script>
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
 
+<script src="/dh-website/js/clipboard.min.js"></script>
+<script src="/dh-website/js/featherlight.min.js"></script>
+<script src="/dh-website/js/html5shiv-printshiv.min.js"></script>
 
-Reveal.initialize({
-
-controls: true,
-progress: true,
-history: true,
-center: false,
-slideNumber: 'c / t',
-rollingLinks: false,
-keyboard: true,
-overview: true,
-margin: 0.10,
-maxScale: 1.00,
-
-theme: Reveal.getQueryHash().theme, 
-transition: Reveal.getQueryHash().transition || 'default', 
-transitionSpeed: 'default',
-multiplex: {
-    secret: '', 
-    id: '', 
-    url: '' 
-},
+<script src="/dh-website/js/modernizr.custom.71422.js"></script>
+<script src="/dh-website/js/docdock.js"></script>
+<script src="/dh-website/theme-original/script.js"></script>
 
 
-dependencies: [
-{src: '../../vendor/reveal//plugin/klipse_reveal.js'},
- { src: '../../vendor/reveal//lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: '../../vendor/reveal//plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: '../../vendor/reveal//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: '../../vendor/reveal//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
- { src: '../../vendor/reveal//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: '../../vendor/reveal//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
-});
-</script>
-</body>
+    
+
+    
+    
+
+    
+  </body>
 </html>
