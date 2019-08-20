@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HIS393: Digital History</title>
-    <link>https://digitalhistory.github.io/dh-website/</link>
+    <link>http://digitalhistory.github.io/</link>
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 11:43:04 -0400</lastBuildDate>
     
-	<atom:link href="https://digitalhistory.github.io/dh-website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Assignment 06: Project Proposal</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</link>
+      <link>http://digitalhistory.github.io/assignment/06-project-proposal/</link>
       <pubDate>Fri, 15 Mar 2019 11:43:04 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/06-project-proposal/</guid>
+      <guid>http://digitalhistory.github.io/assignment/06-project-proposal/</guid>
       <description>Due Date: April 02
 Remember that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you. (But you should already have done this for the last two assignments!)
 As before, please make sure you&amp;rsquo;ve pulled from the upstream repository before starting work on this assignment. See your own repo or the upstream Github Repo for details.</description>
@@ -24,10 +24,10 @@ As before, please make sure you&amp;rsquo;ve pulled from the upstream repository
     
     <item>
       <title>Assignment 05: Oral History</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</link>
+      <link>http://digitalhistory.github.io/assignment/05-oral-history/</link>
       <pubDate>Fri, 15 Mar 2019 11:42:57 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/05-oral-history/</guid>
+      <guid>http://digitalhistory.github.io/assignment/05-oral-history/</guid>
       <description>Due Date: March 30
 There is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.
 However, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):</description>
@@ -35,10 +35,10 @@ However, you will need to update some of the files in your repository to newer v
     
     <item>
       <title>Assignment 04: Spatial History</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</link>
+      <link>http://digitalhistory.github.io/assignment/04-spatial-history/</link>
       <pubDate>Fri, 15 Mar 2019 11:42:50 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/04-spatial-history/</guid>
+      <guid>http://digitalhistory.github.io/assignment/04-spatial-history/</guid>
       <description>Due Date: March 18
 Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online, and I have extended the due date to Monday, March 18.
 Rubric Passes General Tests  -
@@ -47,10 +47,10 @@ Rubric Passes General Tests  -
     
     <item>
       <title>Assignment 03: DOM and Data</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/03-dom-data/</link>
+      <link>http://digitalhistory.github.io/assignment/03-dom-data/</link>
       <pubDate>Tue, 05 Mar 2019 15:15:24 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/03-dom-data/</guid>
+      <guid>http://digitalhistory.github.io/assignment/03-dom-data/</guid>
       <description>Due Date: March 01
 In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.
 Due at end of the day on the due date, you can find the asssignment on Github, and please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.</description>
@@ -58,10 +58,10 @@ Due at end of the day on the due date, you can find the asssignment on Github, a
     
     <item>
       <title>Assignment 02: Javascript Basics</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</link>
+      <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
       <pubDate>Tue, 05 Mar 2019 15:15:10 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/02-js-basics/</guid>
+      <guid>http://digitalhistory.github.io/assignment/02-js-basics/</guid>
       <description>Due Date: Feb 12
 This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
 Due at end of the day on the due date, you can find the asssignment on Github but please be sure to check out your own copy (as per the instructions) by following this link, and cloning the resultant repository to your laptop.
@@ -70,48 +70,48 @@ Rubric Passes General Tests [ ] Passes Reflection Tests Comments:</description>
     
     <item>
       <title>Assignment 01: Zero to Blog Post</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</link>
+      <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
       <pubDate>Thu, 17 Jan 2019 09:52:12 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/01-html-css/</guid>
+      <guid>http://digitalhistory.github.io/assignment/01-html-css/</guid>
       <description>Due Date: Jan. 31 (2 days later than original deadline)
 General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
     </item>
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/00-git/</link>
+      <link>http://digitalhistory.github.io/assignment/00-git/</link>
       <pubDate>Thu, 10 Jan 2019 13:37:38 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/00-git/</guid>
+      <guid>http://digitalhistory.github.io/assignment/00-git/</guid>
       <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
 One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
     </item>
     
     <item>
       <title>Syllabus</title>
-      <link>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</link>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/syllabus/his393syllabus/</guid>
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
       <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1070   Web: http://digital.hackinghistory.ca/   Slack: https://digitalhistoryuoft.slack.com/   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
     </item>
     
     <item>
       <title>header</title>
-      <link>https://digitalhistory.github.io/dh-website/_header/</link>
+      <link>http://digitalhistory.github.io/_header/</link>
       <pubDate>Thu, 14 Dec 2017 18:36:24 +0200</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/_header/</guid>
+      <guid>http://digitalhistory.github.io/_header/</guid>
       <description>HIS 393 Digital History</description>
     </item>
     
     <item>
       <title>Participation</title>
-      <link>https://digitalhistory.github.io/dh-website/assignment/participation/</link>
+      <link>http://digitalhistory.github.io/assignment/participation/</link>
       <pubDate>Wed, 04 Jan 2017 21:55:00 -0500</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/assignment/participation/</guid>
+      <guid>http://digitalhistory.github.io/assignment/participation/</guid>
       <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
 The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript, Spatial History, and Oral History assignments. Congratulations! You have qualified for a B. But what kind of a B?
    If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
@@ -119,29 +119,29 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete the Git &amp
     
     <item>
       <title>Cloned the wrong repo? Here&#39;s a fix.</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/wrong-repo-fix/</link>
+      <link>http://digitalhistory.github.io/tools/wrong-repo-fix/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/wrong-repo-fix/</guid>
+      <guid>http://digitalhistory.github.io/tools/wrong-repo-fix/</guid>
       <description>Due perhaps to some outdated language somewhere in my course materials (sorry!) some of you appear to have accidentally forked the template repo rather than following the magic link to set things up the &amp;ldquo;official&amp;rdquo; way. Uh oh! Don&amp;rsquo;t worry, this is easy to fix. But please do it soon so I can grade all the assignments togetherHere/s are instructions for Assignment 0. If you&amp;rsquo;ve stumbled into this problem later in the semester, you&amp;rsquo;ll need to adjust them as appropriate:</description>
     </item>
     
     <item>
       <title>Git Tips for Assignments</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/assignment-git-tips/</link>
+      <link>http://digitalhistory.github.io/tools/assignment-git-tips/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/assignment-git-tips/</guid>
+      <guid>http://digitalhistory.github.io/tools/assignment-git-tips/</guid>
       <description>Well the first assignment is done. Whew! There were some common git issues that came up, and I hope we can cut back on them by documenting them here.
 Learn how to navigate! The command line is very new to everyone, and I did a lousy job of explaining how to traverse the filesystem from the terminal. I have now posted some instructions that should help with this. Pro tip: in both Windows and Mac, you can open a terminal/git-bash window by right clicking on a location and clicking the &amp;ldquo;terminal here&amp;rdquo; or &amp;ldquo;bash window here&amp;rdquo; buttons (screenshots anyone?</description>
     </item>
     
     <item>
       <title>Installing Node Dependencies</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</link>
+      <link>http://digitalhistory.github.io/tools/node-dependencies/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/node-dependencies/</guid>
+      <guid>http://digitalhistory.github.io/tools/node-dependencies/</guid>
       <description>Or, &amp;ldquo;the nightmarish hellscape that is node.js installation&amp;rdquo;.
 Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
 In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
@@ -149,211 +149,211 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
     
     <item>
       <title>Javascript: Resources and Tools</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/js-resources-tools/</link>
+      <link>http://digitalhistory.github.io/tools/js-resources-tools/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/js-resources-tools/</guid>
+      <guid>http://digitalhistory.github.io/tools/js-resources-tools/</guid>
       <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. For this assignment, you will want to read much of First steps and Building Blocks. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).</description>
     </item>
     
     <item>
       <title>Navigating at the Command Line</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</link>
+      <link>http://digitalhistory.github.io/tools/navigating-command-line/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/navigating-command-line/</guid>
+      <guid>http://digitalhistory.github.io/tools/navigating-command-line/</guid>
       <description>The Programming Historian link below is excellent, and provides some great screenshots.
 One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &amp;ldquo;folders&amp;rdquo;) with meaningful names like Desktop, MyDocuments, etc.</description>
     </item>
     
     <item>
       <title>Setup</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/setup/</link>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/setup/</guid>
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
       <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
     </item>
     
     <item>
       <title>Using VSCode</title>
-      <link>https://digitalhistory.github.io/dh-website/tools/using-vscode/</link>
+      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/tools/using-vscode/</guid>
+      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
       <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
 As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</link>
+      <link>http://digitalhistory.github.io/slides/01-1-git-and-github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/01-1-git-and-github/</guid>
+      <guid>http://digitalhistory.github.io/slides/01-1-git-and-github/</guid>
       <description>Git and Github .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Git!    &amp;ldquo;Track Changes&amp;rdquo; on steroids &amp;ldquo;version Control&amp;rdquo; software optimized for collaboration   collaboration    concepts: remote    Concepts: Branch    git history is a tree, not a straight line nothing is every lost!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</link>
+      <link>http://digitalhistory.github.io/slides/01-intro-digital-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/01-intro-digital-history/</guid>
       <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    Introduction to Digital HistoryMatt PriceCreated: 2019-01-08 Tue 12:46
   About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</link>
+      <link>http://digitalhistory.github.io/slides/02-what-the-web-signifies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/02-what-the-web-signifies/</guid>
+      <guid>http://digitalhistory.github.io/slides/02-what-the-web-signifies/</guid>
       <description>What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Review  4 blocks Assignment 0 is online Assignment 1 is coming, preview is here. Intro to Git     Today  Concept of the &amp;ldquo;Public Sphere&amp;rdquo; Internet and Habermas&amp;rsquo;s conception Discussion   more Git Brief HTML explication HTML Exercise    Phrase &amp;ldquo;Technical Affordance&amp;rdquo;     Significance and Signification  What matters about the web?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/03-1-abundance-and-opennness/</link>
+      <link>http://digitalhistory.github.io/slides/03-1-abundance-and-opennness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/03-1-abundance-and-opennness/</guid>
+      <guid>http://digitalhistory.github.io/slides/03-1-abundance-and-opennness/</guid>
       <description>Abundance and Openness .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     War is Peace. Freedom is Slavery. Ignorance is Strength.    Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text   Plan for the day  Lecture Discussion: how do you respond to information abundance?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/03-2-css/</link>
+      <link>http://digitalhistory.github.io/slides/03-2-css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/03-2-css/</guid>
+      <guid>http://digitalhistory.github.io/slides/03-2-css/</guid>
       <description>And Now: CSS! .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Reminder  HTML for structure/content; CSS for presentation Resources: Codeacademy CSS offerings; Learn Layout; Mozilla Developer Network; many other cool sites   Exercise for today: https://github.com/DigitalHistory/css-styling/    What you Need to Learn Today  syntax: selectors, rules, punctuation; jargon: colors, sizes where to look stuff up (!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</link>
+      <link>http://digitalhistory.github.io/slides/03-abundance-and-opennness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/03-abundance-and-opennness/</guid>
+      <guid>http://digitalhistory.github.io/slides/03-abundance-and-opennness/</guid>
       <description>Abundance and Openness .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     War is Peace. Freedom is Slavery. Ignorance is Strength.    Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text   Plan for the day  Brief lecture Discussion: how do you respond to information abundance?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/04-01-css-layout/</link>
+      <link>http://digitalhistory.github.io/slides/04-01-css-layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/04-01-css-layout/</guid>
+      <guid>http://digitalhistory.github.io/slides/04-01-css-layout/</guid>
       <description>CSS Part 2: Layout .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  selector syntax: selector &amp;gt; string {property: value;} colors: #RRGGBB or rgba(RRR, BBB, GGG, 0.alpha) sizes: px or em (or rem)     Today  intro to layout follow along with the repo: https://github.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</link>
+      <link>http://digitalhistory.github.io/slides/04-distant-reading-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/04-distant-reading-1/</guid>
+      <guid>http://digitalhistory.github.io/slides/04-distant-reading-1/</guid>
       <description>Distant Reading I .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Reminder  &amp;ldquo;Abundance&amp;rdquo; offers many challenges  preservation interpretation access  Does history itself need to be reformed?  What relation to sources? What kinds of arguments? What narrative forms?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/05-01-js/</link>
+      <link>http://digitalhistory.github.io/slides/05-01-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/05-01-js/</guid>
+      <guid>http://digitalhistory.github.io/slides/05-01-js/</guid>
       <description>Getting Started With Javascript .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     JavaScript  a real language! dynamic transformation baby steps!!     Some Big Ideas  Abstraction Formalization Repetition Laziness!     Assignment 1 will require  Basic Syntax Variable Types Function Definitions Loops and Branches Basic &amp;ldquo;Objects&amp;rdquo;     Running Javascript  in Browser Console in terminal (with the command node) in VSCode files, with Quokka attached     What is a Variable?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</link>
+      <link>http://digitalhistory.github.io/slides/05-distant-reading-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/05-distant-reading-2/</guid>
+      <guid>http://digitalhistory.github.io/slides/05-distant-reading-2/</guid>
       <description>Distant Reading II .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Openness in Historical Perspective &amp;ldquo;Abstract Models&amp;rdquo; in Moretti  distance from text patterns across genres, time, space  intro to JS     Graphs   condense data conceptualize mathematically convince readers a fundamentally rhetorical tool   Moretti&amp;rsquo;s Graphs    Quantitative research provides a type of data which is ideally independent of interpretations.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/05-js-dom/</link>
+      <link>http://digitalhistory.github.io/slides/05-js-dom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/05-js-dom/</guid>
+      <guid>http://digitalhistory.github.io/slides/05-js-dom/</guid>
       <description>Week 5: JavaScript and the DOM .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Working with the DOM  Document Object  everything in the document can be manipulated via the DOM     Inspecting the DOM      Finding Elements  &amp;ldquo;Vanilla&amp;rdquo; JavaScript (described in MDN)  document.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/06-1-homework-help/</link>
+      <link>http://digitalhistory.github.io/slides/06-1-homework-help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/06-1-homework-help/</guid>
+      <guid>http://digitalhistory.github.io/slides/06-1-homework-help/</guid>
       <description>Homework Help Day .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Status Report  looked at and evaluated all Assignment 2&amp;rsquo;s assignment 3 is the crux of the course! can give limited help for next 24 hours or so     HTML Structures  for the rest of the course, coding is mostly creating HTML structures becaue HTML is tedious, lots of opportunity to introduce errors!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/06-distant-reading-3/</link>
+      <link>http://digitalhistory.github.io/slides/06-distant-reading-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/06-distant-reading-3/</guid>
+      <guid>http://digitalhistory.github.io/slides/06-distant-reading-3/</guid>
       <description>Distant Reading III .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     JS Questions  where do I run Javascript? how do I define a function? what are return values? DOM manipulation   Running JS  Atom &amp;#x2013; js-console (under packages menu) Firefox: Scratchpad + console Chrome: console alone any of my lectures!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/07-01-why-spatial-history/</link>
+      <link>http://digitalhistory.github.io/slides/07-01-why-spatial-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/07-01-why-spatial-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/07-01-why-spatial-history/</guid>
       <description>07: Why Spatial history? .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Assignment Notes  Assignment 3: good work!  note: div:nth-child() means &amp;ldquo;any div that is the nth-child())&amp;rdquo;, not &amp;ldquo;the nth child of any div&amp;rdquo;  Assignment 4: not up yet!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/10-02-popcorn/</link>
+      <link>http://digitalhistory.github.io/slides/10-02-popcorn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/10-02-popcorn/</guid>
+      <guid>http://digitalhistory.github.io/slides/10-02-popcorn/</guid>
       <description>Popcorn/Oral History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Taking Stock  The End is Nigh!! Assignment 4: Planning return ~ Friday/Saturday Assignment 5: Required for everyone (!!)     Oral History Assignment  intellectual goal: think hard about nature of oral history, and how to use digital media effectively technical goal: think more about working with non-textual media, about HTML structures, and about APIs (monsters in the deep)     Before Going Further: Update Repos git push # super important, do this first!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/10-oral-history/</link>
+      <link>http://digitalhistory.github.io/slides/10-oral-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/10-oral-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/10-oral-history/</guid>
       <description>10: Visualization/Engaged History/Oral History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Recap  Spatial History  new tools form GIS new questions from cultural geography maps &amp;amp; visualizations are rhetorical and need interpretation      Today  a bit more on visualization (catchup really) Excursus on &amp;ldquo;Objectivity&amp;rdquo; What&amp;rsquo;s Special about Oral History?</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</link>
+      <link>http://digitalhistory.github.io/slides/11-oral-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/11-oral-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/11-oral-history/</guid>
       <description>11: Oral History &amp;amp; Remix Culture .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;/vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     Copy Spreadsheet  go to my sheet: https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/edit#gid=0 File &amp;#x2013;&amp;gt; Make a copy Under File &amp;#x2013;&amp;gt; Publish to the web, make sure yr sheet is published the &amp;ldquo;key&amp;rdquo; is btwn /d/ and /edit     Spreadsheet URL var public_spreadsheet_key = &amp;#39;https://docs.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://digitalhistory.github.io/dh-website/slides/12-citizen-history/</link>
+      <link>http://digitalhistory.github.io/slides/12-citizen-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/12-citizen-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/12-citizen-history/</guid>
       <description>12: Citizen History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }     What we&amp;rsquo;ve learned   Text is Code  all our work is &amp;ldquo;digital&amp;rdquo; now   The 3 layers of the web  structure presentation dynamism   The &amp;ldquo;Public&amp;rdquo; and &amp;ldquo;the Public Sphere&amp;rdquo;  media constrain the possible the &amp;ldquo;public&amp;rdquo; is probably not unitary don&amp;rsquo;t have to be a genius to make a contribution   Invocations and Incantations  Using APIs to take advantage of other people&amp;rsquo;s work writing only what you have to   Open and Closed Systems  what &amp;ldquo;open source&amp;rdquo; means for us   Maps and Legends  organizing stories around space digital maps are spcial   Storytelling  the distinctive features of oral history problems of truth and objectivity collaboration and authorship     What you might do  History doesn&amp;rsquo;t have to stop at graduation  Changing Landscape of Profession and Expertise  how will &amp;ldquo;professionalism&amp;rdquo; stretch and change shape in the future?</description>
     </item>
     
     <item>
       <title>Introduction to Digital History</title>
-      <link>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</link>
+      <link>http://digitalhistory.github.io/slides/01-intro-digital-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://digitalhistory.github.io/dh-website/slides/01-intro-digital-history/</guid>
+      <guid>http://digitalhistory.github.io/slides/01-intro-digital-history/</guid>
       <description>Out of date  these lecture slides are from spring 2019 more coming soon adding trivial change  About Me   Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship  Why Care about History? Why care about the Digital Age? The World Out of Which We Come  The past is the world out of which we have come, the multitude of events and experiences that have shaped our conscious selves and the social worlds we inhabit.</description>
     </item>
     
