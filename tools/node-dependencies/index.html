@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-08-20T14:05:52 EDT">
+<meta name="revised" content="2019-08-20T15:18:41 EDT">
 <title>Installing Node Dependencies :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -82,6 +82,64 @@
     </li>
         </ul>
     </li>
+    <li data-nav-id="/tools/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/tools/setup/" class="dd-item">
+        <div>
+          <a href="/tools/setup/">
+            Setup
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/node-dependencies/" class="dd-item active">
+        <div>
+          <a href="/tools/node-dependencies/">
+            Installing Node Dependencies
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/wrong-repo-fix/" class="dd-item">
+        <div>
+          <a href="/tools/wrong-repo-fix/">
+            Cloned the wrong repo? Here&#39;s a fix.
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/assignment-git-tips/" class="dd-item">
+        <div>
+          <a href="/tools/assignment-git-tips/">
+            Git Tips for Assignments
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/js-resources-tools/" class="dd-item">
+        <div>
+          <a href="/tools/js-resources-tools/">
+            Javascript: Resources and Tools
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/navigating-command-line/" class="dd-item">
+        <div>
+          <a href="/tools/navigating-command-line/">
+            Navigating at the Command Line
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/tools/using-vscode/" class="dd-item">
+        <div>
+          <a href="/tools/using-vscode/">
+            Using VSCode
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
     <li data-nav-id="/assignment/" class="dd-item haschildren
         ">
       <div>
@@ -141,64 +199,6 @@
         <div>
           <a href="/assignment/participation/">
             Participation
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-        </ul>
-    </li>
-    <li data-nav-id="/tools/" class="dd-item parent haschildren
-        ">
-      <div>
-      <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-      </div>
-        <ul>
-      <li data-nav-id="/tools/wrong-repo-fix/" class="dd-item">
-        <div>
-          <a href="/tools/wrong-repo-fix/">
-            Cloned the wrong repo? Here&#39;s a fix.
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/assignment-git-tips/" class="dd-item">
-        <div>
-          <a href="/tools/assignment-git-tips/">
-            Git Tips for Assignments
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/node-dependencies/" class="dd-item active">
-        <div>
-          <a href="/tools/node-dependencies/">
-            Installing Node Dependencies
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/js-resources-tools/" class="dd-item">
-        <div>
-          <a href="/tools/js-resources-tools/">
-            Javascript: Resources and Tools
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/navigating-command-line/" class="dd-item">
-        <div>
-          <a href="/tools/navigating-command-line/">
-            Navigating at the Command Line
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/setup/" class="dd-item">
-        <div>
-          <a href="/tools/setup/">
-            Setup
-          </a><i class="fa fa-circle-thin read-icon"></i>
-        </div>
-    </li>
-      <li data-nav-id="/tools/using-vscode/" class="dd-item">
-        <div>
-          <a href="/tools/using-vscode/">
-            Using VSCode
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
@@ -445,8 +445,8 @@
 <p>In our assignments, node dependencies are mostly used to enable the <strong>tests</strong>, whose main function is to help you figure out whether you&rsquo;ve done the assignments correctly.  Installing node dependencies is pretty simple, but can be confusing if you&rsquo;re completely new to node, the command line, and programming in general.  Here are the (very simple!) instructions:</p>
 
 <ol>
-<li>Install Node and NPM as per <a href="https://digital.hackinghistory.ca/tools/setup/#node-and-npm">this section of the &ldquo;Setup&rdquo; instructions</a></li>
-<li>From the command line, navigate to the root directory of your repository using <code>cd</code> as per <a href="https://digital.hackinghistory.ca/tools/navigating-command-line/">the navigation help page</a></li>
+<li>Install Node and NPM as per <a href="https://digitalhistory.github.io/tools/setup/#node-and-npm">this section of the &ldquo;Setup&rdquo; instructions</a></li>
+<li>From the command line, navigate to the root directory of your repository using <code>cd</code> as per <a href="https://digitalhistory.github.io/tools/navigating-command-line/">the navigation help page</a></li>
 <li>From the root directory of your repository,type the following command into the terminal/git-bash prompt: <code>npm install</code></li>
 </ol>
 

@@ -6,10 +6,30 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2015 13:48:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2019 14:53:37 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setup</title>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
+      <pubDate>Tue, 20 Aug 2019 14:53:37 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
+      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
+    </item>
+    
+    <item>
+      <title>Installing Node Dependencies</title>
+      <link>http://digitalhistory.github.io/tools/node-dependencies/</link>
+      <pubDate>Tue, 20 Aug 2019 14:53:20 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/node-dependencies/</guid>
+      <description>Or, &amp;ldquo;the nightmarish hellscape that is node.js installation&amp;rdquo;.
+Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
+In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
+    </item>
     
     <item>
       <title>Cloned the wrong repo? Here&#39;s a fix.</title>
@@ -31,17 +51,6 @@ Learn how to navigate! The command line is very new to everyone, and I did a lou
     </item>
     
     <item>
-      <title>Installing Node Dependencies</title>
-      <link>http://digitalhistory.github.io/tools/node-dependencies/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/node-dependencies/</guid>
-      <description>Or, &amp;ldquo;the nightmarish hellscape that is node.js installation&amp;rdquo;.
-Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
-In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
-    </item>
-    
-    <item>
       <title>Javascript: Resources and Tools</title>
       <link>http://digitalhistory.github.io/tools/js-resources-tools/</link>
       <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
@@ -58,15 +67,6 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       <guid>http://digitalhistory.github.io/tools/navigating-command-line/</guid>
       <description>The Programming Historian link below is excellent, and provides some great screenshots.
 One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &amp;ldquo;folders&amp;rdquo;) with meaningful names like Desktop, MyDocuments, etc.</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>http://digitalhistory.github.io/tools/setup/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/setup/</guid>
-      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
     </item>
     
     <item>
