@@ -4,85 +4,12 @@
   
   <url>
     <loc>http://digitalhistory.github.io/syllabus/</loc>
-    <lastmod>2018-01-08T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://digitalhistory.github.io/</loc>
-    <lastmod>2019-08-20T14:53:37-04:00</lastmod>
+    <lastmod>2019-01-10T13:48:41-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/setup/</loc>
-    <lastmod>2019-08-20T14:53:37-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/</loc>
-    <lastmod>2019-08-20T14:53:37-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/node-dependencies/</loc>
-    <lastmod>2019-08-20T14:53:20-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/06-project-proposal/</loc>
-    <lastmod>2019-03-15T11:43:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2019-03-15T11:43:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/05-oral-history/</loc>
-    <lastmod>2019-03-15T11:42:57-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/04-spatial-history/</loc>
-    <lastmod>2019-03-15T11:42:50-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
-    <lastmod>2019-03-15T11:42:50-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
-    <lastmod>2019-03-15T11:42:50-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/03-dom-data/</loc>
-    <lastmod>2019-03-05T15:15:24-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/02-js-basics/</loc>
-    <lastmod>2019-03-05T15:15:10-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/01-html-css/</loc>
-    <lastmod>2019-01-17T09:52:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/00-git/</loc>
-    <lastmod>2019-01-10T13:37:38-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/syllabus/his393syllabus/</loc>
-    <lastmod>2018-01-08T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -91,28 +18,8 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/assignment/participation/</loc>
-    <lastmod>2018-01-04T13:46:26-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/wrong-repo-fix/</loc>
-    <lastmod>2019-01-18T18:14:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/assignment-git-tips/</loc>
-    <lastmod>2019-01-10T13:48:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/js-resources-tools/</loc>
-    <lastmod>2019-01-30T14:37:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/navigating-command-line/</loc>
-    <lastmod>2019-01-10T13:48:35-05:00</lastmod>
+    <loc>http://digitalhistory.github.io/tools/</loc>
+    <lastmod>2019-01-10T13:48:41-05:00</lastmod>
   </url>
   
   <url>
@@ -121,106 +28,23 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/slides/01-1-git-and-github/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/01-intro-digital-history/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/02-what-the-web-signifies/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/03-1-abundance-and-opennness/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/03-2-css/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/03-abundance-and-opennness/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/04-01-css-layout/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/04-distant-reading-1/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/05-01-js/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/05-distant-reading-2/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/05-js-dom/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/06-1-homework-help/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/06-distant-reading-3/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/07-01-why-spatial-history/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/10-02-popcorn/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/10-oral-history/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/11-oral-history/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/12-citizen-history/</loc>
-    <priority>0</priority>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
   </url>
   
   <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/01-intro-digital-history/</loc>
   </url>
   
   <url>
     <loc>http://digitalhistory.github.io/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/syllabus/his393syllabus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
   </url>
   
 </urlset>

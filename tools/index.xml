@@ -6,68 +6,10 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2019 14:53:37 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2015 13:48:00 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Setup</title>
-      <link>http://digitalhistory.github.io/tools/setup/</link>
-      <pubDate>Tue, 20 Aug 2019 14:53:37 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/setup/</guid>
-      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
-    </item>
-    
-    <item>
-      <title>Installing Node Dependencies</title>
-      <link>http://digitalhistory.github.io/tools/node-dependencies/</link>
-      <pubDate>Tue, 20 Aug 2019 14:53:20 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/node-dependencies/</guid>
-      <description>Or, &amp;ldquo;the nightmarish hellscape that is node.js installation&amp;rdquo;.
-Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;ndash; or in my case, as a teacher &amp;ndash; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
-In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
-    </item>
-    
-    <item>
-      <title>Cloned the wrong repo? Here&#39;s a fix.</title>
-      <link>http://digitalhistory.github.io/tools/wrong-repo-fix/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/wrong-repo-fix/</guid>
-      <description>Due perhaps to some outdated language somewhere in my course materials (sorry!) some of you appear to have accidentally forked the template repo rather than following the magic link to set things up the &amp;ldquo;official&amp;rdquo; way. Uh oh! Don&amp;rsquo;t worry, this is easy to fix. But please do it soon so I can grade all the assignments togetherHere/s are instructions for Assignment 0. If you&amp;rsquo;ve stumbled into this problem later in the semester, you&amp;rsquo;ll need to adjust them as appropriate:</description>
-    </item>
-    
-    <item>
-      <title>Git Tips for Assignments</title>
-      <link>http://digitalhistory.github.io/tools/assignment-git-tips/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/assignment-git-tips/</guid>
-      <description>Well the first assignment is done. Whew! There were some common git issues that came up, and I hope we can cut back on them by documenting them here.
-Learn how to navigate! The command line is very new to everyone, and I did a lousy job of explaining how to traverse the filesystem from the terminal. I have now posted some instructions that should help with this. Pro tip: in both Windows and Mac, you can open a terminal/git-bash window by right clicking on a location and clicking the &amp;ldquo;terminal here&amp;rdquo; or &amp;ldquo;bash window here&amp;rdquo; buttons (screenshots anyone?</description>
-    </item>
-    
-    <item>
-      <title>Javascript: Resources and Tools</title>
-      <link>http://digitalhistory.github.io/tools/js-resources-tools/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/js-resources-tools/</guid>
-      <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. For this assignment, you will want to read much of First steps and Building Blocks. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).</description>
-    </item>
-    
-    <item>
-      <title>Navigating at the Command Line</title>
-      <link>http://digitalhistory.github.io/tools/navigating-command-line/</link>
-      <pubDate>Tue, 21 Jul 2015 13:48:00 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/navigating-command-line/</guid>
-      <description>The Programming Historian link below is excellent, and provides some great screenshots.
-One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;ndash; the graphical interface of windows. Often the user-accessible files are more or less restyricted to special directories (or &amp;ldquo;folders&amp;rdquo;) with meaningful names like Desktop, MyDocuments, etc.</description>
-    </item>
     
     <item>
       <title>Using VSCode</title>
