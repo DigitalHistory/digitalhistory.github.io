@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/01-intro-digital-history/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/assignment/</loc>
   </url>
   
