@@ -6,10 +6,19 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2015 13:48:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 10:54:29 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setup</title>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
+      <pubDate>Thu, 05 Sep 2019 10:54:29 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
+      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
+    </item>
     
     <item>
       <title>Using VSCode</title>
