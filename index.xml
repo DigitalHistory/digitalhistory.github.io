@@ -6,32 +6,10 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2019 18:48:24 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 10:54:29 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Assignments</title>
-      <link>http://digitalhistory.github.io/assignment/simpletest/</link>
-      <pubDate>Sat, 07 Sep 2019 18:48:24 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/simpletest/</guid>
-      <description>simple test content para
- list item 1 list item 2</description>
-    </item>
-    
-    <item>
-      <title>Participation</title>
-      <link>http://digitalhistory.github.io/assignment/participation/</link>
-      <pubDate>Sat, 07 Sep 2019 17:27:05 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/participation/</guid>
-      <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
-
-The System It&amp;rsquo;s simple. Suppose you successfully complete all the main assignments, but decide not to write a Project Proposal. Congratulations! You have qualified for a B. But what kind of a B?
-   If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
-    </item>
     
     <item>
       <title>Setup</title>
@@ -59,6 +37,15 @@ The System It&amp;rsquo;s simple. Suppose you successfully complete all the main
       <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
       <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
 As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/01-02-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-02-git/</guid>
+      <description>01-02: Git and Github .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
     </item>
     
     <item>
