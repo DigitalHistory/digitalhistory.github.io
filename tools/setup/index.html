@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-09-10T11:32:46 EDT">
+<meta name="revised" content="2019-09-10T13:01:11 EDT">
 <title>Setup :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -76,7 +76,7 @@
                     <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-circle-thin read-icon"></i>
                 </div>
             </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b639e0)}")</script>
+            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b6b470)}")</script>
             <li data-nav-id="/syllabus/" class="dd-item haschildren
                              ">
                 <div>
@@ -92,7 +92,7 @@
                 </li>
                     </ul>
             </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b63710), (*hugolib.pageState)(0xc000b63800)}")</script>
+            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b7f620), (*hugolib.pageState)(0xc000b7f710)}")</script>
             <li data-nav-id="/slides/" class="dd-item haschildren
                              ">
                 <div>
@@ -115,7 +115,23 @@
                 </li>
                     </ul>
             </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b63cb0), (*hugolib.pageState)(0xc000b63bc0)}")</script>
+            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b7f530)}")</script>
+            <li data-nav-id="/posts/" class="dd-item haschildren
+                             ">
+                <div>
+                    <a href="/posts/">Posts</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                </div>
+                    <ul>
+                <li data-nav-id="/posts/00-git/" class="dd-item">
+                    <div>
+                        <a href="/posts/00-git/">
+                            Assignment 00: Your Class Profile
+                        </a><i class="fa fa-circle-thin read-icon"></i>
+                    </div>
+                </li>
+                    </ul>
+            </li>
+            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b7f260), (*hugolib.pageState)(0xc000b7f350), (*hugolib.pageState)(0xc000b7f7a0), (*hugolib.pageState)(0xc000b7f170)}")</script>
             <li data-nav-id="/tools/" class="dd-item parent haschildren
                              ">
                 <div>
@@ -123,6 +139,20 @@
                             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
+                <li data-nav-id="/tools/node-dependencies/" class="dd-item">
+                    <div>
+                        <a href="/tools/node-dependencies/">
+                            Installing Node Dependencies
+                        </a><i class="fa fa-circle-thin read-icon"></i>
+                    </div>
+                </li>
+                <li data-nav-id="/tools/navigating-command-line/" class="dd-item">
+                    <div>
+                        <a href="/tools/navigating-command-line/">
+                            Navigating at the Command Line
+                        </a><i class="fa fa-circle-thin read-icon"></i>
+                    </div>
+                </li>
                 <li data-nav-id="/tools/setup/" class="dd-item active">
                     <div>
                         <a href="/tools/setup/">
@@ -214,7 +244,7 @@
 <li><a href="#web-browser">Web browser</a></li>
 <li><a href="#text-editor">Text Editor</a></li>
 <li><a href="#command-line">Command Line</a></li>
-<li><a href="#git-github-and-gitkraken">Git, Github, and GitKraken</a>
+<li><a href="#git-github-and-optionaly-gitkraken">Git, Github, and optionaly GitKraken</a>
 <ul>
 <li><a href="#install-git">Install Git</a></li>
 <li><a href="#sign-up-for-github">Sign up for Github</a></li>
@@ -223,7 +253,7 @@
 <li><a href="#using-the-gitkraken-gui-client">Using the GitKraken GUI client</a></li>
 <li><a href="#learn-more">Learn more</a></li>
 </ul></li>
-<li><a href="#node-and-npm-this-is-the-hardest-part">Node and NPM &ndash; This is the hardest part!</a></li>
+<li><a href="#node-and-npm-and-x2013-this-is-the-hardest-part">Node and NPM &#x2013; This is the hardest part!</a></li>
 <li><a href="#slack">Slack</a></li>
 </ul></li>
 </ul>
@@ -340,7 +370,7 @@
 
 <h2 id="text-editor">Text Editor</h2>
 
-<p>If you want to code, you have to write like a coder. This means using a powerful text editor. In this class we use <a href="https://code.visualstudio.com/">Visual Studio Code</a>. Please follow the download links and install to your computer. There&rsquo;s a separate post about using VSCode &ndash; once you&rsquo;ve installed it, navigate there!</p>
+<p>If you want to code, you have to write like a coder. This means using a powerful text editor. In this class we use <a href="https://code.visualstudio.com/">Visual Studio Code</a>. Please follow the download links and install to your computer. There&rsquo;s a <a href="../using-vscode">separate post about using VSCode</a> &#x2013; once you&rsquo;ve installed it, navigate there!</p>
 
 <h2 id="command-line">Command Line</h2>
 
@@ -350,11 +380,11 @@
 
 <p>On Mac and Linux, bash is built in to the system.  In Mac, open the <code>Terminal</code> app to find the bash prompt; in Linux you may have any of several terminal emulators installed, search your program list for &ldquo;term&rdquo; to find yours.</p>
 
-<p>In Windows, bash comes with the Git installation &ndash; follow the instructions below. Note that very recent editions of Windows 10 come with the &ldquo;Windows Subsystem for Linux (WSL)&rdquo;, which you can use instead of the Git Bash method.</p>
+<p>In Windows, bash comes with the Git installation &#x2013; follow the instructions below. Note that very recent editions of Windows 10 come with the &ldquo;Windows Subsystem for Linux (WSL)&rdquo;, which you can use instead of the Git Bash method.</p>
 
 <p><strong>IMPORTANT UPDATE</strong>: VSCode has an <a href="https://code.visualstudio.com/docs/editor/integrated-terminal">integrated terminal</a>, and it&rsquo;s extremely useful. Windows users will have to do a little bit of work in order to use bash in the integrated terminal. See the excellent <a href="https://code.visualstudio.com/docs/editor/integrated-terminal#%5Fconfiguration">terminal configuration instructions online</a>, and be sure to follow the link explaining <a href="https://code.visualstudio.com/docs/getstarted/settings#%5Fcreating-user-and-workspace-settings">how to access the user settings screen in VSCode</a>.</p>
 
-<h2 id="git-github-and-gitkraken">Git, Github, and GitKraken</h2>
+<h2 id="git-github-and-optionaly-gitkraken">Git, Github, and optionaly GitKraken</h2>
 
 <p>Software development is made <strong>vastly</strong> easier by &ldquo;<a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a>&rdquo; systems: specialized software that keeps track of the history and current state of files and directories. In the past there were many such systems, but now almost the whole user uses <a href="https://git-scm.com/">git</a>, and we&rsquo;re all grateful for it.</p>
 
@@ -364,7 +394,7 @@
 
 <h3 id="sign-up-for-github">Sign up for Github</h3>
 
-<p>For many developers &ndash; maybe even most of them &ndash; using Git is intimately tied to the <a href="https://github.com">Github</a> code-sharing website.  We&rsquo;ll be using Github for almost all of our work this semester, so it&rsquo;s important that you get familiar with it.  If you were present for the first class, you&rsquo;ve already done this. If not, you&rsquo;ll need to <a href="https://github.com/join">sign Up for a Github account</a>. Once you&rsquo;ve done that, you have two choices:</p>
+<p>For many developers &#x2013; maybe even most of them &#x2013; using Git is intimately tied to the <a href="https://github.com">Github</a> code-sharing website.  We&rsquo;ll be using Github for almost all of our work this semester, so it&rsquo;s important that you get familiar with it.  If you were present for the first class, you&rsquo;ve already done this. If not, you&rsquo;ll need to <a href="https://github.com/join">sign Up for a Github account</a>. Once you&rsquo;ve done that, you have two choices:</p>
 
 <ul>
 <li>practice working at the command line</li>
@@ -382,7 +412,7 @@ git config --global user.email &quot;youraddress@ mail.utoronto.ca&quot;
 git config --global github.user YourGithubId
 </code></pre>
 
-<p>Great &ndash; now git knows who you are. If you&rsquo;re feeling ambitious, you can also <a href="https://help.github.com/articles/connecting-to-github-with-ssh/">set up SSH keys so you don&rsquo;t have to type in your password every time you commit to Git</a>.</p>
+<p>Great &#x2013; now git knows who you are. If you&rsquo;re feeling ambitious, you can also <a href="https://help.github.com/articles/connecting-to-github-with-ssh/">set up SSH keys so you don&rsquo;t have to type in your password every time you commit to Git</a>.</p>
 
 <h3 id="vscode-git">VSCode Git</h3>
 
@@ -396,7 +426,7 @@ git config --global github.user YourGithubId
 
 <p>There is a somewhat more wordy <a href="http://digitalhistory.github.io/introduction-to-github">Git tutorial on this website</a>, which you should read. For now, <a href="https://desktop.github.com/">Install the Github Desktop App</a> which also includes the command-line version of git.  You can follow the <a href="https://github.com/jlord/git-it-electron/releases">excellent tutorial in the downloadable git-it application</a>, as well as the <a href="https://help.github.com/desktop/guides/">Github Desktop documentation</a>.  There is also a <a href="http://programminghistorian.org/lessons/getting-started-with-github-desktop">quite helpful tutorial on The Programming Historian</a>. We&rsquo;ll be discussing Git and Github further in our first class.</p>
 
-<h2 id="node-and-npm-this-is-the-hardest-part">Node and NPM &ndash; This is the hardest part!</h2>
+<h2 id="node-and-npm-and-x2013-this-is-the-hardest-part">Node and NPM &#x2013; This is the hardest part!</h2>
 
 <p><strong>Right now it looks like the drag and drop tool we wanted to make will NOT be ready for this semester</strong> :frowning_face:</p>
 

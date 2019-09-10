@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-09-10T13:01:11 EDT">
-<title>404 Page not found :: HIS393: Digital History</title>
+<title>Installing Node Dependencies :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
     
   </head>
-  <body data-url="/404.html">
+  <body data-url="/tools/node-dependencies/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -132,13 +132,14 @@
                     </ul>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b7f260), (*hugolib.pageState)(0xc000b7f350), (*hugolib.pageState)(0xc000b7f7a0), (*hugolib.pageState)(0xc000b7f170)}")</script>
-            <li data-nav-id="/tools/" class="dd-item haschildren
+            <li data-nav-id="/tools/" class="dd-item parent haschildren
                              ">
                 <div>
-                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
+                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
-                <li data-nav-id="/tools/node-dependencies/" class="dd-item">
+                <li data-nav-id="/tools/node-dependencies/" class="dd-item active">
                     <div>
                         <a href="/tools/node-dependencies/">
                             Installing Node Dependencies
@@ -196,7 +197,16 @@
 <div class="padding highlightable">
 
   <div id="top-bar">
-    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+    
+      
+      
+      
+    <div id="top-github-link">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/node-dependencies.md" target="blank">
+        <i class="fa fa-code-fork"></i>
+        Improve this page
+      </a>
+    </div><div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
         <span id="sidebar-toggle-span">
           <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
             <i class="fa fa-bars"></i>
@@ -206,7 +216,17 @@
         <span class="links">
         
 
- 404 Page not found
+
+
+
+
+
+
+ <a href='/'></a> > <a href='/tools/'>Tools and Tricks</a> > Installing Node Dependencies
+
+ 
+
+ 
 
    
         </span>
@@ -225,20 +245,31 @@
 
 <div id="body-inner">
   
-    <h1>404 Page not found</h1>
+    <h1>Installing Node Dependencies</h1>
   
 
 
 
     
     
-	<h1>Error</h1>
-	<p>
-	</p>
-	<p>Woops. Looks like this page doesn&#39;t exist.</p>
-	<p></p>
-	<p><a href="http://digitalhistory.github.io/">Go to homepage</a></p>
-	<p><img src="/images/gopher-404.jpg" style="width:50%"></img></p>    
+    
+    <p>Node.js is an exquisite piece of programming infrastructure. One of its main features is support for <em>developer-defined dependencies</em>. As a programmer &#x2013; or in my case, as a teacher &#x2013; you can inform the underlying node package manager (<code>npm</code>) that your project &ldquo;depends&rdquo; on some group of other projects. This allows programmers to build constantly on each other&rsquo;s work.</p>
+
+<p>In our assignments, node dependencies are mostly used to enable the <strong>tests</strong>, whose main function is to help you figure out whether you&rsquo;ve done the assignments correctly.  Installing node dependencies is pretty simple, but can be confusing if you&rsquo;re completely new to node, the command line, and programming in general.  Here are the (very simple!) instructions:</p>
+
+<ol>
+<li>Install Node and NPM as per <a href="../setup/#node-and-npm-this-is-the-hardest-part">this section of the &ldquo;Setup&rdquo; instructions</a></li>
+<li>From the command line, navigate to the root directory of your repository using <code>cd</code> as per <a href="https://digitalhistory.github.io/tools/navigating-command-line/">the navigation help page</a></li>
+<li>From the root directory of your repository,type the following command into the terminal/git-bash prompt: <code>npm install</code></li>
+</ol>
+
+<p>You should see some complex output from the command, after which your node dependencies will be installed. You can actually see the installed files by browsing the contents of the <code>node_modules</code> directory, which should now be present in your working directory.</p>
+
+<p>Once the dependencies are installed, you should be able to run the node tests with <code>npm test</code> (issued from the same directory, that is, the root directory of your repository). If you&rsquo;ve installed the VSCode extentions, ou</p>
+
+<p>I hope that helps!</p>
+
+
     
     
           <footer class=" footline" >
@@ -272,5 +303,3 @@
     
   </body>
 </html>
-
-
