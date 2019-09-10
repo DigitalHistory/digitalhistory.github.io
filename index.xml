@@ -6,19 +6,30 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2019 12:59:33 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 13:11:04 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
-      <link>http://digitalhistory.github.io/posts/00-git/</link>
-      <pubDate>Tue, 10 Sep 2019 12:59:33 -0400</pubDate>
+      <link>http://digitalhistory.github.io/assignment/00-git/</link>
+      <pubDate>Tue, 10 Sep 2019 13:11:04 -0400</pubDate>
       
-      <guid>http://digitalhistory.github.io/posts/00-git/</guid>
+      <guid>http://digitalhistory.github.io/assignment/00-git/</guid>
       <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
 One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
+    </item>
+    
+    <item>
+      <title>Participation</title>
+      <link>http://digitalhistory.github.io/assignment/participation/</link>
+      <pubDate>Tue, 10 Sep 2019 13:10:42 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/participation/</guid>
+      <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
+The System It&amp;rsquo;s simple. Suppose you successfully complete all the main assignments, but decide not to write a Project Proposal. Congratulations! You have qualified for a B. But what kind of a B?
+   If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
     </item>
     
     <item>
@@ -67,15 +78,6 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       
       <guid>http://digitalhistory.github.io/_header/</guid>
       <description>HIS 393 Digital History</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://digitalhistory.github.io/posts/00-git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://digitalhistory.github.io/posts/00-git/</guid>
-      <description>Assignment 00: Your Class Profile .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
     </item>
     
     <item>
