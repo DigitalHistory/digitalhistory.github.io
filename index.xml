@@ -6,10 +6,19 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2019 13:12:53 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2019 11:29:45 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
+      <pubDate>Wed, 11 Sep 2019 11:29:45 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1070   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   New!! Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
@@ -96,15 +105,6 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       
       <guid>http://digitalhistory.github.io/slides/01-intro-digital-history/</guid>
       <description>Introduction to Digital History .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    Introduction to Digital History Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   About Me    Historian of Science &amp;amp; Technology Interdisciplinary Background Interest in &amp;ldquo;Engaged&amp;rdquo; scholarship     Why Care about History?</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
-      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1070   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
     </item>
     
   </channel>
