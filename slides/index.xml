@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://digitalhistory.github.io/slides/02-02-more-git/</guid>
-      <description>What the Web Signifies .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+      <description>2-2: More Git, Some Markdown, a Tiny Bit of HTML .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
     </item>
     
   </channel>
