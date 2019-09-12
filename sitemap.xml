@@ -84,6 +84,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/02-02-more-git/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
   </url>
   
