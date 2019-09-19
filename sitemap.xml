@@ -94,6 +94,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/03-2-css/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
   </url>
   
