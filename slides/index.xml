@@ -39,6 +39,15 @@
     
     <item>
       <title></title>
+      <link>http://digitalhistory.github.io/slides/03-01-html-backlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-01-html-backlog/</guid>
+      <description>HTML: Machine-readable Text .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    HTML: Machine-readable Text Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   HTML and some consequences This is the top-level heading  This is a paragraph.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://digitalhistory.github.io/slides/03-2-css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
