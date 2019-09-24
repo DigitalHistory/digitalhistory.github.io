@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Docs on HIS393: Digital History</title>
+    <link>http://digitalhistory.github.io/syllabus/</link>
+    <description>Recent content in Course Docs on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2019 11:29:45 -0400</lastBuildDate>
+    
+	<atom:link href="http://digitalhistory.github.io/syllabus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
+      <pubDate>Wed, 11 Sep 2019 11:29:45 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1070   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   New!! Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
+    
+  </channel>
+</rss>
