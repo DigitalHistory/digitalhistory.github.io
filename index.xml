@@ -6,10 +6,20 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Sep 2019 11:36:06 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2019 22:32:09 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript: Resources and Tools</title>
+      <link>http://digitalhistory.github.io/tools/js-resources-tools/</link>
+      <pubDate>Wed, 25 Sep 2019 22:32:09 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/js-resources-tools/</guid>
+      <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).
+MDN also has a more advanced guide to JavaScript which starts with this &amp;ldquo;reintroduction&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Assignment 01: Zero to Blog Post</title>
