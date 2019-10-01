@@ -119,6 +119,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/05-01-js/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
   </url>
   
