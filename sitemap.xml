@@ -9,8 +9,28 @@
   
   <url>
     <loc>http://digitalhistory.github.io/</loc>
-    <lastmod>2019-09-25T22:32:09-04:00</lastmod>
+    <lastmod>2019-09-30T22:36:55-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
+    <lastmod>2019-09-30T22:36:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/02-js-basics/</loc>
+    <lastmod>2019-09-30T22:36:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
+    <lastmod>2019-09-30T22:36:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
+    <lastmod>2019-09-30T22:36:55-04:00</lastmod>
   </url>
   
   <url>
@@ -24,22 +44,7 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
-    <lastmod>2019-09-17T11:36:06-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://digitalhistory.github.io/assignment/01-html-css/</loc>
-    <lastmod>2019-09-17T11:36:06-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2019-09-17T11:36:06-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
     <lastmod>2019-09-17T11:36:06-04:00</lastmod>
   </url>
   

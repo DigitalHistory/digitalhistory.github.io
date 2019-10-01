@@ -6,10 +6,23 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2019 22:32:09 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 22:36:55 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 02: Javascript Basics</title>
+      <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
+      <pubDate>Mon, 30 Sep 2019 22:36:55 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/02-js-basics/</guid>
+      <description>Due Date: Oct. 08
+This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
+Due at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.
+Rubric Passes General Tests Passes Reflection Tests -  -
+-</description>
+    </item>
     
     <item>
       <title>Javascript: Resources and Tools</title>

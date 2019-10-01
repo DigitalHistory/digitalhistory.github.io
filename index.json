@@ -14,6 +14,34 @@
 	"content": " Digital History This is the website for His 393, Digital History, at the University of Toronto. All of the course materials are described in detail in the links on the sidebar; you probably want to start with the syllabus. Tables of contents for long pages can be access via the odd list icon at the top left of the page menu.\nEnjoy the class!\n"
 },
 {
+	"uri": "http://digitalhistory.github.io/tags/assignment/",
+	"title": "assignment",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://digitalhistory.github.io/assignment/02-js-basics/",
+	"title": "Assignment 02: Javascript Basics",
+	"tags": ["assignment"],
+	"description": "",
+	"content": " Due Date: Oct. 08\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.\nRubric Passes General Tests Passes Reflection Tests -  -\n-\n"
+},
+{
+	"uri": "http://digitalhistory.github.io/assignment/",
+	"title": "Assignments",
+	"tags": [],
+	"description": "",
+	"content": " Participation   Assignment 00: Your Class Profile   Assignment 01: Zero to Blog Post   Assignment 02: Javascript Basics   "
+},
+{
+	"uri": "http://digitalhistory.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://digitalhistory.github.io/tools/js-resources-tools/",
 	"title": "Javascript: Resources and Tools",
 	"tags": [],
@@ -28,32 +56,11 @@
 	"content": " Installing Node Dependencies   Navigating at the Command Line   using vscode   Setup   Javascript: Resources and Tools   "
 },
 {
-	"uri": "http://digitalhistory.github.io/tags/assignment/",
-	"title": "assignment",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "http://digitalhistory.github.io/assignment/01-html-css/",
 	"title": "Assignment 01: Zero to Blog Post",
 	"tags": ["assignment"],
 	"description": "",
 	"content": " Due Date: Sept. 26 (2 days later than original deadline)\nGeneral Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we\u0026rsquo;ll use one of the web\u0026rsquo;s many excellent self-education platforms to learn the very basics of how web pages work. We\u0026rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.\nWeb pages are composed of three components: HTML, CSS, and Javascript. HTML provides the structure and content of a web page; CSS controls the style of presentation; and Javascript permits dynamic modification of both. To explore the web from the inside, you need to be a little bit comfortable in all three.\nIn this assignment you will be introduced to HTML and CSS. The detailed assignment README leads you through a series of skill-building exercises, and provides links to comprehensive tutorial resources. As always, ask for help on Slack; use the new #blog-assignment channel for support/collaboration.\nhere is the assignment repo-creation link!!\nRubric Passes General Tests Passes Reflection Tests -  -\n"
-},
-{
-	"uri": "http://digitalhistory.github.io/assignment/",
-	"title": "Assignments",
-	"tags": [],
-	"description": "",
-	"content": " Participation   Assignment 00: Your Class Profile   Assignment 01: Zero to Blog Post   "
-},
-{
-	"uri": "http://digitalhistory.github.io/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "http://digitalhistory.github.io/syllabus/his393syllabus/",
