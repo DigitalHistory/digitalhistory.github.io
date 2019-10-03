@@ -9,8 +9,18 @@
   
   <url>
     <loc>http://digitalhistory.github.io/</loc>
-    <lastmod>2019-10-01T15:31:38-04:00</lastmod>
+    <lastmod>2019-10-03T00:06:26-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/05-02-distant-reading/</loc>
+    <lastmod>2019-10-03T00:06:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/</loc>
+    <lastmod>2019-10-03T00:06:26-04:00</lastmod>
   </url>
   
   <url>
@@ -130,10 +140,6 @@
   
   <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/</loc>
   </url>
   
 </urlset>
