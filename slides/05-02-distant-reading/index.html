@@ -1,948 +1,723 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HIS393: Digital History</title>
-    
-      <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-10-03T00:06:51 EDT">
-<title>Distant Reading :: HIS393: Digital History</title>
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-<link href="/css/nucleus.css" rel="stylesheet">
-<link href="/css/font-awesome.min.css" rel="stylesheet">
-<link href="/css/hybrid.css" rel="stylesheet">
-<link href="/css/featherlight.min.css" rel="stylesheet">
-<link href="/css/auto-complete.css" rel="stylesheet">
-<link href="/theme-original/style.css" rel="stylesheet">
-
-  <link href="/theme-original/variant-green.css" rel="stylesheet">
-
-<link rel="stylesheet" href="/css/bootstrap.min.css">
-<script src="/js/jquery-2.x.min.js"></script>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Distant Reading</title>
+<meta name="author" content="Matt Price"/>
 <style type="text/css">
-  :root #header + #content > #left > #rlblock_left {
-    display:none !important;
-  }
+.underline { text-decoration: underline; }
 </style>
-<meta name="description" content="">
+<link rel="stylesheet" href="../../vendor/reveal//css/reveal.css"/>
 
-<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="../../vendor/reveal//css/theme/matt.css" id="theme"/>
 
-
-    
-  </head>
-  <body data-url="/slides/05-02-distant-reading/">
-    
-      <div id="headermain"></div>
-<nav id="sidebar" class="showVisitedLinks">
-
-
-
-<div class="highlightable">
-  <div id="header-wrapper">
-    <div id="header">
-      
-	
-  
-    <p>HIS 393 Digital History</p>
-
-  
-
-
-    </div>
-        <div class="searchbox">
-		    <label for="search-by"><i class="fa fa-search"></i></label>
-		    <input data-search-input id="search-by" type="text" placeholder="Search...">
-		    <span data-search-clear=""><i class="fa fa-close"></i></span>
-		</div>
-		<script type="text/javascript" src="/js/lunr.min.js"></script>
-		<script type="text/javascript" src="/js/auto-complete.js"></script>
-		<script type="text/javascript">
-        
-            var baseurl = "http:\/\/digitalhistory.github.io\/";
-        
-		</script>
-		<script type="text/javascript" src="/js/search.js"></script>
-  </div>
-
-      <ul class="topics">
-            <li data-nav-id="/" class="dd-item">
-            <a href="/"><i class="fa fa-fw fa-home"></i></a>
-            </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000ac9080), (*hugolib.pageState)(0xc000ac8f90), (*hugolib.pageState)(0xc000ac8ea0), (*hugolib.pageState)(0xc000ac9170)}")</script>
-            <li data-nav-id="/assignment/" class="dd-item haschildren
-                             ">
-                <div>
-                    <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-                </div>
-                    <ul>
-                <li data-nav-id="/assignment/00-git/" class="dd-item">
-                    <div>
-                        <a href="/assignment/00-git/">
-                            Assignment 00: Your Class Profile
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/assignment/01-html-css/" class="dd-item">
-                    <div>
-                        <a href="/assignment/01-html-css/">
-                            Assignment 01: Zero to Blog Post
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/assignment/02-js-basics/" class="dd-item">
-                    <div>
-                        <a href="/assignment/02-js-basics/">
-                            Assignment 02: Javascript Basics
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/assignment/participation/" class="dd-item">
-                    <div>
-                        <a href="/assignment/participation/">
-                            Participation
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                    </ul>
-            </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b2aba0)}")</script>
-            <li data-nav-id="/syllabus/" class="dd-item haschildren
-                             ">
-                <div>
-                    <a href="/syllabus/"><i class='fa fa-github'></i> Course Docs</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-                </div>
-                    <ul>
-                <li data-nav-id="/syllabus/his393syllabus/" class="dd-item">
-                    <div>
-                        <a href="/syllabus/his393syllabus/">
-                            Syllabus
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                    </ul>
-            </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000ac9620), (*hugolib.pageState)(0xc000618570), (*hugolib.pageState)(0xc000b2a030), (*hugolib.pageState)(0xc000ac9260), (*hugolib.pageState)(0xc000b2a150), (*hugolib.pageState)(0xc000618660), (*hugolib.pageState)(0xc000b2a240), (*hugolib.pageState)(0xc000ac9500), (*hugolib.pageState)(0xc000ac9590)}")</script>
-            <li data-nav-id="/slides/" class="dd-item parent haschildren
-                             ">
-                <div>
-                    <a href="/slides/"><i class='fa fa-github'></i> Lecture Slides</a>
-                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-                </div>
-                    <ul>
-                <li data-nav-id="/slides/01-02-git/" class="dd-item">
-                    <div>
-                        <a href="/slides/01-02-git/">
-                            01-02-git
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/01-intro-digital-history/" class="dd-item">
-                    <div>
-                        <a href="/slides/01-intro-digital-history/">
-                            01-intro-digital-history
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/02-02-more-git/" class="dd-item">
-                    <div>
-                        <a href="/slides/02-02-more-git/">
-                            02-02-more-git
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/03-01-html-backlog/" class="dd-item">
-                    <div>
-                        <a href="/slides/03-01-html-backlog/">
-                            03-01-html-backlog
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/03-2-css/" class="dd-item">
-                    <div>
-                        <a href="/slides/03-2-css/">
-                            03-2-css
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/04-01-web-signifies/" class="dd-item">
-                    <div>
-                        <a href="/slides/04-01-web-signifies/">
-                            04-01-web-signifies
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/04-02-css-layout/" class="dd-item">
-                    <div>
-                        <a href="/slides/04-02-css-layout/">
-                            04-02-css-layout
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/05-01-js/" class="dd-item">
-                    <div>
-                        <a href="/slides/05-01-js/">
-                            05-01-js
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/slides/05-02-distant-reading/" class="dd-item active">
-                    <div>
-                        <a href="/slides/05-02-distant-reading/">
-                            Distant Reading
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                    </ul>
-            </li>
-            <script>console.log("page.Pages{(*hugolib.pageState)(0xc000b2ad80), (*hugolib.pageState)(0xc000b2a8d0), (*hugolib.pageState)(0xc000b2a9c0), (*hugolib.pageState)(0xc000b2ae70), (*hugolib.pageState)(0xc000b2af00)}")</script>
-            <li data-nav-id="/tools/" class="dd-item haschildren
-                             ">
-                <div>
-                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
-                </div>
-                    <ul>
-                <li data-nav-id="/tools/node-dependencies/" class="dd-item">
-                    <div>
-                        <a href="/tools/node-dependencies/">
-                            Installing Node Dependencies
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/tools/js-resources-tools/" class="dd-item">
-                    <div>
-                        <a href="/tools/js-resources-tools/">
-                            Javascript: Resources and Tools
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/tools/navigating-command-line/" class="dd-item">
-                    <div>
-                        <a href="/tools/navigating-command-line/">
-                            Navigating at the Command Line
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/tools/setup/" class="dd-item">
-                    <div>
-                        <a href="/tools/setup/">
-                            Setup
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                <li data-nav-id="/tools/using-vscode/" class="dd-item">
-                    <div>
-                        <a href="/tools/using-vscode/">
-                            using vscode
-                        </a><i class="fa fa-circle-thin read-icon"></i>
-                    </div>
-                </li>
-                    </ul>
-            </li>
-
-
-
-        <section id="shortcuts">
-                <li class="" role=""><h3>More</h3><a href="https://github.com/titaniumbones/Digital-History/tree/develop" target="_blank" rel="noopener"><i class='fa fa-github'></i> Github repo</a></li>
-                <li class="" role=""><a href="https://wdw.utoronto.ca/digital-humanities" target="_blank" rel="noopener"><i class='fa fa-camera'></i> Digital Humanities @ U of T</a></li>
-                <li class="" role=""><a href="http://history.utoronto.ca/" target="_blank" rel="noopener"><i class='fa fa-camera'></i> History Department</a></li>
-                <li class="" role=""><a href="https://gohugo.io/" target="_blank" rel="noopener"><i class='fa fa-bookmark'></i> Hugo Documentation</a></li>
-        </section>
-            <a id="clear-history" class="" href="#" data-clear-history-toggle=""><i class="fa  fa-history"></i> Clear History</a>
-
-    <hr />
-    <li></li>
-    
-    </ul>
-
- <section id="footer">
-    </section>
-  </div>
-</nav>
-
-
-
-<section id="body">
-<div id="overlay"></div>
-<div class="padding highlightable">
-
-  <div id="top-bar">
-    
-      
-      
-      
-    <div id="top-github-link">
-      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/slides/05-02-distant-reading.md" target="blank">
-        <i class="fa fa-code-fork"></i>
-        Improve this page
-      </a>
-    </div><div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-        <span id="sidebar-toggle-span">
-          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-            <i class="fa fa-bars"></i>
-          </a>
-        </span>
-        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
-        <span class="links">
-        
-
-
-
-
-
-
-
- <a href='/'></a> > <a href='/slides/'>Lecture Slides</a> > Distant Reading
-
+<link rel="stylesheet" href=""/>
+<link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
+<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
+<style>
  
-
+.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
  
-
-   
-        </span>
-    </div>
-    
-    
-    <div class="progress">
-        <div class="wrapper">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#recap-53d2">Recap</a>
-<ul>
-<li><a href="#war-is-peace">War is Peace. <br/>Freedom is Slavery. <br/>Ignorance is Strength.</a></li>
-<li><a href="#plan-for-the-day-b6ce">Plan for the day</a></li>
-</ul></li>
-<li><a href="#history-in-the-age-of-scarcity-3970">History in the age of scarcity</a>
-<ul>
-<li><a href="#scarcity-184c">Scarcity</a></li>
-<li><a href="#implications-1db9">Implications</a></li>
-</ul></li>
-<li><a href="#age-of-abundance-7ddc">Age of Abundance</a>
-<ul>
-<li><a href="#abundance-6257">Abundance</a></li>
-<li><a href="#mechanical-speech-c3b6">Mechanical Speech</a></li>
-<li><a href="#problems-of-preservation-29ba">Problems of Preservation</a></li>
-<li><a href="#what-big-data-means-for-old-documents-608a">What big data means for old documents</a></li>
-<li><a href="#can-we-tell-stories?-can-we-do-research?-269a">Can we tell stories? Can we do research?</a></li>
-</ul></li>
-<li><a href="#recap-77644">Abundance: Summary</a></li>
-<li><a href="#no-clothes-no-body">No Clothes, no body</a></li>
-<li><a href="#abstract-models-d7c3">Distant Reading: Abstract Models</a>
-<ul>
-<li><a href="#the-opposite-of-close?-f387">The opposite of close?</a></li>
-<li><a href="#to-the-point-of-deconstruction-7de9">To the point of deconstruction</a></li>
-<li><a href="#closeness-431d">Closeness</a></li>
-<li><a href="#questioning-close-reading-7c74">Questioning Close Reading</a></li>
-<li><a href="#some-numbers-b757">Some Numbers</a></li>
-<li><a href="#new-forms-of-understanding?-c1c6">New forms of Understanding?</a></li>
-<li><a href="#questions-to-consider-6df4">Questions to consider</a></li>
-</ul></li>
-<li><a href="#graphs-70bf">Graphs</a>
-<ul>
-<li><a href="#moretti's-graphs-68bd">Moretti&rsquo;s Graphs</a></li>
-<li><a href="#a-history-of-readers-7e72">A History of Readers</a></li>
-<li><a href="#cycles-3686">Cycles</a></li>
-<li><a href="#cycles-in-literature-f456">Cycles in Literature</a></li>
-<li><a href="#genre-&-generation-5762">Genre &amp; Generation</a></li>
-<li><a href="#shift-4356">From &ldquo;the shift&rdquo; to &ldquo;a shift&rdquo;</a></li>
-<li><a href="#moretti's-method-dbf4">Moretti&rsquo;s method</a></li>
-</ul></li>
-<li><a href="#maps-59e4">Maps</a>
-<ul>
-<li><a href="#what-is-a-map?-44e9">What is a map?</a></li>
-<li><a href="#what-is-a-map?-6c3d">What is a map?</a></li>
-<li><a href="#moretti's-method-ddd7">Moretti&rsquo;s method</a></li>
-<li><a href="#/our-village/-c56c"><em>Our Village</em></a></li>
-<li><a href="#/our-village/----extremes-3f27"><em>Our Village</em> &#x2013; Extremes</a></li>
-<li><a href="#modelling-the-text-1363">Modelling the text</a></li>
-</ul></li>
-<li><a href="#trees-66d5">Trees</a>
-<ul>
-<li><a href="#moretti's-evolutionism-251f">Moretti&rsquo;s Evolutionism</a></li>
-<li><a href="#plots-525b">Plots</a>
-<ul>
-<li><a href="#clues-as-/evolved/-phenomenon-baf4">Clues as <em>evolved</em> phenomenon</a></li>
-</ul></li>
-<li><a href="#styles-4fc2">Styles</a>
-<ul>
-<li><a href="#free-indirect-style-4a25">Free Indirect Style</a></li>
-<li><a href="#why-fis?-eefc">Why FIS?</a></li>
-</ul></li>
-<li><a href="#problematics-4d4e">Problematics</a></li>
-</ul></li>
-<li><a href="#summary:-moretti-and-history-59c4">Summary: Moretti and History</a></li>
-</ul></li>
-</ul>
-</nav>
-        </div>
-    </div>
-    
-
-  </div>
+.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+ 
+.CodeMirror-cursor { border-left: 3px solid black; }
+</style>
+<script>
+    window.klipse_settings = {
+        selector: '.language-klipse',
+        selector_eval_html: '.language-klipse-html',
+        selector_eval_js: '.language-klipse-javascript',
+        selector_eval_js: '.language-klipse-js',
+        selector_eval_php: '.language-klipse-php',
+        selector_eval_python_client: '.language-klipse-python',
+        selector_eval_ruby: '.language-klipse-ruby',
+        selector_eval_scheme: '.language-klipse-scheme',
+        selector_sql: '.language-klipse-sql'
+    };
+</script>
 
 
-<div id="body-inner">
-  
-    <h1>Distant Reading</h1>
-  
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../vendor/reveal//css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Distant Reading</h1>
+<h3>Matt Price  </h3>
 
 
-
-    
-    
-    
-    
-
+</section>
+<section>
+<section id="slide-recap-53d2">
 <h2 id="recap-53d2">Recap</h2>
-
-<ul>
-<li>&ldquo;Public sphere&rdquo; at a turning point</li>
+<form><ul>
+<li>"Public sphere" at a turning point</li>
 <li>Transformation by automated agents and encoded text</li>
-</ul>
 
+</ul></form>
+
+</section>
+<section id="slide-war-is-peace">
 <h3 id="war-is-peace">War is Peace. <br/>Freedom is Slavery. <br/>Ignorance is Strength.</h3>
-
+</section>
+<section id="slide-plan-for-the-day-b6ce">
 <h3 id="plan-for-the-day-b6ce">Plan for the day</h3>
-
-<ul>
+<form><ul>
 <li>Problems of Abundance</li>
 <li>Distant Reading: a method for textual overload?</li>
-<li>Discussion: how do <strong>you</strong> respond to information abundance?</li>
-<li>post-class period <strong>ONLY</strong> for students who <strong>failed the tests, or did not receive a mark</strong></li>
-</ul>
+<li>Discussion: how do <b>you</b> respond to information abundance?</li>
+<li>post-class period <b>ONLY</b> for students who <b>failed the tests, or did not receive a mark</b></li>
 
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-history-in-the-age-of-scarcity-3970">
 <h2 id="history-in-the-age-of-scarcity-3970">History in the age of scarcity</h2>
-
 <blockquote>
-<p>The members of prehistoric societies did not think they lived in prehistoric times. They merely lacked a good preservation medium. (Auerbach, quoted in Rosenzweig)</p>
+<p>
+The members of prehistoric societies did not think they lived in prehistoric times. They merely lacked a good preservation medium. (Auerbach, quoted in Rosenzweig)
+</p>
 </blockquote>
 
-<div class="NOTES">
-  <div></div>
+<aside class="notes">
+<form><ul>
+<li>lots was going on, lots of continuity, lots <b>we will never know</b> b/c oral preservation is <b>terrible</b> at outliving a cultural tradition</li>
 
-<ul>
-<li>lots was going on, lots of continuity, lots <strong>we will never know</strong> b/c oral preservation is <strong>terrible</strong> at outliving a cultural tradition</li>
-</ul>
+</ul></form>
 
-<p></div></p>
+</aside>
 
+</section>
+<section id="slide-scarcity-184c">
 <h3 id="scarcity-184c">Scarcity</h3>
+<form><ul>
+<li class="fragment appear">Historically, very little recorded</li>
+<li class="fragment appear">Even less <i>preserved</i></li>
+<li class="fragment appear">historian's task was to <i>locate rare sources</i> in faraway places</li>
 
-<ul>
-<li>Historically, very little recorded</li>
-<li>Even less <em>preserved</em></li>
-<li>historian&rsquo;s task was to <em>locate rare sources</em> in faraway places</li>
-</ul>
+</ul></form>
 
+</section>
+<section id="slide-implications-1db9">
 <h3 id="implications-1db9">Implications</h3>
-
-<ul>
-<li>History skewed to <em>those whose records appeared worth saving</em></li>
-<li>record <em>always</em> fragmentary
-
-<ul>
+<form><ul>
+<li class="fragment appear">History skewed to <i>those whose records appeared worth saving</i></li>
+<li class="fragment appear">record <i>always</i> fragmentary
+<form><ul>
 <li>Historian free to fill in gaps</li>
-</ul></li>
-<li>BUT: often possible to read <em>large percentage</em> of relevant sources</li>
-</ul>
 
+</ul></form></li>
+<li class="fragment appear">BUT: often possible to read <i>large percentage</i> of relevant sources</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-age-of-abundance-7ddc">
 <h2 id="age-of-abundance-7ddc">Age of Abundance</h2>
-
 <blockquote>
-<p>Tentative efforts are afoot to preserve our digital cultural heritage. If they succeed, historians will face a second, profound challenge&#x2013;what would it be like to write history when faced by an essentially complete historical record? (Rosenzweig)</p>
+<p>
+Tentative efforts are afoot to preserve our digital cultural heritage. If they succeed, historians will face a second, profound challenge&#x2013;what would it be like to write history when faced by an essentially complete historical record? (Rosenzweig)
+</p>
 </blockquote>
 
-<div class="NOTES">
-  <div></div>
-
-<ul>
+<aside class="notes">
+<form><ul>
 <li>completely different situation than we used to have!</li>
-</ul>
 
-<p></div></p>
+</ul></form>
 
+</aside>
+</section>
+<section id="slide-abundance-6257">
 <h3 id="abundance-6257">Abundance</h3>
+<form><ul>
+<li class="fragment appear"><b>much</b> more recorded than in the past</li>
+<li class="fragment appear"><b>vastly more</b> preserved, at least for now</li>
+<li class="fragment appear">increasing percentage of historical works as well</li>
 
-<ul>
-<li><strong>much</strong> more recorded than in the past</li>
-<li><strong>vastly more</strong> preserved, at least for now</li>
-<li>increasing percentage of historical works as well</li>
-</ul>
+</ul></form>
 
+</section>
+<section id="slide-mechanical-speech-c3b6">
 <h3 id="mechanical-speech-c3b6">Mechanical Speech</h3>
-
-<ul>
+<form><ul>
 <li>auto-preservation</li>
 <li>but by and for whom?</li>
-</ul>
 
-<div class="NOTES">
-  <div></div>
+</ul></form>
 
-<p>Google, FB, and Twitter are preserving lots of data.  As are Tesla and Samsung. But who will get to see it? How does a historian compete?</p>
+<aside class="notes">
+<p>
+Google, FB, and Twitter are preserving lots of data.  As are Tesla and Samsung. But who will get to see it? How does a historian compete?
+</p>
 
-<p></div></p>
-
+</aside>
+</section>
+<section id="slide-problems-of-preservation-29ba">
 <h3 id="problems-of-preservation-29ba">Problems of Preservation</h3>
-
-<ul>
+<form><ul>
 <li>physical media</li>
 <li>software turnover &amp; bitrot</li>
 <li>capturing dynamic/interactive media</li>
-</ul>
 
-<div class="NOTES">
-  <div></div>
+</ul></form>
+<aside class="notes">
+<p>
 
-<p></div></p>
+</p>
 
+</aside>
+</section>
+<section id="slide-what-big-data-means-for-old-documents-608a">
 <h3 id="what-big-data-means-for-old-documents-608a">What big data means for old documents</h3>
-
 <blockquote>
-<p>digitization does provide scale (or quantity) but does so at the price of rich, largely manual encoding. Visualization, customization, personalization, and similar analytical services increasingly familiar to us depend upon born-digital objects in which a great deal of structural and semantic knowledge has been encoded. The information captured on page images is, by contrast, implicit and often not directly accessible to the machines that will be always their first, often their only, and arguably their most important readers. (CILR)</p>
+<p>
+digitization does provide scale (or quantity) but does so at the price of rich, largely manual encoding. Visualization, customization, personalization, and similar analytical services increasingly familiar to us depend upon born-digital objects in which a great deal of structural and semantic knowledge has been encoded. The information captured on page images is, by contrast, implicit and often not directly accessible to the machines that will be always their first, often their only, and arguably their most important readers. (CILR)
+</p>
 </blockquote>
 
+
+</section>
+<section id="slide-can-we-tell-stories?-can-we-do-research?-269a">
 <h3 id="can-we-tell-stories?-can-we-do-research?-269a">Can we tell stories? Can we do research?</h3>
-
-<ul>
-<li>no longer possible to read everything!
-
-<ul>
+<form><ul>
+<li class="fragment appear">no longer possible to read everything!
+<form><ul>
 <li>who will read it for us? How will we be experts? Can we automate our reading?</li>
-</ul></li>
-<li>Narrative form ill-suited to massive quantities of data
 
-<ul>
+</ul></form></li>
+<li class="fragment appear">Narrative form ill-suited to massive quantities of data
+<form><ul>
 <li>can we develop new types of narratives?</li>
-</ul></li>
-<li>Big questions may be answerable!
 
-<ul>
+</ul></form></li>
+<li class="fragment appear">Big questions may be answerable!
+<form><ul>
 <li>What used to be pure speculation, can perhaps now be made more concrete and compelling
-
-<ul>
+<form><ul>
 <li>How does role of religion in public discourse change over time?</li>
 <li>how do railroads impact social and economic development?</li>
 <li>others?</li>
-</ul></li>
-</ul></li>
-</ul>
 
+</ul></form></li>
+
+</ul></form></li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-recap-77644">
 <h2 id="recap-77644">Abundance: Summary</h2>
-
-<ul>
-<li>&ldquo;Abundance&rdquo; offers many challenges
-
-<ul>
+<form><ul>
+<li class="fragment appear">"Abundance" offers many challenges
+<form><ul>
 <li>preservation</li>
 <li>interpretation</li>
 <li>access</li>
-</ul></li>
-<li>Does <em>history itself</em> need to be reformed?
 
-<ul>
-<li>What <em>relation to sources</em>?</li>
-<li>What <em>kinds of arguments</em>?</li>
-<li>What <em>narrative forms</em>?</li>
-</ul></li>
-</ul>
+</ul></form></li>
+<li class="fragment appear">Does <i>history itself</i> need to be reformed?
+<form><ul>
+<li>What <i>relation to sources</i>?</li>
+<li>What <i>kinds of arguments</i>?</li>
+<li>What <i>narrative forms</i>?</li>
 
-<h2 id="no-clothes-no-body">No Clothes, no body</h2>
+</ul></form></li>
 
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-org4f0248b">
+<h2 id="org4f0248b">No Clothes, no body</h2>
 <blockquote>
-<p>It’s not that the emperor has no clothes(that would be fine); it’s that no one knows what the emperor looks like. (Ramsey 2010)</p>
+<p>
+It’s not that the emperor has no clothes(that would be fine); it’s that no one knows what the emperor looks like. (Ramsey 2010)
+</p>
 </blockquote>
 
-<div class="NOTES">
-  <div></div>
+<aside class="notes">
+<p>
+"It's one thing to worry that your canon isn't sufficiently inclusive, or broad, or representative. It's another thing when your canon has no better chance of being these thngs than a random selection. When we get up into the 14-million book range, books that are known by more than 2 living people are already "popular"
+</p>
 
-<p>&ldquo;It&rsquo;s one thing to worry that your canon isn&rsquo;t sufficiently inclusive, or broad, or representative. It&rsquo;s another thing when your canon has no better chance of being these thngs than a random selection. When we get up into the 14-million book range, books that are known by more than 2 living people are already &ldquo;popular&rdquo;</p>
-
-<p></div></p>
-
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-abstract-models-d7c3">
 <h2 id="abstract-models-d7c3">Distant Reading: Abstract Models</h2>
-
 <blockquote>
-<p>&#x2026;distance is however not an obstacle, but a <em>specific form of knowledge:</em> fewer elements, hence a sharper sense of their overall interconnection. Shapes, relations, structures. Forms. Models.</p>
+<p>
+&#x2026;distance is however not an obstacle, but a <i>specific form of knowledge:</i> fewer elements, hence a sharper sense of their overall interconnection. Shapes, relations, structures. Forms. Models. 
+</p>
 </blockquote>
-
+</section>
+<section id="slide-the-opposite-of-close?-f387">
 <h3 id="the-opposite-of-close?-f387">The opposite of close?</h3>
-
 <blockquote>
-<p>Dorothea, endowed with the extraordinary capacity for attentiveness that is &ldquo;ardor,&rdquo; is given to the strongest denunciations of the trivial, the most overwhelming anxieties of admitting the trivial into her life of any character in the novel. She is blind to the possibility that attention has the capacity to reveal that what seems trivial is in fact significant. She fears instead that the attention is wasted by devoting itself to those common objects which really are trivial, which have no redeeming significance:</p>
+<p>
+Dorothea, endowed with the extraordinary capacity for attentiveness that is "ardor," is given to the strongest denunciations of the trivial, the most overwhelming anxieties of admitting the trivial into her life of any character in the novel. She is blind to the possibility that attention has the capacity to reveal that what seems trivial is in fact significant. She fears instead that the attention is wasted by devoting itself to those common objects which really are trivial, which have no redeeming significance: 
+</p>
 
-<p>&ldquo;&#x2026;I should learn everything then,&rdquo; she said to herself, still walking quickly along the bridle road through the wood. &ldquo;It would be my duty to study that I might help him the better in his great works. There would be nothing trivial about our lives. Everyday-things with us would mean the greatest things.&rdquo;</p>
+<p>
+"&#x2026;I should learn everything then," she said to herself, still walking quickly along the bridle road through the wood. "It would be my duty to study that I might help him the better in his great works. There would be nothing trivial about our lives. Everyday-things with us would mean the greatest things."
+</p>
 </blockquote>
 
-<div class="NOTES">
-  <div></div>
-
-<p>to notice:</p>
-
-<ul>
+<aside class="notes">
+<p>
+to notice:
+</p>
+<form><ul>
 <li>analysis of passage longer than passage itself.</li>
-</ul>
 
-<p></div></p>
+</ul></form>
 
+</aside>
+</section>
+<section id="slide-to-the-point-of-deconstruction-7de9">
 <h3 id="to-the-point-of-deconstruction-7de9">To the point of deconstruction</h3>
-
 <blockquote>
-<p>If the pharmakon is ambivalent, it is because it constitutes the medium in which opposites are opposed, the movement and the play that links them among themselves, reverses them or makes one side cross over into the other (soul/ body, good/ evil, inside/ outside, memory/ forgetfulness, speech/ writing, etc.). The pharmakon is the movement, the locus, and the play: (the production of) difference. It is the différance of difference. It holds in reserve, in its undecided shadow and vigil, the opposites and the differends that the process of discrimination will come to carve out. Contradictions and pairs of opposites are lifted from the bottom of this diacritical, differing, deferring, reserve. Already inhabited by différance, this reserve, even though it precedes the opposition between different effects, even though it preexists differences as effects, does not have the punctual simplicity of a coincidentia oppositorum. It is from this fund that dialectics draws its reserves.</p>
+<p>
+If the pharmakon is ambivalent, it is because it constitutes the medium in which opposites are opposed, the movement and the play that links them among themselves, reverses them or makes one side cross over into the other (soul/ body, good/ evil, inside/ outside, memory/ forgetfulness, speech/ writing, etc.). The pharmakon is the movement, the locus, and the play: (the production of) difference. It is the différance of difference. It holds in reserve, in its undecided shadow and vigil, the opposites and the differends that the process of discrimination will come to carve out. Contradictions and pairs of opposites are lifted from the bottom of this diacritical, differing, deferring, reserve. Already inhabited by différance, this reserve, even though it precedes the opposition between different effects, even though it preexists differences as effects, does not have the punctual simplicity of a coincidentia oppositorum. It is from this fund that dialectics draws its reserves.
+</p>
 </blockquote>
-
+</section>
+<section id="slide-closeness-431d">
 <h3 id="closeness-431d">Closeness</h3>
+<form><ul>
+<li class="fragment appear">Literary study long organized around "close" reading</li>
+<li class="fragment appear">"Hermeneutic" model of scholarship</li>
+<li class="fragment appear">defines what it has meant to <i>understand</i> or <i>master</i> a text</li>
 
-<ul>
-<li>Literary study long organized around &ldquo;close&rdquo; reading</li>
-<li>&ldquo;Hermeneutic&rdquo; model of scholarship</li>
-<li>defines what it has meant to <em>understand</em> or <em>master</em> a text</li>
-</ul>
-
+</ul></form>
+</section>
+<section id="slide-questioning-close-reading-7c74">
 <h3 id="questioning-close-reading-7c74">Questioning Close Reading</h3>
-
-<ul>
+<form><ul>
 <li>But what is understanding?</li>
 <li>what is literature?</li>
-<li>what is the scholar&rsquo;s goal?</li>
-</ul>
+<li>what is the scholar's goal?</li>
 
-<div class="NOTES">
-  <div></div>
+</ul></form>
+<aside class="notes">
+<p>
 
-<p></div></p>
+</p>
 
+</aside>
+</section>
+<section id="slide-some-numbers-b757">
 <h3 id="some-numbers-b757">Some Numbers</h3>
-
-<ul>
+<form><ul>
 <li>~62,000 new Novels published in English in the US/year</li>
-<li>~304,000 new and re-issued <em>books</em> in US/year</li>
-<li>~129,000,000 books collected in world&rsquo;s libraries</li>
-</ul>
+<li>~304,000 new and re-issued <i>books</i> in US/year</li>
+<li>~129,000,000 books collected in world's libraries</li>
 
-<!--listend-->
-
-<ul>
-<li><strong>not possible to read these</strong>
-
-<ul>
+</ul></form>
+<form><ul>
+<li class="fragment appear"><b>not possible to read these</b>
+<form><ul>
 <li>can one still be an expert?</li>
-</ul></li>
-</ul>
 
+</ul></form></li>
+
+</ul></form>
+</section>
+<section id="slide-new-forms-of-understanding?-c1c6">
 <h3 id="new-forms-of-understanding?-c1c6">New forms of Understanding?</h3>
-
-<ul>
+<form><ul>
 <li>instead of, or in parallel with, close reading?</li>
-<li>apprehension of <em>large-scale phenomena</em></li>
+<li>apprehension of <i>large-scale phenomena</i></li>
 <li>studying models, rather than texts themselves</li>
-</ul>
 
+</ul></form>
+</section>
+<section id="slide-questions-to-consider-6df4">
 <h3 id="questions-to-consider-6df4">Questions to consider</h3>
-
-<ul>
-<li>Does this count as <em>comprehension</em>?</li>
+<form><ul>
+<li>Does this count as <i>comprehension</i>?</li>
 <li>what new skills are required?</li>
 <li>What are the weaknesses of this form?</li>
-</ul>
 
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-graphs-70bf">
 <h2 id="graphs-70bf">Graphs</h2>
 
 <figure>
-    <img src="https://seeingcomplexity.files.wordpress.com/2011/02/william%5Fplayfair%5Fgraph.jpg"/> 
+<img src="https://seeingcomplexity.files.wordpress.com/2011/02/william_playfair_graph.jpg" alt="william_playfair_graph.jpg" style="float:left;">
+
 </figure>
+<form><ul style="float:left;">
+<li class="fragment appear"><i>condense</i> data</li>
+<li class="fragment appear"><i>conceptualize</i> mathematically</li>
+<li class="fragment appear"><i>convince</i> readers</li>
+<li class="fragment appear">a fundamentally <b>rhetorical</b> tool</li>
 
-
-<div style="float:left;">
-  <div></div>
-
-<ul>
-<li><em>condense</em> data</li>
-<li><em>conceptualize</em> mathematically</li>
-<li><em>convince</em> readers</li>
-<li>a fundamentally <strong>rhetorical</strong> tool</li>
-</ul>
-
-<p></div></p>
-
-<h3 id="moretti's-graphs-68bd">Moretti&rsquo;s Graphs</h3>
+</ul></form>
+</section>
+<section id="slide-moretti's-graphs-68bd">
+<h3 id="moretti's-graphs-68bd">Moretti's Graphs</h3>
 
 <figure>
-    <img src="https://newleftreview-org.myaccess.library.utoronto.ca/system/dragonfly/production/2019/05/13/3iz0atrlo0%5F2580502large.gif"/> 
+<img src="https://newleftreview-org.myaccess.library.utoronto.ca/system/dragonfly/production/2019/05/13/3iz0atrlo0_2580502large.gif" alt="3iz0atrlo0_2580502large.gif">
+
 </figure>
-
-
 <blockquote>
-<p>Quantitative research provides a type of data which is ideally independent of interpretations. (p.9)</p>
+<p>
+Quantitative research provides a type of data which is ideally independent of interpretations. (p.9)
+</p>
 </blockquote>
-
-<ul>
+<form><ul>
 <li>yet, the graph is an argument:  rise, fall, rise</li>
-</ul>
 
+</ul></form>
+</section>
+<section id="slide-a-history-of-readers-7e72">
 <h3 id="a-history-of-readers-7e72">A History of Readers</h3>
 
 <figure>
-    <img src="http://sandbox.hackinghistory.ca/assets/images/DH/three-rises-novel-colored.gif"/> 
+<img src="http://sandbox.hackinghistory.ca/assets/images/DH/three-rises-novel-colored.gif" alt="three-rises-novel-colored.gif">
+
 </figure>
-
-
-<ul>
-<li>each phase a new &ldquo;kind&rdquo; of reader</li>
+<form><ul>
+<li>each phase a new "kind" of reader</li>
 <li>intensive, extensive, generic</li>
-</ul>
 
+</ul></form>
+</section>
+<section id="slide-cycles-3686">
 <h3 id="cycles-3686">Cycles</h3>
-
 <blockquote>
-<p>Event, cycle, <em>longue durée</em>: three time frames which have fared very unevenly in literary studies.</p>
+<p>
+Event, cycle, <i>longue durée</i>: three time frames which have fared very unevenly in literary studies.
+</p>
 
-<p>&#x2026; cycles constitute <em>temporary structures within the historical flow.</em> (p.14)</p>
+<p>
+&#x2026; cycles constitute <i>temporary structures within the historical flow.</i> (p.14)
+</p>
 </blockquote>
+<form><ul>
+<li><b>event &rarr; close reading</b></li>
+<li><b>longue durée &rarr; grand narrative</b></li>
+<li><b>cycle &rarr; ?</b></li>
 
-<ul>
-<li><strong>event &rarr; close reading</strong></li>
-<li><strong>longue durée &rarr; grand narrative</strong></li>
-<li><strong>cycle &rarr; ?</strong></li>
-</ul>
-
+</ul></form>
+</section>
+<section id="slide-cycles-in-literature-f456">
 <h3 id="cycles-in-literature-f456">Cycles in Literature</h3>
 
 <figure>
-    <img src="http://sandbox.hackinghistory.ca/assets/images/DH/genres-colored.gif"/> 
+<img src="http://sandbox.hackinghistory.ca/assets/images/DH/genres-colored.gif" alt="genres-colored.gif">
+
 </figure>
-
-
 <blockquote>
-<p>A genre exhausts its potentialities&#x2026; when its inner form is no longer capable of representing the most significant aspects of contemporary reality. (p. 17, fn 7)</p>
+<p>
+A genre exhausts its potentialities&#x2026; when its inner form is no longer capable of representing the most significant aspects of contemporary reality. (p. 17, fn 7)
+</p>
 </blockquote>
-
+</section>
+<section id="slide-genre-&-generation-5762">
 <h3 id="genre-&-generation-5762">Genre &amp; Generation</h3>
-
 <blockquote>
-<p>&#x2026; some kind of generational mechanism seems the best way to account for the regularity of the novelistic cycle&#x2026; (p. 22)</p>
+<p>
+&#x2026; some kind of generational mechanism seems the best way to account for the regularity of the novelistic cycle&#x2026; (p. 22)
+</p>
 </blockquote>
+<form><ul>
+<li>"Normal literature"</li>
+<li>but "revolution" as "dying out"</li>
 
-<ul>
-<li>&ldquo;Normal literature&rdquo;</li>
-<li>but &ldquo;revolution&rdquo; as &ldquo;dying out&rdquo;</li>
-</ul>
-
-<h3 id="shift-4356">From &ldquo;the shift&rdquo; to &ldquo;a shift&rdquo;</h3>
+</ul></form>
+</section>
+<section id="slide-shift-4356">
+<h3 id="shift-4356">From "the shift" to "a shift"</h3>
 
 <figure>
-    <img src="http://newleftreview.org/static/assets/images/2580512large.gif"/> 
+<img src="http://newleftreview.org/static/assets/images/2580512large.gif" alt="2580512large.gif">
+
 </figure>
-
-
 <blockquote>
-<p>&#x2026;the point is not who prevails in this or that skirmish, but exactly the opposite: no victory is ever definitive&#x2026; the form keeps oscillating back and forth between the two groups. (p.29)</p>
+<p>
+&#x2026;the point is not who prevails in this or that skirmish, but exactly the opposite: no victory is ever definitive&#x2026; the form keeps oscillating back and forth between the two groups. (p.29)
+</p>
 </blockquote>
-
-<h3 id="moretti's-method-dbf4">Moretti&rsquo;s method</h3>
-
+</section>
+<section id="slide-moretti's-method-dbf4">
+<h3 id="moretti's-method-dbf4">Moretti's method</h3>
 <blockquote>
-<p>&#x2026;the real point here&#x2026; is the total <em>heterogeneity of problem and solution:</em> to make sense of quantitative data, I had to abandon the quantitative universe, and turn to morphology: evoke form, in order to explain figures.</p>
+<p>
+&#x2026;the real point here&#x2026; is the total <i>heterogeneity of problem and solution:</i> to make sense of quantitative data, I had to abandon the quantitative universe, and turn to morphology: evoke form, in order to explain figures.
+</p>
 </blockquote>
-
-<ul>
+<form><ul>
 <li>how justified is this move?</li>
 <li>what do we learn from it?</li>
-</ul>
 
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-maps-59e4">
 <h2 id="maps-59e4">Maps</h2>
-
 <blockquote>
-<p>There is a very simple question about literary maps: what exactly do they <em>do</em>?</p>
+<p>
+There is a very simple question about literary maps: what exactly do they <i>do</i>?
+</p>
 </blockquote>
+<form><ul>
+<li>like graphs, maps are a <i>persuasive tool</i></li>
+<li>What does it mean to "map" a novel?</li>
 
-<ul>
-<li>like graphs, maps are a <em>persuasive tool</em></li>
-<li>What does it mean to &ldquo;map&rdquo; a novel?</li>
-</ul>
-
+</ul></form>
+</section>
+<section id="slide-what-is-a-map?-44e9">
 <h3 id="what-is-a-map?-44e9">What is a map?</h3>
 
 <figure>
-    <img src="http://www.socialresearchmethods.net/research/epp2/15.gif"/> 
-</figure>
+<img src="http://www.socialresearchmethods.net/research/epp2/15.gif" alt="15.gif" style="float:left; max-height:320px;">
 
+</figure>
 
 <figure>
-    <img src="http://theexpertsagree.files.wordpress.com/2009/06/tokyorail.jpg"/> 
-</figure>
+<img src="http://theexpertsagree.files.wordpress.com/2009/06/tokyorail.jpg" alt="tokyorail.jpg" style="float:left; max-height:320px;  max-width:49%">
 
+</figure>
 
 <figure>
-    <img src="http://www.fubiz.net/wp-content/uploads/2013/07/am1.jpg"/> 
+<img src="http://www.fubiz.net/wp-content/uploads/2013/07/am1.jpg" alt="am1.jpg" style="float:left; max-height:320px; max-width:49%">
+
 </figure>
-
-
+</section>
+<section id="slide-what-is-a-map?-6c3d">
 <h3 id="what-is-a-map?-6c3d">What is a map?</h3>
+<form><ul>
+<li class="fragment appear">abstract</li>
+<li class="fragment appear">visual</li>
+<li class="fragment appear">representation</li>
+<li class="fragment appear">of a physical or imagined space</li>
 
-<ul>
-<li>abstract</li>
-<li>visual</li>
-<li>representation</li>
-<li>of a physical or imagined space</li>
-</ul>
-
-<h3 id="moretti's-method-ddd7">Moretti&rsquo;s method</h3>
-
-<figure>
-    <img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600502large.gif"/> 
-</figure>
-
+</ul></form>
+</section>
+<section id="slide-moretti's-method-ddd7">
+<h3 id="moretti's-method-ddd7">Moretti's method</h3>
 
 <figure>
-    <img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600511large.gif"/> 
+<img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600502large.gif" alt="2600502large.gif" style="float:left; max-width:49%"> 
+
 </figure>
 
+<figure>
+<img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600511large.gif" alt="2600511large.gif" style="float:left; max-width:49%">
 
+</figure>
 <blockquote>
-<p>The form of an object is a &lsquo;diagram of forces&rsquo;, in this sense, at least that from it we can&#x2026; deduce the forces that &#x2026; have acted upon it. (p.57)</p>
+<p>
+The form of an object is a 'diagram of forces', in this sense, at least that from it we can&#x2026; deduce the forces that &#x2026; have acted upon it. (p.57)
+</p>
 </blockquote>
-
-<h3 id="/our-village/-c56c"><em>Our Village</em></h3>
-
+</section>
+<section id="slide-/our-village/-c56c">
+<h3 id="/our-village/-c56c"><i>Our Village</i></h3>
 <blockquote>
-<p>In the 1824 volume&#x2026; the vilage was the undisputed centre of the surrounding countryside: the centripetal effects of the force &ldquo;from within&rdquo; were omnipresent, while the force &ldquo;from without&rdquo; was nowhere to be seen. (p. 57)</p>
+<p>
+In the 1824 volume&#x2026; the vilage was the undisputed centre of the surrounding countryside: the centripetal effects of the force "from within" were omnipresent, while the force "from without" was nowhere to be seen. (p. 57)
+</p>
 
-<p>Two collections later, in 1828, the village&rsquo;s gravitation field is already weaker&#x2026;  Something is wrong with the force from within, but as no counter-force challenges it yet, the basic pattern&#x2026; remains in place.  But by 1832&#x2026; the village&rsquo;s centripetal force is reduced to nothing, and the bulk of the book moves away&#x2026; (p. 58-59)</p>
+<p>
+Two collections later, in 1828, the village's gravitation field is already weaker&#x2026;  Something is wrong with the force from within, but as no counter-force challenges it yet, the basic pattern&#x2026; remains in place.  But by 1832&#x2026; the village's centripetal force is reduced to nothing, and the bulk of the book moves away&#x2026; (p. 58-59)
+</p>
 </blockquote>
-
-<h3 id="/our-village/----extremes-3f27"><em>Our Village</em> &#x2013; Extremes</h3>
-
-<figure>
-    <img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600502large.gif"/> 
-</figure>
-
+</section>
+<section id="slide-/our-village/----extremes-3f27">
+<h3 id="/our-village/----extremes-3f27"><i>Our Village</i> &#x2013; Extremes</h3>
 
 <figure>
-    <img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600512large.gif"/> 
+<img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600502large.gif" alt="2600502large.gif" style="float:left; max-height:400px; max-width:49%"> 
+
 </figure>
 
+<figure>
+<img src="http://www.newleftreview.org.myaccess.library.utoronto.ca/assets/images/2600512large.gif" alt="2600512large.gif" style="float:left; max-height:400px; max-width:49%">
 
+</figure>
+</section>
+<section id="slide-modelling-the-text-1363">
 <h3 id="modelling-the-text-1363">Modelling the text</h3>
+<form><ul>
+<li><b>reduce</b> text to the model</li>
+<li><b>presume</b> that sociological factors are determinative</li>
+<li><b>sustain</b> focus on form ("a quantitative history of literature is also a profoundly formalist one" -p.25, fn 14)</li>
+<li><b>interpret</b> model in light of theories</li>
 
-<ul>
-<li><strong>reduce</strong> text to the model</li>
-<li><strong>presume</strong> that sociological factors are determinative</li>
-<li><strong>sustain</strong> focus on form (&ldquo;a quantitative history of literature is also a profoundly formalist one&rdquo; -p.25, fn 14)</li>
-<li><strong>interpret</strong> model in light of theories</li>
-</ul>
+</ul></form>
 
+</section>
+</section>
+<section>
+<section id="slide-trees-66d5">
 <h2 id="trees-66d5">Trees</h2>
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin%5FTree%5F1837.png"/> 
-</figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png" alt="Darwin_Tree_1837.png" style="float:left; max-width:49%;">
 
+</figure>
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Darwins%5Ftree%5Fof%5Flife%5F1859.png"/> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Darwins_tree_of_life_1859.png" alt="Darwins_tree_of_life_1859.png" style="float:left; max-width:49%;">
+
 </figure>
-
-
-<h3 id="moretti's-evolutionism-251f">Moretti&rsquo;s Evolutionism</h3>
-
-<ul>
+</section>
+<section id="slide-moretti's-evolutionism-251f">
+<h3 id="moretti's-evolutionism-251f">Moretti's Evolutionism</h3>
+<form><ul>
 <li>Citations: Darwin, Feldman, Cavalli-Sforza</li>
 <li>In his genealogy: Karl Marx; H. G. Wells; E. O. Wilson; all of evolutionary psychology</li>
-</ul>
 
+</ul></form>
+</section>
+<section id="slide-plots-525b">
 <h3 id="plots-525b">Plots</h3>
 
 <figure>
-    <img src="https://newleftreview-org.myaccess.library.utoronto.ca/system/dragonfly/production/2019/05/13/1tvogaisyo%5F2620303large.gif"/> 
+<img src="https://newleftreview-org.myaccess.library.utoronto.ca/system/dragonfly/production/2019/05/13/1tvogaisyo_2620303large.gif" alt="1tvogaisyo_2620303large.gif">
+
 </figure>
-
-
-<h4 id="clues-as-/evolved/-phenomenon-baf4">Clues as <em>evolved</em> phenomenon</h4>
-
-<ul>
-<li>Doyle as <em>canonical starting point</em> for detective fiction</li>
+</section>
+<section id="slide-clues-as-/evolved/-phenomenon-baf4">
+<h4 id="clues-as-/evolved/-phenomenon-baf4">Clues as <i>evolved</i> phenomenon</h4>
+<form><ul>
+<li>Doyle as <i>canonical starting point</i> for detective fiction</li>
 <li>But has a context; how to describe?</li>
-<li>note: <em>not</em> a personal context!</li>
-</ul>
+<li>note: <i>not</i> a personal context!</li>
 
+</ul></form>
+</section>
+<section id="slide-styles-4fc2">
 <h3 id="styles-4fc2">Styles</h3>
 
 <figure>
-    <img src="https://nplusonemag.com/wp-content/uploads/2014/04/moretti-2.jpg"/> 
+<img src="https://nplusonemag.com/wp-content/uploads/2014/04/moretti-2.jpg" alt="moretti-2.jpg">
+
 </figure>
-
-
-<h4 id="free-indirect-style-4a25">Free Indirect Style</h4>
-
-<blockquote>
-<p>A peculiar mix of indirect and direct discourse, which draws the verbal tenses and pronouns from the former, and the tone and the order of the sentence from the latter:</p>
-
-<p>It was the abode of noise, disorder, and impropriety. Nobody was in their right place, nothing was done as it ought to be. She could not respect her parents, as she had hoped.</p>
-</blockquote>
-
-<h4 id="why-fis?-eefc">Why FIS?</h4>
-
-<ul>
-<li>appears to mark a major social transformation (&ldquo;halfway btwn the social doxa and the individual voice, FIS is a good indicator of their changing balance of forces&rdquo;)</li>
-
-<li><p>Moretti&rsquo;s goal: to <em>quantitatively</em> (?) trace these forces</p>
-
-<blockquote>
-<p>Take a form, follow it from space to space, and study the reasons for its transformations: the &lsquo;opportunistic, hence unpredictable&rsquo; reasons of evolution.</p>
-</blockquote></li>
-</ul>
-
-<h3 id="problematics-4d4e">Problematics</h3>
-
-<ul>
-<li>Teleological thinking?</li>
-<li>dealing with the &ldquo;twisted branching&rdquo;?</li>
-<li>is this really &ldquo;quantitative&rdquo;?</li>
-<li>Does this qualify as &ldquo;insight&rdquo;?</li>
-</ul>
-
-<h2 id="summary:-moretti-and-history-59c4">Summary: Moretti and History</h2>
-
-<ul>
-<li><strong>labor-intensive</strong> quantification of sources</li>
-<li><strong>glossing over</strong> problems of quantification</li>
-<li><strong>continued reliance</strong> on expert opinion &#x2013; but how is that expertise to be cultivated?</li>
-</ul>
-
-
-    
-    
-          <footer class=" footline" >
-	
-</footer>
-  </div>
-</div>
-
-<div id="navigation">
-</div>
-
 </section>
-<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-</div>    
+<section id="slide-free-indirect-style-4a25">
+<h4 id="free-indirect-style-4a25">Free Indirect Style</h4>
+<blockquote>
+<p>
+A peculiar mix of indirect and direct discourse, which draws the verbal tenses and pronouns from the former, and the tone and the order of the sentence from the latter:
+</p>
 
-<script src="/js/clipboard.min.js"></script>
-<script src="/js/featherlight.min.js"></script>
-<script src="/js/html5shiv-printshiv.min.js"></script>
+<p>
+It was the abode of noise, disorder, and impropriety. Nobody was in their right place, nothing was done as it ought to be. She could not respect her parents, as she had hoped. 
+</p>
+</blockquote>
+</section>
+<section id="slide-why-fis?-eefc">
+<h4 id="why-fis?-eefc">Why FIS?</h4>
+<form><ul>
+<li>appears to mark a major social transformation ("halfway btwn the social doxa and the individual voice, FIS is a good indicator of their changing balance of forces")</li>
+<li><p>
+Moretti's goal: to <i>quantitatively</i> (?) trace these forces
+</p>
+<blockquote>
+<p>
+Take a form, follow it from space to space, and study the reasons for its transformations: the 'opportunistic, hence unpredictable' reasons of evolution.
+</p>
+</blockquote></li>
 
-<script src="/js/modernizr.custom.71422.js"></script>
-<script src="/js/docdock.js"></script>
-<script src="/theme-original/script.js"></script>
+</ul></form>
+</section>
+<section id="slide-problematics-4d4e">
+<h3 id="problematics-4d4e">Problematics</h3>
+<form><ul>
+<li>Teleological thinking?</li>
+<li>dealing with the "twisted branching"?</li>
+<li>is this really "quantitative"?</li>
+<li>Does this qualify as "insight"?</li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-summary:-moretti-and-history-59c4">
+<h2 id="summary:-moretti-and-history-59c4">Summary: Moretti and History</h2>
+<form><ul>
+<li><b>labor-intensive</b> quantification of sources</li>
+<li><b>glossing over</b> problems of quantification</li>
+<li><b>continued reliance</b> on expert opinion &#x2013; but how is that expertise to be cultivated?</li>
+
+</ul></form>
+</section>
+</section>
+</div>
+</div>
+<script src="../../vendor/reveal//lib/js/head.min.js"></script>
+<script src="../../vendor/reveal//js/reveal.js"></script>
+<script>
 
 
-    
+Reveal.initialize({
 
-    
-    
+controls: true,
+progress: true,
+history: true,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
 
-    
-  </body>
+overview: true,
+width: "100%",
+height: "100%",
+margin: 0.10,
+minScale: 1.00,
+maxScale: 1.00,
+
+theme: Reveal.getQueryHash().theme, 
+transition: Reveal.getQueryHash().transition || 'convex', 
+transitionSpeed: 'default',
+
+
+dependencies: [
+{src: '../../vendor/reveal//plugin/klipse_reveal.js'},
+ { src: '../../vendor/reveal//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: '../../vendor/reveal//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
+<script>
+
+
+Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.dispatchEvent( new Event('resize') );
+} );
+</script>
+</body>
 </html>
