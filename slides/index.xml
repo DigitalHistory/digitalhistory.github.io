@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Slides on HIS393: Digital History</title>
+    <link>http://digitalhistory.github.io/slides/</link>
+    <description>Recent content in Lecture Slides on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Oct 2019 00:06:26 -0400</lastBuildDate>
+    
+	<atom:link href="http://digitalhistory.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Distant Reading</title>
+      <link>http://digitalhistory.github.io/slides/05-02-distant-reading/</link>
+      <pubDate>Thu, 03 Oct 2019 00:06:26 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-02-distant-reading/</guid>
+      <description>Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text  War is Peace. Freedom is Slavery. Ignorance is Strength. Plan for the day  Problems of Abundance Distant Reading: a method for textual overload? Discussion: how do you respond to information abundance? post-class period ONLY for students who failed the tests, or did not receive a mark  History in the age of scarcity  The members of prehistoric societies did not think they lived in prehistoric times.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/01-02-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-02-git/</guid>
+      <description>01-02: Git and Github .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-intro-digital-history/</guid>
+      <description>Introduction to Digital History .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/02-02-more-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/02-02-more-git/</guid>
+      <description>2-2: More Git, Some Markdown, a Tiny Bit of HTML .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/03-01-html-backlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-01-html-backlog/</guid>
+      <description>HTML: Machine-readable Text .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    HTML: Machine-readable Text Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   HTML and some consequences This is the top-level heading  This is a paragraph.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/03-2-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-2-css/</guid>
+      <description>And Now: CSS! .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    And Now: CSS! Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Reminder  HTML for structure/content; CSS for presentation Resources: Codeacademy CSS offerings; Learn Layout; Mozilla Developer Network; many other cool sites     What you Need to Learn Today  syntax: selectors, rules, punctuation; jargon: colors, sizes where to look stuff up (!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/04-01-web-signifies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-01-web-signifies/</guid>
+      <description>04-01: What the Web Signifies .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/04-02-css-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-02-css-layout/</guid>
+      <description>04-02, CSS Part 2: Layout .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/05-01-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-01-js/</guid>
+      <description>05-01 and 06-01: Getting Started With Javascript .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/05-02-distant-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-02-distant-reading/</guid>
+      <description>Distant Reading .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/06-01-js-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/06-01-js-dom/</guid>
+      <description>07-01: JavaScript and the DOM .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/06-text-as-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/06-text-as-data/</guid>
+      <description>06-02: Text as Data, history As Algorithm (but also homework help) .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/07-01-js-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/07-01-js-dom/</guid>
+      <description>07-01: JavaScript and the DOM .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/08-01-homework-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/08-01-homework-help/</guid>
+      <description>08-01: Homework Help Day .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+  </channel>
+</rss>

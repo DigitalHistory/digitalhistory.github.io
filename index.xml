@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HIS393: Digital History</title>
+    <link>http://digitalhistory.github.io/</link>
+    <description>Recent content on HIS393: Digital History</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2019 14:35:21 -0400</lastBuildDate>
+    
+	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assignment 03: DOM and Data</title>
+      <link>http://digitalhistory.github.io/assignment/03-dom-data/</link>
+      <pubDate>Mon, 21 Oct 2019 14:35:21 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/03-dom-data/</guid>
+      <description>Due Date: October 25
+In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.
+Due at end of the day on the due date, you can find the asssignment link on Github, and please be sure to create your own copy and clone the resultant repository to your laptop. (Don&amp;rsquo;t search out and fork the parent repository!</description>
+    </item>
+    
+    <item>
+      <title>Distant Reading</title>
+      <link>http://digitalhistory.github.io/slides/05-02-distant-reading/</link>
+      <pubDate>Thu, 03 Oct 2019 00:06:26 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-02-distant-reading/</guid>
+      <description>Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text  War is Peace. Freedom is Slavery. Ignorance is Strength. Plan for the day  Problems of Abundance Distant Reading: a method for textual overload? Discussion: how do you respond to information abundance? post-class period ONLY for students who failed the tests, or did not receive a mark  History in the age of scarcity  The members of prehistoric societies did not think they lived in prehistoric times.</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
+      <pubDate>Tue, 01 Oct 2019 15:31:38 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
+      <description>Logistics     Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 2-3, SS 1072   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   New!! Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077   TA: Lara Howerton    
+In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 02: Javascript Basics</title>
+      <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
+      <pubDate>Mon, 30 Sep 2019 22:36:55 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/02-js-basics/</guid>
+      <description>Due Date: Oct. 08
+This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
+Due at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.
+Rubric Passes General Tests Passes Reflection Tests -  -
+-</description>
+    </item>
+    
+    <item>
+      <title>Javascript: Resources and Tools</title>
+      <link>http://digitalhistory.github.io/tools/js-resources-tools/</link>
+      <pubDate>Wed, 25 Sep 2019 22:32:09 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/js-resources-tools/</guid>
+      <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).
+MDN also has a more advanced guide to JavaScript which starts with this &amp;ldquo;reintroduction&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 01: Zero to Blog Post</title>
+      <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
+      <pubDate>Tue, 17 Sep 2019 11:36:06 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/01-html-css/</guid>
+      <description>Due Date: Sept. 26 (2 days later than original deadline)
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 00: Your Class Profile</title>
+      <link>http://digitalhistory.github.io/assignment/00-git/</link>
+      <pubDate>Tue, 10 Sep 2019 13:12:53 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/00-git/</guid>
+      <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
+One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
+    </item>
+    
+    <item>
+      <title>Participation</title>
+      <link>http://digitalhistory.github.io/assignment/participation/</link>
+      <pubDate>Tue, 10 Sep 2019 13:10:42 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/participation/</guid>
+      <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
+The System It&amp;rsquo;s simple. Suppose you successfully complete all the main assignments, but decide not to write a Project Proposal. Congratulations! You have qualified for a B. But what kind of a B?
+   If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
+      <pubDate>Tue, 10 Sep 2019 12:22:57 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
+      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
+    </item>
+    
+    <item>
+      <title>using vscode</title>
+      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
+      <pubDate>Tue, 10 Sep 2019 12:22:43 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
+      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
+As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
+    </item>
+    
+    <item>
+      <title>Navigating at the Command Line</title>
+      <link>http://digitalhistory.github.io/tools/navigating-command-line/</link>
+      <pubDate>Tue, 10 Sep 2019 12:22:30 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/navigating-command-line/</guid>
+      <description>The Programming Historian link below is excellent. Having some trouble with screenshots ATM, will fix soon as I can reload my desktop &amp;#x2013; but for next few hours pls refer to the PH link for images!
+One common issue for people new to the command line is that it can be tough to understand the notion of location in the filesystem. Most ordinary users interact with their filesystems through the so-called GUI layer &amp;#x2013; the graphical interface of windows.</description>
+    </item>
+    
+    <item>
+      <title>Installing Node Dependencies</title>
+      <link>http://digitalhistory.github.io/tools/node-dependencies/</link>
+      <pubDate>Tue, 10 Sep 2019 12:03:57 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/node-dependencies/</guid>
+      <description>Node.js is an exquisite piece of programming infrastructure. One of its main features is support for developer-defined dependencies. As a programmer &amp;#x2013; or in my case, as a teacher &amp;#x2013; you can inform the underlying node package manager (npm) that your project &amp;ldquo;depends&amp;rdquo; on some group of other projects. This allows programmers to build constantly on each other&amp;rsquo;s work.
+In our assignments, node dependencies are mostly used to enable the tests, whose main function is to help you figure out whether you&amp;rsquo;ve done the assignments correctly.</description>
+    </item>
+    
+    <item>
+      <title>header</title>
+      <link>http://digitalhistory.github.io/_header/</link>
+      <pubDate>Thu, 14 Dec 2017 18:36:24 +0200</pubDate>
+      
+      <guid>http://digitalhistory.github.io/_header/</guid>
+      <description>HIS 393 Digital History</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/01-02-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-02-git/</guid>
+      <description>01-02: Git and Github .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-intro-digital-history/</guid>
+      <description>Introduction to Digital History .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/02-02-more-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/02-02-more-git/</guid>
+      <description>2-2: More Git, Some Markdown, a Tiny Bit of HTML .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/03-01-html-backlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-01-html-backlog/</guid>
+      <description>HTML: Machine-readable Text .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    HTML: Machine-readable Text Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   HTML and some consequences This is the top-level heading  This is a paragraph.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/03-2-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-2-css/</guid>
+      <description>And Now: CSS! .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    And Now: CSS! Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Reminder  HTML for structure/content; CSS for presentation Resources: Codeacademy CSS offerings; Learn Layout; Mozilla Developer Network; many other cool sites     What you Need to Learn Today  syntax: selectors, rules, punctuation; jargon: colors, sizes where to look stuff up (!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/04-01-web-signifies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-01-web-signifies/</guid>
+      <description>04-01: What the Web Signifies .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/04-02-css-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-02-css-layout/</guid>
+      <description>04-02, CSS Part 2: Layout .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/05-01-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-01-js/</guid>
+      <description>05-01 and 06-01: Getting Started With Javascript .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/05-02-distant-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-02-distant-reading/</guid>
+      <description>Distant Reading .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/06-01-js-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/06-01-js-dom/</guid>
+      <description>07-01: JavaScript and the DOM .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/06-text-as-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/06-text-as-data/</guid>
+      <description>06-02: Text as Data, history As Algorithm (but also homework help) .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/07-01-js-dom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/07-01-js-dom/</guid>
+      <description>07-01: JavaScript and the DOM .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://digitalhistory.github.io/slides/08-01-homework-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/08-01-homework-help/</guid>
+      <description>08-01: Homework Help Day .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+  </channel>
+</rss>
