@@ -6,7 +6,7 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Oct 2019 15:05:41 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 15:23:17 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>JS Cheatsheet</title>
       <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
-      <pubDate>Thu, 24 Oct 2019 15:05:41 -0400</pubDate>
+      <pubDate>Thu, 24 Oct 2019 15:23:17 -0400</pubDate>
       
       <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
       <description>Jquery and Vanilla JS equivalents:
-   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements `$(&amp;lsquo;selector&amp;rsquo;)` `document.querySelectorAll(&amp;lsquo;selector&amp;rsquo;)`   Get first matching element `$(&amp;lsquo;selector&amp;rsquo;).first()` `document.querySelector(&amp;lsquo;selector&amp;rsquo;)`   Change CSS prop `$(&amp;lsquo;selector&amp;rsquo;).css(&amp;lsquo;property-name&amp;rsquo;, &amp;lsquo;value&amp;rsquo;)` `document.querySelector(&amp;lsquo;selector&amp;rsquo;).style.property-name = &amp;lsquo;value&amp;rsquo;`     `const matches = document.querySelectorAll(&amp;lsquo;selector&amp;rsquo;)`     `for (const m of matches) {m.style.property-name=&amp;lsquo;value&amp;rsquo;`   Change Text Value `$(&amp;lsquo;selector&amp;rsquo;).text(&amp;lsquo;new text here&amp;rsquo;)` `document.querySelector(&amp;lsquo;selector&amp;rsquo;).textContent = &amp;lsquo;new text here&amp;rsquo;`     `const matches = document.</description>
+   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;) document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;     const matches = document.</description>
     </item>
     
     <item>
