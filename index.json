@@ -14,6 +14,20 @@
 	"content": " Digital History This is the website for His 393, Digital History, at the University of Toronto. All of the course materials are described in detail in the links on the sidebar; you probably want to start with the syllabus. Tables of contents for long pages can be access via the odd list icon at the top left of the page menu.\nEnjoy the class!\n"
 },
 {
+	"uri": "http://digitalhistory.github.io/tools/js-cheat-sheet/",
+	"title": "JS Cheatsheet",
+	"tags": [],
+	"description": "",
+	"content": "Jquery and Vanilla JS equivalents:\n   Task jQuery \u0026ldquo;Vanilla\u0026rdquo; JS     Get all matching elements `$(\u0026lsquo;selector\u0026rsquo;)` `document.querySelectorAll(\u0026lsquo;selector\u0026rsquo;)`   Get first matching element `$(\u0026lsquo;selector\u0026rsquo;).first()` `document.querySelector(\u0026lsquo;selector\u0026rsquo;)`   Change CSS prop `$(\u0026lsquo;selector\u0026rsquo;).css(\u0026lsquo;property-name\u0026rsquo;, \u0026lsquo;value\u0026rsquo;)` `document.querySelector(\u0026lsquo;selector\u0026rsquo;).style.property-name = \u0026lsquo;value\u0026rsquo;`     `const matches = document.querySelectorAll(\u0026lsquo;selector\u0026rsquo;)`     `for (const m of matches) {m.style.property-name=\u0026lsquo;value\u0026rsquo;`   Change Text Value `$(\u0026lsquo;selector\u0026rsquo;).text(\u0026lsquo;new text here\u0026rsquo;)` `document.querySelector(\u0026lsquo;selector\u0026rsquo;).textContent = \u0026lsquo;new text here\u0026rsquo;`     `const matches = document.querySelectorAll(\u0026lsquo;selector\u0026rsquo;)`     `for (const m of matches) {m.textContent =\u0026lsquo;new text here\u0026rsquo;`   Set inner HTML `$(\u0026lsquo;selector\u0026rsquo;).html(\u0026rsquo;valid HTML here\u0026rsquo;)` `document.querySelector(\u0026lsquo;selector\u0026rsquo;).innerHTML = \u0026lsquo;valid HTML here\u0026lsquo;`     `const matches = document.querySelectorAll(\u0026lsquo;selector\u0026rsquo;)`     `for (const m of matches) {m.textContent =\u0026rsquo;valid HTML here\u0026lsquo;`   Append to an element `$(\u0026lsquo;selector\u0026rsquo;).append(\u0026rsquo;valid HTML here\u0026rsquo;) `document.querySelector(\u0026lsquo;selector\u0026rsquo;).innerHTML += \u0026lsquo;valid HTML here\u0026lsquo;` risky!   Remove a node `$(\u0026lsquo;selector\u0026rsquo;).remove()` `let el = document.querySelector(\u0026lsquo;selector\u0026rsquo;); el.parentNode.removeChild(el);    "
+},
+{
+	"uri": "http://digitalhistory.github.io/tools/",
+	"title": "Tools and Tricks",
+	"tags": [],
+	"description": "",
+	"content": " Installing Node Dependencies   Navigating at the Command Line   using vscode   Setup   Javascript: Resources and Tools   JS Cheatsheet   "
+},
+{
 	"uri": "http://digitalhistory.github.io/tags/assignment/",
 	"title": "assignment",
 	"tags": [],
@@ -75,13 +89,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).\nMDN also has a more advanced guide to JavaScript which starts with this \u0026ldquo;reintroduction\u0026rdquo;. This can be worth consulting if you want more information.\nConsoles and Playgrounds Sometimes you will want to try out your code and test out your ideas before putting them in a permanent file. There are various tools for this.\n Browser consoles and scratchpads Your browser has a built-in \u0026ldquo;console\u0026rdquo; where you can enter javascript commands and see their output. See the Setup doc for more info. node console Unfortunately, VSCode does not have a built-in javascript console. However, you can easily create one in a terminal window by running the command node. Exit by typing Control-d or Control-c Control-c or .exit. VSCode Debugger VSCode has an excellent debugger. However, debugging is a complicated subject. If you want to try to use these tools, read the docs. VSCode extensions There are many excellent VSCode extensions for JavaScript. You can experiment with quokka, for instance. Online Playgrounds These can be fantastic resources, but they make more sense for web-based programming. We may discuss these later in the course.  "
-},
-{
-	"uri": "http://digitalhistory.github.io/tools/",
-	"title": "Tools and Tricks",
-	"tags": [],
-	"description": "",
-	"content": " Installing Node Dependencies   Navigating at the Command Line   using vscode   Setup   Javascript: Resources and Tools   "
 },
 {
 	"uri": "http://digitalhistory.github.io/assignment/01-html-css/",

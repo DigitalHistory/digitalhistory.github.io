@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-10-24T15:08:49 EDT">
-<title>Assignment 01: Zero to Blog Post :: HIS393: Digital History</title>
+<title>JS Cheatsheet :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
     
   </head>
-  <body data-url="/assignment/01-html-css/">
+  <body data-url="/tools/js-cheat-sheet/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -70,11 +70,10 @@
             <a href="/"><i class="fa fa-fw fa-home"></i></a>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc0009d9020), (*hugolib.pageState)(0xc0009d8d20), (*hugolib.pageState)(0xc0009d8b10), (*hugolib.pageState)(0xc0009d8930), (*hugolib.pageState)(0xc0009ca8d0)}")</script>
-            <li data-nav-id="/assignment/" class="dd-item parent haschildren
+            <li data-nav-id="/assignment/" class="dd-item haschildren
                              ">
                 <div>
-                    <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a>
-                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
                 <li data-nav-id="/assignment/00-git/" class="dd-item">
@@ -84,7 +83,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/assignment/01-html-css/" class="dd-item active">
+                <li data-nav-id="/assignment/01-html-css/" class="dd-item">
                     <div>
                         <a href="/assignment/01-html-css/">
                             Assignment 01: Zero to Blog Post
@@ -252,10 +251,11 @@
                     </ul>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc0009d9b30), (*hugolib.pageState)(0xc0009d9f80), (*hugolib.pageState)(0xc000619aa0), (*hugolib.pageState)(0xc0006723c0), (*hugolib.pageState)(0xc0006720c0), (*hugolib.pageState)(0xc000619830)}")</script>
-            <li data-nav-id="/tools/" class="dd-item haschildren
+            <li data-nav-id="/tools/" class="dd-item parent haschildren
                              ">
                 <div>
-                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
+                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
                 <li data-nav-id="/tools/node-dependencies/" class="dd-item">
@@ -272,7 +272,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/tools/js-cheat-sheet/" class="dd-item">
+                <li data-nav-id="/tools/js-cheat-sheet/" class="dd-item active">
                     <div>
                         <a href="/tools/js-cheat-sheet/">
                             JS Cheatsheet
@@ -335,7 +335,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/assignment/01-html-css.md" target="blank">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/js-cheat-sheet.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Improve this page
       </a>
@@ -355,7 +355,7 @@
 
 
 
- <a href='/'></a> > <a href='/assignment/'>Assignments</a> > Assignment 01: Zero to Blog Post
+ <a href='/'></a> > <a href='/tools/'>Tools and Tricks</a> > JS Cheatsheet
 
  
 
@@ -368,15 +368,7 @@
     
     <div class="progress">
         <div class="wrapper">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#general-description">General Description</a></li>
-<li><a href="#rubric">Rubric</a></li>
-</ul></li>
-</ul>
-</nav>
+    
         </div>
     </div>
     
@@ -384,15 +376,9 @@
   </div>
 
 
-  <div id="tags">
-    
-      <a class="label label-default" href="http://digitalhistory.github.io/tags/assignment">assignment</a>
-    
-  </div>
-
 <div id="body-inner">
   
-    <h1>Assignment 01: Zero to Blog Post</h1>
+    <h1>JS Cheatsheet</h1>
   
 
 
@@ -400,29 +386,97 @@
     
     
     
-    
+    <p>Jquery and Vanilla JS equivalents:</p>
 
-<p><strong>Due Date: Sept. 26</strong> (2 days later than original deadline)</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>jQuery</th>
+<th>&ldquo;Vanilla&rdquo; JS</th>
+</tr>
+</thead>
 
-<h2 id="general-description">General Description</h2>
+<tbody>
+<tr>
+<td>Get all matching elements</td>
+<td>`$(&lsquo;selector&rsquo;)`</td>
+<td>`document.querySelectorAll(&lsquo;selector&rsquo;)`</td>
+</tr>
 
-<p>You do not have to become a coder to do well in this course.  However, you <em>will</em> have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar.  In this second assignment, we&rsquo;ll use one of the web&rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.  We&rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.</p>
+<tr>
+<td>Get first matching element</td>
+<td>`$(&lsquo;selector&rsquo;).first()`</td>
+<td>`document.querySelector(&lsquo;selector&rsquo;)`</td>
+</tr>
 
-<p>Web pages are composed of three components:  HTML, CSS, and Javascript.  HTML provides the <em>structure and content</em> of a web page; CSS controls the <em>style of presentation</em>; and Javascript permits <em>dynamic modification</em> of both.  To explore the web from the inside, you need to be a little bit comfortable in all three.</p>
+<tr>
+<td>Change CSS prop</td>
+<td>`$(&lsquo;selector&rsquo;).css(&lsquo;property-name&rsquo;, &lsquo;value&rsquo;)`</td>
+<td>`document.querySelector(&lsquo;selector&rsquo;).style.property-name = &lsquo;value&rsquo;`</td>
+</tr>
 
-<p>In this assignment you will be introduced to HTML and CSS. The detailed assignment README leads you through a series of skill-building exercises, and provides links to comprehensive tutorial resources. As always, ask for help on Slack; use the new <code>#blog-assignment</code> channel for support/collaboration.</p>
+<tr>
+<td></td>
+<td></td>
+<td>`const matches = document.querySelectorAll(&lsquo;selector&rsquo;)`</td>
+</tr>
 
-<p><strong><a href="https://classroom.github.com/a/5bMCXaGh">here is the assignment repo-creation link!!</a></strong></p>
+<tr>
+<td></td>
+<td></td>
+<td>`for (const m of matches) {m.style.property-name=&lsquo;value&rsquo;`</td>
+</tr>
 
-<h2 id="rubric">Rubric</h2>
+<tr>
+<td>Change Text Value</td>
+<td>`$(&lsquo;selector&rsquo;).text(&lsquo;new text here&rsquo;)`</td>
+<td>`document.querySelector(&lsquo;selector&rsquo;).textContent = &lsquo;new text here&rsquo;`</td>
+</tr>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> Passes General Tests</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Passes Reflection Tests
--</label></li>
-</ul>
+<tr>
+<td></td>
+<td></td>
+<td>`const matches = document.querySelectorAll(&lsquo;selector&rsquo;)`</td>
+</tr>
 
-<p>-</p>
+<tr>
+<td></td>
+<td></td>
+<td>`for (const m of matches) {m.textContent =&lsquo;new text here&rsquo;`</td>
+</tr>
+
+<tr>
+<td>Set inner HTML</td>
+<td>`$(&lsquo;selector&rsquo;).html(&rsquo;<tag>valid HTML here</tag>&rsquo;)`</td>
+<td>`document.querySelector(&lsquo;selector&rsquo;).innerHTML = &lsquo;<tag>valid HTML here</tag>&lsquo;`</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>`const matches = document.querySelectorAll(&lsquo;selector&rsquo;)`</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>`for (const m of matches) {m.textContent =&rsquo;<tag>valid HTML here</tag>&lsquo;`</td>
+</tr>
+
+<tr>
+<td>Append to an element</td>
+<td>`$(&lsquo;selector&rsquo;).append(&rsquo;<tag>valid HTML here</tag>&rsquo;)</td>
+<td>`document.querySelector(&lsquo;selector&rsquo;).innerHTML += &lsquo;<tag>valid HTML here</tag>&lsquo;` risky!</td>
+</tr>
+
+<tr>
+<td>Remove a node</td>
+<td>`$(&lsquo;selector&rsquo;).remove()`</td>
+<td>`let el = document.querySelector(&lsquo;selector&rsquo;); el.parentNode.removeChild(el);</td>
+</tr>
+</tbody>
+</table>
 
 
     
