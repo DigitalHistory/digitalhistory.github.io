@@ -184,6 +184,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/09-01-spatial-history-leaflet/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
   </url>
   
