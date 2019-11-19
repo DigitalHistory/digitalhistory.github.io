@@ -194,6 +194,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/10-02-popcorn/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/slides/10-oral-history/</loc>
     <priority>0</priority>
   </url>
