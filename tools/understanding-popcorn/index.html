@@ -5,8 +5,8 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-11-19T13:53:02 EST">
-<title>Categories :: HIS393: Digital History</title>
+<meta name="revised" content="2019-11-19T13:53:01 EST">
+<title>Understanding Popcorn :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
     
   </head>
-  <body data-url="/categories/">
+  <body data-url="/tools/understanding-popcorn/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -265,10 +265,11 @@
                     </ul>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc0009c2d50), (*hugolib.pageState)(0xc0009c2330), (*hugolib.pageState)(0xc0009c2870), (*hugolib.pageState)(0xc0009c2c00), (*hugolib.pageState)(0xc0009c2fc0), (*hugolib.pageState)(0xc000920a50), (*hugolib.pageState)(0xc0009c2a80)}")</script>
-            <li data-nav-id="/tools/" class="dd-item haschildren
+            <li data-nav-id="/tools/" class="dd-item parent haschildren
                              ">
                 <div>
-                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
+                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
                 <li data-nav-id="/tools/node-dependencies/" class="dd-item">
@@ -306,7 +307,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/tools/understanding-popcorn/" class="dd-item">
+                <li data-nav-id="/tools/understanding-popcorn/" class="dd-item active">
                     <div>
                         <a href="/tools/understanding-popcorn/">
                             Understanding Popcorn
@@ -350,7 +351,16 @@
 <div class="padding highlightable">
 
   <div id="top-bar">
-    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+    
+      
+      
+      
+    <div id="top-github-link">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/understanding-popcorn.md" target="blank">
+        <i class="fa fa-code-fork"></i>
+        Improve this page
+      </a>
+    </div><div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
         <span id="sidebar-toggle-span">
           <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
             <i class="fa fa-bars"></i>
@@ -363,7 +373,12 @@
 
 
 
- <a href='/'></a> > Categories
+
+
+
+ <a href='/'></a> > <a href='/tools/'>Tools and Tricks</a> > Understanding Popcorn
+
+ 
 
  
 
@@ -374,7 +389,28 @@
     
     <div class="progress">
         <div class="wrapper">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#what-is-popcorn">What is Popcorn</a>
+<ul>
+<li><a href="#html5-and-new-possibilities">HTML5 &amp; new possibilities</a></li>
+<li><a href="#multi-media-swiss-army-knife">multi-media swiss-army knife</a></li>
+<li><a href="#using-popcorn">Using Popcorn</a></li>
+</ul></li>
+<li><a href="#popcorn-plugins">Popcorn Plugins</a>
+<ul>
+<li><a href="#available-plugins">Available plugins</a></li>
+</ul></li>
+<li><a href="#media-elements">Media Elements</a></li>
+<li><a href="#popcorn-players">Popcorn Players</a></li>
+<li><a href="#getting-help">Getting Help</a></li>
+<li><a href="#css-and-popcorn-display-issues">CSS and Popcorn display issues</a></li>
+<li><a href="#generating-events-with-tabletop">Generating Events with Tabletop</a></li>
+</ul></li>
+</ul>
+</nav>
         </div>
     </div>
     
@@ -384,7 +420,7 @@
 
 <div id="body-inner">
   
-    <h1>Categories</h1>
+    <h1>Understanding Popcorn</h1>
   
 
 
@@ -392,29 +428,138 @@
     
     
     
+    
 
+<p>You may find it useful, as you prepare for the next assignment, to read the following post!</p>
 
+<h2 id="what-is-popcorn">What is Popcorn</h2>
 
-<div class="extra-pagination inner">
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
+<p><a href="http://popcornjs.org">Popcorn</a> is a Javascript &ldquo;library&rdquo; &#x2013; a small collection of programs &#x2013; that lets web designers key events in a web page to a time-code in a media file.  So essentially, popcorn lets you &ldquo;cue up&rdquo; content ad display it only during fixed periods, while a media element is playing. If you then pause or manually rewind/fast-forward the media element (audio or video), the events will also reset to the appropriate time.</p>
 
-</div>
+<h3 id="html5-and-new-possibilities">HTML5 &amp; new possibilities</h3>
 
+<p>Popcorn works because of <del>new</del> (actually, not so new!)  functionality that is provided by the <a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a> standard, and in particular the <a href="http://www.html5rocks.com/en/features/multimedia"><audio> and <video></a> tags. This standard lets you manipulate audio  and video directly with HTML and Javascript &#x2013; something that wasn&rsquo;t possible until about five years ago.</p>
 
+<h3 id="multi-media-swiss-army-knife">multi-media swiss-army knife</h3>
 
-<div style="margin-bottom:2rem"></div>
+<p>Popcorn is a sort of Swiss army knife for doing multi-media work in HTML5.  There&rsquo;s a main framework &#x2013; the popcorn library &#x2013; that provides a simple Javascript interface for talking directly to the media elements.  Doing that directly can be hard, so the Popcorn &ldquo;layer&rdquo; makes this work quite a bit easier.  This underlying library is used by the <a href="http://popcornjs.org/plugins">Popcorn plugins</a>, which are the elements you will actually be working with.  These plugins are fairly simple Javascript programs (the mapping ones are actually kinda complex, and some of the things one wants to do with maps &#x2013; especially smoothly animate a pan from one location to another &#x2013; aren&rsquo;t available yet, which is too bad and a bit of a disappointment).  It&rsquo;s the plugins that you will actually be working with.</p>
 
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
+<h3 id="using-popcorn">Using Popcorn</h3>
 
+<p>To use popcorn in a web page, you need to define a variable &#x2013; usually named &lsquo;pop&rsquo; &#x2013; that creates a popcorn &lsquo;instance&rsquo; on your web page.  Then you wrap the variable definition in a simple function that makes sure it gets run when the web page loads.</p>
 
+<h2 id="popcorn-plugins">Popcorn Plugins</h2>
+
+<p>Inside the variable definition, you &ldquo;call&rdquo; the plugin function for each event you want to create. The process is very similar to creating timeline events in your timeline &#x2013; there&rsquo;s a simple syntax that defines a couple of &ldquo;parameters&rdquo; &#x2013; variables that get &ldquo;passed&rdquo; to the plugin function.  The example file defines a bunch of popcorn events; essentially you&rsquo;ll just change the values of these parameters to create your own events.  So for instance, here&rsquo;s an example plugin definition:</p>
+
+<pre><code class="language-javascript">let pop=Popcorn('#media')
+// the leading &quot;.&quot; says &quot;call the `footnote` method of the new `pop` object&quot;
+.footnote({&quot;id&quot;:&quot;intro&quot;,&quot;start&quot;:6,&quot;end&quot;:16,&quot;target&quot;:&quot;popcorn-container&quot;,&quot;text&quot;:&quot;Edna begins by talking about her father, Daniel Kelly (1861-1953). The US census of 1880 for Elgin, IL, gives Daniel’s occupation as blacksmith. In the 1900 census of Port Angeles his occupation is bridge builder; in the 1920 census of Eden Valley it is general farming; in the 1920 census of Eden Valley it is dairy farming.  In the 1930 census of Port Angeles he is retired.&quot;})
+</code></pre>
+
+<p>This is one of the plugins you can use if you like  &#x2013; the footnote plugin. It has just five parameters:</p>
+
+<ul>
+<li><strong>id</strong> &#x2013; this is for your benefit so you can keep track of what you&rsquo;re doing. Use it, but don&rsquo;t worry about it too much</li>
+<li><strong>start</strong> &#x2013; when to start playing the element. This is in SECONDS &#x2013; so forinstance if you want to it to start playing at 6:34, the value would be 394.  Keep a calculator on hand. Note that the value is <strong>not</strong> in quotation marks &#x2013; that&rsquo;s significant.</li>
+<li><strong>end</strong> &#x2013; the end time</li>
+<li><strong>target</strong> &#x2013; where to pop up the event. Don&rsquo;t change this, or your events will show up in the wrong place.  With popcorn you can put the new events anywhere on the page, and change any existing element. It&rsquo;s really powerful; we&rsquo;re just brushing the tip of the iceberg.</li>
+<li><strong>text</strong> &#x2013; this is the text you&rsquo;re going to make appear.  This is where your own contribution really comes in.</li>
+</ul>
+
+<h3 id="available-plugins">Available plugins</h3>
+
+<p>I&rsquo;ve provided examples for as many plugins as I could.  All should work as-is:</p>
+
+<ul>
+<li>Footnote you&rsquo;ve just seen</li>
+<li><a href="https://github.com/DigitalHistory/popcorn-js/blob/gmaps-update-api/plugins/figure/popcorn.figure.js">Figure</a> lets you display an image. This adds a new parameter &#x2013; &lsquo;src&rsquo; &#x2013; which let you select an image and also link that image to another location, if you so wish. (I haven&rsquo;t tested the linking os it may not be implemented yet).</li>
+<li><a href="https://github.com/mozilla/popcorn-js/tree/master/plugins/googlemap">Google Maps</a> Creates a google map. There are a bunch of new parameters here, see our source code for more info.</li>
+<li><a href="https://github.com/DigitalHistory/popcorn-js/blob/gmaps-update-api/plugins/leaflet/popcorn.leaflet.js">Leaflet Maps</a> offers a slightly more familiar interface, though the problem with slow tile loading still persists.</li>
+<li><a href="https://github.com/DigitalHistory/popcorn-js/blob/gmaps-update-api/plugins/markdown/popcorn.markdown.js">Markdown</a> allows you to add markdown annotations</li>
+<li><a href="https://github.com/DigitalHistory/popcorn-js/blob/gmaps-update-api/plugins/wikipedia/popcorn.wikipedia.js">Wikipedia</a> will add the first few paragraphs from a Wikipedia page.</li>
+<li><a href="https://github.com/DigitalHistory/popcorn-js/blob/gmaps-update-api/plugins/webpage/popcorn.webpage.js">Webpage</a> will embed a webpage in an iframe</li>
+</ul>
+
+<p>(The links in this section take you to the plugin sourcecode, which will usually be a directory with 4 files. The <code>html</code> file contains a working example of the plugin code. The <code>js</code> file is the sourcecode itself, and usually starts off with a useful explanation of how the plugin works. The last two files are provided for testing purposes, you shouldn&rsquo;t need to have use them.)</p>
+
+<p>You can explore the rest of the plugins as you wish; you may need to add some extra columns to your spreadsheet to get them to work</p>
+
+<h2 id="media-elements">Media Elements</h2>
+
+<p>Popcorn works by keying commands to a media element &#x2013; that is, an HTML tag <code>&lt;audio&gt;</code> or <code>&lt;video&gt;</code>.  Here&rsquo;s our sample audio tag:</p>
+
+<pre><code class="language-html">&lt;!-- this is our audio div.  It's really important --&gt;
+ &lt;audio id=&quot;media&quot; controls=&quot;controls&quot;&gt;
+   &lt;source src=&quot;media/audio/editededna.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+&lt;/audio&gt;
+</code></pre>
+
+<p>I just want you to note three things about this code:</p>
+
+<ul>
+<li>See how the <audio> tag has two attributes. The <strong>id</strong> is essential, because when we defined &ldquo;pop&rdquo; we told it to look for the element called &ldquo;id&rdquo;. &ldquo;controls&rdquo; is also important &#x2013; it ensures that you can pause, rewind, etc. in the browser&rsquo;s buiilt-in media player.</li>
+<li>The actual file that will be used by the &ldquo;audio&rdquo; element is not defined in the tag itself, but within it &#x2013; in the <source> tags.</li>
+</ul>
+
+<h2 id="popcorn-players">Popcorn Players</h2>
+
+<p>Our default example plays a <strong>local media file</strong> from a <strong>statically-defined media element</strong>. I really hope you will choose to follow this method, though a web-based media element works just as well. However, if you need to, you can use Vimeo and Youtube videos, as well as Soundcloud audio.  To do that, you will need to rewrite the project HTML a bit. So, instead of this,</p>
+
+<pre><code class="language-html">&lt;!-- this is our audio element.  It holds the audio file. --&gt;
+&lt;audio id=&quot;media&quot; controls=&quot;controls&quot;&gt;
+    &lt;!-- Make sure this points to the actual mp3 file you are analyzing --&gt;
+    &lt;source src=&quot;https://storycorpsorg-staging.s3.amazonaws.com/uploads/walsh2-1.mp3&quot;
+            type=&quot;audio/mp3&quot; /&gt;
+&lt;/audio&gt;
+</code></pre>
+
+<p>You will want something like this:</p>
+
+<pre><code class="language-html">
+&lt;section id=#media&gt;&lt;/section&gt;
+</code></pre>
+
+<p>Then, you&rsquo;ll need to modify line 6 of <code>popcorn-data-from-google.js</code>:</p>
+
+<pre><code class="language-js">pop = Popcorn(&quot;#media&quot;)
+</code></pre>
+
+<p>and use something like one of the models below:</p>
+
+<pre><code class="language-js">const smart = Popcorn.smart( &quot;#media&quot;, &quot;http://www.youtube.com/watch?v=9oar9glUCL0&quot; );
+// const smart = Popcorn.smart( &quot;#media&quot;, 'https://vimeo.com/267718090' );
+// const smart = Popcorn.smart( &quot;#media&quot;, 'https://soundcloud.com/corbanbrook/leaving-on-a-spaceship' );
+</code></pre>
+
+<p>the soundcloud player is a little buggy &#x2013; it emits a loud crackle when you start playback, and the &lsquo;play&rsquo; button needs to be pushed twice. Also, there are no built-in volume controls (!). In fact, we have to add a little bit of hacky code to get the player to work at all. So you&rsquo;ll need something like this, on say line 22 (ish):</p>
+
+<pre><code class="language-js">pop.media.controls = true;
+pop.unmute();
+pop.media.volume = 65;
+</code></pre>
+
+<p>set the volume to whatever level feels right as the user won&rsquo;t be able to change it.</p>
+
+<h2 id="getting-help">Getting Help</h2>
+
+<p>If you end up confused, there are a couple of useful popcorn resources on the web.</p>
+
+<ul>
+<li>alas, most of the old resources have been taken down in the past 2 years. All that&rsquo;s really left is the <a href="https://github.com/menismu/popcorn-js/">Github repo</a> and <a href="https://menismu.github.io/popcorn-docs/">the docs website</a>,  and both have been derelict for about 6 months. You can see my changes in <a href="https://github.com/menismu/popcorn-js/pull/73">my main pull request</a>, and browse through <a href="https://github.com/menismu/popcorn-js/issues">the issues I&rsquo;ve been submitting</a>, especially <a href="https://github.com/menismu/popcorn-js/issues/80">number 80</a>.</li>
+</ul>
+
+<h2 id="css-and-popcorn-display-issues">CSS and Popcorn display issues</h2>
+
+<p>In its day, Popcorn was designed for cutting-edge features that were just making their way to ghe browser. Now, no so much: the framework fails to take advantage of many of the new features of CSS3, and plugins are full of ugly, hard-coded CSS that can be hard to deal with. <strong>I have started to fix this issue</strong>, and in the plugins you are likely to use, much of the ugliest CSS has been stripped out. Instead, <strong>most</strong> plugins now neatly generate their own boxes (usually a `div` element) with an <strong>id</strong> and a <strong>class</strong> that you can set in CSS.</p>
+
+<p>For the assignment, I have set the popcorn container element to <code>display: flex</code>, which is a pretty good default choice. Most events will attempt to set a width of <code>30em</code>, or about the width of 30 characters, and then grow or shrink if they have to. This default works well for most kinds of information, but not for all, so I&rsquo;ve provided some examples of how to modify the default size.  You can set the element id for most plugins with the <code>id</code> column of the spreadsheet, and most plugins now add a class like <code>PLLUGINNAME-plugin</code> to their enclosing element.</p>
+
+<h2 id="generating-events-with-tabletop">Generating Events with Tabletop</h2>
+
+<p>In class, we <em>hand-coded</em> our popcorn events. This is not particularly onerous but is a little clumsy. You are absolutely welcome to use this method for the assignment if you like; but there is another way.  the <a href="https://github.com/jsoma/tabletop">tabletop.js</a> library lets you access information from a Google Spreadsheet and plug it into your scripts. I find it very handy for this kind of work (we could have used it for the mapping expercise, too).  In this way, you can create your popcorn events in the leisure of a Google Spreadsheet, and have the events automatically generated for you whenbever your web page loads.</p>
+
+<p>The process is described <a href="https://github.com/jsoma/tabletop#1-publishing-your-google-sheet">in the tabletop repository</a>, and you are strongly advised to read it carefully. If you want to use the code I&rsquo;ve provided for you in <code>popcorn-data-with-google.js</code>, you will need to <a href="https://docs.google.com/spreadsheets/d/1pL%5FLj62%5FZcW7iawTCQ%5F5BQsmdynCtC8y5BCNy3k2LOM/edit">copy this spreadsheet</a>, then <strong>publish it</strong> as described in the tabletop instructions (see above), and also <strong>copy the new URL</strong> into the appropriate place in <code>popcorn-data-with-google.js</code>.  Then code your popcorn in the spreadsheet; unless you make any syntax errors, the technical work should now be done. In the spreadsheet it is somewhat easier, for instance, to arange your events in sequence, etc.</p>
 
 
     

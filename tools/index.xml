@@ -6,10 +6,20 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Oct 2019 15:23:17 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 13:51:56 -0500</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Understanding Popcorn</title>
+      <link>http://digitalhistory.github.io/tools/understanding-popcorn/</link>
+      <pubDate>Tue, 19 Nov 2019 13:51:56 -0500</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/understanding-popcorn/</guid>
+      <description>You may find it useful, as you prepare for the next assignment, to read the following post!
+What is Popcorn Popcorn is a Javascript &amp;ldquo;library&amp;rdquo; &amp;#x2013; a small collection of programs &amp;#x2013; that lets web designers key events in a web page to a time-code in a media file. So essentially, popcorn lets you &amp;ldquo;cue up&amp;rdquo; content ad display it only during fixed periods, while a media element is playing.</description>
+    </item>
     
     <item>
       <title>JS Cheatsheet</title>
