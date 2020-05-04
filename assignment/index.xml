@@ -6,90 +6,10 @@
     <description>Recent content in Assignments on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2019 11:01:39 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 13:10:42 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/assignment/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Assignment 06: Project Proposal</title>
-      <link>http://digitalhistory.github.io/assignment/06-project-proposal/</link>
-      <pubDate>Wed, 11 Dec 2019 11:01:39 -0500</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/06-project-proposal/</guid>
-      <description>Due Date: December 05
-Remember that the proper way to create your assignment repository is by clicking on this lick, allowing Github Classroom to do the work for you. (But you should already have done this for the last two assignments, and if you haven&amp;rsquo;t this assignment is probably not for you!)
-As before, please make sure you&amp;rsquo;ve pulled from the upstream repository before starting work on this assignment. See your own repo or the upstream Github Repo for details.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 05: Oral History</title>
-      <link>http://digitalhistory.github.io/assignment/05-oral-history/</link>
-      <pubDate>Wed, 11 Dec 2019 11:01:31 -0500</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/05-oral-history/</guid>
-      <description>Due Date: March 30
-There is no new assignment link for the Oral History assignment; instead, you will just use the repository you have already cloned, or follow this old link to clone for the first time.
-However, you will need to update some of the files in your repository to newer versions that I have since pushed to the main assignment repository. If you followed my instructions, you will not have made any changed to these files, so it should be trivial to pull in my changes by pasting these commands into the terminal (be sure you are in the root directory of your repository when issuing these commands):</description>
-    </item>
-    
-    <item>
-      <title>Assignment 04: Spatial History</title>
-      <link>http://digitalhistory.github.io/assignment/04-spatial-history/</link>
-      <pubDate>Wed, 11 Dec 2019 11:01:27 -0500</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/04-spatial-history/</guid>
-      <description>Due Date: Nov. 14, 2019
-Your next assignment builds directly from our in-class exercise, and should be quite a bit easier to manage, technically, than your last assignment. Essentially, you will repeat the in-class assignment with much greater intellectual effort, but using the same technical framework. The assignment is now online.
-Rubric   Code Works
-  Map is Relevant to Essay
-  Essay makes relevant/significant Historical claim</description>
-    </item>
-    
-    <item>
-      <title>Assignment 03: DOM and Data</title>
-      <link>http://digitalhistory.github.io/assignment/03-dom-data/</link>
-      <pubDate>Mon, 21 Oct 2019 14:35:21 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/03-dom-data/</guid>
-      <description>Due Date: October 25
-In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.
-Due at end of the day on the due date, you can find the asssignment link on Github, and please be sure to create your own copy and clone the resultant repository to your laptop. (Don&amp;rsquo;t search out and fork the parent repository!</description>
-    </item>
-    
-    <item>
-      <title>Assignment 02: Javascript Basics</title>
-      <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
-      <pubDate>Mon, 30 Sep 2019 22:36:55 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/02-js-basics/</guid>
-      <description>Due Date: Oct. 08
-This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
-Due at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.
-Rubric   Passes General Tests
-  Passes Reflection Tests
-     </description>
-    </item>
-    
-    <item>
-      <title>Assignment 01: Zero to Blog Post</title>
-      <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
-      <pubDate>Tue, 17 Sep 2019 11:36:06 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/01-html-css/</guid>
-      <description>Due Date: Sept. 26 (2 days later than original deadline)
-General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 00: Your Class Profile</title>
-      <link>http://digitalhistory.github.io/assignment/00-git/</link>
-      <pubDate>Tue, 10 Sep 2019 13:12:53 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/assignment/00-git/</guid>
-      <description>General Description If you&amp;rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we&amp;rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.
-One of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.</description>
-    </item>
     
     <item>
       <title>Participation</title>
