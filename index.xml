@@ -12,6 +12,25 @@
     
     
     <item>
+      <title>Using VSCode</title>
+      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
+      <pubDate>Mon, 04 May 2020 18:25:10 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
+      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
+As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
+      <pubDate>Mon, 04 May 2020 18:21:35 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
+      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download, install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
+    </item>
+    
+    <item>
       <title>Syllabus</title>
       <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
       <pubDate>Mon, 04 May 2020 13:05:03 -0400</pubDate>
@@ -77,25 +96,6 @@ MDN also has a more advanced guide to JavaScript which starts with this &amp;ldq
       <description>As described in the syllabus, I use your participation mark to determine the &amp;ldquo;-/null/+&amp;rdquo; part of your grade. Let me explain a little more explicitly how this works.
 The System It&amp;rsquo;s simple. Suppose you successfully complete all the main assignments, but decide not to write a Project Proposal. Congratulations! You have qualified for a B. But what kind of a B?
    If your class participation was: You get a: Which ROSI will show as:     Poor B- 72   Satisfactory B 75   Excellent B+ 78    Similarly, perhaps you were only able to complete the Git &amp;amp; Github, HTML &amp;amp; CSS, Javascript and Oral History.</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>http://digitalhistory.github.io/tools/setup/</link>
-      <pubDate>Tue, 10 Sep 2019 12:22:57 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/setup/</guid>
-      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
-    </item>
-    
-    <item>
-      <title>using vscode</title>
-      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
-      <pubDate>Tue, 10 Sep 2019 12:22:43 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
-      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
-As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
     </item>
     
     <item>

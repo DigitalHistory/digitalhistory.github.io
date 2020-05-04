@@ -6,10 +6,29 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2019 15:16:50 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 18:25:10 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using VSCode</title>
+      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
+      <pubDate>Mon, 04 May 2020 18:25:10 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
+      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
+As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://digitalhistory.github.io/tools/setup/</link>
+      <pubDate>Mon, 04 May 2020 18:21:35 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/setup/</guid>
+      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download, install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
+    </item>
     
     <item>
       <title>Understanding Popcorn</title>
@@ -39,25 +58,6 @@ What is Popcorn Popcorn is a Javascript &amp;ldquo;library&amp;rdquo; – a smal
       <guid>http://digitalhistory.github.io/tools/js-resources-tools/</guid>
       <description>Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).
 MDN also has a more advanced guide to JavaScript which starts with this &amp;ldquo;reintroduction&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>http://digitalhistory.github.io/tools/setup/</link>
-      <pubDate>Tue, 10 Sep 2019 12:22:57 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/setup/</guid>
-      <description>For the duration of this course, you will need to set up a &amp;ldquo;development environment&amp;rdquo; to do your work. You&amp;rsquo;ll need to download,install, and interact with a group of programs and services that make it possible to do your work. Setting your environment up can be difficult, so be sure to budget some time to do so! Also be aware that these tools will take up significant spae on your laptop and may cause your laptop to slow down somewhat if run simultaneously with</description>
-    </item>
-    
-    <item>
-      <title>using vscode</title>
-      <link>http://digitalhistory.github.io/tools/using-vscode/</link>
-      <pubDate>Tue, 10 Sep 2019 12:22:43 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
-      <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
-As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
     </item>
     
     <item>
