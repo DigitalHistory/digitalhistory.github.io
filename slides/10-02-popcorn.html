@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Popcorn/Oral History</title>
+<meta name="author" content="Matt Price"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../../vendor/reveal//css/reveal.css"/>
+
+<link rel="stylesheet" href="../../vendor/reveal//css/theme/matt.css" id="theme"/>
+
+<link rel="stylesheet" href=""/>
+<link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
+<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
+<style>
+/* Position computations of klipse get confused by reveal.js's scaling.
+   Hence, scaling should be disabled with this code.  Fix height of code area
+   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
+   setting afterwards): */
+.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
+/* Reset some reveal.js and oer-reveal settings: */
+.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+/* Enlarge cursor: */
+.CodeMirror-cursor { border-left: 3px solid black; }
+</style>
+<script>
+    window.klipse_settings = {
+        selector: '.language-klipse',
+        selector_eval_html: '.language-klipse-html',
+        selector_eval_js: '.language-klipse-javascript',
+        selector_eval_js: '.language-klipse-js',
+        selector_eval_php: '.language-klipse-php',
+        selector_eval_python_client: '.language-klipse-python',
+        selector_eval_ruby: '.language-klipse-ruby',
+        selector_eval_scheme: '.language-klipse-scheme',
+        selector_sql: '.language-klipse-sql'
+    };
+</script>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../vendor/reveal//css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Popcorn/Oral History</h1>
+<h3>Matt Price  </h3>
+<!-- <p class="title-theme-choice">(view this presentation in another theme: 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/white.css')); return false;">White</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/league.css')); return false;">League</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/sky.css')); return false;">Sky</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/beige.css')); return false;">Beige</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/simple.css')); return false;">Simple</a> 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/serif.css')); return false;">Serif</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/blood.css')); return false;">Blood</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/night.css')); return false;">Night</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/moon.css')); return false;">Moon</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/solarized.css')); return false;">Solarized</a> 
+				)	</p> -->
+
+</section>
+<section>
+<section id="slide-org69fe8f8">
+<h2 id="org69fe8f8">Taking Stock</h2>
+<form><ul>
+<li>The End is Nigh!!</li>
+<li>Assignment 4: Lara has Returned it!</li>
+<li>Assignment 5: Required for <b>everyone</b> (!!)</li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-org8eca82f">
+<h2 id="org8eca82f">Oral History Assignment</h2>
+<form><ul>
+<li>intellectual goal: think hard about <b>nature of oral history</b>, and <b>how to use digital media effectively</b></li>
+<li>technical goal: think more about working with non-textual media, about HTML structures, and about APIs (monsters in the deep)</li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-org3852bea">
+<h2 id="org3852bea">Before we go further!</h2>
+<p>
+pull in upstream changes so you can play w/ up to date code during class today. 
+</p>
+<pre  class="example">
+git pull
+</pre>
+
+</section>
+</section>
+<section>
+<section id="slide-repo-update-37fdds">
+<h2 id="repo-update-37fdds">What the heck is this?</h2>
+<form><ul>
+<li><b>Popcorn</b>: media "events" framework for audio &amp; video annotation
+<form><ul>
+<li>developed by Mozilla for about 5 years before it was orphaned.</li>
+<li>perhaps being revivified</li>
+<li>keeps track of media playback, and renders specified web content between start and end timecodes.</li>
+<li>for us: turns <b>audio file</b> into a kind of <b>imovie-style slideshow</b> except that the "slides" are arbitrary web content instead of photos.</li>
+<li>in particular, can include google maps, wikipeida pages, and some other types of content.</li>
+
+</ul></form></li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-popcorn-framework-e5ca">
+<h2 id="popcorn-framework-e5ca">Popcorn framework</h2>
+<form><ul>
+<li>Library-Plugin framework
+<form><ul>
+<li>main library tracks media element, renders content</li>
+<li>plugins generate html to feed to main</li>
+<li>every "event" (or "slide") is generated by <b>calling a plugin</b> with a JS object as parameter.  cf. <b><a href="https://github.com/DigitalHistory/advanced-topics/blob/master/js/popcorn-data-from-google.js#L42">line 42 of popcorn-data-from-google.js</a></b> to see how this works</li>
+
+</ul></form></li>
+
+</ul></form>
+<aside class="notes">
+<p>
+we don't have to worry about the main library
+</p>
+
+<p>
+<b>basically no coding to do o nthis assignment!</b>
+</p>
+<form><ul>
+<li>focus on markdown skills, google sheet</li>
+
+</ul></form>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-plugin-structure-2f5b">
+<h2 id="plugin-structure-2f5b">Plugin Structure</h2>
+<pre><code class="language-klipse-javascript" >
+pop.footnote({
+  start: 50,
+  end: 90,
+  text: "Second Footnote!",
+  target: "popcorn-container"
+});
+</code></pre>
+<aside class="notes">
+<form><ul>
+<li>plugins define a method of the main popcorn object</li>
+<li>each plugin has its own required and optional parameters, which you can read about in the docs</li>
+
+</ul></form>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-google-sheets-1f77">
+<h2 id="google-sheets-1f77">Google sheets: API Power</h2>
+<p>
+Line 16 in <a href="https://github.com/DigitalHistory/advanced-topics/blob/master/js/popcorn-data-from-google.js#L16">js/~popcorn-data-from-google.js</a>:
+</p>
+<pre><code class="language-klipse-javascript" >
+var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&amp;single=true&#39;;
+</code></pre>
+<form><ul>
+<li>uses Google JSON API, which represents each spreadsheet row as a JSON object</li>
+<li>column headers as property names</li>
+<li>script iterates through rows &amp; invokes appropriate popcorn plugin for each row, w/ column values as plugin parameter properties</li>
+<li>if you use some other plugin that I haven't mentioned, you may need to add a column!</li>
+<li><b>YOU DON'T HAVE TO DO THE PROGAMMING WORK</b> &#x2013; managed for you</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-repo-update-32309428">
+<h2 id="repo-update-32309428">Tabletop: small interpreter demon</h2>
+<form><ul>
+<li>Google Spreadsheets API speaks a Byzantine language of Hell</li>
+<li>Tabletop lets you speak simple JS</li>
+<li>cf <a href="https://github.com/jsoma/tabletop#1-publishing-your-google-sheet">very clear and helpful Tabletop instructions</a> and also <a href="https://github.com/DigitalHistory/advanced-topics/blob/master/js/popcorn-data-from-google.js#L21">line 21</a> in popcorn-data-from-google.js:</li>
+
+</ul></form>
+<pre><code class="language-klipse-js" >
+var mytables = Tabletop.init( { key: public_spreadsheet_key,
+                                callback: processInfo ,
+                                simpleSheet: false } );
+</code></pre>
+
+</section>
+</section>
+<section>
+<section id="slide-org7003511">
+<h2 id="org7003511">Before we go further!</h2>
+<p>
+pull in upstream changes so you can play w/ up to date code during class today. 
+</p>
+<pre  class="example">
+git pull
+</pre>
+
+</section>
+</section>
+<section>
+<section id="slide-repo-update-37330908fdsa">
+<h2 id="repo-update-37330908fdsa">Getting Started: First, Copy Spreadsheet</h2>
+<div class="slideblock">
+<form><ul>
+<li>go to my sheet: <a href="https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/edit#gid=0">https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/edit#gid=0</a></li>
+<li><code>File</code> &#x2013;&gt; <code>Make a copy</code></li>
+<li>Under <code>File</code> &#x2013;&gt; <code>Publish to the web</code>, make sure yr sheet is published</li>
+<li><b>NOT DONE YET!</b></li>
+<li>go to "Share" and "Copy Link to Share"</li>
+<li><b>this is your new key!!!!</b></li>
+<li>insert into your js file</li>
+
+</ul></form>
+
+</div>
+
+<div class="slideblock">
+<p>
+<b>Alternative Method</b>
+</p>
+<pre><code class="language-klipse-javascript" >
+var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&amp;single=true&#39;;
+</code></pre>
+<form><ul>
+<li>Replace <b>ONLY THE PART BTWN <i>d</i> and /pubhtml</b> with the spreadsheet "key" from yr new sheet</li>
+
+</ul></form>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org20ac3df" class="twoc">
+<h2 id="org20ac3df">Styling Popcorn Plugins</h2>
+<div class="slideblock">
+<p>
+<b>Page-specific code is found in <code>/css/oh-styles.css</code></b>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" css" >.main-container {
+    grid-template-areas: "intro popcorn" "main main";
+    grid-auto-columns: 1fr;
+    grid-template-rows: 50vh 1fr;
+}
+aside#popcorn-container {
+    grid-area: popcorn;
+    background-color: var(--color-highlight2);
+    border: 1px solid var(--color-custom-borders);
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    max-height: 100%;
+    /* space things out! */
+    justify-content: space-around;
+}
+aside#popcorn-container &gt; * {
+    /* default base width for plugins */
+    flex-basis: var(--default-width);
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+
+/* most of the plugins will create divs or other elements w/ class "pluginname-plugin" */
+/* here's one example of styling particular plugins differently from others */
+#popcorn-container figure.figure-plugin {
+    /* an example of setting the figure as a bit larger than the others.  */
+    flex-basis: calc(var(--default-width)*4/3);
+    max-width: 100%;
+}
+
+#popcorn-container .leaflet-plugin, #popcorn-container .googlemap-plugin {
+    /* make these full-width by default */
+    flex-basis: 100%;
+}
+
+/* you can also use the `id` column to address *most* plugins (but not all!) */
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<p>
+<b>Some thoughts</b>
+</p>
+<form><ul>
+<li>if you are using a video (instead of audio), you may want to <b>make changes to the grid</b>. e.g., you might want to put the video inside the grid, next to the annotations, and either move intro to its own row or just eliminate the intro section altogether. This would likely involve change to the HTML as well.</li>
+<li><b>are you happy with the default display of the plugins?</b> This design assumes that you are unlikely to have more than 2 plugins visible at the same time. If you never have more than one, you may want to set <code>--default-width</code> to <code>100%</code>. Maybe you don't even want to use a flex container!</li>
+<li><b>set plugin-type and plugin-instance CSS with class and id properties</b>. In general, plugin instance containers have both a plugin-specific class <code>pluginName-plugin</code> and an instance-spcific id (the <code>id</code> property you set in a spreadsheet row).</li>
+<li><b>notice the use of CSS variables</b>. The syntax can sometimes feel a little heavy, but ultimately they mike life a lot easier.</li>
+
+</ul></form>
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-repo-update-37332l3j4" class="twobytwo">
+<h2 id="repo-update-37332l3j4">Getting Started with code</h2>
+<div class="slideblock">
+<p>
+<b>Install npm &amp; run server</b>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" sh" >cd advanced-topics-yr-name
+npm install 
+npm run server &amp;
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<p>
+<b>Navigate to your site</b>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" sh" >firefox localhost:8080/oral-history
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<p>
+<b>use DevTools to look for errors</b>
+<img src="../../ox-hugo/console.png" alt="console.png">
+</p>
+
+</div>
+<div class="slideblock">
+<p>
+<b>Error Sources</b>
+</p>
+<form><ul>
+<li>bad spreadsheet URL</li>
+<li>bad time codes etc. in spreadsheet</li>
+<li>JS syntax errors in <code>popcorn-data-from-google.js</code></li>
+<li>JS syntax errors in <code>index.html</code></li>
+
+</ul></form>
+
+</div>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org224b86b" class="twoc">
+<h2 id="org224b86b">Good and Less Good Annotations</h2>
+<div class="slideblock">
+<p>
+<b>Good Annotations:</b>
+</p>
+<form><ul>
+<li><p>
+Add context/info
+</p>
+<blockquote>
+<p>
+<i>Stunde null</i> ("hour zero") refers to the period of time directly after World War II, when the future direction and status of the old German Reich was radically undertain, and a dramatic reset of all social and political expectations seemed inevitable.
+</p>
+</blockquote>
+<p>
+<iframe style="width:100%; height: 20vh" src="https://en.wikipedia.org/wiki/Stunde_Null"></iframe>
+</p></li>
+<li><p>
+clarify content
+</p>
+<blockquote>
+<p>
+"His Holiness", that is, the Dalai Lama.
+</p>
+</blockquote></li>
+<li>enhance rather than distract</li>
+
+</ul></form>
+
+</div>
+<div class="slideblock">
+<p>
+<b>Less Good Annotations:</b>
+</p>
+<form><ul>
+<li>are not directly tied to what's being discussed in your media file</li>
+<li>pass too quickly to be comprehended in real time</li>
+<li>are too cluttered to interpret</li>
+
+</ul></form>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-seek-function-a7fd" class="twoc">
+<h2 id="seek-function-a7fd">Extra fun</h2>
+<div class="slideblock">
+<p>
+<b>Seek Function</b>
+</p>
+<pre><code class="language-klipse-javascript" >
+const seek = function (time) {
+ document.getElementById("media").currentTime= time;
+ }; 
+</code></pre>
+
+<p>
+Use in Markdown thus: 
+</p>
+
+<div class="org-src-container">
+
+<pre><code class=" markdown" >When &lt;a href="javascript:seek(75)"&gt;Jonathan discusses the trauma of wartime (1:15)&lt;/a&gt;, 
+he uses language that clearly echos that of professional psychiatric discourse as it 
+came into vogue in the 1970's. 
+</code></pre>
+</div>
+
+</div>
+
+<div class="slideblock">
+<p>
+<b>Styling media container in chrome</b>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" css" >audio::-webkit-media-controls-enclosure {
+    background-color: rgba(20,20,20,0.4);
+    border-radius: 5px;
+}
+audio {
+    width: 100%;
+}
+</code></pre>
+</div>
+
+</div>
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgd4346d2">
+<h2 id="orgd4346d2">Your Questions/Efforts</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="../../vendor/reveal//lib/js/head.min.js"></script>
+<script src="../../vendor/reveal//js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+width: "100%",
+height: "100%",
+margin: 0.10,
+minScale: 1.00,
+maxScale: 1.00,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+{src: '../../vendor/reveal//plugin/klipse_reveal.js'},
+ { src: '../../vendor/reveal//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: '../../vendor/reveal//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
+<script>
+/* Recompute layout upon changes by klipse.  Code fragment from
+   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
+   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
+Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.dispatchEvent( new Event('resize') );
+} );
+</script>
+</body>
+</html>
