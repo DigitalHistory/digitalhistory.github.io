@@ -8,6 +8,26 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
+    <lastmod>2020-05-05T01:37:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/00-git/</loc>
+    <lastmod>2020-05-05T01:37:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
+    <lastmod>2020-05-05T01:37:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
+    <lastmod>2020-05-05T01:37:09-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/tools/</loc>
     <lastmod>2020-05-04T18:25:10-04:00</lastmod>
   </url>
@@ -40,11 +60,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/js-resources-tools/</loc>
     <lastmod>2019-09-25T22:32:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2019-09-10T13:10:42-04:00</lastmod>
   </url>
   
   <url>
@@ -87,10 +102,6 @@
   
   <url>
     <loc>http://digitalhistory.github.io/slides/</loc>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
   </url>
   
 </urlset>

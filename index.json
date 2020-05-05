@@ -7,6 +7,34 @@
 	"content": ""
 },
 {
+	"uri": "http://digitalhistory.github.io/tags/assignment/",
+	"title": "assignment",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://digitalhistory.github.io/assignment/00-git/",
+	"title": "Assignment 00: Your Class Profile",
+	"tags": ["assignment"],
+	"description": "",
+	"content": "General Description If you\u0026rsquo;re looking for History, Please, follow that link! Your job in this assignment is to tell the class a few things about yourself. In the process we\u0026rsquo;ll think about a few issues related to digital storage of information, including privacy, interpretation of sources, and data vs. knowledge.\nOne of the hardest parts of this course for many people is setting up their working environment. In this assignment you will be need to set up your working environment and then use Git, much as we did in class, but this time manipulating the command line.\nThis may take longer than you think, and it\u0026rsquo;s due soon. Please get started soon by:\n clicking on this link to get access to the assignment following the instructions in the file README.org in your new repository.  "
+},
+{
+	"uri": "http://digitalhistory.github.io/assignment/",
+	"title": "Assignments",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://digitalhistory.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://digitalhistory.github.io/tools/",
 	"title": "Tools and Tricks",
 	"tags": [],
@@ -54,13 +82,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Resources There are many, many excellent JavScript resources on the web. I strongly recommend the MDN JavaScript Learning Pathway. I also have a very high opinion of Eloquent Javascript, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and EJ have built-in JS Consoles forexperimenting with code (see below).\nMDN also has a more advanced guide to JavaScript which starts with this \u0026ldquo;reintroduction\u0026rdquo;. This can be worth consulting if you want more information.\nConsoles and Playgrounds Sometimes you will want to try out your code and test out your ideas before putting them in a permanent file. There are various tools for this.\n Browser consoles and scratchpads Your browser has a built-in \u0026ldquo;console\u0026rdquo; where you can enter javascript commands and see their output. See the Setup doc for more info. node console Unfortunately, VSCode does not have a built-in javascript console. However, you can easily create one in a terminal window by running the command node. Exit by typing Control-d or Control-c Control-c or .exit. VSCode Debugger VSCode has an excellent debugger. However, debugging is a complicated subject. If you want to try to use these tools, read the docs. VSCode extensions There are many excellent VSCode extensions for JavaScript. You can experiment with quokka, for instance. Online Playgrounds These can be fantastic resources, but they make more sense for web-based programming. We may discuss these later in the course.  "
-},
-{
-	"uri": "http://digitalhistory.github.io/assignment/",
-	"title": "Assignments",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "http://digitalhistory.github.io/assignment/participation/",
@@ -124,11 +145,4 @@
 	"tags": [],
 	"description": "",
 	"content": "Here are the lecture slides. When you click on one of the links below, a set of lecture slides will appear in the browswer window. You may want to right-click and open in a new tab. Navigate through the slides with the following keys:\n n: next slide p: previous slide arrow keys: left, right, up, down (the slide deck is 2-dimensional) escape: slide deck overview f: activate fullscreen mode (escape exits) s: open a separate window with speaker notes. This view shows current slide, upcoming slide, and any off-slide speaker notes  Technical note: these slides are composed as text in Org Mode, exported to reveal.js-compatible HTML by org-re-reveal, and rendered in a grid layout by a custom theme.\nEnjoy!\n"
-},
-{
-	"uri": "http://digitalhistory.github.io/tags/",
-	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
 }]
