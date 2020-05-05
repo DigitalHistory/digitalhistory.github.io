@@ -28,16 +28,6 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/slides/12-citizen-history/</loc>
-    <lastmod>2019-12-03T11:56:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/</loc>
-    <lastmod>2019-12-03T11:56:47-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://digitalhistory.github.io/tools/understanding-popcorn/</loc>
     <lastmod>2019-11-21T15:16:50-05:00</lastmod>
   </url>
@@ -45,11 +35,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/js-cheat-sheet/</loc>
     <lastmod>2019-10-24T15:23:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/05-02-distant-reading/</loc>
-    <lastmod>2019-10-03T00:06:26-04:00</lastmod>
   </url>
   
   <url>
@@ -89,7 +74,19 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/01-01-intro-digital-history/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/01-02-git/</loc>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/</loc>
   </url>
   
   <url>

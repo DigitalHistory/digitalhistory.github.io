@@ -40,15 +40,6 @@ As with any powerful tool, it can take a little while to get comfortable with VS
     </item>
     
     <item>
-      <title>12: Citizen History</title>
-      <link>http://digitalhistory.github.io/slides/12-citizen-history/</link>
-      <pubDate>Tue, 03 Dec 2019 11:56:47 -0500</pubDate>
-      
-      <guid>http://digitalhistory.github.io/slides/12-citizen-history/</guid>
-      <description>Reminders  Oral History due shortly Proposal due immediately after sorry no snacks!  What we&amp;rsquo;ve learned Text is Code  all our work is &amp;ldquo;digital&amp;rdquo; now  The 3 layers of the web  structure presentation dynamism  The &amp;ldquo;Public&amp;rdquo; and &amp;ldquo;the Public Sphere&amp;rdquo;  media constrain the possible the &amp;ldquo;public&amp;rdquo; is probably not unitary don&amp;rsquo;t have to be a genius to make a contribution  Invocations and Incantations  Using APIs to take advantage of other people&amp;rsquo;s work writing only what you have to  Open and Closed Systems  what &amp;ldquo;open source&amp;rdquo; means for us  Maps and Legends  organizing stories around space digital maps are spcial  Storytelling  the distinctive features of oral history problems of truth and objectivity collaboration and authorship  What you might do History doesn&amp;rsquo;t have to stop at graduation</description>
-    </item>
-    
-    <item>
       <title>Understanding Popcorn</title>
       <link>http://digitalhistory.github.io/tools/understanding-popcorn/</link>
       <pubDate>Thu, 21 Nov 2019 15:16:50 -0500</pubDate>
@@ -66,15 +57,6 @@ What is Popcorn Popcorn is a Javascript &amp;ldquo;library&amp;rdquo; – a smal
       <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
       <description>Jquery and Vanilla JS equivalents:
    Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;) document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;     const matches = document.</description>
-    </item>
-    
-    <item>
-      <title>Distant Reading</title>
-      <link>http://digitalhistory.github.io/slides/05-02-distant-reading/</link>
-      <pubDate>Thu, 03 Oct 2019 00:06:26 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/slides/05-02-distant-reading/</guid>
-      <description>Recap  &amp;ldquo;Public sphere&amp;rdquo; at a turning point Transformation by automated agents and encoded text  War is Peace. Freedom is Slavery. Ignorance is Strength. Plan for the day  Problems of Abundance Distant Reading: a method for textual overload? Discussion: how do you respond to information abundance? post-class period ONLY for students who failed the tests, or did not receive a mark  History in the age of scarcity  The members of prehistoric societies did not think they lived in prehistoric times.</description>
     </item>
     
     <item>
@@ -125,6 +107,24 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       
       <guid>http://digitalhistory.github.io/_header/</guid>
       <description>HIS 393 Digital History</description>
+    </item>
+    
+    <item>
+      <title>01-01: Introduction to Digital History</title>
+      <link>http://digitalhistory.github.io/slides/01-01-intro-digital-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-01-intro-digital-history/</guid>
+      <description>01-01: Introduction to Digital History .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title>01-02: Git and Github</title>
+      <link>http://digitalhistory.github.io/slides/01-02-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/01-02-git/</guid>
+      <description>01-02: Git and Github .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
     </item>
     
   </channel>
