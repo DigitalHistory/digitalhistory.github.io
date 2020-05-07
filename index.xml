@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Quick JSON tips</title>
+      <link>http://digitalhistory.github.io/tools/json-tips/</link>
+      <pubDate>Thu, 07 May 2020 09:24:16 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/json-tips/</guid>
+      <description>Just a few words about JSON format. The format of the assignments JSON file will make more sense after we&amp;rsquo;ve learned a little bit of JavaScript (in the next 3 weeks). For this assignment I&amp;rsquo;m not really asking you to understand the format, but you do have to obey the syntax rules or the assignment tests will fail. JSON is a portable data format used for moving data from one source to another.</description>
+    </item>
+    
+    <item>
       <title>Setup</title>
       <link>http://digitalhistory.github.io/tools/setup/</link>
       <pubDate>Tue, 05 May 2020 01:43:41 -0400</pubDate>

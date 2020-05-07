@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-05-07T09:24:59 EDT">
-<title>Tools and Tricks :: HIS393: Digital History</title>
+<title>Quick JSON tips :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
     
   </head>
-  <body data-url="/tools/">
+  <body data-url="/tools/json-tips/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -132,7 +132,7 @@
                     </ul>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc000bca240), (*hugolib.pageState)(0xc000bcaba0), (*hugolib.pageState)(0xc000bcb1a0), (*hugolib.pageState)(0xc000bcaea0), (*hugolib.pageState)(0xc00086fc20), (*hugolib.pageState)(0xc00086ff20), (*hugolib.pageState)(0xc000bca540), (*hugolib.pageState)(0xc000bca8a0)}")</script>
-            <li data-nav-id="/tools/" class="dd-item parent active haschildren
+            <li data-nav-id="/tools/" class="dd-item parent haschildren
                              ">
                 <div>
                     <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
@@ -167,7 +167,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/tools/json-tips/" class="dd-item">
+                <li data-nav-id="/tools/json-tips/" class="dd-item active">
                     <div>
                         <a href="/tools/json-tips/">
                             Quick JSON tips
@@ -230,7 +230,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/_index.md" target="blank">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/json-tips.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Improve this page
       </a>
@@ -247,7 +247,12 @@
 
 
 
- <a href='/'></a> > Tools and Tricks
+
+
+
+ <a href='/'></a> > <a href='/tools/'>Tools and Tricks</a> > Quick JSON tips
+
+ 
 
  
 
@@ -268,7 +273,7 @@
 
 <div id="body-inner">
   
-    <h1>Tools and Tricks</h1>
+    <h1>Quick JSON tips</h1>
   
 
 
@@ -276,9 +281,30 @@
     
     
     
-
-<!-- raw HTML omitted -->
-
+    <p>Just a few words about JSON format. The format of the assignments JSON file will make more sense after we&rsquo;ve learned a little bit of JavaScript (in the next 3 weeks). For this assignment I&rsquo;m not really asking you to understand the format, but you do have to obey the syntax rules or the assignment tests will fail. JSON is a portable data format used for moving data from one source to another.  It is what is called a &ldquo;key-value datastore&rdquo; – a JSON file consists of &ldquo;keys&rdquo;, or names, and associated &ldquo;values&rdquo;.  The relationship is represented by a <code>:</code> – os a single key-value pair is written as <code>key: value</code>.</p>
+<p>What I wrote above is <strong>almost</strong> true. However, there are a few more rules to follow:</p>
+<ul>
+<li>in JSON, the <strong>key name</strong> must be enclosed in <strong>double quotation marks</strong></li>
+<li>the <strong>value</strong> must be either a plain number, the special words <code>true</code> or <code>false</code>, or <strong>any sequence of characters surrounded by quotation marks</strong> (actually, it&rsquo;s more complicated than that, but for this assignment let&rsquo;s not say any more)</li>
+<li>key-value pairs are separated from each other by <strong>commas</strong></li>
+<li>the whole JSON object must be surrounded by <strong>curly braces</strong></li>
+</ul>
+<p>So a real JSON file – the model for what you must produce – will look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;firstName&#34;</span>: <span style="color:#e6db74">&#34;Korra&#34;</span>,
+  <span style="color:#f92672">&#34;lastName&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+  <span style="color:#f92672">&#34;nickName&#34;</span>: <span style="color:#e6db74">&#34;Avatar&#34;</span>,
+  <span style="color:#f92672">&#34;privateName&#34;</span>: <span style="color:#66d9ef">false</span>,
+  <span style="color:#f92672">&#34;picture&#34;</span>: <span style="color:#e6db74">&#34;https://upload.wikimedia.org/wikipedia/en/d/db/Korra_The_Legend_of_Korra.jpg&#34;</span>,
+  <span style="color:#f92672">&#34;privatePicture&#34;</span>: <span style="color:#66d9ef">false</span>,
+  <span style="color:#f92672">&#34;email&#34;</span>: <span style="color:#e6db74">&#34;korra_avatar@@utoronto.ca&#34;</span>,
+  <span style="color:#f92672">&#34;privateEmail&#34;</span>: <span style="color:#66d9ef">true</span>,
+  <span style="color:#f92672">&#34;github&#34;</span>: <span style="color:#e6db74">&#34;korra&#34;</span>,
+  <span style="color:#f92672">&#34;privateGithub&#34;</span>: <span style="color:#66d9ef">false</span>,
+  <span style="color:#f92672">&#34;superpower&#34;</span> : <span style="color:#e6db74">&#34;Master of All Four Elements&#34;</span>,
+  <span style="color:#f92672">&#34;academicinterests&#34;</span>: <span style="color:#e6db74">&#34;Comparative Ancient Greek and Chinese Cosmology; Conservation Principles in Physical and Religious Systems&#34;</span>
+}
+</code></pre></div><p><strong>MOST STUDENTS MAKE SYNTAX ERRORS WHEN THEY ARE STARTING OUT</strong>. Please don&rsquo;t be discouraged by this. Just keep on plugging away.</p>
 
 
     
