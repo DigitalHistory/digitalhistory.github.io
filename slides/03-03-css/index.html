@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-05-10T06:43:39 EDT">
-<title>01-02: Git and Github :: HIS393: Digital History</title>
+<title>03-03 And Now: CSS! :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 
     
   </head>
-  <body data-url="/slides/01-02-git/">
+  <body data-url="/slides/03-03-css/">
     
       <header>
   <div class="logo">
@@ -133,7 +133,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/slides/01-02-git/" class="dd-item active">
+                <li data-nav-id="/slides/01-02-git/" class="dd-item">
                     <div>
                         <a href="/slides/01-02-git/">
                             01-02: Git and Github
@@ -161,7 +161,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/slides/03-03-css/" class="dd-item">
+                <li data-nav-id="/slides/03-03-css/" class="dd-item active">
                     <div>
                         <a href="/slides/03-03-css/">
                             03-03 And Now: CSS!
@@ -263,11 +263,11 @@
     <option value="/slides/" >
    Lecture Slides</option> 
       <option value="/slides/01-01-intro-digital-history/" > 01-01: Introduction to Digital History</option>
-      <option value="/slides/01-02-git/"  selected> 01-02: Git and Github</option>
+      <option value="/slides/01-02-git/" > 01-02: Git and Github</option>
       <option value="/slides/02-02-more-git/" > 02-01: Git Concepts</option>
       <option value="/slides/04-01-web-signifies/" > 03-01: What the Web Signifies</option>
       <option value="/slides/03-01-html-backlog/" > 03-02: HTML: Machine-readable Text</option>
-      <option value="/slides/03-03-css/" > 03-03 And Now: CSS!</option>
+      <option value="/slides/03-03-css/"  selected> 03-03 And Now: CSS!</option>
       <option value="/slides/03-04-css-layout/" > 03-04, CSS Part 2: Layout</option>
   
     <option value="/tools/" >
@@ -294,7 +294,7 @@
       </div>
     
 
-    <h1>01-02: Git and Github</h1>
+    <h1>03-03 And Now: CSS!</h1>
     
     
     
@@ -302,7 +302,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>01-02: Git and Github</title>
+<title>03-03 And Now: CSS!</title>
 <meta name="author" content="Matt Price"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
@@ -313,31 +313,6 @@
 
 <link rel="stylesheet" href=""/>
 <link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
-<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
-<style>
-/* Position computations of klipse get confused by reveal.js's scaling.
-   Hence, scaling should be disabled with this code.  Fix height of code area
-   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
-   setting afterwards): */
-.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
-/* Reset some reveal.js and oer-reveal settings: */
-.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
-/* Enlarge cursor: */
-.CodeMirror-cursor { border-left: 3px solid black; }
-</style>
-<script>
-    window.klipse_settings = {
-        selector: '.language-klipse',
-        selector_eval_html: '.language-klipse-html',
-        selector_eval_js: '.language-klipse-javascript',
-        selector_eval_js: '.language-klipse-js',
-        selector_eval_php: '.language-klipse-php',
-        selector_eval_python_client: '.language-klipse-python',
-        selector_eval_ruby: '.language-klipse-ruby',
-        selector_eval_scheme: '.language-klipse-scheme',
-        selector_sql: '.language-klipse-sql'
-    };
-</script>
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -354,7 +329,7 @@
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide">
-<h1>01-02: Git and Github</h1>
+<h1>03-03 And Now: CSS!</h1>
 <h3>Matt Price  </h3>
 <!-- <p class="title-theme-choice">(view this presentation in another theme: 
 <a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
@@ -372,97 +347,519 @@
 
 </section>
 <section>
-<section id="slide-org92014b0">
-<h2 id="org92014b0">Git!</h2>
+<section id="slide-reminder-974a">
+<h2 id="reminder-974a">Reminder</h2>
+<form><ul>
+<li>HTML for <b>structure/content</b>;</li>
+<li>CSS for <b>presentation</b></li>
+<li>Resources:  <a href="http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b">Codeacademy</a> CSS offerings;  <a href="http://learnlayout.com/">Learn Layout</a>; <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla Developer Network</a>; many other cool sites</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-what-you-need-to-learn-today-f47f">
+<h2 id="what-you-need-to-learn-today-f47f">What you Need to Learn Today</h2>
+<form><ul>
+<li>syntax: selectors, rules, punctuation;</li>
+<li>jargon: colors, sizes</li>
+<li>where to look stuff up (!)</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-css-basics-6376">
+<h2 id="css-basics-6376">CSS Basics</h2>
+<form><ul>
+<li>"<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascading Style Sheets</a>"</li>
+<li>Style sheet</li>
+<li>that "cascades" = overrides prior values</li>
+
+</ul></form>
 
 <figure>
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git-Logo-2Color.png">
+<img src="http://bollig.co/assets/page-images/understanding-the-cascade-part-1/css-cascade.jpg" alt="css-cascade.jpg">
 
 </figure>
 
-<form><ul>
-<li>"Track Changes" on steroids</li>
-<li>"Version Control" software optimized for collaboration</li>
-<li><b>essential infrastructure for almost all programming projects</b></li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-github!-7877">
-<h2 id="github!-7877">Github!</h2>
-
-<figure>
-<img src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png" alt="github-octocat.png">
-
-</figure>
-<form><ul>
-<li>git-based code-sharing site</li>
-<li>largest in history</li>
-<li>owned by Microsoft ☹</li>
-<li>where we (and most open-source projects) work!</li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-org582346a">
-<h2 id="org582346a">In Our Class</h2>
-<form><ul>
-<li>fun git practice</li>
-<li>git concepts</li>
-<li>ensure setup is going well</li>
-<li>assignment/process overview</li>
-<li><b>If you don't have a github account yet, get one now!</b></li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-orgedd3110">
-<h2 id="orgedd3110">Git Practice: History, Please!</h2>
-<form><ul>
-<li>simple command-line/graphical application</li>
-<li>crowd-sourced by students from this class</li>
-<li>many problems to fix &amp; improvements to make</li>
-<li>we'll try to make some progress</li>
-
-</ul></form>
-</section>
-<section id="slide-org112b995">
-<h3 id="org112b995">History, Please</h3>
+<aside class="notes">
 <p>
-<b>Take out your Laptop!</b>
+two "dimensions" to cascade (source order and specificity)
 </p>
 
 <form><ul>
-<li><a href="https://github.com/DigitalHistory/history-please">Navigate to the History-Please repository</a></li>
-<li>Let's explore <b>code</b>, <b>issues</b>, and <b>pulls</b></li>
+<li>specificity is the hard/important one.</li>
+
+</ul></form>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-with-and-without-css-43a6">
+<h2 id="with-and-without-css-43a6">With and without CSS</h2>
+
+<figure>
+<img src="../../ox-hugo/nytimes-w-css.png" alt="nytimes-w-css.png" class="paired">  
+
+</figure>
+
+<figure>
+<img src="../../ox-hugo/nytimes-no-css.png" alt="nytimes-no-css.png" class="paired"> 
+
+</figure>
+
+</section>
+</section>
+<section>
+<section id="slide-css-selectors-ab36">
+<h2 id="css-selectors-ab36">CSS Selectors</h2>
+</section>
+<section id="slide--c0f8" class="twoc">
+<h3 id="-c0f8">Intro</h3>
+<div class="slideblock">
+<div class="org-src-container">
+
+<pre><code class=" css" >h1 {
+    color:blue;
+    font-family:serif; 
+    font-size:24px; 
+}
+
+div {
+    border: 1px solid black;
+}
+
+div.main p {
+    color:red;
+}
+
+#specialid {
+    float:left;
+}
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<p>
+When you look at a CSS file, you will see it is divided into a bunch of stanzas, like this.  Each of these stanzas is called a "selector statement":
+They all follow the same pattern: 
+</p>
+<form><ul>
+<li>first, a <b>selector</b> that identifies the elements to which these instructions will apply</li>
+<li>then <b>an open brace</b> "{" which marks the start of the actual instructions</li>
+<li>then a series of <b>property-value pairs</b>.  Each of these sets the <i>value</i> of a particular <i>property</i> (duh).  Note that at the end of a property, there is <b>always</b> a semi-colon!</li>
+<li>finally, <b>a closing brace</b> that ends the selector declaration.</li>
+
+</ul></form>
+
+</div>
+
+<aside class="notes">
+<p>
+When you look at a CSS file, you will see it is divided into a bunch of stanzas, like this.  Each of these stanzas is called a "selector statement":
+They all follow the same pattern: 
+</p>
+<form><ul>
+<li>first, a <b>selector</b> that identifies the elements to which these instructions will apply</li>
+<li>then <b>an open brace</b> "{" which marks the start of the actual instructions</li>
+<li>then a series of <b>property-value pairs</b>.  Each of these sets the <i>value</i> of a particular <i>property</i> (duh).  Note that at the end of a property, there is <b>always</b> a semi-colon!</li>
+<li>finally, <b>a closing brace</b> that ends the selector declaration.</li>
+
+</ul></form>
+
+</aside>
+
+</section>
+<section id="slide-selector-anatomy-9f2b">
+<h3 id="selector-anatomy-9f2b">Selector Anatomy</h3>
+<p class="fragment (appear)">
+<div class="slideblock fragment appear" id="css_rules0"></div>
+</p>
+
+<script type="text/javascript">
+function shadowizecss_rules0 () {var elId="css_rules0";
+var dom_block="<style>\n h1#anatomy1 {\n      display: inline-flex;\n     padding: 15px;\n     background-color: rgb(30,30,30,0.1);\n     font-size: 1.4em;\n     border: 2px gray solid; }\n  h1#anatomy1 span {padding: 4px;border: 2px black solid; background-color: rgba(10,70,10,0.6);}\n  h1#anatomy1 span.selector {background-color: rgba(150, 20, 20, 0.4);}\n  h1#anatomy1 span.rule {background-color: rgba(70, 10,70, 0.4);}\n  h1#anatomy1 span.value {background-color: rgba(10,150, 150, 0.4);}\n\n</style>\n\n<h1 id=\"anatomy1\">\n  <span class=\"selector\">selector.has >  #funny:stuff</span>\n  <span class=\"bracket\">{</span>\n  <span class=\"rule\">rule:</span>\n  <span class=\"value\">value in (approved);</span>\n  <span class=\"bracket\">}</span>\n</h1>";
+function createElementFromHTML(htmlString) {
+  let div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+
+  // Change This to div.childNodes to support multiple top-level nodes
+  return div; 
+}
+
+window.addEventListener("load",function(){
+//var htmlString = dom_block;
+if (typeof document != 'undefined') {
+console.log("Attaching shadow to ",elId); 
+  let sroot = document.getElementById(elId).attachShadow({mode: 'open'});
+  sroot.appendChild(createElementFromHTML(dom_block));
+}
+//return (htmlString);
+//  console.log("HTMLSTRING!" + htmlString);
+});}
+
+shadowizecss_rules0()
+</script>
+
+</section>
+<section id="slide-selector-types" class="twoc">
+<h3 id="selector-types">Selector types</h3>
+<div class="slideblock">
+<div class="org-src-container">
+
+<pre><code class=" html" >&lt;style&gt;
+h1 {
+font-size: 2em;
+color: red;
+}
+p {
+font-size:5em}
+
+.coolpara {
+color:green;
+}
+
+#myfave {
+color:yellow;
+background-color: black;
+}
+&lt;/style&gt;
+
+&lt;h1&gt; Heading&lt;/h1&gt;
+&lt;p class="coolpara"&gt;Some Content&lt;/p&gt;
+&lt;p id="myfave"&gt;Some Content&lt;/p&gt;
+
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<p>
+Though simple in principle, CSS selectors can be confusing.  Here are some basic selector types:
+</p>
+<form><ul>
+<li><b>Element</b> selectors:  these just give the element (like h1, p, div, span, etc.).  they apply to all elements of this type.</li>
+<li><b>Class</b> selectors:  these give the name of a class attribute that an HTML element may have.  This selector will always begin with a period (".").  So for instance:</li>
+
+<li><b>ID</b> selector:  this addresses the element with a particular ID:</li>
+
+</ul></form>
+
+</div>
+
+</section>
+<section id="slide-selector-types-e94f" class="twoc">
+<h3 id="selector-types-e94f">Selector types</h3>
+<div class="slideblock">
+<div class="org-src-container">
+
+<pre><code class=" html" >
+&lt;style&gt;
+div#cssdemo h1 {
+font-size: 3em;
+color: red;
+}
+div#cssdemo p {
+font-size:5em}
+
+.coolpara {
+color:green;
+}
+
+div#cssdemo #myfave {
+color:yellow;
+background-color: black;
+}
+&lt;/style&gt;
+
+&lt;div id="cssdemo"&gt;
+&lt;h1&gt; Heading&lt;/h1&gt;
+&lt;p class="coolpara"&gt;Some Content&lt;/p&gt;
+&lt;p id="myfave"&gt;Some Content&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</div>
+
+</div>
+
+
+<style>
+div#cssdemo h1 {
+font-size: 3em;
+color: red;
+}
+div#cssdemo p {
+font-size:5em}
+
+.coolpara {
+color:green;
+}
+
+div#cssdemo #myfave {
+color:yellow;
+background-color: black;
+}
+</style>
+
+<div id="cssdemo">
+<h1> Heading</h1>
+<p class="coolpara">Some Content</p>
+<p id="myfave">Some Content</p>
+</div>
+</section>
+<section id="slide-more-selectors-d28a" class="twoc">
+<h3 id="more-selectors-d28a">More Selectors</h3>
+<div class="slideblock">
+<div class="org-src-container">
+
+<pre><code class=" id="more_selectors" html" >&lt;style&gt;
+ div#main p {
+     color:red;
+ }
+
+ div#main &gt; p.blue {
+     color: blue;
+ }
+ &lt;/style&gt;
+ &lt;div id="main"&gt;
+     &lt;p&gt; regular (red) paragraph&lt;/p&gt;
+     &lt;p class="blue"&gt; not a regular paragraph (blue) &lt;/p&gt;
+ &lt;/div&gt;
+</code></pre>
+</div>
+
+</div>
+
+<p>
+<div class="slideblock frag appear" id="more_selectors"></div>
+</p>
+<script type="text/javascript">
+function shadowizemore_selectors () {var elId="more_selectors";
+var dom_block="<style>\n div#main p {\n     color:red;\n }\n\n div#main > p.blue {\n     color: blue;\n }\n </style>\n <div id=\"main\">\n     <p> regular (red) paragraph</p>\n     <p class=\"blue\"> not a regular paragraph (blue) </p>\n </div>";
+function createElementFromHTML(htmlString) {
+  let div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+
+  // Change This to div.childNodes to support multiple top-level nodes
+  return div; 
+}
+
+window.addEventListener("load",function(){
+//var htmlString = dom_block;
+if (typeof document != 'undefined') {
+console.log("Attaching shadow to ",elId); 
+  let sroot = document.getElementById(elId).attachShadow({mode: 'open'});
+  sroot.appendChild(createElementFromHTML(dom_block));
+}
+//return (htmlString);
+//  console.log("HTMLSTRING!" + htmlString);
+});}
+
+shadowizemore_selectors()
+</script>
+
+<aside class="notes">
+<form><ul>
+<li>Finally, we have many more complex selectors.  This one here is a descendant selector</li>
+
+</ul></form>
+<p>
+It addresses every <b>p</b> that is contained inside a div of <b>id</b> <i>"main."</i>
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-selectors-and-the-cascade-0a08">
+<h2 id="selectors-and-the-cascade-0a08">Selectors and the Cascade</h2>
+<form><ul>
+<li>Priority: inline &rarr; id &rarr; class &rarr; element/tag</li>
+<li>fine gradations within this</li>
+<li>the awful <b>!important</b> rule</li>
 
 </ul></form>
 </section>
-<section id="slide-org574e625">
-<h3 id="org574e625">Activity</h3>
-<form><ul>
-<li>Divide into groups (we'll do this in class)
-<form><ul>
-<li><code>trends</code> page adders</li>
-<li><code>events</code> page adders</li>
-<li><code>copyeditors</code></li>
-<li>issue triagers</li>
+</section>
+<section>
+<section id="slide-color-values-456b">
+<h2 id="color-values-456b">Color Values</h2>
+<p>
+Various representations:
+</p>
+<style>
+ul#color-rules {font-size 1.5rem;}
+ul#color-rules li span.red {color: #FF0000}  
+ul#color-rules li span.green {color: #00FF00}  
+ul#color-rules li span.blue {color: #0000FF}  
+</style>
 
-</ul></form></li>
-<li>Find <b>at least one</b> partner (if you're very confident, help someone else)</li>
-<li>Scroll down to the <a href="https://github.com/DigitalHistory/history-please#how-to-participate">contributing instructions</a></li>
-<li>Additional tips:
-<form><ul>
-<li>reference issues &amp; pull requests by number, e.g. <a href="https://github.com/DigitalHistory/history-please/pull/58">#58</a>. Do this whenever you create a pull that fixes an issue, especially.</li>
-<li>Give your PR's <b>meaningful titles</b> and <b>helpful,extensive descriptions</b></li>
-<li><code>@mention</code> me (<code>@titaniumbones</code>) when you think you have fixed an issue, or want my input (won't get back to you today though!)</li>
+<ul id="color-rules">
+  <li>
+    color: #
+    <span class="red">00</span>
+    <span class="green">7F</span>
+    <span class="blue">FF</span>
+    ;
+  </li>
+  <li>
+    color: rgb(
+    <span class="red">00</span>,
+    <span class="green">127</span>,
+    <span class="blue">255</span>
+    );
+  </li>
+  <li>
+    color: rgba(
+    <span class="red">00</span>,
+    <span class="green">127</span>,
+    <span class="blue">255</span>, 0.6);
+  </li>
+</ul>
 
-</ul></form></li>
+<p>
+(also hsl, hsla)
+</p>
+</section>
+<section id="slide-fonts,-colors-and-borders-127a" class="twoc">
+<h3 id="fonts,-colors-and-borders-127a">Fonts, colors and borders</h3>
+<div class="slideblock">
+<div class="org-src-container">
 
-</ul></form>
+<pre><code class=" css" >div.main {
+      color: rgb(150,150,150);
+      background-color: (#b0c4ee);
+      text-align: center;
+      text-decoration:underline;
+      font-family: "Times New Roman", Times, Serif;
+      font-style:italic;
+      font-size:1.25em;
+      border: 4px green solid;
+      border-radius:20%;
+  }
+</code></pre>
+</div>
+
+</div>
+<div class="slideblock">
+<style>
+div#maincss2 {
+      color: rgb(150,150,150);
+      background-color: (#b0c4ee);
+      text-align: center;
+      text-decoration:underline;
+      font-family: "Times New Roman", Times, Serif;
+      font-style:italic;
+      font-size:1.25em;
+      border: 4px green solid;
+      border-radius:20%;
+  }
+</style>
+<div id="maincss2">
+   <p> here is a sample paragraph doing all of this stuff...</p>
+
+</div>
+
+
+<aside class="notes">
+<p>
+A lot of what we do with CSS is to set fonts and colors.  Here are some examples:
+There are plenty of other properties that can be set, in much the same way.
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-sizes-af7f" class="twoc">
+<h2 id="sizes-af7f">Sizes</h2>
+<div class="slideblock">
+<div class="org-src-container">
+
+<pre><code class=" id="css_sizes" html" >&lt;style&gt;
+ p.fixed {
+     font-size: 20px;
+     background-color: gray;
+     } 
+ p.em-small {
+     font-size: 0.6em;
+     background-color: blue;
+ }
+ p.em-big {
+     font-size: 2em;
+     background-color: red;
+ }
+ div.pixel-box {
+     width: 70px;
+     height: 70px;
+     border: 1px solid black;
+ }
+ div.percent-box {
+     width: 20%;
+     height: 30px;
+     border: 1px solid black;
+ }
+ div.viewport-box {
+     width: 30vw;
+     height: 30vh;
+     border: 1px solid black;
+ }
+
+&lt;/style&gt;
+
+&lt;p class="fixed"&gt;This paragraph will follow the rules in p.fixed -- size 20px&lt;/p&gt;
+&lt;p class="em-small"&gt;This paragraph will follow the rules in p.em-small -- size 0.6em&lt;/p&gt;
+&lt;p class="em-big"&gt;This paragraph will follow the rules in p.em-big: 2em&lt;/p&gt;
+
+&lt;div class="pixel-box"&gt;.pixel-box&lt;/div&gt;
+&lt;div class="percent-box"&gt;.percent-box&lt;/div&gt;
+&lt;div class="viewport-box"&gt;.viewport-box&lt;/div&gt;
+</code></pre>
+</div>
+
+</div>
+
+<p class="fragment (appear)">
+<div class="slideblock frag appear" id="css_sizes"></div>
+</p>
+<script type="text/javascript">
+function shadowizecss_sizes () {var elId="css_sizes";
+var dom_block="<style>\n p.fixed {\n     font-size: 20px;\n     background-color: gray;\n     } \n p.em-small {\n     font-size: 0.6em;\n     background-color: blue;\n }\n p.em-big {\n     font-size: 2em;\n     background-color: red;\n }\n div.pixel-box {\n     width: 70px;\n     height: 70px;\n     border: 1px solid black;\n }\n div.percent-box {\n     width: 20%;\n     height: 30px;\n     border: 1px solid black;\n }\n div.viewport-box {\n     width: 30vw;\n     height: 30vh;\n     border: 1px solid black;\n }\n\n</style>\n\n<p class=\"fixed\">This paragraph will follow the rules in p.fixed -- size 20px</p>\n<p class=\"em-small\">This paragraph will follow the rules in p.em-small -- size 0.6em</p>\n<p class=\"em-big\">This paragraph will follow the rules in p.em-big: 2em</p>\n\n<div class=\"pixel-box\">.pixel-box</div>\n<div class=\"percent-box\">.percent-box</div>\n<div class=\"viewport-box\">.viewport-box</div>";
+function createElementFromHTML(htmlString) {
+  let div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+
+  // Change This to div.childNodes to support multiple top-level nodes
+  return div; 
+}
+
+window.addEventListener("load",function(){
+//var htmlString = dom_block;
+if (typeof document != 'undefined') {
+console.log("Attaching shadow to ",elId); 
+  let sroot = document.getElementById(elId).attachShadow({mode: 'open'});
+  sroot.appendChild(createElementFromHTML(dom_block));
+}
+//return (htmlString);
+//  console.log("HTMLSTRING!" + htmlString);
+});}
+
+shadowizecss_sizes()
+</script>
+
+</section>
+</section>
+<section>
+<section id="slide-simple-exercise-ca4d">
+<h2 id="simple-exercise-ca4d">Simple Exercise</h2>
+<p>
+<a href="https://github.com/DigitalHistory/css-styling/">https://github.com/DigitalHistory/css-styling/</a></p>
 </section>
 </section>
 </div>
@@ -509,15 +906,6 @@ dependencies: [
 
 });
 </script>
-<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
-<script>
-/* Recompute layout upon changes by klipse.  Code fragment from
-   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
-   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
-Reveal.addEventListener( 'slidechanged', function( event ) {
-    window.dispatchEvent( new Event('resize') );
-} );
-</script>
 </body>
 </html>
 
@@ -543,7 +931,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 
     
     <div class="github-link">
-      <a href="https://github.com/DigitalHistory/dh-website/content/slides/01-02-git.html" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/DigitalHistory/dh-website/content/slides/03-03-css.html" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     

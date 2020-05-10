@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-05-10T06:43:39 EDT">
-<title>01-02: Git and Github :: HIS393: Digital History</title>
+<title>03-02: HTML: Machine-readable Text :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 
     
   </head>
-  <body data-url="/slides/01-02-git/">
+  <body data-url="/slides/03-01-html-backlog/">
     
       <header>
   <div class="logo">
@@ -133,7 +133,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/slides/01-02-git/" class="dd-item active">
+                <li data-nav-id="/slides/01-02-git/" class="dd-item">
                     <div>
                         <a href="/slides/01-02-git/">
                             01-02: Git and Github
@@ -154,7 +154,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/slides/03-01-html-backlog/" class="dd-item">
+                <li data-nav-id="/slides/03-01-html-backlog/" class="dd-item active">
                     <div>
                         <a href="/slides/03-01-html-backlog/">
                             03-02: HTML: Machine-readable Text
@@ -263,10 +263,10 @@
     <option value="/slides/" >
    Lecture Slides</option> 
       <option value="/slides/01-01-intro-digital-history/" > 01-01: Introduction to Digital History</option>
-      <option value="/slides/01-02-git/"  selected> 01-02: Git and Github</option>
+      <option value="/slides/01-02-git/" > 01-02: Git and Github</option>
       <option value="/slides/02-02-more-git/" > 02-01: Git Concepts</option>
       <option value="/slides/04-01-web-signifies/" > 03-01: What the Web Signifies</option>
-      <option value="/slides/03-01-html-backlog/" > 03-02: HTML: Machine-readable Text</option>
+      <option value="/slides/03-01-html-backlog/"  selected> 03-02: HTML: Machine-readable Text</option>
       <option value="/slides/03-03-css/" > 03-03 And Now: CSS!</option>
       <option value="/slides/03-04-css-layout/" > 03-04, CSS Part 2: Layout</option>
   
@@ -294,7 +294,7 @@
       </div>
     
 
-    <h1>01-02: Git and Github</h1>
+    <h1>03-02: HTML: Machine-readable Text</h1>
     
     
     
@@ -302,7 +302,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>01-02: Git and Github</title>
+<title>03-02: HTML: Machine-readable Text</title>
 <meta name="author" content="Matt Price"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
@@ -313,31 +313,6 @@
 
 <link rel="stylesheet" href=""/>
 <link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
-<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
-<style>
-/* Position computations of klipse get confused by reveal.js's scaling.
-   Hence, scaling should be disabled with this code.  Fix height of code area
-   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
-   setting afterwards): */
-.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
-/* Reset some reveal.js and oer-reveal settings: */
-.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
-/* Enlarge cursor: */
-.CodeMirror-cursor { border-left: 3px solid black; }
-</style>
-<script>
-    window.klipse_settings = {
-        selector: '.language-klipse',
-        selector_eval_html: '.language-klipse-html',
-        selector_eval_js: '.language-klipse-javascript',
-        selector_eval_js: '.language-klipse-js',
-        selector_eval_php: '.language-klipse-php',
-        selector_eval_python_client: '.language-klipse-python',
-        selector_eval_ruby: '.language-klipse-ruby',
-        selector_eval_scheme: '.language-klipse-scheme',
-        selector_sql: '.language-klipse-sql'
-    };
-</script>
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -354,7 +329,7 @@
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide">
-<h1>01-02: Git and Github</h1>
+<h1>03-02: HTML: Machine-readable Text</h1>
 <h3>Matt Price  </h3>
 <!-- <p class="title-theme-choice">(view this presentation in another theme: 
 <a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
@@ -372,97 +347,199 @@
 
 </section>
 <section>
-<section id="slide-org92014b0">
-<h2 id="org92014b0">Git!</h2>
-
-<figure>
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git-Logo-2Color.png">
-
-</figure>
-
+<section id="slide-orgaccb239">
+<h2 id="orgaccb239">HTML</h2>
 <form><ul>
-<li>"Track Changes" on steroids</li>
-<li>"Version Control" software optimized for collaboration</li>
-<li><b>essential infrastructure for almost all programming projects</b></li>
+<li class="fragment appear">Hyper</li>
+<li class="fragment appear">text</li>
+<li class="fragment appear">Markup</li>
+<li class="fragment appear">Language</li>
+<li class="fragment appear"><b>structures</b> web pages &amp; their ocntent</li>
 
 </ul></form>
 </section>
 </section>
 <section>
-<section id="slide-github!-7877">
-<h2 id="github!-7877">Github!</h2>
+<section id="slide-tag-structure-6119" class="twoc">
+<h2 id="tag-structure-6119">Tag Structure</h2>
+<div class="slideblock">
+<div class="org-src-container">
 
-<figure>
-<img src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png" alt="github-octocat.png">
+<pre><code class=" html" >&lt;tag att1="value1" att2="value2"&gt;content&lt;/tag&gt;
+&lt;p class="normal" align="right"&gt;Paragraph Content&lt;/p&gt;
+&lt;a href="http://www.google.com"&gt;Link to google&lt;/a&gt;
+&lt;img src="http://1.bp.blogspot.com/-CzqzzBV2tMk/TxBM3ar18MI/AAAAAAAAPm0/6faLPO9BM8w/s1600/i-can-has-cheezburger.jpg" title="I can Haz Cheezburger?" alt="greedy cat saying 'I can haz cheezburger?'" /&gt;
+</code></pre>
+</div>
 
-</figure>
 <form><ul>
-<li>git-based code-sharing site</li>
-<li>largest in history</li>
-<li>owned by Microsoft ☹</li>
-<li>where we (and most open-source projects) work!</li>
+<li class="fragment appear">tags:
+<form><ul>
+<li class="fragment appear">tag identifier</li>
+<li class="fragment appear">attributes</li>
+<li class="fragment appear">content</li>
+
+</ul></form></li>
 
 </ul></form>
-</section>
-</section>
-<section>
-<section id="slide-org582346a">
-<h2 id="org582346a">In Our Class</h2>
-<form><ul>
-<li>fun git practice</li>
-<li>git concepts</li>
-<li>ensure setup is going well</li>
-<li>assignment/process overview</li>
-<li><b>If you don't have a github account yet, get one now!</b></li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-orgedd3110">
-<h2 id="orgedd3110">Git Practice: History, Please!</h2>
-<form><ul>
-<li>simple command-line/graphical application</li>
-<li>crowd-sourced by students from this class</li>
-<li>many problems to fix &amp; improvements to make</li>
-<li>we'll try to make some progress</li>
-
-</ul></form>
-</section>
-<section id="slide-org112b995">
-<h3 id="org112b995">History, Please</h3>
 <p>
-<b>Take out your Laptop!</b>
+<div class="frag appear" id="tag_anatomy"></div>
+</p>
+<script type="text/javascript">
+function shadowizetag_anatomy () {var elId="tag_anatomy";
+var dom_block="<style>\n h1#anatomy1 {\n      display: inline-flex;\n      min-width: 100%;\n     padding: 0px;\n     background-color: rgb(30,30,30,0.1);\n     font-size: 0.9em;\n     border: 2px gray solid; }\n  h1#anatomy1 span.tag {background-color: rgba(150, 20, 20, 0.4);}\n  h1#anatomy1 span.attribute {color: rgba(70, 10,70, 0.4);}\n  h1#anatomy1 span.bracket {color: rgba(10,150, 150, 0.4);}\nh1#anatomy1 span.content {background-color: rgba(10,150, 150, 0.4);}\n\n</style>\n\n<h1 id=\"anatomy1\">\n    <span class=\"tag\">\n        <span class=\"bracket\"> < </span>tagname <span class=\"attribute\">attribute=\"value\"</span> <span class=\"bracket\">></span>\n    </span>\n    <span class=\"content\">Content</span>\n    <span class=\"tag\">\n        <span class=\"bracket\">< </span>\n        tagname\n        <span class=\"bracket\">></span>\n    </span>\n</h1>";
+function createElementFromHTML(htmlString) {
+  let div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+
+  // Change This to div.childNodes to support multiple top-level nodes
+  return div; 
+}
+
+window.addEventListener("load",function(){
+//var htmlString = dom_block;
+if (typeof document != 'undefined') {
+console.log("Attaching shadow to ",elId); 
+  let sroot = document.getElementById(elId).attachShadow({mode: 'open'});
+  sroot.appendChild(createElementFromHTML(dom_block));
+}
+//return (htmlString);
+//  console.log("HTMLSTRING!" + htmlString);
+});}
+
+shadowizetag_anatomy()
+</script>
+
+</div>
+
+<div class="fragment (appear) slideblock">
+<tag att1="value1" att2="value2">content</tag>
+<p class="normal" align="right">Paragraph Content</p>
+<a href="http://www.google.com">Link to google</a>
+<img src="http://1.bp.blogspot.com/-CzqzzBV2tMk/TxBM3ar18MI/AAAAAAAAPm0/6faLPO9BM8w/s1600/i-can-has-cheezburger.jpg" title="I can Haz Cheezburger?" alt="greedy cat saying 'I can haz cheezburger?'" />
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-machine-readable-text-2a02" class="splitc">
+<h2 id="machine-readable-text-2a02">HTML at work,  and some consequences</h2>
+<div class="fragment (appear) slideblock">
+<h1>This is the top-level heading</h1>
+<p>
+  This is a paragraph. It can contain <i>further markup</i> and also 
+  <a href="http:/some.where.com">more complex content</a>.
+</p>
+<aside>
+  Sometimes you'll see <i>semantic</i> tags, like "aside",
+  "header", "footer", "article", or "section".  
+</aside>
+
+</div>
+<div class="fragment (appear) slideblock">
+<p>
+On the web, text is "Marked up" 
+</p>
+<div class="org-src-container">
+
+<pre><code class=" html" >&lt;h1&gt;This is a top-level heading&lt;/h1&gt;
+&lt;p&gt;
+  This is a paragraph. It can contain &lt;i&gt;further markup&lt;/i&gt; and also 
+  &lt;a href="http:/some.where.com"&gt;more complex content&lt;/a&gt;.
+&lt;/p&gt;
+&lt;aside&gt;
+  Sometimes you'll see &lt;i&gt;semantic&lt;/i&gt; tags, like "aside",
+  "header", "footer", "article", or "section".  
+&lt;/aside&gt;
+
+</code></pre>
+</div>
+
+</div>
+<div class="fragment (appear) slideblock">
+<form><ul>
+<li>Programs can scan this text, interpret it&#x2026;</li>
+<li>then treat it as <i>data</i> which can be combined, analyzed, etc.</li>
+
+</ul></form>
+<form><ul class="fragment appear">
+<li>point of learning HTML is</li>
+
+</ul></form>
+<form><ul class="fragment appear">
+<li>Understand how to achieve a certain "look"</li>
+<li>Understand how a complex computer algorithm might treat it as "data".</li>
+
+</ul></form>
+
+</div>
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-a-few-html-tags-you-should-know-4481" class="twoc">
+<h2 id="a-few-html-tags-you-should-know-4481">A Few HTML tags/elements you should know</h2>
+<div class="slideblock">
+<p>
+Page Structure (<b>block-level elements</b>):
+</p>
+<form><dl>
+<dt class="fragment appear"><code>&lt;html&gt;&lt;/html&gt;</code></dt><dd class="fragment appear">Opens/closes every page</dd>
+<dt class="fragment appear"><code>&lt;head&gt;&lt;/head&gt;</code> and <code>&lt;body&gt;&lt;/body&gt;</code></dt><dd class="fragment appear">two main sections for metadata and display</dd>
+<dt class="fragment appear"><code>&lt;div&gt;&lt;/div&gt;</code></dt><dd class="fragment appear">often-invisible tag that divides page into "divisions"</dd>
+<dt class="fragment appear"><code>&lt;section&gt;&lt;/section&gt;, &lt;article&gt;&lt;/article&gt;, &lt;header&gt;&lt;/header&gt; &lt;footer&gt;&lt;/footer&gt;</code></dt><dd class="fragment appear">also invisible-by-default "semantic" tags that create divisions in page</dd>
+<dt class="fragment appear"><code>&lt;p&gt;&lt;/p&gt;</code></dt><dd class="fragment appear">basic paragraph unit</dd>
+<dt class="fragment appear"><code>&lt;blockquote&gt;&lt;/blockquote&gt;</code></dt><dd class="fragment appear">semantic tag distinguishing quoted text</dd>
+<dt class="fragment appear"><code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;td&gt;</code></dt><dd class="fragment appear">building tables (don't overuse!)</dd>
+
+</dl></form>
+
+</div>
+
+<div class="fragment (appear) slideblock">
+<p>
+Found inside structural elements (<b>inline elements</b>):
+</p>
+<form><dl>
+<dt class="fragment appear"><code>&lt;a href="http://link.address"&gt;&lt;/a&gt;</code></dt><dd class="fragment appear">The essential <a href="http://link.address">hyperlink</a> tag that makes the web what it is</dd>
+<dt class="fragment appear"><code>&lt;img src="http://file.location" alt="text to display for non-visual browsers/viewers"/&gt;</code></dt><dd class="fragment appear">"self-closing" image display tag</dd>
+<dt class="fragment appear"><code>&lt;em&gt;&lt;/em&gt; &lt;strong&gt;&lt;/strong&gt;,  &lt;i&gt;&lt;/i&gt; &lt;b&gt;&lt;/b&gt;</code></dt><dd class="fragment appear"><i>emphasized</i> and <b>strong</b> text</dd>
+<dt class="fragment appear"><code>&lt;ol&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code></dt><dd class="fragment appear">building "ordered" and "unordered" lists</dd>
+
+</dl></form>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org55be21d">
+<h2 id="org55be21d">HTML in this class</h2>
+<form><ul>
+<li>learn to recognize <b>generic tag structure</b></li>
+<li>work with <b>some of the most common tags</b></li>
+<li>learn <b>how to learn more</b></li>
+
+</ul></form>
+
+<p>
+<b>Take a break from lectures now and find a place to edit some code.</b>
 </p>
 
-<form><ul>
-<li><a href="https://github.com/DigitalHistory/history-please">Navigate to the History-Please repository</a></li>
-<li>Let's explore <b>code</b>, <b>issues</b>, and <b>pulls</b></li>
 
-</ul></form>
-</section>
-<section id="slide-org574e625">
-<h3 id="org574e625">Activity</h3>
-<form><ul>
-<li>Divide into groups (we'll do this in class)
-<form><ul>
-<li><code>trends</code> page adders</li>
-<li><code>events</code> page adders</li>
-<li><code>copyeditors</code></li>
-<li>issue triagers</li>
+<p>
+The <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Active_learning_creating_your_first_HTML_element">Mozilla Developer Network Introduction to HTML "active learning" modules are one pretty good place to start</a>.
+</p>
 
-</ul></form></li>
-<li>Find <b>at least one</b> partner (if you're very confident, help someone else)</li>
-<li>Scroll down to the <a href="https://github.com/DigitalHistory/history-please#how-to-participate">contributing instructions</a></li>
-<li>Additional tips:
-<form><ul>
-<li>reference issues &amp; pull requests by number, e.g. <a href="https://github.com/DigitalHistory/history-please/pull/58">#58</a>. Do this whenever you create a pull that fixes an issue, especially.</li>
-<li>Give your PR's <b>meaningful titles</b> and <b>helpful,extensive descriptions</b></li>
-<li><code>@mention</code> me (<code>@titaniumbones</code>) when you think you have fixed an issue, or want my input (won't get back to you today though!)</li>
+<p>
+However, I mostly recommend forking &amp; working with the Habermas HTML repo I made special for this class:
+</p>
 
-</ul></form></li>
-
-</ul></form>
+<p>
+<a href="https://github.com/DigitalHistory/HabermasCode">https://github.com/DigitalHistory/HabermasCode</a> </p>
 </section>
 </section>
 </div>
@@ -509,15 +586,6 @@ dependencies: [
 
 });
 </script>
-<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
-<script>
-/* Recompute layout upon changes by klipse.  Code fragment from
-   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
-   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
-Reveal.addEventListener( 'slidechanged', function( event ) {
-    window.dispatchEvent( new Event('resize') );
-} );
-</script>
 </body>
 </html>
 
@@ -543,7 +611,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 
     
     <div class="github-link">
-      <a href="https://github.com/DigitalHistory/dh-website/content/slides/01-02-git.html" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/DigitalHistory/dh-website/content/slides/03-01-html-backlog.html" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     

@@ -156,5 +156,50 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       <description>01-02: Git and Github .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
     </item>
     
+    <item>
+      <title>02-01: Git Concepts</title>
+      <link>http://digitalhistory.github.io/slides/02-02-more-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/02-02-more-git/</guid>
+      <description>02-01: Git Concepts .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    02-01: Git Concepts Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   In this section  collaboration remotes branches commits worktree vs.</description>
+    </item>
+    
+    <item>
+      <title>03-01: What the Web Signifies</title>
+      <link>http://digitalhistory.github.io/slides/04-01-web-signifies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-01-web-signifies/</guid>
+      <description>03-01: What the Web Signifies .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    03-01: What the Web Signifies Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Today  Concept of the &#34;</description>
+    </item>
+    
+    <item>
+      <title>03-02: HTML: Machine-readable Text</title>
+      <link>http://digitalhistory.github.io/slides/03-01-html-backlog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-01-html-backlog/</guid>
+      <description>03-02: HTML: Machine-readable Text .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    03-02: HTML: Machine-readable Text Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   HTML  Hyper text Markup Language structures web pages &amp;amp; their ocntent     Tag Structure &amp;lt;tag att1=&#34;</description>
+    </item>
+    
+    <item>
+      <title>03-03 And Now: CSS!</title>
+      <link>http://digitalhistory.github.io/slides/03-03-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-03-css/</guid>
+      <description>03-03 And Now: CSS! .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    03-03 And Now: CSS! Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Reminder  HTML for structure/content; CSS for presentation Resources: Codeacademy CSS offerings; Learn Layout; Mozilla Developer Network; many other cool sites     What you Need to Learn Today  syntax: selectors, rules, punctuation; jargon: colors, sizes where to look stuff up (!</description>
+    </item>
+    
+    <item>
+      <title>03-04, CSS Part 2: Layout</title>
+      <link>http://digitalhistory.github.io/slides/03-04-css-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/03-04-css-layout/</guid>
+      <description>03-04, CSS Part 2: Layout .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    03-04, CSS Part 2: Layout Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Recap  selector syntax: selector &amp;gt; string {property: value;} colors: #RRGGBB or rgba(RRR, BBB, GGG, 0.</description>
+    </item>
+    
   </channel>
 </rss>
