@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Syllabus</title>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
+      <pubDate>Wed, 13 May 2020 15:23:01 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 10-12 EDT via BB Collaborate   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
+    
+    <item>
       <title>Assignment 01: Zero to Blog Post</title>
       <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
       <pubDate>Fri, 08 May 2020 23:43:39 -0400</pubDate>
@@ -57,15 +66,6 @@ One of the hardest parts of this course for many people is setting up their work
       <guid>http://digitalhistory.github.io/tools/using-vscode/</guid>
       <description>Microsoft&amp;rsquo;s Visual Studio Code is an amazing general-purpose code editor. Most people I collaborate with use it as their primary editor, and that will be true in most professional settings you enter. This is the first year we&amp;rsquo;re using it in the class, and I have some high hopes for it.
 As with any powerful tool, it can take a little while to get comfortable with VSCode. The documentation is excellent, but may sometimes assume more advanced programming skills than you have.</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
-      <pubDate>Mon, 04 May 2020 13:05:03 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
-      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 10-12 EST via BB Collaborate   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
     </item>
     
     <item>
@@ -199,6 +199,15 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
       
       <guid>http://digitalhistory.github.io/slides/03-04-css-layout/</guid>
       <description>03-04, CSS Part 2: Layout .underline { text-decoration: underline; }   if( window.location.search.match( /print-pdf/gi ) ) { var link = document.createElement( &#39;link&#39; ); link.rel = &#39;stylesheet&#39;; link.type = &#39;text/css&#39;; link.href = &#39;../../vendor/reveal//css/print/pdf.css&#39;; document.getElementsByTagName( &#39;head&#39; )[0].appendChild( link ); }    03-04, CSS Part 2: Layout Matt Price  (view this presentation in another theme: Black (default) - White - League - Sky - Beige - Simple Serif - Blood - Night - Moon - Solarized )	--   Recap  selector syntax: selector &amp;gt; string {property: value;} colors: #RRGGBB or rgba(RRR, BBB, GGG, 0.</description>
+    </item>
+    
+    <item>
+      <title>Distant Reading</title>
+      <link>http://digitalhistory.github.io/slides/04-02-distant-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-02-distant-reading/</guid>
+      <description>Distant Reading .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.</description>
     </item>
     
     <item>
