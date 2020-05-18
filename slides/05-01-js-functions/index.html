@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>04-01: Getting Started With Javascript</title>
+<title>05-01: Doing Stuff: functions</title>
 <meta name="author" content="Matt Price"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
@@ -54,7 +54,7 @@
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide">
-<h1>04-01: Getting Started With Javascript</h1>
+<h1>05-01: Doing Stuff: functions</h1>
 <h3>Matt Price  </h3>
 <!-- <p class="title-theme-choice">(view this presentation in another theme: 
 <a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
@@ -72,191 +72,60 @@
 
 </section>
 <section>
-<section id="slide-javascript-cc80">
-<h2 id="javascript-cc80">JavaScript</h2>
+<section id="slide--7b52">
+<h2 id="-7b52">A Function <b>is</b> a variable(!)</h2>
 <form><ul>
-<li>a real language!</li>
-<li>dynamic transformation</li>
-<li>baby steps!!</li>
+<li>functions are also a box into which you put stuff</li>
+<li>but when you look into the box, the "stuff" has changed</li>
+<li>we use them to <b>change the state</b>: to <b>do things</b></li>
+<li>use <b>whenever you're repeating an action or process</b></li>
 
 </ul></form>
+
+
 </section>
 </section>
 <section>
-<section id="slide-some-big-ideas-1d46">
-<h2 id="some-big-ideas-1d46">Some Big Ideas</h2>
-<form><ul>
-<li>Abstraction</li>
-<li>Formalization</li>
-<li>Repetition</li>
-<li>Laziness!</li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-assignment-1-will-require-ab9b">
-<h2 id="assignment-1-will-require-ab9b">Assignment 2 will require</h2>
-<form><ul>
-<li>Basic Syntax</li>
-<li>Variable Types</li>
-<li>Function Definitions</li>
-<li>Loops and Branches</li>
-<li>Basic "Objects"</li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-running-javascript-10e9">
-<h2 id="running-javascript-10e9">Running Javascript</h2>
-<form><ul>
-<li>in Browser Console</li>
-<li>in terminal (with the command <code>node</code>)</li>
-<li>in VSCode files, with Quokka attached</li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-what-is-a-variable?-d2ea">
-<h2 id="what-is-a-variable?-d2ea">What is a Variable?</h2>
-<form><ul>
-<li><b>name</b> for <b>memory location</b> to be used later, usually <b>in specific ways</b> that <b>depend on type</b></li>
-<li>or, <b>box</b> into which you can put <b>information</b> that you will want to get later.</li>
-
-</ul></form>
-
-<figure>
-<img src="https://mdn.mozillademos.org/files/13506/boxes.png" alt="boxes.png">
-
-</figure>
-
-</section>
-<section id="slide-declaring-variables-266e">
-<h3 id="declaring-variables-266e">Declaring Variables</h3>
+<section id="slide-defining-a-function-bb11">
+<h2 id="defining-a-function-bb11">Defining a function</h2>
 <pre class="klipse"><code class="language-klipse-js" >
-const neverChange = "Project Key"; // comment
-let oftenChanges = 0; // maybe we will change this value later
-var oldDeclaration = 0; // we try to avoid using var now; use let instead
-</code></pre>
+function square(number) {
+  return number * number;
+}
 
-</section>
-<section id="slide-text-is-data-75a7">
-<h3 id="text-is-data-75a7">Text is Data</h3>
-<pre class="klipse"><code class="language-klipse-js" >
-let first="Matt";
-let last="Price"
-console.log(first + last);
+let cube = function(number) { 
+      return number * number * number;
+  };
+
+console.log(square(2));
+console.log(cube(3));
 </code></pre>
-<p class="fragment (appear)">
-Do it w/ your name!
-</p>
+<form><ul>
+<li>we'll use the first method:
+<form><ul>
+<li>keyword <code>function</code> followed by <code>name</code> then <code>(parameters, if, you, need, them)</code>, then <code>{</code> ,  then <code>statements</code>, then <code>}</code></li>
+
+</ul></form></li>
+
+</ul></form>
+
 <aside class="notes">
 <form><ul>
-<li>console; syntax; spaces; exercise:</li>
+<li>name</li>
+<li>parameters</li>
+<li>definition</li>
+<li>return value</li>
 
 </ul></form>
 
 </aside>
-
 </section>
-<section id="slide-dynamic-(or-weak)-typing-c178">
-<h3 id="dynamic-(or-weak)-typing-c178">"Dynamic" (or "Weak") Typing</h3>
-<form><ul>
-<li><b>numbers</b> and <b>strings</b> are different</li>
-<li>but we can convert <b>number &rarr; string</b></li>
-
-</ul></form>
-<pre class="klipse"><code class="language-klipse-js" >
-let n = 1,
-    m=2,
-    s="Hello, there! ";
-
-console.log(m+n);
-console.log(s+n);
-
-</code></pre>
-<aside class="notes">
-<form><ul>
-<li>commas, semi-colons; "overloading" &amp;dynamic typing</li>
-<li>this can be confusing!!!</li>
-
-</ul></form>
-
-</aside>
-
 </section>
-<section id="slide-some-variable-types-c445">
-<h3 id="some-variable-types-c445">Some Variable Types</h3>
-<form><ul>
-<li>numbers</li>
-<li>strings</li>
-<li>boolean (true/false)</li>
-<li>arrays</li>
-<li>objects</li>
-
-</ul></form>
-
-
-</section>
-<section id="slide-making-lists-(arrays)-5385">
-<h3 id="making-lists-(arrays)-5385">Making Lists (Arrays)</h3>
+<section>
+<section id="slide-remember-this-0f7d">
+<h2 id="remember-this-0f7d">Remember this</h2>
 <pre class="klipse"><code class="language-klipse-js" >
 let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
-
-</code></pre>
-
-<pre class="example">
-undefined
-</pre>
-
-
-<aside class="notes">
-<p>
-brackets!
-</p>
-
-</aside>
-
-</section>
-<section id="slide-working-with-arrays-c020">
-<h3 id="working-with-arrays-c020">Working With Arrays</h3>
-<pre class="klipse"><code class="language-klipse-js" >
-a = [];
-a.push("Edward Gibbon");
-a.push("Edward Said");
-a.push("Joan Scott");
-
-console.log(a[1]);
-
-a.pop();
-// a
-</code></pre>
-
-<aside class="notes">
-<form><ul>
-<li>push, pop, INDEX</li>
-
-</ul></form>
-
-</aside>
-</section>
-<section id="slide-working-with-numbers-9fb5">
-<h3 id="working-with-numbers-9fb5">Working with Numbers</h3>
-<pre class="klipse"><code class="language-klipse-js" >
-wardates=[1776, 1792, 1812, 1861, 1870, 1914, 1939, 1994]
-console.log("The time between The First and \
-Second World Wars was " + (wardates[6] - wardates[5]) + " years");
-</code></pre>
-</section>
-</section>
-<section>
-<section id="slide-repetition:-while-loops-c251">
-<h2 id="repetition:-while-loops-c251">Repetition: While Loops</h2>
-<pre class="klipse"><code class="language-klipse-js" >
-let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
-
 let i = 0;
 
 while (i &lt; historians.length) {
@@ -265,105 +134,203 @@ while (i &lt; historians.length) {
   }
 
 </code></pre>
-<p>
-repeat inside the <code>{ ... }</code> as long as test is true:
-</p>
-<form><ul>
-<li><b>initial value:</b> <code>i = 0</code></li>
-<li><b>test (halt condition):</b> <code>i &lt; historians.length</code></li>
-<li><b>change in condition:</b> <code>i += 1</code></li>
-
-</ul></form>
 </section>
 </section>
 <section>
-<section id="slide-repetition:-for-loops-c510">
-<h2 id="repetition:-for-loops-c510">Repetition: For Loops</h2>
+<section id="slide-as-a-function-ed13">
+<h2 id="as-a-function-ed13">As a function</h2>
 <pre class="klipse"><code class="language-klipse-js" >
-let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
+function makeSentences(historians) {
+  let i = 0,
+      output = "";
 
-for (let i=0; i &lt; historians.length ; i++){
-  console.log(historians[i] + " was a historian.");
-  i // this is not required, just here to show you a slight difference
-}
-
-</code></pre>
-<form><ul>
-<li><b>initial value:</b> <code>i = 0</code></li>
-<li><b>test (halt condition):</b> <code>i &lt; historians.length</code></li>
-<li><b>change in condition:</b> <code>i++</code> (idiomatic)</li>
-
-</ul></form>
-</section>
-</section>
-<section>
-<section id="slide-repetition-other-for-loops-3d1d">
-<h2 id="repetition-other-for-loops-3d1d">Repetition: other for loops</h2>
-<pre class="klipse"><code class="language-klipse-js" >
-let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
-
-for (i in historians) {
-  console.log(historians[i] + " was a historian.");
-}
-for (let h of historians) {
-  console.log(h + " was a historian.");
-}
-</code></pre>
-
-<form><ul>
-<li>these also "loop"</li>
-<li>but the <b>initial value</b>, <b>test</b>, and <b>increment</b> are <b>implicit</b></li>
-<li>defined by <code>historians</code>, but in slightly different ways.</li>
-<li>they are very convenient! read about them.</li>
-
-</ul></form>
-
-</section>
-</section>
-<section>
-<section id="slide-conditionals:-if-a6b8">
-<h2 id="conditionals:-if-a6b8">Conditionals: If</h2>
-<pre class="klipse"><code class="language-klipse-js" >
-let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
-
-let i = 0;
-
-while (i &lt; historians.length) {
-  if (historians[i] === "Joan Scott") {
-    console.log(historians[i] + " is my favourite.");
+  while (i &lt; historians.length) {
+    output += historians[i] + " was a historian.\n";
+    i+=1;
   }
-  i +=1;
-};
+  return output;
+}
+
+let h1 = ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"],
+    h2 = ["Orlando Patterson", "Michel Foucault", "Natalie Zeemon Davis", "Howard Zinn"];
+
+makeSentences(h1);
+//makeSentences(h2);
+
+</code></pre>
+</section>
+</section>
+<section>
+<section id="slide-finally-we-can--talk-about-scope-7723">
+<h2 id="finally-we-can--talk-about-scope-7723">Finally we can  talk about scope!</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let a = &#39;just some string&#39;,
+    b = &#39;some other string&#39;;
+
+function scopeExample (anyString) {
+  let a = &#39;I set this value inside the function&#39;;
+
+  return (&#39;inside the function, a="&#39; + a + &#39;", not &#39; + anyString);
+}
+
+// a
+// scopeExample(a);
+//anyString
 </code></pre>
 <form><ul>
-<li>execute the <code>{ ... }</code> only if the <b>test</b> is true</li>
-<li>here the test is <code>historians[i] === "Joan Scott"</code></li>
-<li>note the many <code>===</code> !  different from just one <code>=</code>
+<li>outside the function, <code>a</code> = "just some string"</li>
+<li>inside, we <b>redeclare it for the function scope</b> and now <code>a</code> has new value</li>
+<li><code>anyString</code> is <b>only</b> declared inside the function scope</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-advanced-scope-fa36">
+<h2 id="advanced-scope-fa36">Advanced scope</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let a = "global scope a";
+
+console.log(a);
+
+for (i=0; i&lt;6; i++) {
+  let a = "local scope a on iteration: " + (i + 1) ;
+  console.log(a)
+}
+
+console.log(a);
+</code></pre>
 <form><ul>
-<li><code>let a = 'some value'</code>: <b>set</b> <code>a</code> to <code>'some value'</code></li>
-<li></li>
+<li>we can also <b>redeclare</b> <code>let</code> variables in an if/for/while "block"</li>
+<li>scope scales:  <b>global &rarr; function &rarr; block &rarr; nested block &rarr; etc etc</b></li>
+<li>any time you see <code>{ .. }</code> you're in a new scope context!</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-function-hints-for-assignments-1cb2">
+<h2 id="function-hints-for-assignments-1cb2">Function Hints for Assignments</h2>
+<form><ul>
+<li><b>remember the return values!</b></li>
+<li><p>
+debug by setting a variable to the function output, and using quokka to look at the value:
+</p>
+<pre class="klipse"><code class="language-klipse-js" >
+  function returnArray (first, second, third) {
+  // you can define the array using "new Array ()" or just "[ , , ]"
+  // don&#39;t forget to return it
+  // return ; // add the value here!
+}
+
+let a = returnArray (1, 3,5);
+a  // quokka will display the value
+</code></pre></li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-functions-1:-name-vs.-return-value-d9ac">
+<h2 id="functions-1:-name-vs.-return-value-d9ac">Function note 1: Name vs. Return Value</h2>
+</section>
+<section id="slide-a-function-is-a-+variable+-robot-29e2">
+<h3 id="a-function-is-a-+variable+-robot-29e2">A Function is a <del>variable</del> Robot</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function robotCleaner () {
+  let output =  "I cleaned your room";
+  return output;
+}
+
+let r = robotCleaner();
+r
+</code></pre>
+
+<form><ul>
+<li>build a function to do something</li>
+<li><b>name it</b> whatever you want</li>
+<li>the <b>return</b> value is what the function "give you back*</li>
+<li>call it whenever you need it done</li>
+
+</ul></form>
+
+</section>
+<section id="slide-name-and-return-value-are-independent-e35d">
+<h3 id="name-and-return-value-are-independent-e35d">Name and Return Value are independent</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function robotCleaner () {
+  let output =  `Ha, ha! I have replaced your robot cleaner! 
+Now your room is even messier! Bwa ha ha ha ha!`
+  return output;
+}
+
+let r = robotCleaner();
+r
+</code></pre>
+
+<form><ul>
+<li>To pass the assignment, <b>always modify the function</b></li>
+<li>don't get confused and try to somehow modify the function call</li>
+<li>no intrinsic relationship between name and return value</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-functions-note-2:-parameter-and-output-4bfc">
+<h2 id="functions-note-2:-parameter-and-output-4bfc">Functions note 2: Parameter and Output</h2>
+</section>
+<section id="slide-your-return-value-should-make-use-of-the-parameter-d994">
+<h3 id="your-return-value-should-make-use-of-the-parameter-d994">Your Return Value should Make use of the Parameter</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function greatWriter (name) {
+let output = "Margaret Atwood was a great writer."
+return output
+}
+
+console.log(greatWriter("Margaret Atwood"))
+// console.log(greatWriter("Toni Morrison"))
+</code></pre>
+</section>
+<section id="slide-solution:-don't-use-a-statically-defined-string-as-your-output-395c">
+<h3 id="solution:-don't-use-a-statically-defined-string-as-your-output-395c">Solution: don't use a STATICALLY DEFINED STRING as your output</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function evenGreaterWriter (name) {
+let output = name + " was a great writer."
+return output
+}
+
+console.log(evenGreaterWriter("Margaret Atwood"))
+// console.log(evenGreaterWriter("Toni Morrison"))
+</code></pre>
+
+</section>
+</section>
+<section>
+<section id="slide-parts-of-things:-elements,-methods,-properties-be27">
+<h2 id="parts-of-things:-elements,-methods,-properties-be27">Parts of things: elements, methods, properties</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let a=["name", 0, "otherinfo"];
+console.log(a[2]);
+console.log(a.length);
+console.log(a[length]);
+a.pop;
+</code></pre>
+<form><ul>
+<li>note strange syntax:
+<form><ul>
+<li><code>a[1]</code>: second element of array</li>
+<li><code>a.length</code>: a special way of finding the length of any array.  Length is a <b>property</b> of a.</li>
 
 </ul></form></li>
+<li><code>console.log(a))</code>: <b>log</b> is a part of <b>console</b>.  it takes a <b>parameter</b> , in this case <code>a</code></li>
+<li>not that <code>a.pop</code> is not the same as <code>a.pop()</code></li>
 
 </ul></form>
-
-</section>
-<section id="slide-branching-2c02">
-<h3 id="branching-2c02">Branching</h3>
-<pre class="klipse"><code class="language-klipse-js" >
-let historians= ["Edward Gibbon", "Leopold von Ranke", "Edward Said", "Joan Scott"];
-
-let i = 0;
-
-while (i &lt; historians.length) {
-  if (historians[i] ==="Joan Scott") {
-    console.log(historians[i] + " is my favourite.");
-  } else {
-    console.log(historians[i] + ", meh.");
-}
-  i +=1;
-};
-</code></pre>
 </section>
 </section>
 </div>

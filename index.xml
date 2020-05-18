@@ -12,6 +12,30 @@
     
     
     <item>
+      <title>Assignment 02: Javascript Basics</title>
+      <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
+      <pubDate>Sun, 17 May 2020 14:05:19 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/02-js-basics/</guid>
+      <description>Due Date: May 23
+This assignment introduces you to the third and most interesting pillar of basic web development: Javascript.
+Due at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.
+Rubric   Passes General Tests
+  Passes Reflection Tests
+     </description>
+    </item>
+    
+    <item>
+      <title>JS Cheatsheet</title>
+      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
+      <pubDate>Sun, 17 May 2020 10:23:27 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
+      <description>Jquery and Vanilla JS equivalents:
+   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;;}   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;); document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;;     const matches = document.</description>
+    </item>
+    
+    <item>
       <title>Syllabus</title>
       <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
       <pubDate>Wed, 13 May 2020 15:23:01 -0400</pubDate>
@@ -76,16 +100,6 @@ As with any powerful tool, it can take a little while to get comfortable with VS
       <guid>http://digitalhistory.github.io/tools/understanding-popcorn/</guid>
       <description>You may find it useful, as you prepare for the next assignment, to read the following post!
 What is Popcorn Popcorn is a Javascript &amp;ldquo;library&amp;rdquo; – a small collection of programs – that lets web designers key events in a web page to a time-code in a media file. So essentially, popcorn lets you &amp;ldquo;cue up&amp;rdquo; content ad display it only during fixed periods, while a media element is playing. If you then pause or manually rewind/fast-forward the media element (audio or video), the events will also reset to the appropriate time.</description>
-    </item>
-    
-    <item>
-      <title>JS Cheatsheet</title>
-      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
-      <pubDate>Thu, 24 Oct 2019 15:23:17 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
-      <description>Jquery and Vanilla JS equivalents:
-   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;) document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;     const matches = document.</description>
     </item>
     
     <item>
@@ -202,21 +216,48 @@ In our assignments, node dependencies are mostly used to enable the tests, whose
     </item>
     
     <item>
+      <title>04-01: Getting Started With Javascript</title>
+      <link>http://digitalhistory.github.io/slides/04-01-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-01-js/</guid>
+      <description>04-01: Getting Started With Javascript .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 75vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title>05-01: Doing Stuff: functions</title>
+      <link>http://digitalhistory.github.io/slides/05-01-js-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-01-js-functions/</guid>
+      <description>05-01: Doing Stuff: functions .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 75vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title>05-02: Javascript Objects and Properties</title>
+      <link>http://digitalhistory.github.io/slides/05-02-js-objects-props/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/05-02-js-objects-props/</guid>
+      <description>05-02: Javascript Objects and Properties .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 75vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
+      <title>Abundance (Prelude to Distant Reading)</title>
+      <link>http://digitalhistory.github.io/slides/04-02-abundance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/04-02-abundance/</guid>
+      <description>Abundance (Prelude to Distant Reading) .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
+    </item>
+    
+    <item>
       <title>Distant Reading</title>
       <link>http://digitalhistory.github.io/slides/04-02-distant-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://digitalhistory.github.io/slides/04-02-distant-reading/</guid>
       <description>Distant Reading .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started With Javascript</title>
-      <link>http://digitalhistory.github.io/slides/04-01-js/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://digitalhistory.github.io/slides/04-01-js/</guid>
-      <description>Getting Started With Javascript .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .</description>
     </item>
     
   </channel>

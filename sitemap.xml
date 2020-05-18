@@ -8,13 +8,38 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/syllabus/his393syllabus/</loc>
-    <lastmod>2020-05-13T15:23:01-04:00</lastmod>
+    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
+    <lastmod>2020-05-17T14:05:19-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
-    <lastmod>2020-05-08T23:43:39-04:00</lastmod>
+    <loc>http://digitalhistory.github.io/assignment/02-js-basics/</loc>
+    <lastmod>2020-05-17T14:05:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
+    <lastmod>2020-05-17T14:05:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
+    <lastmod>2020-05-17T14:05:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tools/js-cheat-sheet/</loc>
+    <lastmod>2020-05-17T10:23:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tools/</loc>
+    <lastmod>2020-05-17T10:23:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/syllabus/his393syllabus/</loc>
+    <lastmod>2020-05-13T15:23:01-04:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +48,7 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2020-05-08T23:43:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
-    <lastmod>2020-05-08T23:43:39-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://digitalhistory.github.io/tools/json-tips/</loc>
-    <lastmod>2020-05-07T09:24:16-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/</loc>
     <lastmod>2020-05-07T09:24:16-04:00</lastmod>
   </url>
   
@@ -60,11 +70,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/understanding-popcorn/</loc>
     <lastmod>2019-11-21T15:16:50-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tools/js-cheat-sheet/</loc>
-    <lastmod>2019-10-24T15:23:17-04:00</lastmod>
   </url>
   
   <url>
@@ -127,15 +132,27 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/slides/04-01-js/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/05-01-js-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/05-02-js-objects-props/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/slides/04-02-abundance/</loc>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>http://digitalhistory.github.io/slides/04-02-distant-reading/</loc>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/slides/04-01-js/</loc>
   </url>
   
   <url>

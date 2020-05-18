@@ -6,10 +6,20 @@
     <description>Recent content in Tools and Tricks on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2020 09:24:16 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 10:23:27 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS Cheatsheet</title>
+      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
+      <pubDate>Sun, 17 May 2020 10:23:27 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
+      <description>Jquery and Vanilla JS equivalents:
+   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;;}   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;); document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;;     const matches = document.</description>
+    </item>
     
     <item>
       <title>Quick JSON tips</title>
@@ -47,16 +57,6 @@ As with any powerful tool, it can take a little while to get comfortable with VS
       <guid>http://digitalhistory.github.io/tools/understanding-popcorn/</guid>
       <description>You may find it useful, as you prepare for the next assignment, to read the following post!
 What is Popcorn Popcorn is a Javascript &amp;ldquo;library&amp;rdquo; – a small collection of programs – that lets web designers key events in a web page to a time-code in a media file. So essentially, popcorn lets you &amp;ldquo;cue up&amp;rdquo; content ad display it only during fixed periods, while a media element is playing. If you then pause or manually rewind/fast-forward the media element (audio or video), the events will also reset to the appropriate time.</description>
-    </item>
-    
-    <item>
-      <title>JS Cheatsheet</title>
-      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
-      <pubDate>Thu, 24 Oct 2019 15:23:17 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
-      <description>Jquery and Vanilla JS equivalents:
-   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;) document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;     const matches = document.</description>
     </item>
     
     <item>

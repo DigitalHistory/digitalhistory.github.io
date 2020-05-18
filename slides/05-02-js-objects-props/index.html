@@ -1,0 +1,487 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>05-02: Javascript Objects and Properties</title>
+<meta name="author" content="Matt Price"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../../vendor/reveal//css/reveal.css"/>
+
+<link rel="stylesheet" href="../../vendor/reveal//css/theme/matt.css" id="theme"/>
+
+<link rel="stylesheet" href=""/>
+<link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
+<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
+<style>
+/* Position computations of klipse get confused by reveal.js's scaling.
+   Hence, scaling should be disabled with this code.  Fix height of code area
+   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
+   setting afterwards): */
+.reveal section pre { max-height: 75vh; height: auto; overflow: auto; }
+/* Reset some reveal.js and oer-reveal settings: */
+.reveal section pre .CodeMirror pre { font-size: 2.0em; line-height:0.8em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+/* Enlarge cursor: */
+.CodeMirror-cursor { border-left: 3px solid black; }
+</style>
+<script>
+    window.klipse_settings = {
+        selector: '.language-klipse',
+        selector_eval_html: '.language-klipse-html',
+        selector_eval_js: '.language-klipse-javascript',
+        selector_eval_js: '.language-klipse-js',
+        selector_eval_php: '.language-klipse-php',
+        selector_eval_python_client: '.language-klipse-python',
+        selector_eval_ruby: '.language-klipse-ruby',
+        selector_eval_scheme: '.language-klipse-scheme',
+        selector_sql: '.language-klipse-sql'
+    };
+</script>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../vendor/reveal//css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>05-02: Javascript Objects and Properties</h1>
+<h3>Matt Price  </h3>
+<!-- <p class="title-theme-choice">(view this presentation in another theme: 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/white.css')); return false;">White</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/league.css')); return false;">League</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/sky.css')); return false;">Sky</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/beige.css')); return false;">Beige</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/simple.css')); return false;">Simple</a> 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/serif.css')); return false;">Serif</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/blood.css')); return false;">Blood</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/night.css')); return false;">Night</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/moon.css')); return false;">Moon</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/solarized.css')); return false;">Solarized</a> 
+				)	</p> -->
+
+</section>
+<section>
+<section id="slide-objects-are-variables-with-named-parts-c234">
+<h2 id="objects-are-variables-with-named-parts-c234">Objects are <b>variables</b> with <b>named parts</b></h2>
+<form><ul>
+<li>parts are called <b>properties</b>, but</li>
+<li>if a part is a <b>function</b>, we call that part a <b>method</b></li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-let's-eat-f11e">
+<h2 id="let's-eat-f11e">let's eat</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let myFruit="orange",
+    mySandwich = "just some bread!",
+    myBar="weird vegan bar",
+    myCookie="ginger",
+    myCandy="pulparindo",
+    mySnacks=["cliff bar", "cliff bar", "kind bar"];
+
+function eat (food) {
+  console.log("Umm, that was a delicious " + food + ".");
+}
+
+eat (myFruit);
+//eat (myBar);
+//eat (myCookie);
+//eat (myCandy);
+</code></pre>
+<form><ul>
+<li>we can eat any of the foods</li>
+<li><b>they're not related to each other</b>, just floating around</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-now-let's-make-lunch-6196">
+<h2 id="now-let's-make-lunch-6196">Now let's make lunch</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let myFruit="orange",
+    mySandwich = "just some bread!",
+    myBar="weird vegan bar",
+    myCookie="ginger",
+    myCandy="pulparindo",
+    mySnacks=["cliff bar", "cliff bar", "kind bar"];
+
+let myLunch = {};
+</code></pre>
+
+<form><ul>
+<li>myLunch is <b>an empty object</b> &#x2013; it has no parts yet</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-add-some-parts-18dc">
+<h2 id="add-some-parts-18dc">Add some parts</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let myFruit="orange",
+    mySandwich = "just some bread!",
+    myBar="weird vegan bar",
+    myCookie="ginger",
+    myCandy="pulparindo",
+    mySnacks=["cliff bar", "cliff bar", "kind bar"];
+
+let myLunch = {
+  fruit: "orange",
+  sandwich: mySandwich
+};
+
+myLunch["snacks"]=mySnacks;
+myLunch;
+
+</code></pre>
+<form><ul>
+<li>added parts in 3 ways: set <b>directly</b> in definition; set <b>by reference</b> in definition; <b>added by reference after definition</b></li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-eat-the-lunch-b7bb">
+<h2 id="eat-the-lunch-b7bb">Eat the Lunch</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let myFruit="orange",
+    mySandwich = "just some bread!",
+    myBar="weird vegan bar",
+    myCookie="ginger",
+    myCandy="pulparindo",
+    mySnacks=["cliff bar", "cliff bar", "kind bar"];
+
+let myLunch = {
+  fruit: "orange",
+  sandwich: mySandwich
+};
+
+myLunch["snacks"]=mySnacks;
+
+function eatLunch (someLunch) {
+  let output = "";
+  output += "I&#39;ll start with my " + someLunch["fruit"] + "\n";
+  output += "Next I want to eat " + someLunch.sandwich + "\n";
+  for (snack of someLunch.snacks) {
+    output += "   I love my " + snack + "\n";
+  }
+  return output;
+}
+
+eatLunch(myLunch);
+</code></pre>
+<form><ul>
+<li>rewrote <b>eat</b> to take advantage of the <b>structure</b> of lunch</li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-add-dessert-c5dd">
+<h2 id="add-dessert-c5dd">Add Dessert</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let myLunch = {
+  fruit: "orange",
+  sandwich: "just some bred!",
+  bar: "weird vegan bar",
+  snacks: ["cliff bar", "cliff bar", "kind bar"],
+  dessert: {cookie: "ginger", candy: "pulparindo"}
+};
+
+console.log("I&#39;m finally ready for my " + myLunch.dessert.cookie);
+
+</code></pre>
+<form><ul>
+<li>objects can be <b>arbitrarily complex</b> and <b>contain other objects</b></li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-eat-the-lunch-as-a-method-971e">
+<h2 id="eat-the-lunch-as-a-method-971e">Eat The Lunch as a Method</h2>
+</section>
+<section id="slide-reminder-4550">
+<h3 id="reminder-4550">Reminder</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function eatLunch (someLunch) {
+  let output = "";
+  output += "I&#39;ll start with my " + someLunch["fruit"] + "\n";
+  output += "Next I want to eat " + someLunch.sandwich + "\n";
+  for (snack of someLunch.snacks) {
+    output += "   I love my " + snack + "\n";
+  }
+  return output;
+}
+
+</code></pre>
+
+</section>
+<section id="slide-writing-the-method-4cae">
+<h3 id="writing-the-method-4cae">Writing the Method</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+let myLunch = {
+  fruit: "orange",
+  sandwich: "just some bred!",
+  bar: "weird vegan bar",
+  snacks: ["cliff bar", "cliff bar", "kind bar"],
+  dessert: {cookie: "ginger", candy: "pulparindo"},
+  eatMe: function() {
+    let output = "";
+    output += "I&#39;ll start with my " + this["fruit"] + "\n";
+    output += "Next I want to eat " + this.sandwich + "\n";
+    for (snack of this.snacks) {
+      output += "   I love my " + snack + "\n";
+    }
+    return output;
+  }
+};
+
+myLunch.eatMe;
+
+myLunch.eatMe();
+</code></pre>
+<form><ul>
+<li>note the differences between <code>eat()</code> and <code>myLunch.eatMe</code>:
+<form><ul>
+<li>the method doesn't <b>take a parameter</b>!</li>
+<li>instead, we get to use <code>this</code>, which refers to the <b>current object scope</b></li>
+
+</ul></form></li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-finally-some-history-0c62">
+<h2 id="finally-some-history-0c62">Finally some History</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+  let greatWar = {
+    name: "The First World War",
+    start: 1914,
+    end: 1918,
+    badGuys: ["Germany", "Austria-Hungary", "Ottoman Empire"],
+    goodGuys: ["All our Friends"],
+    scale: "Catastrophe"
+  }
+
+//  console.log(greatWar["name"] + " lasted for " + (greatWar.end - greatWar.start) + " years.");
+</code></pre>
+</section>
+</section>
+<section>
+<section id="slide-more-objects-322f">
+<h2 id="more-objects-322f">more objects</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+  let greatWar = {
+    name: "The First World War",
+    start: 1914,
+    end: 1918,
+    badGuys: ["Germany", "Austria-Hungary", "Ottoman Empire"],
+    goodGuys: ["All our Friends"],
+    scale: "Catastrophe",
+    battles: [
+      { name: "The Battle of Vimy Ridge",
+        year: 1915,
+        casualties: 34000
+      }]
+  }
+
+  console.log(greatWar["name"] + " lasted for " + (greatWar.end - greatWar.start) + 
+"  years.");
+console.log(greatWar.battles[0].name + " was ferocious and horrific. There were " +   
+  greatWar.battles[0].casualties + " casualties.");
+</code></pre>
+
+</section>
+</section>
+<section>
+<section id="slide-using-objects-in-js-ace7">
+<h2 id="using-objects-in-js-ace7">Basic Logic with Objects</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let goodGuys = ["CA", "UK", "US"];
+let badGuys=["DE", "AH"];
+let people = [
+  {name: "Kaiser Wilhelm",
+   nat: "DE"},
+  {name:"Winston Churchill",
+   nat: "UK"}];
+for (person of people) {
+  if (badGuys.includes(person.nat)) {
+    //console.log(person.name + ": BOOOOOOOOOOOO!!!");
+  }
+};
+</code></pre>
+</section>
+</section>
+<section>
+<section id="slide-logic-with-objects-9863">
+<h2 id="logic-with-objects-9863">Branching Logic with Objects</h2>
+<pre class="klipse"><code class="language-klipse-js" >
+let goodGuys = ["CA", "UK", "US"];
+let badGuys=["DE", "AH"];
+let people = [
+  {name: "Kaiser Wilhelm",
+   nat: "DE"},
+  {name:"Winston Churchill",
+   nat: "UK"}];
+for (person of people) {
+  if (badGuys.includes(person.nat)) {
+    console.log(person.name + ": BOOOOOOOOOOOO!!!");
+  } else {
+    console.log(person.name + ": YAAAAYYY!!!");
+
+}
+};
+</code></pre>
+</section>
+</section>
+<section>
+<section id="slide-org1a050d1">
+<h2 id="org1a050d1">In-class coding exercise!</h2>
+<div class="outline-text-2" id="text-org1a050d1">
+</div>
+</section>
+<section id="slide-org659877a">
+<h3 id="org659877a">Some Data</h3>
+<p>
+Take a look at this <a href="https://github.com/DigitalHistory/lecture-code-snippets">the code snippets repo</a>
+</p>
+
+<p>
+Now consider the following javascript array of objects (here you can see how similar JSON is to regular javascript objects)
+</p>
+
+<pre class="klipse"><code class="language-klipse-js" >
+orgs = [
+  {"name": "African National Congress",
+   "founded": 1912,
+   "link": "https://en.wikipedia.org/wiki/African_National_Congress"
+  },
+  {"name": "Pan Africanist Congress",
+   "founded": 1959,
+   "link": "https://en.wikipedia.org/wiki/Pan_Africanist_Congress_of_Azania"
+  },
+  {"name": "South African Communist Party",
+   "founded": 1921,
+   "link": "https://en.wikipedia.org/wiki/South_African_Communist_Party"
+  },
+  {
+    "name": "Black Sash",
+    "founded": 1955,
+    "link": "https://en.wikipedia.org/wiki/Black_Sash"
+  },
+  {
+    "name": "South African Students&#39; Organization",
+    "founded": 1968,
+    "link": "https://en.wikipedia.org/wiki/South_African_Students%27_Organisation"
+  }
+]
+orgs
+</code></pre>
+
+<p>
+Our objective is to read this variable and use it to build sentences about anti-apartheid organizations in South Africa.  
+</p>
+</section>
+<section id="slide-org5c3b137">
+<h3 id="org5c3b137">using JSON data</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+function describeOrg (org) {
+  return org.name + &#39; was founded in &#39; + org.founded + &#39;.&#39;;
+}
+
+console.log(describeOrg(orgs[0]));
+</code></pre>
+
+
+</section>
+<section id="slide-org82e4631">
+<h3 id="org82e4631">Looping through the data</h3>
+<pre class="klipse"><code class="language-klipse-js" >
+
+function describeOrg (org) {
+  return org.name + &#39; was founded in &#39; + org.founded + &#39;.&#39;;
+}
+
+for (let o of orgs) {
+console.log(describeOrg(o));
+}
+</code></pre>
+</section>
+</section>
+</div>
+</div>
+<script src="../../vendor/reveal//lib/js/head.min.js"></script>
+<script src="../../vendor/reveal//js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+width: "100%",
+height: "100%",
+margin: 0.10,
+minScale: 1.00,
+maxScale: 1.00,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+{src: '../../vendor/reveal//plugin/klipse_reveal.js'},
+ { src: '../../vendor/reveal//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: '../../vendor/reveal//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
+<script>
+/* Recompute layout upon changes by klipse.  Code fragment from
+   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
+   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
+Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.dispatchEvent( new Event('resize') );
+} );
+</script>
+</body>
+</html>
+

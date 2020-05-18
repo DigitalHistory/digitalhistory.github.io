@@ -1,0 +1,364 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Abundance (Prelude to Distant Reading)</title>
+<meta name="author" content="Matt Price"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="../../vendor/reveal//css/reveal.css"/>
+
+<link rel="stylesheet" href="../../vendor/reveal//css/theme/matt.css" id="theme"/>
+
+<link rel="stylesheet" href=""/>
+<link rel="stylesheet" href="../../vendor/reveal//lib/css/zenburn.css"/>
+<link rel="stylesheet" href="https://sandbox.hackinghistory.ca/vendor/klipse/codemirror.css"/>
+<style>
+/* Position computations of klipse get confused by reveal.js's scaling.
+   Hence, scaling should be disabled with this code.  Fix height of code area
+   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
+   setting afterwards): */
+.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
+/* Reset some reveal.js and oer-reveal settings: */
+.reveal section pre .CodeMirror pre { font-size: 2.0em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+/* Enlarge cursor: */
+.CodeMirror-cursor { border-left: 3px solid black; }
+</style>
+<script>
+    window.klipse_settings = {
+        selector: '.language-klipse',
+        selector_eval_html: '.language-klipse-html',
+        selector_eval_js: '.language-klipse-javascript',
+        selector_eval_js: '.language-klipse-js',
+        selector_eval_php: '.language-klipse-php',
+        selector_eval_python_client: '.language-klipse-python',
+        selector_eval_ruby: '.language-klipse-ruby',
+        selector_eval_scheme: '.language-klipse-scheme',
+        selector_sql: '.language-klipse-sql'
+    };
+</script>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '../../vendor/reveal//css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Abundance (Prelude to Distant Reading)</h1>
+<h3>Matt Price  </h3>
+<!-- <p class="title-theme-choice">(view this presentation in another theme: 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/black.css')); return false;">Black (default)</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/white.css')); return false;">White</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/league.css')); return false;">League</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/sky.css')); return false;">Sky</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/beige.css')); return false;">Beige</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/simple.css')); return false;">Simple</a> 
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/serif.css')); return false;">Serif</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/blood.css')); return false;">Blood</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/night.css')); return false;">Night</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/moon.css')); return false;">Moon</a> -
+<a href="#" onclick="document.getElementById('theme').setAttribute('href',document.getElementById('theme').getAttribute('href').replace(/\/[a-zA-Z]+\.css/g,'/solarized.css')); return false;">Solarized</a> 
+				)	</p> -->
+
+</section>
+<section>
+<section id="slide-recap-53d2">
+<h2 id="recap-53d2">Recap</h2>
+<form><ul>
+<li>"Public sphere" at a turning point</li>
+<li>Transformation by automated agents and encoded text</li>
+
+</ul></form>
+
+</section>
+<section id="slide-war-is-peace">
+<h3 id="war-is-peace">War is Peace. <br/>Freedom is Slavery. <br/>Ignorance is Strength.</h3>
+</section>
+<section id="slide-plan-for-the-day-b6ce">
+<h3 id="plan-for-the-day-b6ce">Plan for the day</h3>
+<form><ul>
+<li>Problems of Abundance</li>
+<li>Distant Reading: a method for textual overload?</li>
+<li>Discussion: how do <b>you</b> respond to information abundance?</li>
+<li>post-class period <b>ONLY</b> for students who <b>failed the tests, or did not receive a mark</b></li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-history-in-the-age-of-scarcity-3970" class="twoc">
+<h2 id="history-in-the-age-of-scarcity-3970">History in the age of scarcity</h2>
+<div class="slideblock">
+<blockquote>
+<p>
+The members of prehistoric societies did not think they lived in prehistoric times. They merely lacked a good preservation medium. (Auerbach, quoted in Rosenzweig)
+</p>
+</blockquote>
+
+</div>
+
+<div class="slideblock">
+<form><ul>
+<li>lots was going on, lots of continuity, lots <b>we will never know</b> b/c oral preservation is <b>terrible</b> at outliving a cultural tradition</li>
+
+</ul></form>
+
+</div>
+
+
+
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+
+</section>
+<section id="slide-scarcity-184c">
+<h3 id="scarcity-184c">Scarcity</h3>
+<form><ul>
+<li class="fragment appear">Historically, very little recorded</li>
+<li class="fragment appear">Even less <i>preserved</i></li>
+<li class="fragment appear">historian's task was to <i>locate rare sources</i> in faraway places</li>
+
+</ul></form>
+
+</section>
+<section id="slide-implications-1db9">
+<h3 id="implications-1db9">Implications</h3>
+<form><ul>
+<li class="fragment appear">History skewed to <i>those whose records appeared worth saving</i></li>
+<li class="fragment appear">record <i>always</i> fragmentary
+<form><ul>
+<li>Historian free to fill in gaps</li>
+
+</ul></form></li>
+<li class="fragment appear">BUT: often possible to read <i>large percentage</i> of relevant sources</li>
+
+</ul></form>
+
+</section>
+</section>
+<section>
+<section id="slide-age-of-abundance-7ddc" class="twoc">
+<h2 id="age-of-abundance-7ddc">Age of Abundance</h2>
+<div class="slideblock">
+<blockquote>
+<p>
+Tentative efforts are afoot to preserve our digital cultural heritage. If they succeed, historians will face a second, profound challenge&#x2013;what would it be like to write history when faced by an essentially complete historical record? (Rosenzweig)
+</p>
+</blockquote>
+
+</div>
+
+<div class="fragment (appear) slideblock">
+<form><ul>
+<li><b>much</b> more recorded than in the past</li>
+<li><b>vastly more</b> preserved, at least for now</li>
+<li>increasing percentage of historical works as well</li>
+
+</ul></form>
+
+</div>
+
+
+
+<aside class="notes">
+<form><ul>
+<li>completely different situation than we used to have!</li>
+
+</ul></form>
+
+</aside>
+</section>
+<section id="slide-mechanical-speech-c3b6">
+<h3 id="mechanical-speech-c3b6">Mechanical Speech</h3>
+<form><ul>
+<li>auto-preservation</li>
+<li>but by and for whom?</li>
+<li>Google, FB, and Twitter are preserving lots of data.  As are Tesla and Samsung. But who will get to see it? How does a historian compete? (cf. COVID tracking data)</li>
+
+</ul></form>
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+</section>
+<section id="slide-can-we-tell-stories?-can-we-do-research?-269a" class="splitc">
+<h3 id="can-we-tell-stories?-can-we-do-research?-269a">Can we tell stories? Can we do research?</h3>
+<div class="slideblock">
+<form><ul>
+<li class="fragment appear">no longer possible to read everything!
+<form><ul>
+<li>who will read it for us? How will we be experts? Can we automate our reading?</li>
+
+</ul></form></li>
+<li class="fragment appear">Narrative form ill-suited to massive quantities of data
+<form><ul>
+<li>can we develop new types of narratives?</li>
+
+</ul></form></li>
+<li class="fragment appear">Big questions may be answerable!
+<form><ul>
+<li>What used to be pure speculation, can perhaps now be made more concrete and compelling
+<form><ul>
+<li>How does role of religion in public discourse change over time?</li>
+<li>how do railroads impact social and economic development?</li>
+<li>others?</li>
+
+</ul></form></li>
+
+</ul></form></li>
+
+</ul></form>
+
+</div>
+
+<div class="fragment (appear) slideblock">
+<p>
+<b>What Big Data Means for Old Documents</b>
+</p>
+<blockquote>
+<p>
+digitization does provide scale (or quantity) but does so at the price of rich, largely manual encoding. Visualization, customization, personalization, and similar analytical services increasingly familiar to us depend upon born-digital objects in which a great deal of structural and semantic knowledge has been encoded. The information captured on page images is, by contrast, implicit and often not directly accessible to the machines that will be always their first, often their only, and arguably their most important readers. (CILR)
+</p>
+</blockquote>
+
+</div>
+
+<div class="slideblock">
+<p>
+<b>Problems of Preservation</b>
+</p>
+<form><ul>
+<li>physical media</li>
+<li>software turnover &amp; bitrot</li>
+<li>capturing dynamic/interactive media</li>
+
+</ul></form>
+
+</div>
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-recap-77644">
+<h2 id="recap-77644">Abundance: Summary</h2>
+<form><ul>
+<li class="fragment appear">"Abundance" offers many challenges
+<form><ul>
+<li>preservation</li>
+<li>interpretation</li>
+<li>access</li>
+
+</ul></form></li>
+<li class="fragment appear">Does <i>history itself</i> need to be reformed?
+<form><ul>
+<li>What <i>relation to sources</i>?</li>
+<li>What <i>kinds of arguments</i>?</li>
+<li>What <i>narrative forms</i>?</li>
+
+</ul></form></li>
+
+</ul></form>
+</section>
+</section>
+<section>
+<section id="slide-org0fc7e17" class="twoc">
+<h2 id="org0fc7e17">Introduction to The Reading Problem: No Clothes, No Body</h2>
+<div class="slideblock">
+<blockquote>
+<p>
+It's not that the emperor has no clothes(that would be fine); it's that no one knows what the emperor looks like. (Ramsey 2010)
+</p>
+</blockquote>
+
+</div>
+
+<div class="slideblock">
+<blockquote>
+<p>
+"It's one thing to worry that your canon isn't sufficiently inclusive, or broad, or representative. It's another thing when your canon has no better chance of being these thngs than a random selection. When we get up into the 14-million book range, books that are known by more than 2 living people are already "popular"
+</p>
+</blockquote>
+
+</div>
+
+
+
+<aside class="notes">
+nil
+</aside>
+</section>
+</section>
+</div>
+</div>
+<script src="../../vendor/reveal//lib/js/head.min.js"></script>
+<script src="../../vendor/reveal//js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: false,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+width: "100%",
+height: "100%",
+margin: 0.10,
+minScale: 1.00,
+maxScale: 1.00,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+{src: '../../vendor/reveal//plugin/klipse_reveal.js'},
+ { src: '../../vendor/reveal//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '../../vendor/reveal//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: '../../vendor/reveal//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '../../vendor/reveal//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+<script src="https://sandbox.hackinghistory.ca/vendor/klipse/klipse_plugin.min.js"></script>
+<script>
+/* Recompute layout upon changes by klipse.  Code fragment from
+   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
+   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
+Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.dispatchEvent( new Event('resize') );
+} );
+</script>
+</body>
+</html>
+
