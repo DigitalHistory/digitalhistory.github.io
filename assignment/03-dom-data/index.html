@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2020-05-26T10:09:12 EDT">
-<title>Javascript: Resources and Tools :: HIS393: Digital History</title>
+<title>Assignment 03: DOM and Data :: HIS393: Digital History</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
     
   </head>
-  <body data-url="/tools/js-resources-tools/">
+  <body data-url="/assignment/03-dom-data/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -70,10 +70,11 @@
             <a href="/"><i class="fa fa-fw fa-home"></i></a>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc000bb8060), (*hugolib.pageState)(0xc000b9bce0), (*hugolib.pageState)(0xc000b9b950), (*hugolib.pageState)(0xc000b9b5f0), (*hugolib.pageState)(0xc000bb83c0)}")</script>
-            <li data-nav-id="/assignment/" class="dd-item haschildren
+            <li data-nav-id="/assignment/" class="dd-item parent haschildren
                              ">
                 <div>
-                    <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/assignment/"><i class='fa fa-github'></i> Assignments</a>
+                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
                 <li data-nav-id="/assignment/00-git/" class="dd-item">
@@ -97,7 +98,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/assignment/03-dom-data/" class="dd-item">
+                <li data-nav-id="/assignment/03-dom-data/" class="dd-item active">
                     <div>
                         <a href="/assignment/03-dom-data/">
                             Assignment 03: DOM and Data
@@ -223,11 +224,10 @@
                     </ul>
             </li>
             <script>console.log("page.Pages{(*hugolib.pageState)(0xc000c60540), (*hugolib.pageState)(0xc000c60b40), (*hugolib.pageState)(0xc000b7ef00), (*hugolib.pageState)(0xc000a452c0), (*hugolib.pageState)(0xc000b7f200), (*hugolib.pageState)(0xc000c60840), (*hugolib.pageState)(0xc000c60e40), (*hugolib.pageState)(0xc000b7e990)}")</script>
-            <li data-nav-id="/tools/" class="dd-item parent haschildren
+            <li data-nav-id="/tools/" class="dd-item haschildren
                              ">
                 <div>
-                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a>
-                            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+                    <a href="/tools/"><i class='fa fa-github'></i> Tools and Tricks</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
                 </div>
                     <ul>
                 <li data-nav-id="/tools/node-dependencies/" class="dd-item">
@@ -237,7 +237,7 @@
                         </a><i class="fa fa-circle-thin read-icon"></i>
                     </div>
                 </li>
-                <li data-nav-id="/tools/js-resources-tools/" class="dd-item active">
+                <li data-nav-id="/tools/js-resources-tools/" class="dd-item">
                     <div>
                         <a href="/tools/js-resources-tools/">
                             Javascript: Resources and Tools
@@ -321,7 +321,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/tools/js-resources-tools.md" target="blank">
+      <a class="github-link" href="https://github.com/DigitalHistory/dh-website/content/assignment/03-dom-data.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Improve this page
       </a>
@@ -341,7 +341,7 @@
 
 
 
- <a href='/'></a> > <a href='/tools/'>Tools and Tricks</a> > Javascript: Resources and Tools
+ <a href='/'></a> > <a href='/assignment/'>Assignments</a> > Assignment 03: DOM and Data
 
  
 
@@ -356,8 +356,7 @@
         <div class="wrapper">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#resources">Resources</a></li>
-    <li><a href="#consoles-and-playgrounds">Consoles and Playgrounds</a></li>
+    <li><a href="#rubric">Rubric</a></li>
   </ul>
 </nav>
         </div>
@@ -367,9 +366,15 @@
   </div>
 
 
+  <div id="tags">
+    
+      <a class="label label-default" href="http://digitalhistory.github.io/tags/assignment">assignment</a>
+    
+  </div>
+
 <div id="body-inner">
   
-    <h1>Javascript: Resources and Tools</h1>
+    <h1>Assignment 03: DOM and Data</h1>
   
 
 
@@ -377,23 +382,21 @@
     
     
     
-    <h2 id="resources">Resources</h2>
-<p>There are many, many excellent JavScript resources on the web. I strongly recommend the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">MDN JavaScript Learning Pathway</a>. I also have a very high opinion of  <a href="http://eloquentjavascript.net/">Eloquent Javascript</a>, but in past years students have often found it somewhat difficult. However, it rewards careful study, teaches excellent habits, and encourages creative thinking while coding. Both MDN and <em>EJ</em> have built-in JS Consoles forexperimenting with code (see below).</p>
-<p>MDN also has a more advanced guide to JavaScript which starts with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A%5Fre-introduction%5Fto%5FJavaScript">this &ldquo;reintroduction&rdquo;</a>. This can be worth consulting if you want more information.</p>
-<h2 id="consoles-and-playgrounds">Consoles and Playgrounds</h2>
-<p>Sometimes you will want to try out your code and test out your ideas before putting them in a permanent file. There are various tools for this.</p>
-<dl>
-<dt>Browser consoles and scratchpads</dt>
-<dd>Your browser has a built-in &ldquo;console&rdquo; where you can enter javascript commands and see their output. See <a href="https://digitalhistory.github.io/tools/setup/#web-browser">the Setup doc</a> for more info.</dd>
-<dt>node console</dt>
-<dd>Unfortunately, VSCode does not have a built-in javascript console. However, you can easily create one in a terminal window by running the command <code>node</code>. Exit by typing <code>Control-d</code> or <code>Control-c Control-c</code> or <code>.exit</code>.</dd>
-<dt>VSCode Debugger</dt>
-<dd>VSCode has an excellent debugger. However, debugging is a complicated subject. If you want to try to use these tools, <a href="https://code.visualstudio.com/docs/editor/debugging">read the docs</a>.</dd>
-<dt>VSCode extensions</dt>
-<dd>There are many excellent VSCode extensions for JavaScript. You can experiment with <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode">quokka</a>, for instance.</dd>
-<dt>Online Playgrounds</dt>
-<dd>These can be fantastic resources, but they make more sense for web-based programming. We may discuss these later in the course.</dd>
-</dl>
+    <p><strong>Due Date: May 29</strong></p>
+<p>In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript.  This can be a difficult transition, so be prepared for some teeth-gnashing.</p>
+<p>Due at end of the day on the due date, you can <a href="https://classroom.github.com/a/zoWV5Y3i">find the asssignment link on Github</a>, and please be sure to create your own copy and clone the resultant repository to your laptop. (Don&rsquo;t search out and fork the parent repository!)</p>
+<h2 id="rubric">Rubric</h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Passes General Tests</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Passes Reflection Tests</p>
+</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 
     

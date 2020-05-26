@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Assignment 03: DOM and Data</title>
+      <link>http://digitalhistory.github.io/assignment/03-dom-data/</link>
+      <pubDate>Tue, 26 May 2020 10:09:00 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/03-dom-data/</guid>
+      <description>Due Date: May 29
+In this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.
+Due at end of the day on the due date, you can find the asssignment link on Github, and please be sure to create your own copy and clone the resultant repository to your laptop. (Don&amp;rsquo;t search out and fork the parent repository!</description>
+    </item>
+    
+    <item>
       <title>Assignment 02: Javascript Basics</title>
       <link>http://digitalhistory.github.io/assignment/02-js-basics/</link>
       <pubDate>Sun, 17 May 2020 14:05:19 -0400</pubDate>

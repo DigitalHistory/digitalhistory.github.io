@@ -14,11 +14,11 @@
 	"content": ""
 },
 {
-	"uri": "http://digitalhistory.github.io/assignment/02-js-basics/",
-	"title": "Assignment 02: Javascript Basics",
+	"uri": "http://digitalhistory.github.io/assignment/03-dom-data/",
+	"title": "Assignment 03: DOM and Data",
 	"tags": ["assignment"],
 	"description": "",
-	"content": "Due Date: May 23\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.\nRubric   Passes General Tests\n  Passes Reflection Tests\n     "
+	"content": "Due Date: May 29\nIn this assignment, you will slowly work your way up to manipulation of real web pages via Javascript. This can be a difficult transition, so be prepared for some teeth-gnashing.\nDue at end of the day on the due date, you can find the asssignment link on Github, and please be sure to create your own copy and clone the resultant repository to your laptop. (Don\u0026rsquo;t search out and fork the parent repository!)\nRubric   Passes General Tests\n  Passes Reflection Tests\n     "
 },
 {
 	"uri": "http://digitalhistory.github.io/assignment/",
@@ -33,6 +33,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "http://digitalhistory.github.io/assignment/02-js-basics/",
+	"title": "Assignment 02: Javascript Basics",
+	"tags": ["assignment"],
+	"description": "",
+	"content": "Due Date: May 23\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.\nRubric   Passes General Tests\n  Passes Reflection Tests\n     "
 },
 {
 	"uri": "http://digitalhistory.github.io/tools/js-cheat-sheet/",
