@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>JS DOM Modification Cheatsheet</title>
+      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
+      <pubDate>Thu, 28 May 2020 10:05:32 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
+      <description>Jquery and Vanilla JS equivalents:
+   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;;}   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;); document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;;     const matches = document.</description>
+    </item>
+    
+    <item>
       <title>Assignment 03: DOM and Data</title>
       <link>http://digitalhistory.github.io/assignment/03-dom-data/</link>
       <pubDate>Tue, 26 May 2020 10:09:00 -0400</pubDate>
@@ -34,16 +44,6 @@ Due at end of the day on the due date, you can find the asssignment on Github an
 Rubric   Passes General Tests
   Passes Reflection Tests
      </description>
-    </item>
-    
-    <item>
-      <title>JS Cheatsheet</title>
-      <link>http://digitalhistory.github.io/tools/js-cheat-sheet/</link>
-      <pubDate>Sun, 17 May 2020 10:23:27 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
-      <description>Jquery and Vanilla JS equivalents:
-   Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;;}   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;); document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;;     const matches = document.</description>
     </item>
     
     <item>

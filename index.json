@@ -7,6 +7,20 @@
 	"content": ""
 },
 {
+	"uri": "http://digitalhistory.github.io/tools/js-cheat-sheet/",
+	"title": "JS DOM Modification Cheatsheet",
+	"tags": [],
+	"description": "",
+	"content": "Jquery and Vanilla JS equivalents:\n   Task jQuery \u0026ldquo;Vanilla\u0026rdquo; JS     Get all matching elements $('selector') document.querySelectorAll('selector')   Get first matching element $('selector').first() document.querySelector('selector')   Change CSS prop $('selector').css('property-name', 'value') document.querySelector('selector').style.property-name = 'value'     const matches = document.querySelectorAll('selector')     for (const m of matches) {m.style.property-name='value';}   Change Text Value $('selector').text('new text here'); document.querySelector('selector').textContent = 'new text here';     const matches = document.querySelectorAll('selector');     for (const m of matches) {m.textContent ='new text here';}   Set inner HTML $('selector').html('\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;') document.querySelector('selector').innerHTML = '\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;'     const matches = document.querySelectorAll('selector')     for (const m of matches) {m.textContent ='\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;'   Append to an element $('selector').append('\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;') document.querySelector('selector').innerHTML += '\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;' risky!   Remove a node $('selector').remove() let el = document.querySelector('selector'); el.parentNode.removeChild(el);    "
+},
+{
+	"uri": "http://digitalhistory.github.io/tools/",
+	"title": "Tools and Tricks",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://digitalhistory.github.io/tags/assignment/",
 	"title": "assignment",
 	"tags": [],
@@ -40,20 +54,6 @@
 	"tags": ["assignment"],
 	"description": "",
 	"content": "Due Date: May 23\nThis assignment introduces you to the third and most interesting pillar of basic web development: Javascript.\nDue at end of the day on the due date, you can find the asssignment on Github and clone the resultant repository to your laptop.\nRubric   Passes General Tests\n  Passes Reflection Tests\n     "
-},
-{
-	"uri": "http://digitalhistory.github.io/tools/js-cheat-sheet/",
-	"title": "JS Cheatsheet",
-	"tags": [],
-	"description": "",
-	"content": "Jquery and Vanilla JS equivalents:\n   Task jQuery \u0026ldquo;Vanilla\u0026rdquo; JS     Get all matching elements $('selector') document.querySelectorAll('selector')   Get first matching element $('selector').first() document.querySelector('selector')   Change CSS prop $('selector').css('property-name', 'value') document.querySelector('selector').style.property-name = 'value'     const matches = document.querySelectorAll('selector')     for (const m of matches) {m.style.property-name='value';}   Change Text Value $('selector').text('new text here'); document.querySelector('selector').textContent = 'new text here';     const matches = document.querySelectorAll('selector');     for (const m of matches) {m.textContent ='new text here';}   Set inner HTML $('selector').html('\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;') document.querySelector('selector').innerHTML = '\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;'     const matches = document.querySelectorAll('selector')     for (const m of matches) {m.textContent ='\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;'   Append to an element $('selector').append('\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;') document.querySelector('selector').innerHTML += '\u0026lt;tag\u0026gt;valid HTML here\u0026lt;/tag\u0026gt;' risky!   Remove a node $('selector').remove() let el = document.querySelector('selector'); el.parentNode.removeChild(el);    "
-},
-{
-	"uri": "http://digitalhistory.github.io/tools/",
-	"title": "Tools and Tricks",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "http://digitalhistory.github.io/syllabus/his393syllabus/",
