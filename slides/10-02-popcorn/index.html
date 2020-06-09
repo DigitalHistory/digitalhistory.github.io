@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -21,7 +21,7 @@
    setting afterwards): */
 .reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
 /* Reset some reveal.js and oer-reveal settings: */
-.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+.reveal section pre .CodeMirror pre { font-size: 2.0em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
 /* Enlarge cursor: */
 .CodeMirror-cursor { border-left: 3px solid black; }
 </style>
@@ -72,36 +72,23 @@
 
 </section>
 <section>
-<section id="slide-org69fe8f8">
-<h2 id="org69fe8f8">Taking Stock</h2>
+<section id="slide-org1488b7f">
+<h2 id="org1488b7f">Taking Stock</h2>
 <form><ul>
 <li>The End is Nigh!!</li>
-<li>Assignment 4: Lara has Returned it!</li>
 <li>Assignment 5: Required for <b>everyone</b> (!!)</li>
 
 </ul></form>
 </section>
 </section>
 <section>
-<section id="slide-org8eca82f">
-<h2 id="org8eca82f">Oral History Assignment</h2>
+<section id="slide-orgdd8f068">
+<h2 id="orgdd8f068">Oral History Assignment</h2>
 <form><ul>
 <li>intellectual goal: think hard about <b>nature of oral history</b>, and <b>how to use digital media effectively</b></li>
 <li>technical goal: think more about working with non-textual media, about HTML structures, and about APIs (monsters in the deep)</li>
 
 </ul></form>
-</section>
-</section>
-<section>
-<section id="slide-org3852bea">
-<h2 id="org3852bea">Before we go further!</h2>
-<p>
-pull in upstream changes so you can play w/ up to date code during class today. 
-</p>
-<pre  class="example">
-git pull
-</pre>
-
 </section>
 </section>
 <section>
@@ -154,7 +141,7 @@ we don't have to worry about the main library
 <section>
 <section id="slide-plugin-structure-2f5b">
 <h2 id="plugin-structure-2f5b">Plugin Structure</h2>
-<pre><code class="language-klipse-javascript" >
+<pre class="klipse"><code class="language-klipse-javascript" >
 pop.footnote({
   start: 50,
   end: 90,
@@ -179,7 +166,7 @@ pop.footnote({
 <p>
 Line 16 in <a href="https://github.com/DigitalHistory/advanced-topics/blob/master/js/popcorn-data-from-google.js#L16">js/~popcorn-data-from-google.js</a>:
 </p>
-<pre><code class="language-klipse-javascript" >
+<pre class="klipse"><code class="language-klipse-javascript" >
 var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&amp;single=true&#39;;
 </code></pre>
 <form><ul>
@@ -202,23 +189,11 @@ var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj6
 <li>cf <a href="https://github.com/jsoma/tabletop#1-publishing-your-google-sheet">very clear and helpful Tabletop instructions</a> and also <a href="https://github.com/DigitalHistory/advanced-topics/blob/master/js/popcorn-data-from-google.js#L21">line 21</a> in popcorn-data-from-google.js:</li>
 
 </ul></form>
-<pre><code class="language-klipse-js" >
+<pre class="klipse"><code class="language-klipse-js" >
 var mytables = Tabletop.init( { key: public_spreadsheet_key,
                                 callback: processInfo ,
                                 simpleSheet: false } );
 </code></pre>
-
-</section>
-</section>
-<section>
-<section id="slide-org7003511">
-<h2 id="org7003511">Before we go further!</h2>
-<p>
-pull in upstream changes so you can play w/ up to date code during class today. 
-</p>
-<pre  class="example">
-git pull
-</pre>
 
 </section>
 </section>
@@ -243,7 +218,7 @@ git pull
 <p>
 <b>Alternative Method</b>
 </p>
-<pre><code class="language-klipse-javascript" >
+<pre class="klipse"><code class="language-klipse-javascript" >
 var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&amp;single=true&#39;;
 </code></pre>
 <form><ul>
@@ -256,8 +231,8 @@ var public_spreadsheet_key = &#39;https://docs.google.com/spreadsheets/d/1pL_Lj6
 </section>
 </section>
 <section>
-<section id="slide-org20ac3df" class="twoc">
-<h2 id="org20ac3df">Styling Popcorn Plugins</h2>
+<section id="slide-org9b5eebe" class="twoc">
+<h2 id="org9b5eebe">Styling Popcorn Plugins</h2>
 <div class="slideblock">
 <p>
 <b>Page-specific code is found in <code>/css/oh-styles.css</code></b>
@@ -375,8 +350,8 @@ npm run server &amp;
 </section>
 </section>
 <section>
-<section id="slide-org224b86b" class="twoc">
-<h2 id="org224b86b">Good and Less Good Annotations</h2>
+<section id="slide-org1494239" class="twoc">
+<h2 id="org1494239">Good and Less Good Annotations</h2>
 <div class="slideblock">
 <p>
 <b>Good Annotations:</b>
@@ -428,7 +403,7 @@ clarify content
 <p>
 <b>Seek Function</b>
 </p>
-<pre><code class="language-klipse-javascript" >
+<pre class="klipse"><code class="language-klipse-javascript" >
 const seek = function (time) {
  document.getElementById("media").currentTime= time;
  }; 
@@ -471,8 +446,8 @@ audio {
 </section>
 </section>
 <section>
-<section id="slide-orgd4346d2">
-<h2 id="orgd4346d2">Your Questions/Efforts</h2>
+<section id="slide-org91c97f8">
+<h2 id="org91c97f8">Your Questions/Efforts</h2>
 </section>
 </section>
 </div>
@@ -530,3 +505,4 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 </script>
 </body>
 </html>
+
