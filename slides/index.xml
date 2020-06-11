@@ -101,6 +101,15 @@
     </item>
     
     <item>
+      <title>12: Citizen History</title>
+      <link>http://digitalhistory.github.io/slides/12-citizen-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://digitalhistory.github.io/slides/12-citizen-history/</guid>
+      <description>12: Citizen History .underline { text-decoration: underline; }   /* Position computations of klipse get confused by reveal.js&#39;s scaling. Hence, scaling should be disabled with this code. Fix height of code area with scrollbar (use overflow instead of overflow-y to restore CodeMirror setting afterwards): */ .reveal section pre { max-height: 70vh; height: auto; overflow: auto; } /* Reset some reveal.js and oer-reveal settings: */ .reveal section pre .CodeMirror pre { font-size: 2.</description>
+    </item>
+    
+    <item>
       <title>Abundance (Prelude to Distant Reading)</title>
       <link>http://digitalhistory.github.io/slides/04-02-abundance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
