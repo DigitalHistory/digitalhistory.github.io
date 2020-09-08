@@ -9,8 +9,28 @@
   
   <url>
     <loc>http://digitalhistory.github.io/</loc>
-    <lastmod>2020-05-28T10:09:23-04:00</lastmod>
+    <lastmod>2020-09-08T16:00:39-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
+    <lastmod>2020-09-08T16:00:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/00-git/</loc>
+    <lastmod>2020-09-08T16:00:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
+    <lastmod>2020-09-08T16:00:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
+    <lastmod>2020-09-08T16:00:39-04:00</lastmod>
   </url>
   
   <url>
@@ -56,11 +76,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/js-resources-tools/</loc>
     <lastmod>2019-09-25T22:32:09-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2019-09-10T13:10:42-04:00</lastmod>
   </url>
   
   <url>
@@ -145,10 +160,6 @@
   
   <url>
     <loc>http://digitalhistory.github.io/slides/10-02-popcorn/</loc>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
   </url>
   
 </urlset>
