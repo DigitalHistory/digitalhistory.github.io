@@ -8,6 +8,12 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/</loc>
+    <lastmod>2020-05-28T10:09:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/tools/javascript-operators/</loc>
     <lastmod>2020-05-28T10:09:23-04:00</lastmod>
   </url>
@@ -23,38 +29,8 @@
   </url>
   
   <url>
-    <loc>http://digitalhistory.github.io/tags/assignment/</loc>
-    <lastmod>2020-05-26T10:09:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/03-dom-data/</loc>
-    <lastmod>2020-05-26T10:09:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/</loc>
-    <lastmod>2020-05-26T10:09:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/tags/</loc>
-    <lastmod>2020-05-26T10:09:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/02-js-basics/</loc>
-    <lastmod>2020-05-17T14:05:19-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://digitalhistory.github.io/syllabus/his393syllabus/</loc>
     <lastmod>2020-05-13T15:23:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/01-html-css/</loc>
-    <lastmod>2020-05-08T23:43:39-04:00</lastmod>
   </url>
   
   <url>
@@ -65,11 +41,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/setup/</loc>
     <lastmod>2020-05-05T01:43:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/assignment/00-git/</loc>
-    <lastmod>2020-05-05T01:37:09-04:00</lastmod>
   </url>
   
   <url>
@@ -88,6 +59,11 @@
   </url>
   
   <url>
+    <loc>http://digitalhistory.github.io/assignment/</loc>
+    <lastmod>2019-09-10T13:10:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://digitalhistory.github.io/assignment/participation/</loc>
     <lastmod>2019-09-10T13:10:42-04:00</lastmod>
   </url>
@@ -100,12 +76,6 @@
   <url>
     <loc>http://digitalhistory.github.io/tools/node-dependencies/</loc>
     <lastmod>2019-09-10T12:03:57-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://digitalhistory.github.io/</loc>
-    <lastmod>2017-12-14T18:36:24+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -175,6 +145,10 @@
   
   <url>
     <loc>http://digitalhistory.github.io/slides/10-02-popcorn/</loc>
+  </url>
+  
+  <url>
+    <loc>http://digitalhistory.github.io/tags/</loc>
   </url>
   
 </urlset>
