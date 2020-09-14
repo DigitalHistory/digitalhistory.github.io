@@ -6,10 +6,29 @@
     <description>Recent content on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 16:00:39 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 14:03:30 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
+      <pubDate>Mon, 14 Sep 2020 14:03:30 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
+      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T 2-4, Th 2-3 ET via Zoom (see announcement for password)   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/ (invite link)   Youtube: Digital History Lecture Channel   Office Hrs: Th 3-4 ET via Zoom (see announcement for password)    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 01: Zero to Blog Post</title>
+      <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
+      <pubDate>Tue, 08 Sep 2020 16:17:10 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/01-html-css/</guid>
+      <description>Due Date: September 22
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work. We&amp;rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.</description>
+    </item>
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
@@ -38,15 +57,6 @@ One of the hardest parts of this course for many people is setting up their work
       <guid>http://digitalhistory.github.io/tools/js-cheat-sheet/</guid>
       <description>Jquery and Vanilla JS equivalents:
    Task jQuery &amp;ldquo;Vanilla&amp;rdquo; JS     Get all matching elements $(&#39;selector&#39;) document.querySelectorAll(&#39;selector&#39;)   Get first matching element $(&#39;selector&#39;).first() document.querySelector(&#39;selector&#39;)   Change CSS prop $(&#39;selector&#39;).css(&#39;property-name&#39;, &#39;value&#39;) document.querySelector(&#39;selector&#39;).style.property-name = &#39;value&#39;     const matches = document.querySelectorAll(&#39;selector&#39;)     for (const m of matches) {m.style.property-name=&#39;value&#39;;}   Change Text Value $(&#39;selector&#39;).text(&#39;new text here&#39;); document.querySelector(&#39;selector&#39;).textContent = &#39;new text here&#39;;     const matches = document.</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://digitalhistory.github.io/syllabus/his393syllabus/</link>
-      <pubDate>Wed, 13 May 2020 15:23:01 -0400</pubDate>
-      
-      <guid>http://digitalhistory.github.io/syllabus/his393syllabus/</guid>
-      <description>Logistics    Instructor: Matt Price     Email: matt.price@utoronto.ca   Meeting Times T Th 10-12 EDT via BB Collaborate   Web: http://digitalhistory.github.io/   Slack: https://digitalhistoryuoft.slack.com/   Youtube: https://www.youtube.com/channel/UC59evpoPsmdKhmB9YeqXMPg   Office Hrs: T Th 3-3:30, SS 3077    In general, online communication should take place via Slack. In the case of questions having to do with official University business (requests for extensions, discussion of accommodations, any message involving sensitive personal data) please use my University email, being sure to put &amp;ldquo;HIS393&amp;rdquo; in the subject line.</description>
     </item>
     
     <item>

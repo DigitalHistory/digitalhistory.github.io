@@ -6,10 +6,20 @@
     <description>Recent content in assignment on HIS393: Digital History</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 16:00:39 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 16:17:10 -0400</lastBuildDate>
     
 	<atom:link href="http://digitalhistory.github.io/tags/assignment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 01: Zero to Blog Post</title>
+      <link>http://digitalhistory.github.io/assignment/01-html-css/</link>
+      <pubDate>Tue, 08 Sep 2020 16:17:10 -0400</pubDate>
+      
+      <guid>http://digitalhistory.github.io/assignment/01-html-css/</guid>
+      <description>Due Date: September 22
+General Description You do not have to become a coder to do well in this course. However, you will have to be willing to explore technical skills that you might not otherwise develop as a humanities scholar. In this second assignment, we&amp;rsquo;ll use one of the web&amp;rsquo;s many excellent self-education platforms to learn the very basics of how web pages work. We&amp;rsquo;ll then extend that knowledge with a set of slightly more advanced programming exercises.</description>
+    </item>
     
     <item>
       <title>Assignment 00: Your Class Profile</title>
